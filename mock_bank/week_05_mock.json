@@ -1,0 +1,492 @@
+{
+  "week": 5,
+  "lecture_briefings": {
+    "Lec 21": "Coexistence means the continued persistence of people and biodiversity in shared, multifunctional landscapes through active adjustment, tolerance, and management rather than the total absence of tension. Because human settlements, farms, and roads cover most of the planet and animals constantly cross reserve boundaries for food, water, mates, and seasonal migration, 'fortress conservation' (strictly separating nature from people) fails when used alone and even allows external pressures like plastic waste in Mukurthi National Park to spill inside. True sustainability requires combining four pillars—ecological integrity, social legitimacy, long-term resilience, and adaptive management—while shifting from a reactive 'conflict-only' mindset (which sees Asian elephants merely as threats or ivory commodities) to a coexistence mindset that respects them as keystone ecosystem engineers and conservation flagships. Watch out for these 3 key terms: Coexistence (continued shared persistence of people and wildlife managed at acceptable risk, not zero conflict), Fortress Thinking (the flawed assumption that conservation can succeed solely by excluding humans inside fenced borders), and Multifunctional Landscapes (working spaces like shade-grown tea plantations and agro-pastoral belts that support both human livelihoods and wildlife movement).",
+    "Lec 22": "Farms, villages, and cities are not biological deserts; they remain active ecological landscapes where biodiversity serves as living 'ecological infrastructure' performing work that engineered concrete systems cannot easily replace. Diverse communities of animal pollinators (zoophily across bees, butterflies, birds, moths, and bats) stabilize crop yields across changing weather, while predators and insect parasitoids naturally suppress agricultural pests. Below and above ground, soil engineers like termites and earthworms recycle nutrients, multi-depth plant roots bind mountain slopes against landslides and increase rainwater infiltration, tree canopies regulate local microclimates (as seen when deer huddle under shade in Nauradehi Wildlife Sanctuary during peak summer), and wetland plants bio-remediate municipal wastewater. Watch out for these 3 key terms: Ecological Infrastructure (living networks of pollinators, soil microbes, roots, and wetlands that keep working landscapes functioning for free), Zoophily & Parasitoids (animal-mediated pollination vs. insects that lay eggs in or on pest hosts to suppress outbreaks), and Functional Backup / Ecological Redundancy (having multiple species—such as tigers, leopards, and wolves—performing similar roles so ecosystem stability endures if one species declines).",
+    "Lec 23": "Human economies are wholly embedded within ecological systems: biodiversity supports livelihoods directly through fisheries, non-timber forest products (NTFPs like fruits, nuts, resins, bamboo, and medicinal plants that spread rural cash income across seasons), diverse grazing pastures, nature tourism, and multi-output agroforestry. Equally important are indirect economic benefits—mangroves buffering cyclone storm surges, wetlands filtering drinking water, wild pollinators sustaining billions in farm output, and forest roots preventing costly soil erosion—which act as 'natural insurance' that buffers economic shocks. Because many ecosystem services are not traded in markets, diffuse across users, and exhibit time lags before collapse appears, economists use the Total Economic Value (TEV) framework—combining Direct Use, Indirect Use, and Option Value with non-use Existence, Altruistic, and Bequest Values—to make hidden ecological capital visible in policy decisions. Watch out for these 3 key terms: Direct vs. Indirect Use Value (harvested goods like fish/NTFPs and ecotourism vs. unpriced regulating services like mangrove storm buffering and watershed filtration), Option Value (keeping biodiversity intact today for potential future uses like undiscovered medicines), and Existence vs. Bequest vs. Altruistic Value (non-use satisfaction that wild species simply exist vs. saving nature for future generations vs. valuing nature for other people today).",
+    "Lec 24": "Beyond market prices and GDP, biodiversity underpins human social identity, sacred heritage (such as the river confluence at Devprayag and community-protected Sacred Groves), community belonging around village commons, and hands-on ecological literacy. Traditional ecological knowledge and ethnopharmacology have yielded life-saving modern medicines—most famously Artemisinin from sweet wormwood (*Artemisia annua*, Nobel Prize 2015) for malaria, aspirin from willow bark, and curare for surgery—while nature's designs inspire engineering breakthroughs through biomimicry (from kingfisher-beak bullet trains to termite-mound passive cooling and lotus-leaf self-cleaning coatings). Exposure to diverse green and blue spaces also lowers cortisol and blood pressure, filters air and water pollutants, buffers zoonotic disease spillover, and fosters 'ecological citizenship,' though sustainability demands addressing environmental injustice so low-income and displaced communities share equitably in these health and cultural benefits. Watch out for these 3 key terms: Cultural Ecosystem Services (non-material benefits grouped into recreation, inspiration, education, heritage, and shared public spaces), Ethnopharmacology & Biomimicry (studying traditional medicinal plants like *Artemisia annua* vs. engineering technologies modeled on biological structures like kingfisher beaks and humpback whale flippers), and Environmental Injustice (the unequal distribution where marginalized communities bear high pollution and conservation restriction costs while having the least access to healthy green spaces).",
+    "Lec 25": "Human-wildlife conflict (HWC) arises whenever wildlife needs or behaviours clash with human interests—through crop raiding, livestock depredation, property damage, injury, or institutional land restrictions—generating both visible direct costs and hidden indirect costs like lost sleep, guarding time, missed schooling, and eroded institutional trust. Conflict is driven physically by habitat fragmentation, road/canal barriers across movement corridors, settlement attractants (open garbage, grain, fruiting trees), and seasonal/hormonal peaks, but its intensity is powerfully mediated by social, economic, and cultural context—illustrated by the Bishnoi community in Rajasthan tolerating blackbucks in their fields while poverty or delayed compensation elsewhere triggers retaliation. Moving from reactive incident control to durable coexistence requires five guiding principles—proactive risk reduction, fair cost/benefit sharing, combining local and scientific knowledge, credible institutional trust (supported by outreach like the Anubhuti school program), and adaptive management—deployed through practical tools like maintained fences, radio-collar early warning alarms, accessible compensation/insurance, corridor-sensitive land-use planning, and routine attractant removal. Watch out for these 3 key terms: Direct vs. Indirect Conflict Costs (visible crop/livestock/property damage vs. hidden burdens like lost sleep, guarding labour, children missing school, and institutional distrust), Four Ecological Drivers of HWC (habitat fragmentation, movement across human corridors, settlement attractants, and seasonal/breeding peaks), and Conflict Frame vs. Coexistence Frame (reactive, incident-by-incident problem-animal removal vs. proactive redesign of landscapes, routines, and institutions to keep risk within acceptable limits)."
+  },
+  "questions": [
+    {
+      "id": "W05_M01",
+      "week": 5,
+      "lecture": "Lec 21",
+      "source": "mock_unseen",
+      "question": "In conservation and sustainability science, what does 'coexistence' between humans and wildlife actually mean?",
+      "options": [
+        "The continued persistence of people and biodiversity in shared landscapes through active adjustment, tolerance, and management, rather than the complete absence of conflict",
+        "A static condition of perfect harmony where zero tension, crop loss, or risk ever occurs",
+        "The complete removal of all human settlements from an entire continent",
+        "The confinement of all wild animals inside concrete zoological enclosures"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Coexistence means the continued persistence of people and biodiversity in shared landscapes. This is more than simple physical presence. It involves adjustment, tolerance, and management... Coexistence is not the same as harmony without tension.",
+      "mini_lesson": "Coexistence is an active, managed relationship that allows both human communities and wild species to persist over time in shared landscapes by keeping damage and risk within tolerable limits—not a romantic utopia with zero tension. Option (B) is the primary misconception Dr. Awadhiya warns against, while Options (C) and (D) describe extreme separation rather than shared persistence."
+    },
+    {
+      "id": "W05_M02",
+      "week": 5,
+      "lecture": "Lec 21",
+      "source": "mock_unseen",
+      "question": "Why can human-modified landscapes such as shade-grown tea plantations still play a valuable role in biodiversity conservation?",
+      "options": [
+        "Because tea bushes completely replace the need for all natural protected reserves",
+        "Because retaining shade trees, vegetation cover, and low disturbance allows modified multifunctional landscapes to remain permeable and supportive for wildlife movement and habitat use",
+        "Because wild animals respond only to legal land-title labels and never to physical vegetation cover",
+        "Because monoculture plantations without any trees always support more specialists than primary rainforests"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Many species do not respond only to whether a place is natural or artificial... Many species respond to habitat quality, cover, food, disturbance, movement routes, and the degree to which altered landscapes still retain useful ecological features. So, conservation cannot focus only on untouched forests. It must also ask how modified landscapes such as plantations can remain more permeable, supportive, and less harmful for biodiversity.",
+      "mini_lesson": "Wildlife presence across multifunctional working landscapes is not a binary 'untouched forest vs. dead zone' switch: when plantations retain native shade trees, structural cover, and safe passage, they serve as vital permeable buffers and movement corridors between core reserves. Option (C) reverses how animals perceive landscapes, and Option (A) overstates matrix value into an anti-reserve absolute."
+    },
+    {
+      "id": "W05_M03",
+      "week": 5,
+      "lecture": "Lec 21",
+      "source": "mock_unseen",
+      "question": "Which four elements come together when coexistence is framed as a core sustainability concept?",
+      "options": [
+        "Exclusive fencing, armed eviction, market privatization, and single-species monoculture",
+        "Genetic drift, allopatric speciation, hybrid sterility, and convergent evolution",
+        "Ecological integrity, social legitimacy, long-term resilience, and adaptive management",
+        "Open-cast mining, flood irrigation, chemical pest eradication, and predator removal"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "When we combine the ecological and social dimensions, coexistence also becomes a sustainability idea. It brings together ecological integrity, social legitimacy, long-term resilience, and adaptive management.",
+      "mini_lesson": "Coexistence links ecology and governance through four pillars: ecological integrity (keeping the living system functional), social legitimacy (ensuring rules and cost-sharing are fair enough for local people to accept), long-term resilience (absorbing climatic and social shocks), and adaptive management (learning and revising rather than relying on one rigid formula). Option (A) describes harsh fortress/extractive policies."
+    },
+    {
+      "id": "W05_M04",
+      "week": 5,
+      "lecture": "Lec 21",
+      "source": "mock_unseen",
+      "question": "Why is it ecologically distorted to view the Asian elephant (*Elephas maximus*) purely as a conflict nuisance or a source of marketable ivory?",
+      "options": [
+        "Because elephants are aquatic filter feeders that live only in coastal lagoons",
+        "Because elephants have zero ecological interaction with forest vegetation or other animal species",
+        "Because elephants reproduce thousands of offspring every month like $r$-selected insects",
+        "Because elephants are keystone ecosystem engineers that open vegetation pathways, disperse seeds, and maintain habitat structure for many other species"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Elephants are not important only as marketable body parts. They are also ecosystem engineers that shape vegetation movement pathways, seed dispersal and habitat structure for many other species. They are keystone species.",
+      "mini_lesson": "Reducing elephants to a 'problem animal' or a commodity (ivory) ignores their irreplaceable role as a keystone megaherbivore and ecosystem engineer—opening forest trails, dispersing large-seeded trees over long distances, and modifying vegetation structure for entire wildlife communities. Options (A), (B), and (C) fabricate impossible biological traits."
+    },
+    {
+      "id": "W05_M05",
+      "week": 5,
+      "lecture": "Lec 21",
+      "source": "mock_unseen",
+      "question": "Why do violent, reactive responses to human-elephant conflict—such as throwing firebombs (Molotov cocktails) or using explosive-laden fruit baits—undermine both ethics and safety?",
+      "options": [
+        "Because fire and explosives calm wild elephants and make them permanently docile",
+        "Because violent attacks cause severe pain, panic, and distress that make frightened elephants far more unpredictable and dangerous for both people and wildlife",
+        "Because elephants are completely immune to physical injury from fire or explosives",
+        "Because reactive violence permanently solves the underlying habitat and corridor planning problems"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The first image on this slide shows the use of fire, including molotov cocktails to drive elephants away from fields and habitations. Such actions may seem like immediate protection, but they often increase panic and distress. A frightened elephant can become more unpredictable, which may lead to greater harm for both people and the animal.",
+      "mini_lesson": "When wildlife is framed solely as an enemy threat, responses degenerate into cruel violence (such as hurling fireballs or the tragic Kerala incident where a pregnant elephant was fatally injured by explosive-laced fruit); practically as well as ethically, terrifying a five-tonne herd animals heightens panic and aggression, escalating human casualties rather than redesigning the landscape for safe passage. Option (D) mistakes violent symptom suppression for root-cause planning."
+    },
+    {
+      "id": "W05_M06",
+      "week": 5,
+      "lecture": "Lec 21",
+      "source": "mock_unseen",
+      "question": "What does the celebration of elephants as part of the 'Big Five' in Kruger National Park and in Mudumalai National Park illustrate about human-wildlife relationships?",
+      "options": [
+        "That elephants in Kruger and Mudumalai never eat vegetation or move across landscapes",
+        "That flagship status alone guarantees survival even if all habitats and movement corridors are destroyed",
+        "That shifting human perspective and institutional framing can transform the same species from a feared conflict nuisance into a valued conservation flagship that attracts tourism and stewardship",
+        "That elephants can only survive in African savannas and never in Indian deciduous forests"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "The same elephant that may be treated elsewhere as a conflict animal can also be seen as a flagship species... In that sense, changing perspective can move the elephant from being seen only as a source of conflict to being understood as a flagship for conservation.",
+      "mini_lesson": "Whether an animal is treated as a hated pest or a celebrated flagship depends heavily on social framing and institutional design: in Kruger and Mudumalai (and at Table Mountain NP), recognizing the ecological, cultural, and tourism value of biodiversity turns wildlife into a respected economic and conservation partner, provided underlying habitat and movement needs are also met. Option (B) ignores the lecture's warning that flagship symbols still need real ecological habitats."
+    },
+    {
+      "id": "W05_M07",
+      "week": 5,
+      "lecture": "Lec 22",
+      "source": "mock_unseen",
+      "question": "What does it mean to describe biodiversity in lived-in landscapes as 'ecological infrastructure', as seen in wetland wastewater treatment systems?",
+      "options": [
+        "Living systems—such as wetland plants, root zones, microbes, and pollinators—are functional components that clean waste, regulate water, and sustain landscapes rather than mere ornamental decoration",
+        "Biodiversity consists entirely of concrete pipes, steel bridges, and high-voltage power cables",
+        "Natural wetlands can only exist if all living plants and microbes are chemically sterilized first",
+        "Biodiversity in cities and villages serves only as visual decoration with zero functional value"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Ecological infrastructure means the living systems and relationships that keep landscapes functioning... Biodiversity in lived-in landscapes is functional, not merely ornamental. The example depicted here, municipal wastewater treatment using wetlands and plant roots, is especially useful... They are part of the treatment system itself.",
+      "mini_lesson": "Just as grey infrastructure (pipes, roads, treatment plants) supports human settlements, 'ecological infrastructure' refers to the living biological networks—wetland root beds filtering municipal sewage, pollinators setting fruit, and soil organisms cycling nutrients—that perform indispensable engineering work for free. Option (D) states the exact 'merely ornamental' fallacy the lecture refutes."
+    },
+    {
+      "id": "W05_M08",
+      "week": 5,
+      "lecture": "Lec 22",
+      "source": "mock_unseen",
+      "question": "Why does maintaining a high diversity of animal pollinators (zoophily) improve agricultural reliability more than relying on a single pollinator species?",
+      "options": [
+        "Because all crop species are pollinated exclusively by wind and never by animals",
+        "Because different pollinator groups (bees, butterflies, birds, moths, beetles, bats) are active at different times of day, seasons, and weather conditions, providing functional flexibility if one group declines",
+        "Because having multiple pollinator species prevents flowers from ever producing seeds or fruits",
+        "Because every pollinator species is identical in body size, tongue length, and thermal tolerance"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Pollinator diversity can improve reliability across conditions. Different pollinators are active at different times of day, in different seasons, and under different weather conditions. Some are better suited to certain flower shapes or crop types. So, diversity gives the system flexibility.",
+      "mini_lesson": "Animal pollination (zoophily) underpins both the quantity and quality of fruits, vegetables, and seeds; when an agricultural landscape supports diverse pollinator guilds—diurnal bees and butterflies, nocturnal moths and bats, hoverflies, beetles, and sunbirds—crop pollination continues reliably even when heat, rain, or disease suppresses one particular pollinator species. Option (D) denies niche complementarity."
+    },
+    {
+      "id": "W05_M09",
+      "week": 5,
+      "lecture": "Lec 22",
+      "source": "mock_unseen",
+      "question": "How do insect parasitoids contribute to natural pest regulation in agricultural landscapes, and what happens when landscapes are ecologically simplified?",
+      "options": [
+        "Parasitoids pollinate weeds and cause severe crop failure in diverse agroforests",
+        "Parasitoids are large mammalian carnivores that trample crops during the night",
+        "Parasitoids lay their eggs in or on pest organisms, reducing pest survival, whereas uniform, chemically dependent landscapes lose these natural enemies and suffer worse pest outbreaks",
+        "Parasitoids thrive only in sterile concrete warehouses and vanish when hedgerows or trees are present"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Predators consume pests directly. Parasitoids, usually certain insects, lay eggs in or on host organisms, in this case the pest. And this eventually reduces pest survival... When landscapes become too uniform, too disturbed, or too chemically dependent, natural regulation may decline, and pest outbreaks may become more serious.",
+      "mini_lesson": "Natural biological pest control relies on two complementary guilds: predators (insectivorous birds, bats, spiders, ladybirds) that eat pests outright, and parasitoids (such as braconid and ichneumonid wasps) whose larvae develop inside pest caterpillars/aphids and kill them; stripping farms of non-crop refuge vegetation and spraying broad-spectrum pesticides wipes out these natural enemies, triggering severe pest rebounds. Options (A), (B), and (D) misidentify parasitoid biology."
+    },
+    {
+      "id": "W05_M10",
+      "week": 5,
+      "lecture": "Lec 22",
+      "source": "mock_unseen",
+      "question": "Why are termites and their mounds highlighted as a key example of soil biodiversity in working landscapes?",
+      "options": [
+        "Because termites convert fertile agricultural topsoil into solid granite rock",
+        "Because termites live only in polar ice caps and never interact with organic matter",
+        "Because termites completely block rainwater infiltration and cause permanent desert floods",
+        "Because termites act as soil engineers that break down dead leaves, wood, and dung, mix organic matter, and reshape soil structure to support nutrient cycling and plant growth"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "The image here shows a termite mound, which is a very useful example for this topic. Termites are important soil engineers and moving organic material they help break down matter, mix soil and influence soil structure. Soil biodiversity therefore supports productivity over time.",
+      "mini_lesson": "Soil is not inert dirt; it is a living ecosystem where macro-engineers like termites and earthworms work alongside fungi and bacteria to shred and decompose dead leaves, roots, and dung, aerating the soil profile and returning mineral nutrients to plants. Options (A), (B), and (C) invert the beneficial soil-forming role of termites."
+    },
+    {
+      "id": "W05_M11",
+      "week": 5,
+      "lecture": "Lec 22",
+      "source": "mock_unseen",
+      "question": "In Lecture 22, how does the coexistence of tigers, leopards, and wolves in a forest illustrate 'ecological redundancy' (functional backup)?",
+      "options": [
+        "It shows that having more than one predator species is a useless duplication that wastes ecosystem energy",
+        "It shows that if tiger numbers decline, leopards and wolves can continue regulating herbivore populations so overgrazing does not wipe out young forest regeneration",
+        "It shows that tigers, leopards, and wolves are primary producers that fix carbon via photosynthesis",
+        "It shows that herbivores automatically stop eating young tree saplings when all predators go extinct"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "We're not doing a useless duplication, but what we are meaning by ecological redundancy is that there are different organisms that can perform similar functions. So, for instance, you have tigers, but you also have leopards, you also have wolves... if it so happens that the tiger population goes down, then leopards and wolves will be able to take its place because they are also predators.",
+      "mini_lesson": "Ecological redundancy (functional backup) means multiple species share a similar functional role—such as tigers, leopards, and wolves all preying on ungulates; if disease or poaching depresses tiger numbers, the remaining carnivores prevent herbivore populations from exploding and devouring all young tree seedlings, thereby preserving long-term forest regeneration. Option (A) is the exact verbal misunderstanding ('useless duplication') that the professor warns against."
+    },
+    {
+      "id": "W05_M12",
+      "week": 5,
+      "lecture": "Lec 22",
+      "source": "mock_unseen",
+      "question": "Why are the ecological benefits of biodiversity in working landscapes—such as root networks binding hillslopes against landslides—so frequently underestimated by society?",
+      "options": [
+        "Because these benefits are diffuse across space and time, operate indirectly behind the scenes, and often become obvious only after degradation or a disaster like a landslide occurs",
+        "Because plant roots actually lubricate mountain slopes and cause every landslide",
+        "Because ecological services send monthly itemized cash invoices to every household",
+        "Because built concrete retaining walls are always completely free to construct and maintain"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "If these benefits are so important, why are they often underestimated? One reason is that the benefits are diffuse... Another reason is that many benefits are indirect... A third reason is that benefits often become obvious only after a loss.",
+      "mini_lesson": "Unlike a factory producing countable widgets at one spot, biodiversity services (like multi-depth roots binding mountain soil for free instead of costly concrete retaining walls) are spatially and temporally diffuse, act indirectly behind crop yields or safe roads, and remain invisible until deforestation triggers a catastrophic landslide or groundwater collapse. Options (B), (C), and (D) reverse the physical and economic facts."
+    },
+    {
+      "id": "W05_M13",
+      "week": 5,
+      "lecture": "Lec 23",
+      "source": "mock_unseen",
+      "question": "How does plant species diversity in forests and natural grazing lands strengthen the economic resilience of rural households and pastoralists across the year?",
+      "options": [
+        "By forcing communities to rely on a single harvest during one week of the year",
+        "By providing staggered seasonal outputs—such as summer fruits, autumn nuts, winter medicinal bark, and grasses that grow in both wet and dry seasons—so income and livestock forage remain steady even during droughts",
+        "By replacing all edible grasses and fruit trees with toxic invasive weeds",
+        "By eliminating the need for water or soil nutrients in arid pastures"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "A biodiverse forest offers a wide range of products across different seasons which spreads income throughout the year. For example, one species might provide fruit in summer, another provides nuts in autumn, and a third gives medicinal bark in winter... Biodiverse grazing lands contain many grass and herb species that provide balanced nutrition at different times of the year... This diversity ensures that livestock find forage even during droughts.",
+      "mini_lesson": "Biological diversity acts as a natural livelihood portfolio: in diverse forests and rangelands, different species flush, fruit, or seed in different seasons and moisture regimes, spreading NTFP cash income across summer, autumn, and winter and keeping livestock fed when drought wilts early-season grasses. Option (A) describes the extreme vulnerability of a single-commodity monoculture."
+    },
+    {
+      "id": "W05_M14",
+      "week": 5,
+      "lecture": "Lec 23",
+      "source": "mock_unseen",
+      "question": "Why are agroforestry systems and mixed landscapes economically less risky for farmers than single-crop monocultures?",
+      "options": [
+        "Because monocultures never experience pest outbreaks, droughts, or market price crashes",
+        "Because agroforestry prohibits growing any food crops or keeping livestock on farmland",
+        "Because combining trees with crops and livestock yields multiple products—timber, fruit, fodder, honey, and medicine—so if a pest or drought ruins one crop, other outputs cushion household income",
+        "Because trees in agroforestry systems sterilize the soil and prevent all insect pollination"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Agroforestry combines trees with crops or livestock on the same land... They provide multiple products: timber, fruit, fodder, honey, and medicinal plants from the same area. Farmers reduce their risk because if one product fails, others may succeed. For example, if a pest attacks a crop, the trees still yield fruit or timber.",
+      "mini_lesson": "Monocultures put all of a farmer's economic eggs in one biological basket; agroforestry and mixed landscapes integrate trees, field crops, and livestock on the same land, generating diversified income streams (fruit, timber, fodder, honey, medicinal herbs) so a crop-specific pest outbreak or weather shock does not bankrupt the household. Option (A) reverses the vulnerability of monocultures."
+    },
+    {
+      "id": "W05_M15",
+      "week": 5,
+      "lecture": "Lec 23",
+      "source": "mock_unseen",
+      "question": "Why are intact mangroves, wetlands, and coral reefs described as a form of 'natural insurance' for coastal and downstream economies?",
+      "options": [
+        "Because they issue financial insurance policies regulated by central banks",
+        "Because they completely prevent cyclones, droughts, and rainfall from ever occurring on Earth",
+        "Because degraded ecosystems always recover faster from fires and bleaching than diverse ones",
+        "Because they buffer storm surges, absorb floodwaters, purify water, and recover faster after shocks, avoiding the massive engineering cost of artificial breakwaters, dams, and water treatment plants"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Healthy ecosystems can buffer shocks. For example, a diverse forest recovers faster after a fire or a drought. A coral reef with many species survives a bleaching event better than a degraded reef... Degraded systems, by contrast, often require expensive replacement or repair. We might need to build artificial breakwaters, import pollinators, or drill deeper wells. Biodiversity acts as a form of natural insurance in some way.",
+      "mini_lesson": "Intact, species-rich ecosystems provide indirect economic use value by absorbing environmental shocks—mangroves blunting cyclone storm surges, wetlands soaking up floodwaters and filtering pollutants—and bouncing back faster after disturbances, saving governments billions of dollars that would otherwise be spent on concrete seawalls, deeper borewells, and filtration plants after ecosystems are destroyed. Option (C) reverses resilience."
+    },
+    {
+      "id": "W05_M16",
+      "week": 5,
+      "lecture": "Lec 23",
+      "source": "mock_unseen",
+      "question": "Which three economic factors explain why decision-makers routinely ignore the value of ecosystem services until after they are lost?",
+      "options": [
+        "Many services are not traded in markets (no price tag), benefits are spread diffusely across many downstream users, and there is a time lag before the costs of ecological degradation appear",
+        "Ecosystem services are overpriced in stock markets, restricted to a single landowner, and cause instant bankruptcy within one second of tree cutting",
+        "Pollination, flood control, and water filtration have zero economic value for agriculture or cities",
+        "Replacing wetlands with engineered treatment plants is always cheaper than conserving natural wetlands"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Then, why do we so often ignore these values? First, many benefits are not traded in markets. No one pays directly for flood protection or pollination. So, these services have no price tag. Second, benefits may be spread across many users... Third, costs of degradation may appear later, sometimes years after the damage is done.",
+      "mini_lesson": "Conventional market accounting is blind to indirect ecosystem services for three structural reasons: (1) unpriced public goods (bees and mangroves don't send bills), (2) diffuse beneficiaries (thousands of downstream farmers benefit from an upstream forest without paying for it), and (3) temporal lags (deforestation or palm-oil conversion yields immediate cash today while flood and soil losses hit years later). Option (D) contradicts the lecture's wetland conversion analysis."
+    },
+    {
+      "id": "W05_M17",
+      "week": 5,
+      "lecture": "Lec 23",
+      "source": "mock_unseen",
+      "question": "In biodiversity economics, how do 'existence value', 'altruistic value', and 'bequest value' differ from one another as non-use values?",
+      "options": [
+        "Existence value is timber revenue, altruistic value is fishing income, and bequest value is mining tax",
+        "Existence value is the satisfaction of knowing a species exists even if never seen, altruistic value is valuing nature for other people today to enjoy, and bequest value is preserving nature for future generations",
+        "All three values require harvesting and consuming wild animals in local markets",
+        "Existence value applies only to domestic livestock, whereas bequest value applies only to fossil fuels"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Non-use value includes existence value, which is the satisfaction of knowing that a species exists, even if we never see it. Altruistic value means valuing nature for other people to enjoy. Bequest value means preserving nature for future generations.",
+      "mini_lesson": "Within Total Economic Value (TEV), non-use values capture why people care about biodiversity without ever physically extracting or visiting it: Existence value is the intrinsic satisfaction that blue whales or snow leopards exist in the wild; Altruistic value is wanting fellow citizens today to benefit from nature; and Bequest value is the intergenerational duty to pass intact ecosystems on to our children and grandchildren. Option (A) confuses non-use values with direct extractive use values."
+    },
+    {
+      "id": "W05_M18",
+      "week": 5,
+      "lecture": "Lec 23",
+      "source": "mock_unseen",
+      "question": "Which four pathways allow local human livelihoods and biodiversity conservation to actively reinforce one another rather than conflict?",
+      "options": [
+        "Unregulated open-access logging, dynamite fishing, wetland draining, and monoculture expansion",
+        "Strict human eviction, cancelling all tourism, banning all forest produce collection, and importing synthetic food",
+        "Sustainable harvest within regeneration limits, community stewardship, ecotourism based on wildlife presence, and restoration-linked employment",
+        "Subsidizing fossil fuel mining, replacing mangroves with seawalls, and hand-pollinating all crops"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Sustainable harvest means communities extract products from ecosystems at rates that allow those ecosystems to regenerate... Community stewardship means local communities take responsibility for managing the ecosystems on which they depend... Ecotourism creates income from biodiversity presence rather than from its extraction or its conversion. Restoration-linked employment creates jobs specifically in ecological restoration, like planting, habitat management, and monitoring.",
+      "mini_lesson": "Livelihoods and conservation become mutually reinforcing when economic incentives align with ecosystem health: (1) sustainable harvesting below renewal rates, (2) community stewardship by locals whose income depends on intact forests/fisheries, (3) ecotourism paying for living wildlife presence rather than dead extraction, and (4) restoration jobs in planting, habitat management, and monitoring. Option (A) lists destructive overexploitation."
+    },
+    {
+      "id": "W05_M19",
+      "week": 5,
+      "lecture": "Lec 24",
+      "source": "mock_unseen",
+      "question": "How do sacred landscapes—such as the river confluence at Devprayag and traditional Sacred Groves across India—contribute to both cultural identity and biodiversity conservation?",
+      "options": [
+        "Traditional religious beliefs and community rules restrict hunting, logging, and farming in these sacred sites, preserving high biodiversity alongside spiritual heritage",
+        "Sacred groves are regularly clear-cut every year to fund industrial mining projects",
+        "Sacred landscapes contain zero living plants or animals because only concrete temples are permitted",
+        "Sacred groves are artificial monoculture plantations of exotic *Eucalyptus* established in the 1990s"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "The image shows Devprayag, the confluence of the Alaknanda and Bhagirathi rivers in India where they join to form the Ganga River. This is a deeply sacred site. Other examples include sacred groves which are patches of forest protected by religious beliefs as well as sacred mountains, caves and springs. These places often harbor high biodiversity because traditional rules restrict hunting, logging or farming in these places.",
+      "mini_lesson": "Across India, sacred landscapes—from Himalayan river confluences like Devprayag to community-protected Sacred Groves (*Deorais*, *Kaavus*, *Orans*)—blend spiritual heritage with ancient *in-situ* conservation: because community taboos strictly forbid felling trees, hunting, or clearing land inside the grove, these patches survive as biodiversity-rich refugia for rare endemic plants and wildlife. Options (B), (C), and (D) contradict the nature of sacred groves."
+    },
+    {
+      "id": "W05_M20",
+      "week": 5,
+      "lecture": "Lec 24",
+      "source": "mock_unseen",
+      "question": "What does the discovery of the anti-malarial drug artemisinin from sweet wormwood (*Artemisia annua*), along with aspirin from willow bark and curare from South American plants, demonstrate?",
+      "options": [
+        "That modern pharmacology relies exclusively on synthetic petrochemicals and never on wild plants",
+        "That ethnopharmacology—the scientific study of traditional medicines and indigenous ecological knowledge—is a vital source of life-saving clinical compounds that would be lost if wild species go extinct",
+        "That all medicinal plants have already been 100% catalogued and chemically synthesized",
+        "That traditional herbal knowledge has zero connection to biodiversity or human health"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "This is studied in ethnopharmacology, the scientific investigation of traditional medicines. One famous example is artemisinin derived from sweet wormwood, a plant that was used in traditional Chinese medicine for fevers. Scientist Tu Youyou isolated the compound and won a Nobel prize for that in 2015... Other examples include aspirin which came from willow bark used by ancient healers and curare a muscle relaxant today used in surgery derived from South American forest plants.",
+      "mini_lesson": "Ethnopharmacology bridges centuries of Traditional Ecological Knowledge (TEK) with modern clinical medicine: Tu Youyou's 2015 Nobel Prize–winning isolation of artemisinin from *Artemisia annua* (sweet wormwood), alongside willow-bark aspirin and surgical curare, proves that losing unstudied wild species and traditional knowledge permanently erodes our medical option value. Options (A), (C), and (D) use false absolutes to dismiss ethnobotany."
+    },
+    {
+      "id": "W05_M21",
+      "week": 5,
+      "lecture": "Lec 24",
+      "source": "mock_unseen",
+      "question": "Which set correctly matches biological structures with the human engineering innovations they inspired through biomimicry?",
+      "options": [
+        "Kingfisher beak (Velcro fasteners), dog burrs (bullet train noses), and lotus leaf (diesel engines)",
+        "Shark skin (coal boilers), termite mounds (plastic bags), and humpback whale flippers (pesticides)",
+        "Kingfisher beak (quiet bullet train noses), humpback whale flippers (efficient wind turbine blades), burrs on fur (Velcro), termite mounds (passive building cooling), shark skin (antibacterial hospital surfaces), and lotus leaf (self-cleaning coatings)",
+        "Woodpecker tail (nuclear reactors), willow bark (concrete dams), and sweet wormwood (solar panels)"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "For example, the shape of a kingfisher's beak inspired the redesign of Japanese bullet train noses, solving the loud sound problem when train enters tunnels. The bumpy shape of humpback whale flippers inspired more efficient wind turbine blades. Burrs sticking to dog fur inspired Velcro. Termite mounds inspired passive cooling systems in buildings, reducing energy use. Shark skin texture inspired antibacterial surfaces for hospitals. Lotus leaf inspired self-cleaning paints and coatings.",
+      "mini_lesson": "Under the cultural service of 'inspiration,' biomimicry translates millions of years of evolutionary R&D into sustainable engineering: the kingfisher's splashless dive beak quieted Shinkansen bullet trains entering tunnels; humpback whale flipper tubercles improved wind turbine aerodynamics; plant burrs inspired Velcro; self-ventilating termite mounds inspired passive air-conditioning; shark denticles inspired bacteria-resistant hospital films; and superhydrophobic lotus leaves inspired self-cleaning surfaces. Options (A), (B), and (D) scramble the pairings."
+    },
+    {
+      "id": "W05_M22",
+      "week": 5,
+      "lecture": "Lec 24",
+      "source": "mock_unseen",
+      "question": "How does contact with biodiverse green and blue spaces affect human mental health and cognitive well-being compared to uniform single-species lawns?",
+      "options": [
+        "A lawn with a single grass species provides higher sensory restoration than a diverse wildflower meadow",
+        "Time spent in biodiverse nature sharply increases cortisol, blood pressure, heart rate, and anxiety",
+        "Watching wild birds like the green woodpecker in the field impairs student observation and systems thinking",
+        "Exposure to diverse natural environments with varied colours, bird songs, and plant scents lowers cortisol, blood pressure, and anxiety while supporting attention in children and reducing loneliness in the elderly"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Studies show time in green or blue spaces lowers cortisol, blood pressure and heart rate... Biodiverse environments offer richer sensory input: varied colors, bird sounds, plant smells... A lawn with one grassy species does not offer the same benefits as a meadow with wild flowers and butterflies.",
+      "mini_lesson": "Psychological restoration is directly tied to biological diversity, not just any green paint or turf: multi-sensory exposure to diverse meadows, forests, and wetlands measurably reduces stress hormones (cortisol), blood pressure, depression, and anxiety while sharpening children's attention and systems thinking (such as observing how a green woodpecker uses its stiff tail as a brace and long beak to probe bark). Options (A), (B), and (C) invert the empirical health findings."
+    },
+    {
+      "id": "W05_M23",
+      "week": 5,
+      "lecture": "Lec 24",
+      "source": "mock_unseen",
+      "question": "How does maintaining ecologically intact, biodiverse ecosystems reduce infectious disease risks for human populations?",
+      "options": [
+        "By sterilizing all bacteria and fungi across the entire biosphere",
+        "By buffering against shifts into hazard states—such as eutrophic water bodies that breed disease vectors or degraded forests that increase the probability of zoonotic disease spillover",
+        "By replacing human immune systems with plant photosynthesis",
+        "By concentrating all wildlife species inside densely packed urban markets"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Biodiverse and ecologically intact systems are generally more resilient to disturbance. They are less likely to shift into states that generate health hazards. For example, eutrophic water bodies that breed disease vectors or degraded forests that increase the probability of zoonotic disease spillover.",
+      "mini_lesson": "Intact ecosystems regulate disease hazards ecologically: healthy wetlands support predators that keep mosquito larvae in check (whereas stagnant, eutrophic waters breed vectors explosively), and intact forest habitats maintain balanced host-pathogen dynamics (whereas forest fragmentation and degradation bring stressed wildlife and humans into risky contact that elevates zoonotic spillover). Options (A), (C), and (D) are biologically false or counterproductive."
+    },
+    {
+      "id": "W05_M24",
+      "week": 5,
+      "lecture": "Lec 24",
+      "source": "mock_unseen",
+      "question": "What is 'environmental injustice' in the context of biodiversity's social, cultural, and health benefits?",
+      "options": [
+        "When wild animals are not required to pay taxes for living inside national parks",
+        "When every citizen in a city has equal, free access to clean air, safe water, and biodiverse public parks",
+        "When local communities receive 100% of ecotourism revenues and co-manage their traditional forests",
+        "When lower-income or displaced communities live near pollution sources and degraded ecosystems with the least access to green spaces, or bear the restrictions of park conservation while affluent outsiders enjoy the benefits"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Conservation that protects scenic parks for affluent tourists while excluding the communities that historically depended on and managed those landscapes is not socially just... Populations in lower income areas are more likely to live near pollution sources, less likely to have access to parks or green spaces and more likely to bear a disproportionate burden of health consequences of ecological degradation. And this is sometimes called environmental injustice.",
+      "mini_lesson": "Cultural and health benefits of biodiversity are often politically neglected because they are unmeasurable in dollars, invisible until lost, and unevenly distributed; when poor urban neighbourhoods are deprived of green spaces and exposed to pollution, or when forest-dependent communities are evicted to create scenic parks for wealthy tourists, conservation fails the test of environmental and social justice. Options (B) and (C) describe environmental equity, not injustice."
+    },
+    {
+      "id": "W05_M25",
+      "week": 5,
+      "lecture": "Lec 25",
+      "source": "mock_unseen",
+      "question": "In human–wildlife conflict analysis, how do 'indirect costs' differ from 'direct costs', and why is ignoring indirect costs dangerous for conservation?",
+      "options": [
+        "Direct costs are visible losses like damaged crops, dead livestock, and medical bills, whereas indirect costs include lost sleep, time spent guarding fields, reduced school attendance by children, and eroded trust in institutions",
+        "Direct costs affect only wild animals, whereas indirect costs affect only international tourists",
+        "Indirect costs are always zero in rural farming communities near forest edges",
+        "Direct costs take centuries to appear, whereas indirect costs are immediately reimbursed by markets"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Direct costs are the visible ones: damaged crops, dead livestock, medical expenses for injuries, and repairs to homes or infrastructure. Indirect costs are less visible, but often equally significant. They include lost sleep, time spent guarding fields instead of doing other productive work, reduced school attendance when children must help to protect crops, and the gradual erosion of trust in institutions.",
+      "mini_lesson": "Policy-makers often count only visible direct damage (trampled paddy or a killed goat), overlooking the crushing hidden toll of living alongside conflict—farmers losing sleep every night on machans, lost daytime labour productivity, children missing school to guard crops, chronic fear, and institutional alienation, which quietly destroy local tolerance for wildlife. Options (B), (C), and (D) dismiss or invert these hidden social burdens."
+    },
+    {
+      "id": "W05_M26",
+      "week": 5,
+      "lecture": "Lec 25",
+      "source": "mock_unseen",
+      "question": "Which four physical and ecological factors act as the primary drivers of human–wildlife conflict on the ground?",
+      "options": [
+        "Polyploidy, genetic rescue, allelopathy, and island endemism",
+        "Habitat loss and fragmentation, wildlife movement across human-used corridors, attractants near settlements (such as garbage, grain, or fruiting trees), and timing/seasonality (crop maturity, drought, or breeding hormone peaks)",
+        "Abundant core forest food, intact movement corridors, sealed waste bins, and predator-proof livestock sheds",
+        "Ocean acidification, stratospheric ozone depletion, continental drift, and asteroid impacts"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "There are four main categories of the cause: habitat loss and fragmentation, wildlife movement through human-used areas, attractants near settlements, and the influence of timing and seasonality.",
+      "mini_lesson": "On the ground, encounters are pushed across the conflict threshold by four ecological drivers: (1) fragmentation squeezing animals into farms and roads, (2) natural movement routes intersecting human land ownership, (3) unsecured settlement attractants (open garbage, stored grain, fruiting trees, unenclosed livestock) conditioning animals to visit villages, and (4) predictable seasonal spikes during harvest, drought, or hormonal breeding seasons. Option (C) lists preventive solutions rather than causes."
+    },
+    {
+      "id": "W05_M27",
+      "week": 5,
+      "lecture": "Lec 25",
+      "source": "mock_unseen",
+      "question": "What does the example of the Bishnoi community of Rajasthan living amicably alongside crop-foraging blackbucks demonstrate?",
+      "options": [
+        "That blackbucks never eat agricultural crops or enter human farmlands",
+        "That ecological population density alone determines the exact level of human-wildlife conflict everywhere",
+        "That cultural values, social attitudes, economic vulnerability, and institutional trust strongly shape how wildlife presence is perceived and tolerated, even where physical overlap is similar",
+        "That all farming communities across the world automatically revere every crop-raiding herbivore"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Two places with very similar wildlife populations and similar land use patterns may experience very different level of conflict because their social and institutional contexts differ. The Bishnoi community of Rajasthan lives amicably with blackbucks, showing respect and reverence even when they feed on their crops—a situation that in other places and with other communities often creates much animosity and hatred.",
+      "mini_lesson": "Ecological overlap alone does not dictate conflict intensity: because the Bishnoi community holds a deep cultural and religious ethic of protecting trees and wildlife, blackbucks grazing in fields are welcomed with reverence rather than retaliation, proving that cultural norms, household economic buffers, and institutional trust mediate whether an encounter becomes a conflict. Option (B) is the ecological-determinism trap the lecture refutes."
+    },
+    {
+      "id": "W05_M28",
+      "week": 5,
+      "lecture": "Lec 25",
+      "source": "mock_unseen",
+      "question": "Which five principles guide effective human–wildlife coexistence programs?",
+      "options": [
+        "Wait for fatalities before acting, place all costs on poor farmers, rely only on outside experts, delay compensation, and enforce rigid unchanging rules",
+        "Reduce avoidable risk proactively before conflict happens, share costs and benefits fairly, combine local knowledge with scientific evidence, build trust through timely credible institutional action, and adapt management as conditions change",
+        "Eradicate all large carnivores, fence every village with concrete walls, ban agriculture near forests, privatize all rivers, and replace forest staff with automated drones",
+        "Ignore indirect social costs, abolish compensation schemes, exclude local panchayats, and rely on a single generic barrier across all species"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Five principles guide coexistence efforts. First, reduce avoidable risk before conflict happens. Prevention is more effective than reaction. Second, share costs and benefits more fairly... Third, combine local knowledge with scientific understanding... Fourth, build trust through timely, transparent, and credible institutional action. And fifth, adapt management as conditions change over time.",
+      "mini_lesson": "Durable coexistence rests on five synergistic principles: (1) proactive prevention over post-crisis reaction, (2) equitable distribution of conservation costs and benefits, (3) integrating local experiential knowledge with scientific data, (4) earning institutional trust through fast, approachable follow-up, and (5) adaptive management as landscapes evolve. Options (A), (C), and (D) list reactive, exclusionary, or top-down failures."
+    },
+    {
+      "id": "W05_M29",
+      "week": 5,
+      "lecture": "Lec 25",
+      "source": "mock_unseen",
+      "question": "How does a radio-collar early warning system—connected to village rooftop warning lights and alarms—help mitigate human–elephant conflict?",
+      "options": [
+        "It emits ultrasonic waves that permanently paralyze elephant herds from 50 kilometres away",
+        "It requires radio-collaring every single infant and adult elephant in the forest to work",
+        "Tracking a single collared herd member alerts villagers before the herd enters a high-risk zone, giving people time to safeguard property and avoid surprise encounters without startling the animals",
+        "It replaces the need for habitat corridors, waste management, or institutional trust"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "The image here shows an elephant warning light and alarm system installed on a rooftop in a village. The system is connected to a radio collar on an elephant. Since elephants move in herds, tracking a single member helps track the herd. The value of early warning lies in giving people time to respond calmly and safely to safeguard property, alert neighbors, or avoid a particular location rather than confronting wildlife unexpectedly.",
+      "mini_lesson": "Because female and young elephants travel in cohesive herds, fitting a GPS/radio collar on just one matriarch or herd member tracks the entire group; when the herd approaches a settlement corridor, automated rooftop lights and SMS/alarm networks warn villagers in advance, preventing lethal surprise encounters at night and allowing calm responses that do not panic the animals. Option (B) misses the herd-tracking efficiency explained in the lecture."
+    },
+    {
+      "id": "W05_M30",
+      "week": 5,
+      "lecture": "Lec 25",
+      "source": "mock_unseen",
+      "question": "Why are multi-agency governance coordination and youth outreach initiatives like the 'Anubhuti' forest education program essential alongside physical technologies like electric fences?",
+      "options": [
+        "Because electric fences maintain themselves automatically forever without community support",
+        "Because school children are employed to build concrete dams across wildlife corridors",
+        "Because technology alone automatically resolves all political and economic inequalities",
+        "Because uncoordinated agencies create responsibility gaps, unmaintained technology quickly fails, and lasting coexistence requires social trust, clear jurisdiction, and positive ecological familiarity built through programs like Anubhuti"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "The image here shows school children participating in the Anubhuti program where they are introduced to ecology in forest setting. This kind of engagement matters because trust is not built only through compensation or emergency response. It is also built through awareness, familiarity, and a positive relationship between people, institutions, and the natural world... Technology is not a substitute for trust, participation, or fair institutions.",
+      "mini_lesson": "Hardware like wire or electric fences, drones, and camera traps quickly falls into disrepair if local communities feel alienated or if forest, revenue, and infrastructure departments leave jurisdictional gaps; building long-term coexistence requires coordinated governance before crises hit, approachable field staff, and positive ecological outreach—like Madhya Pradesh's *Anubhuti* school immersion program—that nurtures trust and stewardship. Options (A) and (C) fall into the technocratic trap."
+    }
+  ]
+}

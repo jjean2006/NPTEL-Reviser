@@ -1,0 +1,172 @@
+{
+  "week": 1,
+  "lecture_briefings": {
+    "Lec 01": "Lecture 1 establishes the core premise of the entire course: human society is embedded inside nature, meaning our food, water, climate stability, and economic security depend on living ecosystems rather than existing separately from them. Because biodiversity drives ecosystem functioning, which in turn generates the ecosystem services that sustain human well-being, you cannot build long-term sustainable development on a collapsing ecological foundation. The lecture also contrasts complex, multi-layered natural forests (like the Andamans or Shola landscapes) with simplified monocultures (like industrial tree plantations in Finland), showing how biological diversity gives systems the resilience to spring back from shocks. Watch out for the 3 most important terms: Invisible Biodiversity (genes, microbes, fungi, soil life, and ecological processes), Ecosystem Services (the material and non-material benefits people obtain from ecosystems), and Resilience (the ability of a system to absorb disturbance and spring back).",
+    "Lec 02": "Lecture 2 transitions from broad environmental awareness to the rigorous science of ecology—literally the 'study of life at home' (from the Greek oikos and logos)—which investigates the interactions that determine where organisms live and how many of them exist there. Dr. Awadhiya separates objective ecological science (which provides empirical evidence and causal mechanisms) from environmental concern (which is an ethical, social, or political response). The lecture walks up the ecological hierarchy from a species-specific habitat to populations, interacting multi-species communities (such as Chital deer foraging alongside alarm-calling Hanuman langurs), and ecosystems where solar energy flows in one direction while nutrients are recycled continuously. Watch out for the 3 most important terms: Distribution vs. Abundance (where organisms occur spatially vs. how many occur there), Habitat (a functionally suitable, species-specific setting rather than a mere geographic point on a map), and Community Interactions (predation, competition, mutualism, herbivory, parasitism, and commensalism).",
+    "Lec 03": "Lecture 3 unpacks the full scientific scope of biodiversity as the variety of life in all its forms and across all levels of biological organization, correcting the common mistake of equating biodiversity with large wild animals or a raw species count. Using a thought experiment of two forests that each have 50 species—one 90% dominated by a single tree species and the other evenly balanced across diverse ecological roles—the lecture proves why species richness alone is an incomplete measure of biodiversity. It then scales from local organisms up to regional biomes (like the deodar-pine temperate coniferous forests of Manali) and the global biosphere, while warning that ecosystems can suffer hidden degradation through food-chain biomagnification or invasive alien species like Lantana camara even while still looking green. Watch out for the 3 most important terms: Species Richness (the simple count of species in an area, as opposed to evenness and functional diversity), Biome vs. Biosphere (a large regional zone defined by climate and vegetation vs. the global sum of all life on Earth), and Biomagnification (the progressive concentration of toxins like pesticides up a food chain from grass to insects, frogs, snakes, and apex hawks).",
+    "Lec 04": "Lecture 4 examines the concept of sustainability—continuity across time—through the classic Brundtland definition of meeting present needs without compromising the ability of future generations to meet their own needs. It emphasizes that sustainability is built on two pillars of moral restraint: prioritizing essential human needs (food, water, shelter, dignity) over unlimited luxury wants, and respecting biophysical carrying capacities so renewable resources are not extracted faster than they regenerate. Using historical wake-up calls like the 1970s oil crisis, Rachel Carson's Silent Spring (DDT eggshell thinning), and the 1984 Bhopal gas disaster (where short-term cost-cutting on safety systems caused multi-generational catastrophe), the lecture introduces Kate Raworth's Doughnut Model and the Three Pillars of Sustainability (Environmental, Social, and Economic) as a three-legged stool where the environmental pillar forms the irreplaceable biophysical foundation. Watch out for the 3 most important terms: Needs vs. Limits (essential human requirements vs. finite ecological carrying and absorption capacities), The Three Pillars / Triple Bottom Line (evaluating environmental, social, and economic durability together), and The Doughnut Model (keeping development inside the safe and just space between the inner social foundation and outer ecological ceiling).",
+    "Lec 05": "Lecture 5 synthesizes the entire first week into one integrated causal loop: ecology explains how living systems work (processes), biodiversity describes the living variety within them (variation), and sustainability evaluates whether human development can persist without eroding its own foundation (persistence). Crucially, the chain from biodiversity to ecosystem function to ecosystem services to human well-being is not a one-way street; human society constantly pushes back on biodiversity through a circular feedback loop of either destructive pressures (pollution, land conversion, overexploitation) or constructive management (ecological restoration and conservation). Applying this lens to farms, cities, and coastal mangrove belts shows that human settlements are multifunctional landscapes operating inside ecological constraints, not outside nature. Watch out for the 3 most important terms: Ecosystem Function vs. Ecosystem Services (the internal biophysical processes of nature vs. the usable benefits humans derive from them), Circular Feedback Loop (the two-way reciprocal relationship whereby human actions reshape the biodiversity that sustains them), and Greenwashing (using superficial sustainability rhetoric or planting uniform green cover while ignoring underlying ecological processes)."
+  },
+  "questions": [
+    {
+      "id": "W01_Q01",
+      "week": 1,
+      "lecture": "Lec 01",
+      "source": "official_quiz",
+      "question": "Which of the following is included in invisible biodiversity?",
+      "options": [
+        "Mountains and rivers",
+        "Genes, microbes, fungi, soil life, and ecological processes",
+        "Only large animals hidden in forests",
+        "Only plants growing below tree cover"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Visible biodiversity includes plants, animals, habitats and landscapes. Invisible biodiversity includes genes, microbes, fungi, soil life and ecological processes.",
+      "mini_lesson": "Biodiversity is divided into visible components (trees, birds, mammals, landscapes) and invisible components (genetic variation, bacteria, fungi, soil organisms, and silent processes like decomposition and nutrient cycling) that keep ecosystems running from behind the scenes. Option (B) captures the complete slide list of invisible living elements and processes. Distractors (C) and (D) use the classic 'only' hard-absolute trap to reduce biodiversity to visible macro-organisms, while (A) lists non-living (abiotic) landforms."
+    },
+    {
+      "id": "W01_Q02",
+      "week": 1,
+      "lecture": "Lec 02",
+      "source": "official_quiz",
+      "question": "What does the term “distribution” refer to in ecology?",
+      "options": [
+        "How organisms reproduce",
+        "How organisms compete",
+        "Where organisms occur",
+        "How organisms obtain food"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "The word distribution and abundance are central to ecological thinking. Distribution means where organisms occur. Abundance means how many organisms occur there.",
+      "mini_lesson": "In Charles Krebs's classic definition of ecology, scientists study the interactions that determine two core spatial-numerical patterns: distribution and abundance. Distribution specifically answers the spatial question of 'where' a species is present or absent across geography and seasons, whereas abundance answers 'how many' individuals live there. The distractors confuse spatial occurrence with life-history or feeding behaviors."
+    },
+    {
+      "id": "W01_Q03",
+      "week": 1,
+      "lecture": "Lec 01",
+      "source": "official_quiz",
+      "question": "How do wetlands contribute to water security?",
+      "options": [
+        "By increasing fossil fuel availability",
+        "By storing and filtering water",
+        "By eliminating the need for forests",
+        "By replacing all human water management"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Wetlands can store and filter water while forests influence infiltration, runoff and water flow across landscapes. Healthy ecosystems can reduce flood risk by slowing water movement and by improving absorption.",
+      "mini_lesson": "Wetlands act as natural hydrological buffers that absorb excess storm runoff, slow peak flood flows, recharge groundwater, and trap sediment and chemical pollutants before water reaches human settlements. When wetlands are drained or paved over, cities suffer both severe flooding and degraded water quality. Distractors (C) and (D) rely on extreme, false absolutes ('eliminating the need', 'replacing all') that violate integrated watershed management."
+    },
+    {
+      "id": "W01_Q04",
+      "week": 1,
+      "lecture": "Lec 02",
+      "source": "official_quiz",
+      "question": "Which statement best describes a habitat?",
+      "options": [
+        "A visually attractive natural location",
+        "A fixed geographical point where a species was once recorded",
+        "A place containing only physical conditions",
+        "A functionally suitable setting in which an organism can live"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "A habitat is the setting in which an organism lives. So habitat is not just a point on a map. It's not just a location. It is a functionally suitable environment.",
+      "mini_lesson": "In ecology, a habitat is species-specific and defined by functional usability: it must supply both the physical (abiotic) conditions like temperature and water and the biological (biotic) conditions like food, shelter, and safety required for a particular species to survive. Distractor (B) is the primary trap because laypeople often confuse a map coordinate or location with a habitat, while (C) uses the 'only' trap to exclude essential living (biotic) factors."
+    },
+    {
+      "id": "W01_Q05",
+      "week": 1,
+      "lecture": "Lec 02",
+      "source": "official_quiz",
+      "question": "Why is ecology not identical to environmental concern?",
+      "options": [
+        "Ecology rejects ethical thinking completely",
+        "Environmental concern is based only on laboratory experiments",
+        "Ecology deals only with non-living matter",
+        "Ecology provides scientific evidence and explanation, while concern is a social or ethical response"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Ecology is a scientific discipline. Environmental concern is a social, ethical or political response to environmental problems. Ecology provides evidence. It provides concepts, explanations.",
+      "mini_lesson": "Caring deeply about nature (environmentalism or environmental concern) is a value-driven ethical or political stance, whereas ecology is an objective, empirical science that investigates how living systems actually operate and why changes occur. We need ecological science to diagnose mechanisms accurately before designing ethical or policy responses. Distractors (A), (B), and (C) all deploy false absolutes ('completely', 'only') that mischaracterize both science and ethics."
+    },
+    {
+      "id": "W01_Q06",
+      "week": 1,
+      "lecture": "Lec 02",
+      "source": "official_quiz",
+      "question": "Which of the following is an example of a community interaction?",
+      "options": [
+        "Rainfall entering the soil",
+        "Temperature changing across seasons",
+        "Predation between two species",
+        "A rock weathering over time"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "A community consists of populations of different species that are living together. Communities include interactions among species such as predation, competition, and mutualism.",
+      "mini_lesson": "An ecological community is defined by populations of multiple different species coexisting and interacting biologically in a shared area—through predation, competition, mutualism, herbivory, parasitism, or commensalism. Predation between two species is a direct biotic community interaction. The three distractors—rainfall infiltration, seasonal temperature shifts, and rock weathering—are purely abiotic physical processes."
+    },
+    {
+      "id": "W01_Q07",
+      "week": 1,
+      "lecture": "Lec 03",
+      "source": "official_quiz",
+      "question": "What is the biosphere?",
+      "options": [
+        "A single habitat suitable for one species",
+        "The global sum of life and living systems",
+        "A local group of interacting populations",
+        "A laboratory model of ecological processes"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "At the largest scale is the biosphere, which is the global sum of all life and all living systems on Earth. Every ecosystem, every population, and every organism contributes to the biosphere.",
+      "mini_lesson": "Ecological organization scales up through six distinct levels: Organism -> Population -> Community -> Ecosystem -> Biome -> Biosphere. At the very top of this hierarchy sits the biosphere, which encompasses the planetary totality of all living organisms and ecosystems on Earth. Distractor (C) is a sibling-level swap that actually defines a local ecological 'community'."
+    },
+    {
+      "id": "W01_Q08",
+      "week": 1,
+      "lecture": "Lec 02",
+      "source": "official_quiz",
+      "question": "A community in ecology means:",
+      "options": [
+        "Populations of different species living together and interacting",
+        "Individuals of one species competing in one location",
+        "Physical conditions without living organisms",
+        "A single organism responding to environmental stress"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "A community consists of populations of different species that are living together. Communities include interactions among species such as predation, competition, and mutualism.",
+      "mini_lesson": "In the ecological hierarchy, a population contains individuals of a single species, whereas a community brings together populations of multiple different species living and interacting in the same place (such as Chital deer and Hanuman langurs in an Indian forest). Distractor (B) is the classic sibling-level trap: it defines a 'population' (one species) rather than a 'community' (multiple species), while (D) defines the 'organism' level."
+    },
+    {
+      "id": "W01_Q09",
+      "week": 1,
+      "lecture": "Lec 01",
+      "source": "official_quiz",
+      "question": "What are ecosystem services?",
+      "options": [
+        "The benefits people obtain from ecosystems",
+        "The laws created to protect forests",
+        "The instruments used for field surveys",
+        "The number of species in an area"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "In practical terms, ecosystem services mean the benefits people obtain from ecosystems. The phrase gives us a bridge between ecological processes and human well-being.",
+      "mini_lesson": "Ecosystem services are the tangible and intangible benefits that humans derive from functioning ecosystems—ranging from food, clean water, and timber to flood buffering, pollination, climate regulation, and cultural inspiration. They act as the vital conceptual bridge linking biological diversity to human society and economics. Distractor (D) is a sibling-term trap that defines 'species richness' instead of ecosystem services."
+    },
+    {
+      "id": "W01_Q10",
+      "week": 1,
+      "lecture": "Lec 03",
+      "source": "official_quiz",
+      "question": "At the organism level, ecology focuses on:",
+      "options": [
+        "A single individual living being",
+        "All ecosystems on Earth",
+        "Only non-living environmental conditions",
+        "The total number of species in a biome"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "The first level is the organism, meaning one individual living being. Individual organisms differ in their traits and performance.",
+      "mini_lesson": "The organism is the foundational, smallest unit in the six-level ecological hierarchy (Organism -> Population -> Community -> Ecosystem -> Biome -> Biosphere), focusing on how a single individual plant, animal, or microbe survives, grows, and responds to environmental stress. Distractor (B) swaps in the definition of the 'biosphere' (the highest level), while (C) uses the 'only' trap to exclude living beings entirely."
+    }
+  ]
+}

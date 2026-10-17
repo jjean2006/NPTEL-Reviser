@@ -1,0 +1,172 @@
+{
+  "week": 2,
+  "lecture_briefings": {
+    "Lec 06": "Lecture 6 traces the historical evolution of sustainable development from early agrarian societies to the modern industrial world. In pre-industrial societies, human survival was bound by immediate, local ecological feedback—if a community overused soil or water, harvests failed right in front of them—whereas industrialization transformed the speed, scale, and spatial distance of extraction, allowing cities to consume goods while hiding ecological damage far away. By the late twentieth century, warning signs like the 1962 DDT pesticide crisis documented in Rachel Carson's Silent Spring, the 1970s oil shocks, transboundary acid rain, and environmental injustice forced a global rethink that culminated in the 1987 Brundtland Report. Watch out for the 3 most important terms: Direct Ecological Feedback (immediate local consequences from land, water, and seasonal limits in early societies), Speed, Scale, and Distance (the three industrial shifts that decoupled consumption from resource extraction and masked damage), and Flagship Species (iconic animals like the giant panda used to rally public and international support for broader conservation).",
+    "Lec 07": "Lecture 7 puts the Three Pillars of Sustainability—Environmental, Social, and Economic—into operational practice for evaluating real-world projects like large dams, urban parks, wetland conversions, and tourism sites. While all three pillars interact continuously, the environmental pillar is foundational because human societies and economies rest on a biophysical base of water, fertile soil, materials, and ecosystem resilience that money cannot replace. When analyzing any development proposal, planners must look beyond short-term financial profit to diagnose unavoidable trade-offs (where real benefits and real harms occur together, as in a dam) and actively design for synergies (where an intervention like urban tree cover benefits all three pillars simultaneously). Watch out for the 3 most important terms: Trade-Off vs. Synergy (simultaneous benefits and harms across pillars vs. mutually reinforcing win-win outcomes), Natural Capital Accounting (recognizing that soils, forests, water systems, wetlands, and biodiversity hold real productive value rather than being a 'free lunch'), and Foundational Environmental Pillar (the principle that social and economic stability collapse if underlying ecological life-support systems fail).",
+    "Lec 08": "Lecture 8 explores how nature supports human well-being through the four Millennium Ecosystem Assessment (MEA) categories of ecosystem services: Provisioning, Regulating, Supporting, and Cultural. Because regulating, supporting, and cultural services are rarely bought or sold in markets, society suffers from 'hidden dependence' and 'market failure,' often recognizing critical services only after they collapse—such as shifting sandbars burying railway tracks after coastal vegetation is cleared, or severe floods following wetland loss. Biodiversity underpins the long-term reliability of all these services through functional diversity (different species performing distinct roles or providing redundancy), though Dr. Awadhiya cautions that nature also holds intrinsic ethical value beyond human utility. Watch out for the 3 most important terms: The Four Service Categories (Provisioning for material goods, Regulating for risk reduction and stabilization, Supporting for foundational processes like soil formation and nutrient cycling, and Cultural for non-material enrichment), Functional Diversity (the variety of ecological roles and traits performed by species within a system), and Market Failure (when free-market prices underestimate unpriced ecosystem services, causing net loss of social welfare).",
+    "Lec 09": "Lecture 9 addresses how we measure sustainability using metrics, indicators, composite indices, and ecological boundaries so that sustainability does not degenerate into an empty political slogan. A good indicator must represent an important reality, be understandable, and support action—avoiding the trap of counting only what is easy to measure (such as treating a monoculture tree plantation and a biodiverse native forest as equal under 'forest cover'). Crucially, while indicators show the direction of trends, ecological boundaries and thresholds mark nonlinear tipping points beyond which systems abruptly lose resilience, and analysts must guard against poorly chosen short-term baselines that disguise massive historical collapses as stability. Watch out for the 3 most important terms: Metric vs. Indicator vs. Composite Indicator (a raw measurable quantity vs. a sign of a broader complex condition vs. an aggregated index that can hide internal trade-offs), Ecological Boundary / Threshold (a nonlinear safe limit beyond which ecological change becomes rapid, unsafe, or irreversible), and Shifting / Poorly Chosen Baselines (comparing a population of 1,001 only to last year's 1,000 to claim stability while ignoring a 100-year collapse from 10 million).",
+    "Lec 10": "Lecture 10 applies the entire Week 2 toolkit to five concrete case studies: (1) Forests and Livelihoods, (2) Wetlands and Urban Expansion, (3) Agriculture and Biodiversity, (4) Mangroves, Coasts, and Development, and (5) Urban Green Spaces and Livability. Across all five cases, Dr. Awadhiya applies a 4-question diagnostic framework—What development goal is pursued? What ecological system is affected? Who benefits and who pays? What happens in the long term?—to expose how short-term gains hide delayed costs and how powerful actors capture immediate profits while vulnerable communities bear the ecological fallout. Striking examples include recognizing wetlands as free municipal 'natural infrastructure' and exposing the perverse contractor incentives behind replacing self-repairing mangrove belts with expensive, corroding gabion rock check dams. Watch out for the 3 most important terms: Natural Infrastructure (living ecosystems like wetlands and mangroves that store floodwater, filter pollutants, and buffer coastlines for free), Eutrophication & Agricultural Externalities (fertilizer runoff triggering oxygen-depleting algal blooms and pesticides harming neighboring pollinators), and Weak vs. Strong Sustainability Analysis (focusing narrowly on one short-term economic output while assuming damage is easily repairable vs. minimizing irreversible ecological loss across all pillars)."
+  },
+  "questions": [
+    {
+      "id": "W02_Q01",
+      "week": 2,
+      "lecture": "Lec 08",
+      "source": "official_quiz",
+      "question": "What does functional diversity refer to?",
+      "options": [
+        "The total market value of ecosystem products",
+        "Different species performing different ecological roles",
+        "The number of development projects in a region",
+        "The use of one indicator for multiple systems"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "A key concept here is functional diversity. Species differ in what they actually do within ecosystems. Some perform similar roles, providing redundancy if one is lost. Others perform highly distinct roles that cannot easily be replaced.",
+      "mini_lesson": "Functional diversity measures the variety of biological jobs—such as pollination, nitrogen fixation, decomposition, soil building, and pest control—that coexisting species perform within an ecosystem. High functional diversity keeps ecosystem services reliable over time because multiple species provide backup pathways (redundancy) when environmental stress hits. Distractor (A) is a classic market-reductionist trap that confuses ecological function with financial pricing."
+    },
+    {
+      "id": "W02_Q02",
+      "week": 2,
+      "lecture": "Lec 07",
+      "source": "official_quiz",
+      "question": "What is a trade-off in sustainability analysis?",
+      "options": [
+        "A situation where real benefits and real harms occur together",
+        "A decision that supports all three pillars equally",
+        "A case where ecological damage has no social effect",
+        "A method for avoiding evidence-based assessment"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "In real life, trade-offs are common. Some projects create real benefits and real harms all at the same time. So, there is a trade-off.",
+      "mini_lesson": "In sustainability analysis, a trade-off occurs when a development choice produces genuine gains in one dimension alongside genuine losses in another—for example, a dam that generates electricity and irrigation (+economic) while displacing river communities (-social) and fragmenting aquatic habitat (-environmental). Distractor (B) is an opposite-pole trap describing a 'synergy' (where all three pillars gain together) rather than a trade-off."
+    },
+    {
+      "id": "W02_Q03",
+      "week": 2,
+      "lecture": "Lec 08",
+      "source": "official_quiz",
+      "question": "What is the main role of regulating services?",
+      "options": [
+        "Reducing risks and stabilising conditions through ecological processes",
+        "Supplying only direct material goods",
+        "Replacing social indicators in development planning",
+        "Measuring ecosystem value through one composite score"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Regulating services are especially important because they reduce risk, stabilize conditions, and support the functioning of human systems. These include climate regulation, flood control, water purification, pollination, and pest or disease regulation.",
+      "mini_lesson": "Within the four categories of ecosystem services, regulating services are the stabilizing ecological processes—like flood control by wetlands, wave buffering by mangroves, climate moderation by forests, and pollination—that dampen environmental extremes and protect human infrastructure. Distractor (B) combines the 'only' hard-absolute trap with a sibling-term swap: supplying direct material goods (food, timber, fuelwood) is the definition of 'provisioning services'."
+    },
+    {
+      "id": "W02_Q04",
+      "week": 2,
+      "lecture": "Lec 07",
+      "source": "official_quiz",
+      "question": "What does environmental sustainability primarily involve?",
+      "options": [
+        "Protecting ecological processes, biodiversity, resources, and resilience",
+        "Increasing production without measuring ecological effects",
+        "Ensuring compensation after environmental damage",
+        "Treating nature only as a source of market products"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Environmental sustainability means protecting ecological processes, conserving biodiversity and natural resources, maintaining air, water, and soil quality, and preserving ecosystem resilience.",
+      "mini_lesson": "The environmental pillar of sustainability focuses on maintaining the living processes, air/water/soil quality, resource renewal rates, and biological diversity that allow ecosystems to absorb shocks and persist over time. Option (A) is lifted directly from the four-item slide definition in Lecture 7. Distractor (D) uses the 'only' market-reductionist trap, while (C) falsely assumes that post-damage cash payouts can substitute for intact life-support systems."
+    },
+    {
+      "id": "W02_Q05",
+      "week": 2,
+      "lecture": "Lec 10",
+      "source": "official_quiz",
+      "question": "Why can wetlands be understood as natural infrastructure?",
+      "options": [
+        "They store water, slow flows, filter contaminants, and support habitat",
+        "They are empty spaces suitable for quick conversion",
+        "They only provide scenic value to nearby residents",
+        "Their services can always be fully replaced by drainage systems"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "The key conceptual shift here is to see a wetland not as an empty space but as a natural infrastructure. It stores water, so it's a storage structure. It slows the peak flows, so it's a flood protection structure. It filters contaminants, so it's a water treatment structure, and it supports habitat.",
+      "mini_lesson": "Cities normally pay billions for engineered infrastructure like stormwater reservoirs, flood levees, and water treatment plants, yet a living wetland performs all of those exact municipal functions simultaneously and for free while also supporting biodiversity. Distractor (B) states the exact narrow real-estate misconception warned against in the lecture, while (C) and (D) use the false absolutes 'only' and 'always'."
+    },
+    {
+      "id": "W02_Q06",
+      "week": 2,
+      "lecture": "Lec 06",
+      "source": "official_quiz",
+      "question": "What helped many early societies understand environmental limits?",
+      "options": [
+        "Direct ecological feedback from land, water, seasons, and resource use",
+        "International environmental agreements",
+        "Industrial monitoring systems",
+        "Modern composite indicators"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Because this dependence was direct, many societies developed an awareness of environmental limits. People learned from ecological feedback. If land was overused, future harvests could fall. If water was mismanaged, scarcity followed.",
+      "mini_lesson": "Before global trade and industrialization, human communities lived right next to the soils, rivers, and forests they depended on, so any overuse immediately triggered local crop failure, water scarcity, or fuelwood shortages. This direct ecological feedback taught practical restraint long before modern treaties or indicators existed. Distractors (B), (C), and (D) are anachronisms from the modern industrial and policy era."
+    },
+    {
+      "id": "W02_Q07",
+      "week": 2,
+      "lecture": "Lec 09",
+      "source": "official_quiz",
+      "question": "What should a good sustainability indicator do?",
+      "options": [
+        "Count whatever is easiest to measure",
+        "Replace interpretation with numerical certainty",
+        "Ignore context to allow simple comparison",
+        "Represent important realities, be understandable, and support action"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "A good indicator should do at least three things. First, it should represent an important reality. Second, it should be measurable. It should be understandable. And third, it should support action and decision making.",
+      "mini_lesson": "An indicator is a measurable sign used to track complex ecological, social, or economic conditions; to be genuinely useful, it must reflect an important underlying reality, be clear to decision-makers, and guide practical action. Distractors (A), (B), and (C) are the exact three assessment blunders Dr. Awadhiya warns against: counting only what is easy (like raw tree counts), pretending numbers replace human judgment, and stripping away spatial or historical context."
+    },
+    {
+      "id": "W02_Q08",
+      "week": 2,
+      "lecture": "Lec 06",
+      "source": "official_quiz",
+      "question": "What made industrialization different from earlier forms of development?",
+      "options": [
+        "It removed the need for natural resources",
+        "It made ecological damage immediately visible everywhere",
+        "It reduced the distance between consumption and resource sources",
+        "It increased speed, scale, and distance, making damage easier to hide"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Industrialization was different not only because it produced more, but because it changed speed, scale, and distance. Extraction and manufacturing happened faster. Impacts spread over wider areas. And the source of a resource became more distant from the place where it was consumed. And this made ecological damage much easier to hide.",
+      "mini_lesson": "Powered by fossil fuels and long-distance transport, industrialization transformed human impact along three axes: speed (extracting faster than nature regenerates), scale (altering entire landscapes), and distance (separating urban consumers from the distant forests and rivers being degraded). Because urban buyers never saw the remote extraction sites, ecological damage became hidden out of sight. Distractors (B) and (C) state the exact opposite of this historical decoupling."
+    },
+    {
+      "id": "W02_Q09",
+      "week": 2,
+      "lecture": "Lec 09",
+      "source": "official_quiz",
+      "question": "What does an ecological threshold indicate?",
+      "options": [
+        "A point where social benefits become impossible to measure",
+        "A market price at which ecosystem services become profitable",
+        "A limit beyond which ecological change may become unsafe or difficult to reverse",
+        "A planning method that removes uncertainty from sustainability decisions"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "A system can appear stable until a boundary is crossed and after which recovery becomes difficult or costly or at in certain cases even impossible. Many systems can absorb stress only up to a point... But once a threshold is crossed, change may accelerate rapidly.",
+      "mini_lesson": "Ecological degradation is often nonlinear: an ecosystem like a wetland or forest can absorb gradual stress while appearing stable, until it crosses a critical limit—an ecological threshold or tipping point—where buffering capacity collapses abruptly and recovery becomes difficult or impossible. Distractor (B) is a market-reductionist trap, while (D) falsely claims thresholds eliminate scientific uncertainty."
+    },
+    {
+      "id": "W02_Q10",
+      "week": 2,
+      "lecture": "Lec 07",
+      "source": "official_quiz",
+      "question": "What does natural capital accounting emphasise?",
+      "options": [
+        "Nature should be valued only when it produces goods for markets",
+        "Forests, soils, water systems, wetlands, and biodiversity have real value",
+        "Economic decisions should ignore ecological functions",
+        "Market price always captures the full value of ecosystems"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Natural capital accounting means recognizing that nature is not free in any real sense. Soils, forests, water systems, wetlands, and biodiversity contribute real value to production and to human welfare.",
+      "mini_lesson": "Traditional bookkeeping treats unpriced nature as a 'free lunch,' counting only extracted commodities like cut timber while ignoring the massive economic value of intact soils, watersheds, wetlands, and biodiversity. Natural capital accounting corrects this blind spot by bringing the real productive and protective value of living systems into economic decision-making. Distractors (A) and (D) use the hard absolutes 'only' and 'always' to defend narrow market pricing."
+    }
+  ]
+}

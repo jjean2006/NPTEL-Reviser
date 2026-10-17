@@ -1,0 +1,172 @@
+{
+  "week": 4,
+  "lecture_briefings": {
+    "Lec 16": "Climate is the long-term pattern of weather calculated over a classical 30-year baseline across five interacting Earth systems (atmosphere, hydrosphere, cryosphere, lithosphere, and biosphere), and modern human emissions are driving rising temperatures, shifting rainfall, extreme events, and altered seasons. Under Shelford's Law of Tolerance, organisms thrive only within a narrow optimal environmental range and drop to zero when conditions exceed their physiological limits, forcing species to shift poleward or upslope along mountain lapse rates—often riding an 'escalator to extinction' when they run out of summit space or sea ice. Changing seasonal cues also trigger phenological mismatches (like trees fruiting before hornbills nest) and hit four groups hardest: narrow specialists (koala), range-restricted endemics (Nilgiri tahr), poor dispersers (red panda), and small fragmented populations (pygmy hog). Watch out for these 3 key terms: Shelford's Law of Tolerance (bell-shaped survival curve showing population collapse outside physiological limits), Phenological Mismatch (desynchronization of seasonal life-cycle timing between interacting species like plants and pollinators/seed dispersers), and Threat Multiplier (how climate change amplifies existing hazards like drought, fire, disease, and *Lantana* invasion).",
+    "Lec 17": "Climate and land-use pressures also disrupt planetary chemical and water balances through ocean acidification, desertification, and the overloading of global nutrient cycles. When oceans absorb excess atmospheric CO2, seawater becomes less alkaline, depleting carbonate ions and preventing corals, plankton, and shellfish from building calcium carbonate skeletons—an impact that cascades up marine food webs to top predators. On land, burning fossil fuels accelerates the carbon cycle while industrial fertilizers, livestock waste, and sewage overload the nitrogen and rock-derived phosphorus cycles, washing into waterways to trigger eutrophication—explosive algal blooms whose bacterial decomposition strips water of oxygen and creates aquatic dead zones. Watch out for these 3 key terms: Ocean Acidification (CO2-driven drop in seawater alkalinity that impairs calcium carbonate shell and reef formation), Phosphorus vs. Nitrogen Cycles (phosphorus has no major atmospheric gas phase and comes from rock weathering, whereas atmospheric N2 requires microbial or industrial fixation), and Eutrophication (nutrient overload driving algal blooms, light blockage, microbial oxygen depletion, and aquatic dead zones).",
+    "Lec 18": "Extinction is the permanent global loss of a species (distinct from local extirpation or functional extinction, where surviving individuals like the two remaining female Northern White Rhinos can no longer reproduce or fulfill their ecological role). While Earth's fossil record shows natural background turnover and catastrophic mass events—most famously the K-Pg dinosaur extinction 66 million years ago, proven by an iridium-rich clay layer and the 180-km Chicxulub impact crater—human activities have accelerated modern extinction rates to 20 to 100 times (and up to 1,000 times) above background levels. Today, the IUCN Red List tracks species marching toward extinction under the combined weight of habitat destruction (like Chambal River sand mining and Amazon deforestation), overexploitation, invasive predators (like the cane toad), emerging fungal diseases (chytridiomycosis in amphibians and white-nose syndrome in bats), and plastic pollution. Watch out for these 3 key terms: Extirpation vs. Functional Extinction (local disappearance from one area vs. a population too reduced or skewed to reproduce or perform its ecosystem role), IUCN Red List Categories (the status scale from Least Concern and Near Threatened to Vulnerable, Endangered, Critically Endangered, Extinct in the Wild, and Extinct), and K-Pg Asteroid Evidence (the global iridium layer, shocked quartz, gypsum cores, and Yucatan crater proving the impact winter that ended non-avian dinosaurs).",
+    "Lec 19": "Looking closely at how species actually vanish—such as the flightless Dodo of Mauritius, wiped out within ~80 years of Dutch arrival in 1598 by hunting, habitat loss, and invasive rats and pigs eating its single ground-laid egg—reveals that extinction rarely has a single cause and often triggers co-extinctions of host-specific parasites and mutualists (like the pygmy hog-sucking louse) or coral bleaching breakdowns. Conservation biologists analyze these declines through two complementary frameworks: the Declining Population Paradigm (which diagnoses external human push factors driving a population down) and the Small Population Paradigm (which explains the internal genetic and demographic traps that destabilize a population once it is already tiny). Tiny, isolated populations suffer from demographic stochasticity, the Allee effect (failure to find mates, hunt in packs, or defend against predators below a critical density), and inbreeding depression—locking them into a self-reinforcing Extinction Vortex unless saved by interventions like genetic rescue (such as introducing Texas pumas to restore the inbred Florida panther). Watch out for these 3 key terms: Declining vs. Small Population Paradigms (external deterministic pressures shrinking a population vs. internal stochastic, genetic, and behavioral risks of smallness), Allee Effect (breakdown of survival, pack hunting, or mating success when population size or density drops below a critical threshold), and Genetic Rescue vs. Genetic Pollution (deliberate gene flow introduced to cure inbreeding depression vs. harmful hybridization with domestic/alien relatives that erases a wild genome).",
+    "Lec 20": "Unlike the Big Five prehistoric mass extinctions caused by volcanism, climate shifts, and asteroids, the ongoing Sixth Mass Extinction is driven by a single biological species—humans—threatening roughly 1 million species (including 41% of amphibians) through sequential overexploitation like industrial whaling and the 19th-century collapse of the American bison. While humanity has only rarely pursued deliberate extinction for deadly pathogens (eradicating smallpox in 1980 and cattle rinderpest in 2011) and now debates high-tech de-extinction (like the short-lived 2003 cloned Pyrenean ibex or CRISPR cold-adapted mammoth hybrids), cloning cannot replace habitat conservation. Ultimately, extinction risk is governed by ecological vulnerability traits (specialization, human market attention, infrastructure overlap like the Great Indian Bustard with power lines, and large home ranges) and quantified mathematically by MacArthur and Wilson's Species-Area Relationship ($S = cA^z$), which proves that losing 90% of a habitat wipes out roughly 50% of its species. Watch out for these 3 key terms: Sixth Mass Extinction (the ongoing human-driven biodiversity crisis where species loss runs 100 to 1,000 times above natural background rates), Deliberate Extinction vs. De-extinction (targeted eradication of disease agents like smallpox/rinderpest vs. cloning or gene-editing extinct species like the Pyrenean ibex), and Species-Area Relationship $S = cA^z$ (island biogeography power law used to calculate how habitat area loss translates into predictable species extinctions)."
+  },
+  "questions": [
+    {
+      "id": "W04_Q01",
+      "week": 4,
+      "lecture": "Lec 18",
+      "source": "official_quiz",
+      "question": "What does overexploitation mean?",
+      "options": [
+        "The movement of species into new habitats",
+        "Taking biological resources faster than nature can replace them",
+        "The recycling of nutrients by decomposers",
+        "The restoration of extinct species through cloning"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "We now move to overexploitation which means taking biological resources faster than nature can replace them. Hunting, fishing, logging, and harvesting become destructive when they continue beyond sustainable limits.",
+      "mini_lesson": "Overexploitation occurs when human harvesting—such as hunting, fishing, or logging—removes individuals from a population faster than natural reproduction can replenish them, driving steady population decline toward extinction. Option (A) describes dispersal or range shift, Option (C) describes nutrient cycling, and Option (D) describes de-extinction."
+    },
+    {
+      "id": "W04_Q02",
+      "week": 4,
+      "lecture": "Lec 16",
+      "source": "official_quiz",
+      "question": "What is the classical period used for calculating climate averages?",
+      "options": [
+        "5 years",
+        "10 years",
+        "20 years",
+        "30 years"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Climate is not the weather on any single day. It is what we observe when we look at conditions across a long stretch of time. The classical period used for calculating climate averages is 30 years.",
+      "mini_lesson": "To separate short-term day-to-day weather noise and multi-year oscillations (like El Niño) from true long-term climate trends, climatologists and the World Meteorological Organization use a standard 30-year baseline period. Shorter intervals like 5, 10, or 20 years in Options (A), (B), and (C) are too brief to filter out temporary climatic variability."
+    },
+    {
+      "id": "W04_Q03",
+      "week": 4,
+      "lecture": "Lec 16",
+      "source": "official_quiz",
+      "question": "Why are specialist species especially vulnerable to climate change?",
+      "options": [
+        "They always have large home ranges",
+        "They reproduce faster than generalists",
+        "They have narrow ecological requirements and few alternatives when conditions change",
+        "They are unaffected by changes in food quality"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "The first category is a specialist species, those with narrow ecological requirements... Specialists like the koala have very little room to adjust when conditions shift.",
+      "mini_lesson": "Climate-vulnerable specialists like the koala (which feeds exclusively on eucalyptus leaves whose water and nutrient content drops during heatwaves and droughts) are locked into narrow dietary or thermal niches with no alternative food or habitat when conditions shift. Options (A), (B), and (D) state the exact opposite of specialist biology."
+    },
+    {
+      "id": "W04_Q04",
+      "week": 4,
+      "lecture": "Lec 16",
+      "source": "official_quiz",
+      "question": "Under Shelford’s Law of Tolerance, what happens when an ecological condition falls outside an organism’s coping capacity?",
+      "options": [
+        "The population reaches its optimum level",
+        "The species immediately adapts genetically",
+        "The species shifts into its most suitable range",
+        "The population drops to zero"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "At the extremes, shown in red, the condition falls entirely outside the organism's coping capacity. And the population drops down to zero.",
+      "mini_lesson": "Shelford's Law of Tolerance states that every species has an optimal environmental range where abundance peaks, bordered by zones of physiological stress (low populations) and outer zones of intolerance where conditions exceed coping capacity and the population drops to zero. Option (A) describes the central optimum zone, while Option (B) is a trap because evolutionary adaptation cannot occur instantaneously when lethal thresholds are crossed."
+    },
+    {
+      "id": "W04_Q05",
+      "week": 4,
+      "lecture": "Lec 18",
+      "source": "official_quiz",
+      "question": "What does the IUCN Red List category Extinct in the Wild mean?",
+      "options": [
+        "The species has many stable wild populations",
+        "The species has no known individuals anywhere",
+        "The species survives only in zoos, seed banks, or other human-managed settings",
+        "The species is common but declining slowly"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "The next category is extinct in the wild or EW. This means a species no longer survives in its natural habitat and remains only under human care, such as in zoos or in protected breeding facilities.",
+      "mini_lesson": "On the IUCN Red List, 'Extinct in the Wild' (EW) designates a species that has completely vanished from all natural habitats and persists solely in human-managed facilities like zoos, botanical gardens, or captive breeding centers. Option (B) defines the final 'Extinct' (EX) category, while Options (A) and (D) describe lower-risk categories like Least Concern or Near Threatened."
+    },
+    {
+      "id": "W04_Q06",
+      "week": 4,
+      "lecture": "Lec 16",
+      "source": "official_quiz",
+      "question": "Which set correctly identifies major climatic changes affecting biodiversity?",
+      "options": [
+        "Soil erosion, mining, hunting, and disease",
+        "Rising temperature, changing rainfall patterns, more frequent extremes, and shifting seasons",
+        "Urbanisation, overgrazing, logging, and fishing",
+        "Mutation, migration, predation, and reproduction"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "We can now identify the specific climatic changes that are most consequential for biodiversity. The first is a rising temperature... The second is changing rainfall patterns... The third is more frequent extreme events... The fourth is shifting seasons.",
+      "mini_lesson": "The four direct physical manifestations of climate change that impact biodiversity are rising temperatures, altered precipitation/rainfall regimes, increased frequency of extreme weather events (heatwaves, floods, cyclones), and shifting seasonal timing. Options (A) and (C) list non-climatic human land-use and extraction pressures, while Option (D) lists basic biological processes."
+    },
+    {
+      "id": "W04_Q07",
+      "week": 4,
+      "lecture": "Lec 19",
+      "source": "official_quiz",
+      "question": "What is genetic rescue?",
+      "options": [
+        "Introducing individuals from another population to increase genetic diversity and reduce inbreeding problems",
+        "Removing all predators from a protected area",
+        "Converting a dryland into agricultural land",
+        "Increasing pollutant concentration in predators"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "When such signs appear, conservationists may consider genetic rescue, which means introducing unrelated individuals to increase variation and improve population health.",
+      "mini_lesson": "Genetic rescue is a conservation intervention where unrelated individuals from a healthier population of the same species are translocated into a tiny, inbred population (such as introducing Texas pumas into the Florida panther population) to restore genetic variation and reverse inbreeding depression. Option (D) describes biomagnification, while Options (B) and (C) describe predator removal and land conversion."
+    },
+    {
+      "id": "W04_Q08",
+      "week": 4,
+      "lecture": "Lec 17",
+      "source": "official_quiz",
+      "question": "What is eutrophication?",
+      "options": [
+        "Rapid algal growth triggered by excess nutrients, leading to oxygen decline and harm to aquatic life",
+        "Movement of animals toward cooler latitudes",
+        "Recovery of forests after fire",
+        "A process of genetic rescue in small populations"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "A major consequence of nutrient overload is eutrophication. Excess nutrients can trigger a rapid algal growth in lakes, ponds, rivers, estuaries, and coastal waters... and when algae die in large numbers, their decomposition uses up the oxygen in the water body.",
+      "mini_lesson": "Eutrophication occurs when agricultural fertilizer runoff or sewage overloads a water body with nitrogen and phosphorus, sparking dense algal blooms that block sunlight and, upon dying and being decomposed by bacteria, strip the water of dissolved oxygen to create dead zones. Options (B), (C), and (D) refer to unrelated ecological processes (range shifts, succession, and genetic management)."
+    },
+    {
+      "id": "W04_Q09",
+      "week": 4,
+      "lecture": "Lec 19",
+      "source": "official_quiz",
+      "question": "What does the Allee effect describe?",
+      "options": [
+        "Increased survival when nutrient runoff is high",
+        "Reduced shell-building due to seawater chemistry",
+        "Faster adaptation in fragmented landscapes",
+        "Failure of survival or reproduction when population size or density becomes too low"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "The Allee effect means that when population size or population density become very low, normal survival and reproduction begin to fail... So the Allee effect is not just about numbers becoming smaller. It is about numbers becoming too small for the species to function normally.",
+      "mini_lesson": "Named after ecologist W. C. Allee, the Allee effect is a small-population trap where per-capita survival or reproduction plummets below a critical threshold because individuals cannot find mates, form cooperative hunting packs (like dholes), or defend against predators in herds. Option (B) describes ocean acidification, while Options (A) and (C) are fabricated positive effects."
+    },
+    {
+      "id": "W04_Q10",
+      "week": 4,
+      "lecture": "Lec 17",
+      "source": "official_quiz",
+      "question": "In a nutrient cycle, what role do decomposers perform?",
+      "options": [
+        "They prevent nutrients from entering food webs",
+        "They convert all nutrients into fossil fuels",
+        "They remove producers from ecosystems",
+        "They break down dead material and wastes, returning nutrients to the nutrient pool"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Decomposers then break down dead material and waste, returning the nutrients back into the nutrient pool. From there, the nutrients become available once again to the producers.",
+      "mini_lesson": "Decomposers (bacteria, fungi, and detritivores) close the loop of biogeochemical nutrient cycles by breaking down dead organic matter and waste products, releasing locked-up nitrogen, phosphorus, and carbon back into the soil or water nutrient pool for plants (producers) to reuse. Option (A) states the exact opposite of their function, and Option (B) confuses everyday decomposition with million-year geological fossilization."
+    }
+  ]
+}

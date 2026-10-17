@@ -1,0 +1,492 @@
+{
+  "week": 7,
+  "lecture_briefings": {
+    "Lec 31": "Lecture 31 introduces the science of measuring wildlife populations, defining a biological population as individuals of the same species occupying a defined geographical area that are capable of naturally interbreeding. It establishes the fundamental population balancing equation, $N_{t+1} = N_t + (B + I) - (D + E)$, which tracks how populations grow through demographic gains (Births and Immigration) and shrink through demographic losses (Deaths and Emigration). Because counting every single animal in a vast forest (a complete census) is rarely possible, wildlife managers distinguish between absolute abundance (total animal count) and relative abundance indices (such as dung piles per kilometre or encounter rates) to track population trends over time. Watch out for the 3 most important terms: Population in Wildlife Studies (conspecifics in a defined area capable of interbreeding), Population Gains vs. Losses ($B + I$ vs. $D + E$), and Absolute vs. Relative Abundance (exact headcount vs. indirect proxy indices).",
+    "Lec 32": "Lecture 32 focuses on measurement quality, error types, and sampling effort in ecological monitoring. It contrasts accuracy (how close an estimate is to the true population value) with precision (how closely repeated measurements cluster together), explaining why a faulty instrument can yield highly precise yet completely inaccurate estimates. The lecture categorizes systematic deviations from the true value (bias) into equipment bias (such as a miscalibrated GPS or rangefinder) and observer bias (differences in human visual acuity, skill, or fatigue), while defining sampling intensity as the ratio of surveyed sample units to total population units ($n / N$). Watch out for the 3 most important terms: Accuracy vs. Precision (closeness to true value vs. repeatability among measurements), Systematic Bias (directional deviation from the true value, including equipment and observer bias), and Sampling Intensity (sample units divided by total population units).",
+    "Lec 33": "Lecture 33 explores applied field survey technologies across diverse wildlife taxa, moving from indirect sign surveys to advanced remote sensors. It explains how the National Tiger Conservation Authority (NTCA) transitioned from the error-prone historical Pugmark Census Method to paired motion-triggered camera traps that identify individual Bengal tigers and leopards by their unique, asymmetrical flank stripe or rosette patterns. For elusive species where visual sightings fail, the lecture covers dung/pellet group counts (using daily defecation and decay rates) for elephants and deer, Passive Acoustic Monitoring (PAM) with hydrophones for deep-diving whales and ultrasonic bats, and satellite remote sensing (NDVI) for mangrove canopy health. Watch out for the 3 most important terms: Camera-Trap Individual Identification (using unique flank stripe patterns for mark-recapture), Passive Acoustic Monitoring (automated soundscape recording for cetaceans and bats), and Convenience/Access Bias (the error of surveying only along accessible roadsides).",
+    "Lec 34": "Lecture 34 details the four core probability sampling designs used to select survey units across landscapes, alongside capture-recapture mathematics and pollinator trapping. It contrasts Simple Random Sampling (where every unit has an equal $1/N$ chance of selection) with Stratified Random Sampling (dividing heterogeneous landscapes into homogeneous habitat strata when animal density varies across habitats), Systematic Sampling (selecting every $k$-th unit at fixed intervals), and Probability Proportional to Size or PPS sampling (where larger units receive a higher probability of selection). Finally, it introduces the classical Lincoln-Petersen two-sample capture-recapture estimator ($N = M \\cdot n / m$) and UV-reflective coloured pan traps filled with soapy water for wild pollinators. Watch out for the 3 most important terms: Simple Random vs. Stratified Sampling (equal probability across uniform landscapes vs. habitat-based strata for variable densities), PPS Sampling (larger sampling units receive a higher chance of selection), and Lincoln-Petersen Estimator ($N = M \\cdot n / m$, assuming a closed population and equal catchability).",
+    "Lec 35": "Lecture 35 explains Line Transect Distance Sampling, the gold-standard methodology for estimating herbivore prey density in forests where visibility drops off with distance from the observer. Observers walk straight cut-lines recording radial sighting distance ($r$) and sighting angle ($\\theta$) to compute perpendicular distance $y = r \\cdot \\sin(\\theta)$, fitting a detection probability curve $g(y)$ that accounts for animals missed in dense vegetation. The entire mathematical framework relies on the critical assumption that detection directly on the transect centerline is $100\\%$ certain ($g(0) = 1$), using the Effective Strip Half-Width ($\\mu$) to calculate density as $\\hat{D} = n / (2 \\cdot L \\cdot \\mu)$ and the Akaike Information Criterion (AIC) to select the best-fitting model. Watch out for the 3 most important terms: Distance Sampling Detection Function $g(y)$ (modelling declining visibility with perpendicular distance), Zero-Distance Assumption $g(0) = 1$ (animals directly on the transect line are detected with $100\\%$ certainty), and Effective Strip Half-Width ($\\mu$, the distance where missed animals inside equal detected animals outside)."
+  },
+  "questions": [
+    {
+      "id": "W07_M01",
+      "week": 7,
+      "lecture": "Lec 31",
+      "source": "mock_unseen",
+      "question": "In wildlife monitoring, how does relative abundance differ from absolute abundance?",
+      "options": [
+        "Relative abundance counts every single organism in the biosphere, whereas absolute abundance measures only plants",
+        "Relative abundance uses an indirect proxy index (such as encounter rate or dung piles per kilometre) to track trends, whereas absolute abundance estimates the actual total number of individuals in an area",
+        "Relative abundance requires capturing and marking all individuals, whereas absolute abundance uses only roadside sightings",
+        "Relative abundance is always free from observer bias, whereas absolute abundance is always biased"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Absolute abundance refers to the actual total number of individual organisms present in a defined area, whereas relative abundance provides an index or proxy metric—such as encounter rates, vocalization counts, or dung piles per kilometre—used to compare habitats or track trends over time.",
+      "mini_lesson": "Counting or estimating the exact headcount of elusive forest animals (absolute abundance) is often prohibitively expensive or impossible. When managers primarily need to know whether a population is increasing, stable, or declining across years, they use relative abundance indices (such as tracks or dung piles per km walked) under standardized conditions. Distractor (D) uses the false absolute 'always'."
+    },
+    {
+      "id": "W07_M02",
+      "week": 7,
+      "lecture": "Lec 31",
+      "source": "mock_unseen",
+      "question": "Using the basic population balancing equation $N_{t+1} = N_t + (B + I) - (D + E)$, what will the population size $N_{t+1}$ be if an initial deer population of $N_t = 300$ experiences $50$ births, $20$ immigrants, $35$ deaths, and $15$ emigrants over one year?",
+      "options": [
+        "280 individuals",
+        "300 individuals",
+        "320 individuals",
+        "420 individuals"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "The basic population balancing equation is $N_{t+1} = N_t + (B + I) - (D + E)$, where births ($B$) and immigration ($I$) are added as demographic gains, and deaths ($D$) and emigration ($E$) are subtracted as demographic losses.",
+      "mini_lesson": "To find the next year's population size $N_{t+1}$, add the demographic gains $(B + I = 50 + 20 = 70)$ to the starting population $(300 + 70 = 370)$, and subtract the demographic losses $(D + E = 35 + 15 = 50)$, giving $370 - 50 = 320$ individuals. Distractor (A) reverses gains and losses ($300 - 70 + 50 = 280$), while (D) adds losses instead of subtracting them."
+    },
+    {
+      "id": "W07_M03",
+      "week": 7,
+      "lecture": "Lec 31",
+      "source": "mock_unseen",
+      "question": "Why is a complete census (total count of every individual) rarely feasible in most wildlife studies?",
+      "options": [
+        "Wild animals are often cryptic, mobile, and distributed across vast or dense habitats where some individuals inevitably remain undetected",
+        "Ecological laws prohibit counting more than ten individuals per protected area",
+        "Complete censuses can only be performed on microbial soil organisms",
+        "Counting all individuals automatically causes genetic drift in the population"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "In most wildlife studies, a complete census—counting every single individual in the population—is impossible because wild animals move, hide in dense vegetation, and occupy large landscapes, resulting in imperfect detection.",
+      "mini_lesson": "Unlike stationary trees in a small plot, free-ranging wild animals flee, hide in burrows or thickets, or move across boundaries during a count, making $100\\%$ detection across an entire reserve practically impossible. Consequently, wildlife science relies on rigorous sampling designs and detection-corrected statistical estimators rather than raw total counts. Distractor (C) is backwards (microbes are even harder to census completely)."
+    },
+    {
+      "id": "W07_M04",
+      "week": 7,
+      "lecture": "Lec 31",
+      "source": "mock_unseen",
+      "question": "In demographic modelling, what defines a “closed population” during a short-term wildlife survey?",
+      "options": [
+        "A population kept permanently inside an indoor zoo enclosure",
+        "A population that experiences no births, deaths, immigration, or emigration during the survey period",
+        "A population in which all individuals have identical genotypes",
+        "A population that never interacts with any other species in its community"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "A closed population is one in which the population size remains constant during the short duration of the study, assuming no demographic additions (births or immigration) and no demographic losses (deaths or emigration).",
+      "mini_lesson": "In capture-recapture and abundance estimation, the 'closure assumption' means the population neither gains nor loses members while the survey is underway ($B = I = D = E = 0$). Researchers satisfy this assumption in the field by keeping trapping sessions short (e.g., a few days or weeks outside the breeding and migration seasons). Distractor (A) confuses mathematical demographic closure with physical captivity."
+    },
+    {
+      "id": "W07_M05",
+      "week": 7,
+      "lecture": "Lec 31",
+      "source": "mock_unseen",
+      "question": "What is the distinction between crude density and ecological density?",
+      "options": [
+        "Crude density measures only juvenile animals, whereas ecological density measures only breeding adults",
+        "Crude density includes all species in a biome, whereas ecological density includes only invasive species",
+        "Crude density is calculated using satellites, whereas ecological density is calculated using pitfall traps",
+        "Crude density is the number of individuals per unit of total geographic area, whereas ecological density is the number of individuals per unit of actually suitable or habitable area"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Crude density divides the total population size by the entire geographic area of the reserve, whereas ecological density divides the population size only by the area of suitable, usable habitat actually available to that species.",
+      "mini_lesson": "A 500 $\\text{km}^2$ sanctuary might contain 100 $\\text{km}^2$ of barren rock and deep reservoirs that a forest-floor herbivore can never use. Dividing the population by all 500 $\\text{km}^2$ gives crude density, whereas dividing by the 400 $\\text{km}^2$ of actually usable forest gives ecological density—a much more realistic measure of crowding and resource competition."
+    },
+    {
+      "id": "W07_M06",
+      "week": 7,
+      "lecture": "Lec 31",
+      "source": "mock_unseen",
+      "question": "For a relative abundance index (such as call counts per hour or track counts per kilometre) to reliably reflect population changes across years, which condition is essential?",
+      "options": [
+        "The habitat type and weather conditions must be changed deliberately each year",
+        "Every single animal in the reserve must be physically captured and weighed",
+        "The survey protocol, season, and detection conditions must be standardized so the index remains proportional to true abundance",
+        "Only untrained volunteers must be used so that search effort varies randomly"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "A relative abundance index is useful for monitoring temporal trends only when survey effort, season, time of day, and detection conditions are strictly standardized so that changes in the index reflect real changes in population size rather than changes in detectability.",
+      "mini_lesson": "If you count bird calls at dawn in spring one year and at noon during a monsoon storm the next year, your count will drop even if the bird population doubled. Therefore, relative abundance indices require strict standardization of field effort, timing, and visibility so the proportionality between the index and actual population size stays constant. Distractor (A) would destroy index comparability."
+    },
+    {
+      "id": "W07_M07",
+      "week": 7,
+      "lecture": "Lec 32",
+      "source": "mock_unseen",
+      "question": "In ecological measurement and wildlife monitoring, what does “accuracy” refer to?",
+      "options": [
+        "The closeness of a measured or estimated value to the actual, true underlying population value",
+        "The degree of clustering among repeated measurements regardless of whether they are near the true value",
+        "The total number of decimal places displayed on a digital measuring instrument",
+        "The speed at which field observers walk along a transect line"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Accuracy (or correctness) refers to how close a measured or estimated value is to the actual, true underlying population parameter.",
+      "mini_lesson": "In wildlife statistics, accuracy means hitting the bullseye—getting an estimate that is centred on the true population value without systematic distortion. Distractor (B) is the classic sibling-term swap: it defines 'precision' (repeatability or tight clustering of repeated measurements), while (C) confuses instrument resolution with accuracy."
+    },
+    {
+      "id": "W07_M08",
+      "week": 7,
+      "lecture": "Lec 32",
+      "source": "mock_unseen",
+      "question": "What does “precision” (repeatability) mean in wildlife survey statistics?",
+      "options": [
+        "The complete absence of any equipment calibration error",
+        "The degree of mutual agreement, closeness, or clustering among repeated independent measurements of the same quantity",
+        "The ratio of sampled compartments to total forest compartments",
+        "The ability to census 100% of a population without taking samples"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Precision (or repeatability) is the degree of mutual agreement, closeness, or tight clustering among repeated independent measurements of the same quantity under identical conditions, reflecting low random variance.",
+      "mini_lesson": "Precision measures how consistent and repeatable your survey estimates are when you repeat the sampling process—in other words, how tightly your shots cluster together on a target (low variance / narrow confidence intervals). Distractor (A) describes freedom from equipment bias (accuracy), while (C) defines sampling intensity."
+    },
+    {
+      "id": "W07_M09",
+      "week": 7,
+      "lecture": "Lec 32",
+      "source": "mock_unseen",
+      "question": "A faulty laser rangefinder consistently adds exactly $15\\text{ metres}$ to every sighting distance, producing nearly identical readings of $65.1\\text{ m}$, $65.0\\text{ m}$, and $65.1\\text{ m}$ for a tree that is actually $50.0\\text{ m}$ away. How are these measurements classified?",
+      "options": [
+        "High accuracy and high precision",
+        "High accuracy but low precision",
+        "High precision but low accuracy (systematically biased)",
+        "Low precision and zero systematic bias"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "A survey method or instrument can be highly precise yet completely inaccurate: for example, an uncalibrated rangefinder that yields nearly identical repeated measurements that are all systematically shifted away from the true distance.",
+      "mini_lesson": "Because the three readings ($65.1, 65.0, 65.1\\text{ m}$) cluster extremely tightly together, the instrument has high precision (repeatability). However, because all three readings are systematically shifted $15\\text{ m}$ away from the true value of $50.0\\text{ m}$ due to faulty calibration, the measurements have low accuracy (high equipment bias). Distractor (A) confuses tight clustering with truth."
+    },
+    {
+      "id": "W07_M10",
+      "week": 7,
+      "lecture": "Lec 32",
+      "source": "mock_unseen",
+      "question": "Systematic differences in animal detection caused by variations in field staff visual acuity, hearing ability, experience level, or fatigue are known as:",
+      "options": [
+        "Equipment bias",
+        "Random sampling intensity",
+        "Probability proportional to size bias",
+        "Observer bias"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Observer bias arises from systematic differences in detection, species identification, or counting caused by variations in observer visual acuity, hearing thresholds, field experience, alertness, or fatigue.",
+      "mini_lesson": "When a veteran tracker spots twice as many camouflaged deer or hears high-pitched bird calls that a tired novice misses, the resulting distortion in survey data is observer bias. Field managers reduce observer bias through standardized training, joint calibration walks, observer rotation, and double-observer protocols. Distractor (A) refers to mechanical/electronic instrument failure."
+    },
+    {
+      "id": "W07_M11",
+      "week": 7,
+      "lecture": "Lec 32",
+      "source": "mock_unseen",
+      "question": "If a wildlife survey design suffers from severe systematic bias (such as surveying only beside artificial waterholes during the dry season), what happens if you simply double the number of days spent counting at those same waterholes?",
+      "options": [
+        "The systematic bias automatically disappears and the estimate becomes completely accurate",
+        "Precision increases around the wrong value, leaving the estimate systematically biased",
+        "Both precision and accuracy drop to zero",
+        "The survey automatically converts into a simple random sample"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Increasing sample size at unrepresentative sites reduces random scatter (improving precision), but it cannot eliminate systematic sampling bias; it merely produces a more precise estimate of the wrong value.",
+      "mini_lesson": "Larger sample sizes shrink random error (standard error), making your confidence intervals narrower and your estimate more precise. However, if your sampling locations are fundamentally unrepresentative (convenience/waterhole bias), collecting more data at those same biased spots only locks you more tightly onto a systematically inflated number! Distractor (A) is a common statistical misconception."
+    },
+    {
+      "id": "W07_M12",
+      "week": 7,
+      "lecture": "Lec 32",
+      "source": "mock_unseen",
+      "question": "A reserve contains $200$ forest compartments of equal size, and a monitoring team surveys $30$ of these compartments. What is the sampling intensity?",
+      "options": [
+        "6.67%",
+        "30%",
+        "15%",
+        "170%"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Sampling intensity is calculated as the number of sample units surveyed ($n$) divided by the total number of population units in the study universe ($N$): $\\text{Sampling Intensity} = n / N$.",
+      "mini_lesson": "Applying the sampling intensity formula $\\text{Sampling Intensity} = n / N = 30 / 200 = 0.15$, or $15\\%$. Distractor (B) confuses the raw count of sampled units ($n = 30$) with the percentage intensity ($15\\%$), while (A) inverts the fraction ($200 / 30$)."
+    },
+    {
+      "id": "W07_M13",
+      "week": 7,
+      "lecture": "Lec 33",
+      "source": "mock_unseen",
+      "question": "Which monitoring technology is specifically suited for surveying deep-diving cetaceans (whales and dolphins) and nocturnal echolocating bats that are difficult to observe visually?",
+      "options": [
+        "Coloured UV pan trapping",
+        "Pugmark Impression Pads (PIPs)",
+        "Passive Acoustic Monitoring (PAM)",
+        "Herbarium pressing"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Passive Acoustic Monitoring (PAM) uses automated underwater hydrophones or terrestrial ultrasonic recorders to continuously capture vocalizations and echolocation clicks of deep-diving cetaceans, nocturnal bats, and cryptic birds.",
+      "mini_lesson": "Marine mammals spend most of their lives underwater out of sight, and micro-bats fly in complete darkness, but both rely heavily on sound (songs, clicks, and ultrasonic echolocation) to navigate and communicate. Passive Acoustic Monitoring (PAM) deploys moored hydrophones or acoustic loggers to detect species presence and activity non-invasively 24 hours a day. The distractors apply to insects (A), terrestrial carnivore footprints (B), and dried plant specimens (D)."
+    },
+    {
+      "id": "W07_M14",
+      "week": 7,
+      "lecture": "Lec 33",
+      "source": "mock_unseen",
+      "question": "Why did Indian wildlife agencies largely transition away from the historical Pugmark Census Method toward camera-trap mark-recapture for estimating tiger numbers?",
+      "options": [
+        "Tigers stopped walking on forest trails after the year 2000",
+        "Pugmark shapes vary with soil substrate, gait, and observer tracing skill, creating high subjective bias and unreliable individual identification",
+        "Camera traps require no batteries or field deployment",
+        "Pugmarks can only be recorded for arboreal primates"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The historical Pugmark Census Method—recording plaster casts and tracings of left-hind pugmarks on Pugmark Impression Pads (PIPs)—was largely superseded by camera trapping because track impressions deform across soil substrates and suffer from high observer and statistical bias.",
+      "mini_lesson": "In the Pugmark Census Method, field staff traced left-hind footprints on dusty Pugmark Impression Pads (PIPs) and tried to distinguish every individual tiger by subtle track dimensions. However, the same tiger leaves vastly different impressions in mud, loose sand, or hard clay, leading to double-counting and severe observer bias—problems solved by photographing invariant flank stripe patterns with camera traps."
+    },
+    {
+      "id": "W07_M15",
+      "week": 7,
+      "lecture": "Lec 33",
+      "source": "mock_unseen",
+      "question": "To convert standing dung-pile counts along forest transects into an estimate of absolute Asian elephant density, which two additional calibration rates must researchers measure?",
+      "options": [
+        "Soil pH and tree canopy height",
+        "Annual rainfall and tiger stripe asymmetry",
+        "Average walking speed of elephants and tusk length",
+        "Daily defecation rate (dung piles produced per animal per day) and dung decay/disappearance rate"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Converting indirect dung or pellet group counts into an absolute animal density estimate requires measuring two biological calibration rates: the daily defecation rate ($D$) and the dung decay or disappearance rate ($r$) in that specific season and habitat.",
+      "mini_lesson": "In dense rainforests where elephants or deer are rarely seen directly, researchers count dung piles along line transects. However, because dung accumulates based on how often animals defecate and vanishes based on how fast dung beetles, rain, and microbes break it down, converting dung density into animal density requires knowing both the daily defecation rate ($D$) and the local dung decay rate ($r$)."
+    },
+    {
+      "id": "W07_M16",
+      "week": 7,
+      "lecture": "Lec 33",
+      "source": "mock_unseen",
+      "question": "Placing wildlife survey transects exclusively along paved tourist roads and easily accessible forest tracks introduces which type of error?",
+      "options": [
+        "Equipment calibration bias",
+        "Convenience / roadside access sampling bias",
+        "Instrument resolution drift",
+        "Genetic outbreeding depression"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Conducting wildlife surveys exclusively along convenient roadsides and tourist tracks introduces severe sampling (convenience/access) bias, over-representing edge-tolerant generalists while missing shy interior specialists.",
+      "mini_lesson": "Roadsides have altered microclimates, artificial clearings, vehicle noise, and human disturbance, meaning shy forest-interior species avoid them while edge-loving generalists (like spotted deer or macaques) may congregate along verges. Extrapolating roadside counts to the entire forest interior commits classic convenience/access sampling bias. Distractor (A) is a sibling bias term referring to faulty measuring gear."
+    },
+    {
+      "id": "W07_M17",
+      "week": 7,
+      "lecture": "Lec 33",
+      "source": "mock_unseen",
+      "question": "In monitoring large coastal ecosystems such as the Sundarbans, Mahanadi Delta, and Andaman Islands, satellite remote sensing (such as Landsat and Sentinel-2 NDVI mapping) is primarily used to:",
+      "options": [
+        "Track mangrove canopy extent, vegetation health, dieback, and coastal land-use changes across landscape scales",
+        "Identify individual tigers by their flank stripes from space",
+        "Count underground earthworms in deep soil layers",
+        "Measure the body temperature of individual deep-sea whales"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Satellite Earth observation using multispectral sensors (such as Landsat and Sentinel-2 NDVI mapping) enables landscape-scale monitoring of mangrove forest canopy cover, dieback, illegal embankment construction, and coastal carbon stocks across the Sundarbans, Mahanadi Delta, and Andaman Islands.",
+      "mini_lesson": "Muddy, tidal mangrove deltas like the Sundarbans are extremely difficult to traverse on foot, making optical and radar satellites ideal for tracking canopy vigour (via indices like NDVI), cyclone damage, aquaculture encroachment, and restoration progress across thousands of square kilometres. The distractors describe fine-scale individual animal measurements that satellites cannot perform."
+    },
+    {
+      "id": "W07_M18",
+      "week": 7,
+      "lecture": "Lec 33",
+      "source": "mock_unseen",
+      "question": "Beyond counting dung piles for abundance indices, how can fresh dung or scat samples be used to identify individual elusive animals without capturing them?",
+      "options": [
+        "By painting the dung piles with UV-reflective yellow paint",
+        "By measuring the temperature of the dung pile three weeks later",
+        "By extracting host epithelial DNA shed onto the dung surface for non-invasive genetic mark-recapture",
+        "By burning the dung to measure hydrophobic soil formation"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Fresh dung or scat samples slough off intestinal epithelial cells from the animal's gut lining, allowing researchers to extract host DNA (microsatellites) for non-invasive individual identification, sex determination, and genetic mark-recapture.",
+      "mini_lesson": "As food passes through an animal's digestive tract, a thin layer of intestinal lining cells coats the outer surface of the dung or scat. Swabbing fresh dung allows geneticists to amplify microsatellite DNA markers, identifying the exact individual animal, its sex, and its relatedness to others without ever darting or seeing it."
+    },
+    {
+      "id": "W07_M19",
+      "week": 7,
+      "lecture": "Lec 34",
+      "source": "mock_unseen",
+      "question": "What is the primary methodological risk of using Systematic Sampling (selecting every $k^{\\text{th}}$ unit at a fixed spatial interval) across a natural landscape?",
+      "options": [
+        "It requires complex computer random-number generators for every single point in the field",
+        "If the fixed sampling interval accidentally aligns with a repeating periodic feature in the landscape (such as parallel ridges and valleys), the sample becomes severely biased",
+        "It can never cover the entire geographic extent of a study area",
+        "It gives only the largest forest compartments a chance of being sampled"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "While systematic sampling (selecting every $k^{\\text{th}}$ unit after a random start) ensures even spatial coverage and easy field navigation, its major risk is the periodic alignment trap: if the sampling interval coincides with a hidden periodic environmental pattern (such as parallel ridges and streams), estimates become severely biased.",
+      "mini_lesson": "Imagine placing vegetation plots every $500\\text{ m}$ across a landscape where valleys and hilltops also repeat every $500\\text{ m}$: every single plot might land exclusively on dry hilltops and miss the lush stream valleys entirely! This 'periodic alignment trap' is the classic vulnerability of systematic sampling. Distractor (D) describes PPS sampling."
+    },
+    {
+      "id": "W07_M20",
+      "week": 7,
+      "lecture": "Lec 34",
+      "source": "mock_unseen",
+      "question": "In standardized pan trapping for wild insect pollinators, why are shallow bowls painted in UV-reflective yellow, blue, and white and filled with water containing a drop of unscented soap?",
+      "options": [
+        "The colours repel all birds and mammals while sterilizing the surrounding soil",
+        "The soap acts as a nutritional food reward so insects fly away heavier",
+        "The bowls are used to provide drinking water for large ungulates and carnivores",
+        "The colours mimic floral wavelengths to attract diverse pollinator guilds, and the soap breaks water surface tension so landing insects sink and are retained"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Standardized pollinator pan trapping uses shallow bowls painted in UV-reflective yellow, blue, and white—placed at surrounding flower height—to attract different bee and fly guilds, filled with $1\\%$ unscented soapy water where the surfactant lowers surface tension so trapped insects sink rather than walk on the water.",
+      "mini_lesson": "Different insect pollinator families have different colour preferences (for example, hoverflies and many bees favour yellow, while other wild bees prefer blue or white), so deploying a triad of yellow, blue, and white bowls at inflorescence height samples the full pollinator community. Adding a tiny drop of unscented detergent breaks the surface tension of the water so insects cannot skate off the surface and escape."
+    },
+    {
+      "id": "W07_M21",
+      "week": 7,
+      "lecture": "Lec 34",
+      "source": "mock_unseen",
+      "question": "In a Lincoln-Petersen capture-recapture study of pond turtles, researchers capture, mark, and release $M = 60$ turtles in Session 1. In Session 2, they capture a total of $n = 45$ turtles, of which $m = 15$ carry marks from Session 1. What is the estimated total population size ($N$)?",
+      "options": [
+        "90 turtles",
+        "120 turtles",
+        "180 turtles",
+        "675 turtles"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Under the Lincoln-Petersen capture-recapture index, the proportion of marked animals in the second sample ($m / n$) equals the proportion of marked animals in the total population ($M / N$), giving the estimator $N = (M \\cdot n) / m$.",
+      "mini_lesson": "Using the Lincoln-Petersen formula $N = (M \\cdot n) / m$, multiply the number marked in Session 1 ($M = 60$) by the total captured in Session 2 ($n = 45$) and divide by the number of marked recaptures ($m = 15$): $N = (60 \\times 45) / 15 = 2,700 / 15 = 180$ turtles. Intuitively, since $15/45 = 1/3$ of the second sample was marked, the $60$ marked turtles represent $1/3$ of the total pond population ($60 \\times 3 = 180$)."
+    },
+    {
+      "id": "W07_M22",
+      "week": 7,
+      "lecture": "Lec 34",
+      "source": "mock_unseen",
+      "question": "Which set correctly states the three core assumptions of the classical Lincoln-Petersen two-sample capture-recapture estimator?",
+      "options": [
+        "The population is demographically closed, marks are not lost or overlooked, and marked and unmarked individuals have equal catchability",
+        "The population experiences rapid migration, marks fade within 24 hours, and only marked animals enter traps",
+        "The landscape is divided into habitat strata, larger plots are sampled more often, and no animals are released",
+        "All animals stand directly on the transect line, sighting angles are measured in degrees, and AIC is minimized"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "The classical Lincoln-Petersen estimator relies on three inviolate assumptions: (1) the population is demographically closed during the study; (2) marks are neither lost nor overlooked; and (3) every individual—marked or unmarked—has an equal probability of capture (equal catchability).",
+      "mini_lesson": "For the ratio $M / N = m / n$ to hold mathematically, the population size $N$ must not change between sessions (closed population), marked animals must remain recognizable (no tag loss), and being caught once must not make an animal easier or harder to catch in Session 2 (equal catchability). Distractor (D) lists assumptions/metrics of Line Transect Distance Sampling from Lecture 35."
+    },
+    {
+      "id": "W07_M23",
+      "week": 7,
+      "lecture": "Lec 34",
+      "source": "mock_unseen",
+      "question": "In a capture-recapture survey using food-baited traps, marked rodents learn that traps contain free food and become “trap-happy” (returning to traps much more frequently than unmarked rodents). How does this violate the Lincoln-Petersen model and bias the population estimate $N = (M \\cdot n) / m$?",
+      "options": [
+        "It reduces the number of marked recaptures ($m$), causing the formula to overestimate the true population size ($N$)",
+        "It inflates the number of marked recaptures ($m$), causing the formula to underestimate the true population size ($N$)",
+        "It increases the initial number of marked animals ($M$) before Session 1 begins",
+        "It has zero effect on the population estimate because food bait guarantees equal catchability"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "If marked animals become 'trap-happy' due to attractive bait, they are recaptured at an artificially high rate (inflating $m$ in the denominator of $N = M \\cdot n / m$), which causes the Lincoln-Petersen estimator to underestimate true population size.",
+      "mini_lesson": "Look at the denominator of $N = (M \\cdot n) / m$: when marked animals eagerly re-enter baited traps ('trap-happy'), the recapture count $m$ in the denominator becomes artificially large, which makes the calculated fraction $N$ artificially small (an underestimate of the true population). Conversely, 'trap-shy' animals avoid traps in Session 2, making $m$ too small and overestimating $N$ (Distractor B)."
+    },
+    {
+      "id": "W07_M24",
+      "week": 7,
+      "lecture": "Lec 34",
+      "source": "mock_unseen",
+      "question": "What is a practical field drawback of Simple Random Sampling (SRS) when surveying a large, heterogeneous forest reserve?",
+      "options": [
+        "It mathematically prohibits calculating a sample mean",
+        "It requires knowing the exact weight of every individual animal before selecting plots",
+        "It forces observers to sample only along paved highways",
+        "By pure random chance, selected units may cluster together in one part of the reserve, leaving large remote sectors or rare habitat types unsampled"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Although Simple Random Sampling is statistically unbiased, in large heterogeneous landscapes random draws can accidentally cluster sample units in one area while leaving large sectors or rare habitats completely unvisited.",
+      "mini_lesson": "Because Simple Random Sampling picks units blindly with equal probability ($1/N$), a random draw of 20 plots might put 15 of them in one corner of the park and zero in a critical wetland valley. This spatial clumping increases travel cost and estimate variance across heterogeneous habitats—which is why managers upgrade to Stratified or Systematic designs."
+    },
+    {
+      "id": "W07_M25",
+      "week": 7,
+      "lecture": "Lec 35",
+      "source": "mock_unseen",
+      "question": "In Line Transect Distance Sampling, what is the fundamental assumption regarding detection on the transect centerline ($y = 0$)?",
+      "options": [
+        "Zero animals are ever present on the transect centerline ($g(0) = 0$)",
+        "Animals located directly on the transect line ($y = 0$) are detected with 100% certainty ($g(0) = 1$)",
+        "Detection probability remains 100% constant out to an infinite perpendicular distance",
+        "Observers record only animals that flee before their initial position can be seen"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The primary, foundational assumption of line transect distance sampling is that all individual animals located directly on the centerline of the transect (perpendicular distance $y = 0$) are detected with absolute $100\\%$ certainty: $g(0) = 1$.",
+      "mini_lesson": "Distance sampling allows visibility $g(y)$ to drop off as perpendicular distance $y$ increases into thick forest, but to anchor the mathematical curve and calculate what fraction of animals was missed away from the line, detection right on the line itself ($y = 0$) must be $100\\%$ ($g(0) = 1$). Distractor (C) describes a conventional strip transect where nothing is missed at any distance."
+    },
+    {
+      "id": "W07_M26",
+      "week": 7,
+      "lecture": "Lec 35",
+      "source": "mock_unseen",
+      "question": "When an observer walking a straight line transect spots a herd of spotted deer at a radial sighting distance $r$ and a sighting angle $\\theta$ relative to the transect line, how is the perpendicular distance $y$ calculated?",
+      "options": [
+        "$y = r \\cdot \\sin(\\theta)$",
+        "$y = r / \\tan(\\theta)$",
+        "$y = r + \\theta$",
+        "$y = r^2 \\cdot \\cos(\\theta)$"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "In field line-transect surveys, observers measure the observer-to-animal radial sighting distance ($r$) with a rangefinder and the sighting angle ($\\theta$) with a compass, calculating perpendicular distance from the transect line via right-triangle trigonometry as $y = r \\cdot \\sin(\\theta)$.",
+      "mini_lesson": "Measuring perpendicular distance directly in the field requires leaving the transect line and crashing through bushes to the animal's spot. Instead, observers stay on the line, shoot the straight-line radial distance $r$ to the animal and the angle $\\theta$ off the transect centerline, and use basic trigonometry ($y = r \\cdot \\sin(\\theta)$, opposite side of the right triangle) to compute perpendicular distance."
+    },
+    {
+      "id": "W07_M27",
+      "week": 7,
+      "lecture": "Lec 35",
+      "source": "mock_unseen",
+      "question": "In distance sampling, what does the Effective Strip Half-Width ($\\mu$ or ESHW) represent geometrically?",
+      "options": [
+        "The total length of all roads inside a National Park",
+        "The minimum distance required between two camera-trap stations",
+        "The average body width of an adult herbivore",
+        "The perpendicular distance from the transect line at which the number of animals missed inside $\\mu$ equals the number of animals detected beyond $\\mu$"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "The Effective Strip Half-Width ($\\mu = \\int_0^w g(y)\\,dy$) is the perpendicular distance from the transect centerline such that the number of unseen animals missed within distance $\\mu$ exactly equals the number of seen animals detected beyond distance $\\mu$.",
+      "mini_lesson": "Because detection $g(y)$ declines gradually with distance, distance sampling converts a curved detection profile into an equivalent rectangular 'effective strip' of half-width $\\mu$. At distance $\\mu$, the missed animals closer than $\\mu$ are exactly balanced by the spotted animals farther than $\\mu$, allowing density to be calculated simply as $\\hat{D} = n / (2 \\cdot L \\cdot \\mu)$."
+    },
+    {
+      "id": "W07_M28",
+      "week": 7,
+      "lecture": "Lec 35",
+      "source": "mock_unseen",
+      "question": "Using the distance sampling density formula $\\hat{D} = \\frac{n}{2 \\cdot L \\cdot \\mu}$, what is the estimated density ($\\hat{D}$) of sambar deer if observers detect $n = 80$ individual deer along a total transect length of $L = 20\\text{ km}$ with an effective strip half-width of $\\mu = 0.05\\text{ km}$ ($50\\text{ m}$)?",
+      "options": [
+        "20 deer per $\\text{km}^2$",
+        "40 deer per $\\text{km}^2$",
+        "80 deer per $\\text{km}^2$",
+        "160 deer per $\\text{km}^2$"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Animal density in line-transect distance sampling is estimated by $\\hat{D} = \\frac{n}{2 \\cdot L \\cdot \\mu}$, where $n$ is the number of animals detected, $L$ is total transect length, $\\mu$ is the effective strip half-width, and $2 \\cdot L \\cdot \\mu$ is the effective area surveyed on both sides of the line.",
+      "mini_lesson": "First, calculate the effective area surveyed on both sides of the $20\\text{ km}$ transect: $\\text{Effective Area} = 2 \\cdot L \\cdot \\mu = 2 \\times 20\\text{ km} \\times 0.05\\text{ km} = 2.0\\text{ km}^2$. Next, divide the $n = 80$ detected deer by the $2.0\\text{ km}^2$ effective area: $\\hat{D} = 80 / 2.0 = 40\\text{ deer per km}^2$. Distractor (C) forgets the factor of $2$ (counting only one side of the transect line)."
+    },
+    {
+      "id": "W07_M29",
+      "week": 7,
+      "lecture": "Lec 35",
+      "source": "mock_unseen",
+      "question": "How does dense forest undergrowth affect the detection function curve $g(y)$ compared to an open grassland, and how does distance sampling handle this difference?",
+      "options": [
+        "Distance sampling ignores visibility differences and assumes identical strip widths in all habitats",
+        "Dense undergrowth makes $g(y)$ increase with distance so observers see farther in thickets than in grasslands",
+        "Dense undergrowth causes detection probability $g(y)$ to drop off more steeply with distance, yielding a smaller effective strip half-width ($\\mu$) that mathematically corrects for lower visibility",
+        "Dense undergrowth prevents any mathematical model from being fitted"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "In dense vegetative cover, visibility drops off rapidly with perpendicular distance, causing a steeper detection curve $g(y)$ and a smaller effective strip half-width ($\\mu$); distance sampling automatically corrects for this visibility bias by estimating $\\mu$ separately for each habitat.",
+      "mini_lesson": "If you count 30 deer in an open meadow (where you can see 200 m) and 30 deer in a thick bamboo forest (where you can see only 25 m), raw counts would falsely suggest equal density. Distance sampling solves this visibility bias: the bamboo forest gets a much narrower effective strip half-width $\\mu$ in the denominator of $\\hat{D} = n / (2 \\cdot L \\cdot \\mu)$, correctly revealing a much higher true density in the dense forest!"
+    },
+    {
+      "id": "W07_M30",
+      "week": 7,
+      "lecture": "Lec 35",
+      "source": "mock_unseen",
+      "question": "In distance sampling analysis (such as Program DISTANCE), what is the role of the Akaike Information Criterion (AIC)?",
+      "options": [
+        "It selects the most parsimonious detection function model by balancing goodness-of-fit to the distance data against the number of model parameters",
+        "It tranquilizes large carnivores during collar fitting",
+        "It measures the battery voltage of underwater hydrophones",
+        "It calculates the genetic heterozygosity of a founder population"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "The Akaike Information Criterion (AIC) is an information-theoretic statistical metric used in distance sampling to compare candidate detection functions (such as half-normal, hazard-rate, or uniform) and select the most parsimonious model that balances goodness-of-fit against parameter complexity.",
+      "mini_lesson": "Adding extra mathematical parameters to a curve almost always makes it wiggle closer to sample points, but overfitting produces noisy, unreliable density estimates. The Akaike Information Criterion (AIC) rewards models for fitting the observed distance histogram well while penalizing them for adding unnecessary parameters—so the candidate model with the lowest AIC score is chosen."
+    }
+  ]
+}

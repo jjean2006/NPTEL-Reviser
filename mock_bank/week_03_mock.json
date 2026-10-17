@@ -1,0 +1,492 @@
+{
+  "week": 3,
+  "lecture_briefings": {
+    "Lec 11": "Human pressure on biodiversity is driven by both total population size and per-capita consumption rates, meaning ecological footprints grow through five pathways: land conversion, water extraction, energy infrastructure, material mining, and waste generation. Even renewable technologies like wind farms carry ecological footprints through land clearing, access roads, mechanical noise, and bird collisions with turbine blades. When human disturbances reshape landscapes, narrow-niche specialist species (like the giant panda or the ecosystem-engineering Greater One-Horned Rhinoceros) decline early, while disturbance-tolerant generalists (like the Palash tree) proliferate and mask deeper community diversity loss. Watch out for these 3 key terms: Ecological Footprint (the total land, water, material, and waste demand placed on nature), Specialist vs. Generalist Species (narrow-requirement species that crash first vs. broad-tolerance species that survive disturbance), and Direct vs. Indirect Disturbance Effects (immediate habitat removal like quarrying vs. delayed cascading changes like road edges inviting invasive weeds).",
+    "Lec 12": "Habitat impact is not just total destruction; it unfolds across four distinct forms—habitat degradation (declining quality), habitat fragmentation (breaking continuous landscapes into isolated islands), habitat displacement (pushing wildlife into marginal low-capacity refuges), and outright habitat loss. Degradation occurs invisibly through soil erosion, pesticide biomagnification (such as DDD multiplying from 0.01 ppm in Clear Lake water to 2,500 ppm in fish-eating birds), ghost nets in oceans, and plastics penetrating even strictly protected reserves. Meanwhile, landscape fragmentation progresses through four spatial stages—dissection (a road or railway cut), perforation (initial clearings like a roadside shop or resort), fragmentation (isolated patches), and attrition (complete disappearance of remaining patches). Watch out for these 3 key terms: Biomagnification (the progressive concentration of persistent toxins at higher trophic levels), Dissection-Perforation-Fragmentation-Attrition (the four sequential geometric stages of landscape breakup), and Edge Effects (altered light, wind, temperature, and invasive-species penetration along fragment boundaries that shrink the true interior core).",
+    "Lec 13": "Overexploitation occurs whenever humans harvest biological resources—through fishing, logging, hunting, or grazing—at a rate that exceeds the population's natural capacity to regenerate. Because biological renewal has strict ecological speed limits, even a renewable living resource becomes effectively non-renewable if harvest outpaces reproduction and recruitment, regardless of whether the extraction is legally permitted. Overexploitation is accelerated by open-access 'Tragedy of the Commons' dynamics, the scarcity-price spiral (where extreme rarity drives up black-market prices and poaching incentives), and selective harvesting of large breeding adults or tusked males, which destabilizes age structure, sex ratios, and entire food webs. Watch out for these 3 key terms: Overexploitation (harvesting a living resource faster than its natural regeneration capacity), Tragedy of the Commons (unregulated open-access competition where every user maximizes immediate catch at the expense of shared collapse), and Scarcity-Price Spiral (economic feedback loop where declining population size increases market value and intensifies harvesting pressure).",
+    "Lec 14": "Not every non-native organism is an ecological villain: an alien (exotic) species is simply one introduced outside its natural evolutionary range, whereas an invasive alien species is one that establishes, spreads aggressively, and causes ecological or economic harm. Human trade, transport (such as ship ballast water or cargo planes carrying the brown tree snake to Guam), and ornamental planting breach natural biogeographical barriers, allowing invaders to thrive via the Enemy Release Hypothesis (escaping coevolved predators and diseases) and human-disturbed edges. Once established, invasives drive native species to extinction through direct predation, competition, disease transmission (like chytrid fungus), and genetic hybridization, making border biosecurity and prevention far more effective than late-stage eradication. Watch out for these 3 key terms: Native vs. Alien vs. Invasive Species (naturally evolved residents vs. human-introduced outsiders vs. established outsiders that spread and cause harm), Enemy Release Hypothesis (the advantage gained by an introduced species when freed from its native predators, parasites, and pathogens), and Invasion Management Hierarchy (the sequence from high-return Prevention and Early Detection down to Containment, Control, and high-cost Eradication).",
+    "Lec 15": "In ecology, pollution is defined broadly as the harmful introduction of either chemical substances (pesticides, plastics, heavy metals, nutrient runoff) or physical energy (chronic noise and artificial light at night) at rates exceeding an ecosystem's capacity to dilute, breakdown, or recycle them. Beyond sudden, visible acute disasters like oil spills, ecosystems suffer silently from chronic exposure that causes sublethal harm—disrupting hormone systems, weakening juvenile survival, masking frog and bird acoustic calls with traffic noise, and disorienting sea turtle hatchlings with coastal streetlights. Because persistent pollutants like mercury, lead, and arsenic accumulate in sediments and food webs long before mass die-offs appear, the absence of a visible crisis is never proof of ecological health, making proactive source prevention and ecological monitoring essential. Watch out for these 3 key terms: Chemical vs. Energy Pollution (toxic substances like heavy metals/pesticides vs. sensory disruptions like noise and artificial light at night), Acute vs. Chronic Exposure (sudden high-dose contamination events vs. long-term, low-level continuous pollution), and Sublethal Effects (physiological, behavioral, or reproductive impairments that weaken populations over generations without causing immediate death)."
+  },
+  "questions": [
+    {
+      "id": "W03_M01",
+      "week": 3,
+      "lecture": "Lec 11",
+      "source": "mock_unseen",
+      "question": "Why can total ecological pressure on biodiversity continue to rise even if human population growth slows down?",
+      "options": [
+        "Because rising per capita resource consumption, infrastructure expansion, and waste generation multiply human demand",
+        "Because only total population headcount determines environmental impact",
+        "Because natural ecosystems automatically shrink without human intervention",
+        "Because technological development completely eliminates material extraction"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Therefore, total ecological impact depends not only on how many people live on the planet, but also on how much each person consumes and how resource systems are organized.",
+      "mini_lesson": "Human pressure on nature is a product of both population size and per-capita consumption: two societies with identical population sizes can have vastly different ecological footprints if one consumes far more energy, land, water, and materials per person. Option (B) is a classic reductionist trap that ignores affluence and consumption intensity, while Option (D) states a false absolute."
+    },
+    {
+      "id": "W03_M02",
+      "week": 3,
+      "lecture": "Lec 11",
+      "source": "mock_unseen",
+      "question": "Which set correctly identifies the five prominent pathways through which human resource demand reshapes ecosystems?",
+      "options": [
+        "Mutation, genetic drift, natural selection, migration, and speciation",
+        "Land conversion, water extraction, energy production, material extraction, and waste generation",
+        "Photosynthesis, respiration, transpiration, decomposition, and nitrogen fixation",
+        "Ecotourism, seed banking, captive breeding, reforestation, and genetic rescue"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "These demands operate through several prominent pathways. The first is land conversion... The second is water extraction... The third is energy production... The fourth is material extraction... The fifth is waste generation.",
+      "mini_lesson": "Humanity's ecological footprint is channeled through five concrete material pathways: clearing land for farms/cities, diverting fresh water from rivers/aquifers, building energy infrastructure, mining raw materials, and discharging solid, liquid, and gaseous waste. Options (A), (C), and (D) list evolutionary processes, basic plant/ecosystem functions, and conservation interventions rather than resource-demand pathways."
+    },
+    {
+      "id": "W03_M03",
+      "week": 3,
+      "lecture": "Lec 11",
+      "source": "mock_unseen",
+      "question": "How do renewable wind energy installations create ecological footprints in natural landscapes?",
+      "options": [
+        "They release large quantities of heavy metals directly into deep ocean trenches",
+        "They permanently eliminate all atmospheric wind currents across continents",
+        "They require land clearing, access roads, and transmission lines while posing blade collision and noise hazards to birds",
+        "They operate without any physical materials, land footprint, or wildlife interactions"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Turbines require land clearing, access roads, and transmission lines. Moving blades can cause bird collisions, disrupt flight paths, and generate mechanical noise.",
+      "mini_lesson": "Although wind power avoids fossil-fuel carbon emissions, it is not ecologically footprint-free: building wind farms requires land clearing, road networks, and power lines, while spinning blades kill birds and bats and create mechanical noise disturbance. Option (D) is the common green-tech illusion that 'renewable' means zero habitat impact, while Options (A) and (B) are fabricated physical claims."
+    },
+    {
+      "id": "W03_M04",
+      "week": 3,
+      "lecture": "Lec 11",
+      "source": "mock_unseen",
+      "question": "Why does the loss of the Greater One-Horned Rhinoceros from alluvial grasslands trigger broader ecosystem changes?",
+      "options": [
+        "Because it is a marine apex predator that regulates coral reef calcification",
+        "Because it is an invasive generalist that spreads toxic weeds across arid deserts",
+        "Because it fixes atmospheric nitrogen directly inside coniferous forest canopies",
+        "Because as a megaherbivore it maintains grazing lawns, disperses seeds, and creates wetland wallows used by other species"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Why does this matter beyond the species itself? Because the rhino is a mega herbivore that shapes its ecosystem. It maintains grazing lawns, disperses seeds and creates wallows that other species use.",
+      "mini_lesson": "Once widespread across the Indus, Ganga, and Brahmaputra floodplains and now restricted to small pockets in Assam, West Bengal, and Nepal's Terai, the Greater One-Horned Rhinoceros is a specialist megaherbivore and ecosystem engineer whose grazing, seed dispersal, and mud wallows structure wetland-grassland habitats for countless other species. Options (A), (B), and (C) mischaracterize its habitat, trophic role, and native status."
+    },
+    {
+      "id": "W03_M05",
+      "week": 3,
+      "lecture": "Lec 11",
+      "source": "mock_unseen",
+      "question": "What does the widespread dominance of disturbance-tolerant species like the Palash tree (*Butea monosperma*) in a degraded forest indicate?",
+      "options": [
+        "That the forest has reached pristine climax biodiversity with full specialist recovery",
+        "That green vegetation cover can persist visually even as sensitive specialist species and overall community diversity decline",
+        "That all invasive alien plants have been permanently eradicated from the landscape",
+        "That soil nutrients and moisture have exceeded optimal levels for all tropical trees"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Disturbance tolerant species like palash can persist and even dominate in degraded landscapes. This creates an important ecological insight. A landscape may still look green and forested, yet its community composition may have shifted toward a few hardy generalists, while many sensitive species have quietly disappeared.",
+      "mini_lesson": "When human disturbance degrades a forest, sensitive narrow-niche specialists vanish first while hardy generalists like Palash (*Butea monosperma*) thrive on poor soils and frequent lopping, creating a 'green illusion' that masks severe biodiversity impoverishment. Option (A) is the exact trap the professor warns against—mistaking green tree cover for an intact, diverse forest community."
+    },
+    {
+      "id": "W03_M06",
+      "week": 3,
+      "lecture": "Lec 11",
+      "source": "mock_unseen",
+      "question": "How does an indirect ecological effect of human disturbance differ from a direct effect?",
+      "options": [
+        "Direct effects occur only in marine ecosystems, whereas indirect effects occur only in deserts",
+        "Direct effects always increase biodiversity, whereas indirect effects always reduce pollution",
+        "Direct effects remove habitat or kill organisms immediately, whereas indirect effects alter light, microclimate, and edges to favour invasive species like *Lantana camara*",
+        "Direct effects take millions of years to appear, whereas indirect effects vanish within hours"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Direct effects are immediate and visible, such as clearing trees, quarrying hillsides, or killing organisms during construction. Indirect effects unfold more gradually. A road cut through a forest opens the canopy, increases light and wind at the forest edge, alters local temperature and moisture, and creates conditions where invasive species such as Lantana camara can spread.",
+      "mini_lesson": "Direct disturbance effects physically destroy habitat right away (like hillside quarrying in Jaipur), whereas indirect effects cascade over time—for instance, a forest road opening the canopy, drying out the microclimate along the edge, and allowing invasive *Lantana camara* to choke out native understorey plants and alter fire regimes. Options (A), (B), and (D) use false absolutes and reverse the timescales."
+    },
+    {
+      "id": "W03_M07",
+      "week": 3,
+      "lecture": "Lec 12",
+      "source": "mock_unseen",
+      "question": "In the classic Clear Lake pesticide study, how did DDD concentrations change across the aquatic food web?",
+      "options": [
+        "DDD rose through biomagnification from about 0.01 ppm in water to 5 ppm in plankton, 40–300 ppm in fish, and 1,600–2,500 ppm in fish-eating birds",
+        "DDD diluted rapidly from 2,500 ppm in water down to 0.01 ppm in top predatory birds",
+        "DDD remained fixed at exactly 0.01 ppm across water, plankton, fish, and birds",
+        "DDD affected only non-living lake sediments and never entered living tissues"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "In the water itself, the concentration of DDD was extremely low, only about 0.01 parts per million. Yet in plankton, the concentration rose to about 5 parts per million. In fish that fed on plankton, it increased further from 40 to 300 parts per million. And in fish-eating birds at the top of the food chain, concentrations reached 1,600 to 2,500 parts per million.",
+      "mini_lesson": "Biomagnification occurs when a persistent, fat-soluble toxin like DDD (a close chemical relative of DDT applied to Clear Lake for gnat control) cannot be excreted and concentrates at each step up the food chain, multiplyingroughly 250,000-fold from trace water levels (0.01 ppm) to lethal levels (1,600–2,500 ppm) in western grebes and other piscivorous birds. Option (B) reverses the trophic gradient, and Option (C) ignores trophic concentration."
+    },
+    {
+      "id": "W03_M08",
+      "week": 3,
+      "lecture": "Lec 12",
+      "source": "mock_unseen",
+      "question": "What does the discovery of plastic in rhinoceros dung inside Manas Tiger Reserve and near Nilgiri tahr in Mukurthi National Park demonstrate?",
+      "options": [
+        "That plastic waste is completely biodegradable inside herbivore digestive tracts",
+        "That habitat degradation from plastic pollution penetrates even strictly protected wildlife reserves and high-altitude parks",
+        "That protected area boundaries automatically block all external human pollutants",
+        "That wild herbivores require synthetic polymers for mineral nutrition"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Even inside Manas Tiger Reserve, a UNESCO World Heritage site, plastic has been found in rhinoceros dung, showing that waste now reaches animals even within strictly protected areas... Even in remote high-altitude grass hills like Mukurthi National Park, home to the endangered Nilgiri Tahr, plastic waste carried by visitors and wind degrades the habitat.",
+      "mini_lesson": "Legal protection boundaries on a map do not stop physical pollutants carried by wind, water, or tourists: finding plastic ingested by rhinos in Manas Tiger Reserve and littering Nilgiri tahr habitats in Mukurthi National Park proves that habitat degradation penetrates deep into core conservation zones. Option (C) is the false 'fortress boundary' assumption that legal status alone insulates ecosystems from pollution."
+    },
+    {
+      "id": "W03_M09",
+      "week": 3,
+      "lecture": "Lec 12",
+      "source": "mock_unseen",
+      "question": "Which set correctly matches the primary human driver of deforestation observed across the three Madhya Pradesh satellite case studies?",
+      "options": [
+        "Volcanic eruptions in Balaghat, glacier retreat in Umaria, and tsunami flooding in Bhopal",
+        "Mining in Balaghat, agricultural conversion in Umaria, and dam reservoir submergence near Bhopal",
+        "Afforestation in Balaghat, coral bleaching in Umaria, and wind farming in Bhopal",
+        "Marine trawling in Balaghat, glacial melting in Umaria, and sand dune stabilization in Bhopal"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "In Balaghat district of Madhya Pradesh, satellite images from 1990 and 2019 show how mining operations have expanded into dense forest land... In Umaria district, the driver is agricultural conversion... And near Bhopal, the construction of a dam has submerged large areas of forest under a reservoir.",
+      "mini_lesson": "Deforestation is driven by multiple distinct development pressures rather than a single cause: satellite time-series across Madhya Pradesh illustrate open-cast mining eating into forests in Balaghat, farming expansion replacing forest cover in Umaria, and hydroelectric/irrigation reservoir submergence drowning forests near Bhopal. Options (A), (C), and (D) pair the districts with fabricated geological or marine processes."
+    },
+    {
+      "id": "W03_M10",
+      "week": 3,
+      "lecture": "Lec 12",
+      "source": "mock_unseen",
+      "question": "What is the correct sequential order of the four geometric stages of landscape fragmentation?",
+      "options": [
+        "Attrition, fragmentation, perforation, and dissection",
+        "Perforation, attrition, dissection, and reforestation",
+        "Dissection, perforation, fragmentation, and attrition",
+        "Fragmentation, dissection, succession, and restoration"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Ecologists recognize four stages in this process: dissection, perforation, fragmentation, and attrition. It often begins with dissection, when a linear feature such as a road, railway, or canal cuts across an intact landscape.",
+      "mini_lesson": "Landscape breakup follows a predictable four-stage spatial sequence: first, Dissection slices an intact habitat with a road or railway; second, Perforation punches initial holes along that route (like a roadside tea/samosa stall or resort); third, Fragmentation breaks the habitat into separate isolated islands; and fourth, Attrition shrinks and eliminates the remaining small patches completely. Option (A) lists the exact reverse chronological order."
+    },
+    {
+      "id": "W03_M11",
+      "week": 3,
+      "lecture": "Lec 12",
+      "source": "mock_unseen",
+      "question": "Why can habitat displacement create a misleading appearance of peaceful coexistence between humans and wildlife?",
+      "options": [
+        "Because displaced wildlife immediately evolve into domesticated livestock",
+        "Because rocky hills and steep slopes always have higher carrying capacity than fertile floodplains",
+        "Because all displaced species migrate permanently to Antarctica",
+        "Because animals pushed out of fertile plains into marginal hills avoid human settlements while quietly suffering lower carrying capacity and population decline"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "When human settlements and farms take over the productive flat plains, wild animals are pushed into the remaining rocky hills and steep slopes. Because the animals are now confined to the hills and rarely enter the town, people may assume there is no conflict and that wildlife is safe. Yet those rocky hills have a much lower carrying capacity, less food, and less water than the fertile plains the animals lost.",
+      "mini_lesson": "Habitat displacement occurs when urban and agricultural expansion monopolizes prime, fertile valleys (as seen in the Cape Town aerial example) and forces wildlife onto steep, rocky, resource-poor slopes. Because animals are out of sight and direct conflict drops, observers mistakenly assume wildlife is thriving, when in reality the marginal refuge has a tiny carrying capacity that starves the population over time. Option (B) inverts ecological carrying capacity."
+    },
+    {
+      "id": "W03_M12",
+      "week": 3,
+      "lecture": "Lec 12",
+      "source": "mock_unseen",
+      "question": "How can agricultural irrigation in dry regions ironically accelerate desertification?",
+      "options": [
+        "Excessive flood irrigation and poor drainage raise water tables and leave behind salt crusts after evaporation, causing soil salinization",
+        "Irrigation water permanently freezes dryland soils into permafrost",
+        "Irrigation removes all mineral salts and turns desert sand into pure peatland",
+        "Irrigation prevents evaporation and stops all plant transpiration"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Even more ironically, excessive flood irrigation in dry regions can lead to salinization. When large amounts of irrigation water evaporate under hot sun, dissolved salts are left behind in the upper soil layers, eventually making the land too saline for crops or native vegetation to grow.",
+      "mini_lesson": "Desertification is the persistent degradation of dryland productivity caused not only by overgrazing (as in Rajasthan), but also by poorly drained flood irrigation: when intense dryland heat evaporates standing irrigation water, dissolved minerals precipitate as a toxic salt crust in the topsoil (salinization), sterilizing the land. Options (B), (C), and (D) describe impossible physical outcomes in arid environments."
+    },
+    {
+      "id": "W03_M13",
+      "week": 3,
+      "lecture": "Lec 13",
+      "source": "mock_unseen",
+      "question": "Why does legal permission to harvest a wild species fail to guarantee that the harvest is ecologically sustainable?",
+      "options": [
+        "Because legal quotas always prohibit any biological reproduction",
+        "Because ecological sustainability depends on whether total removal stays below the population's biological regeneration rate, not merely on legal status",
+        "Because only illegal poaching removes individuals from wild populations",
+        "Because wild populations automatically double their reproductive rate when legally hunted"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "A harvest can be legally permitted and still be ecologically unsustainable if the rate of removal exceeds the rate at which the population can replace itself. Nature responds to biological rates of removal and regeneration, not to legal definitions alone.",
+      "mini_lesson": "Ecosystems obey biological accounting, not legal paperwork: if government-sanctioned fishing quotas, logging permits, or hunting licenses allow removal faster than the species' natural recruitment rate, the population will collapse just as surely as under illegal poaching. Option (C) is a frequent policy misconception that equates unsustainability solely with illegality."
+    },
+    {
+      "id": "W03_M14",
+      "week": 3,
+      "lecture": "Lec 13",
+      "source": "mock_unseen",
+      "question": "What drives overexploitation under the 'Tragedy of the Commons' in open-access resources?",
+      "options": [
+        "Every user restrains their harvest voluntarily because no one needs short-term income",
+        "Open-access ecosystems have infinite biological regeneration capacity",
+        "Each individual user captures the full immediate benefit of taking one more unit while the ecological cost of depletion is shared across all users",
+        "Strict community property rules prevent any single user from entering the resource area"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "When a resource is open to many users and lacks effective rules or limits, each user has an incentive to take as much as possible before others do. If one fisher leaves fish in the sea to breed, another fisher may catch them that same day. This dynamic, often called the tragedy of the commons, pushes collective harvesting far beyond sustainable limits.",
+      "mini_lesson": "In unregulated open-access commons (like international ocean fisheries or unmanaged grazing lands), self-restraint is penalized: any fish or pasture left behind to regenerate is immediately taken by a competitor, so every individual races to maximize short-term extraction until the shared resource collapses. Option (A) assumes spontaneous restraint without governance, and Option (D) confuses open access with regulated commons."
+    },
+    {
+      "id": "W03_M15",
+      "week": 3,
+      "lecture": "Lec 13",
+      "source": "mock_unseen",
+      "question": "How does the 'scarcity-price spiral' accelerate the extinction risk of rare wildlife species?",
+      "options": [
+        "As a species becomes rarer, market demand disappears and poachers abandon the trade",
+        "As a species declines, its rising rarity drives up black-market prices, making hunters willing to invest even greater effort to find the last surviving individuals",
+        "As a species becomes rarer, governments automatically subsidize commercial harvesting",
+        "As market prices rise, slow-breeding $K$-selected species immediately switch to rapid $r$-selected reproduction"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "In some cases, as a species becomes rarer, its market price rises even higher. High value then creates a stronger incentive to hunt or harvest the remaining individuals, even when they are harder to find. This creates a dangerous feedback loop where scarcity increases price, and higher price drives further exploitation.",
+      "mini_lesson": "Standard economic supply-and-demandnormally protects depleted resources because high search costs discourage harvesting, but for luxury wildlife products (rhino horn, ivory, exotic pets, rare timber), extreme rarity becomes a status symbol that skyrockets black-market prices—justifying intense poaching effort down to the very last individual. Option (A) assumes normal diminishing-return economics applies to luxury wildlife trade."
+    },
+    {
+      "id": "W03_M16",
+      "week": 3,
+      "lecture": "Lec 13",
+      "source": "mock_unseen",
+      "question": "Why does selectively harvesting only the largest breeding fish or tusked male elephants cause disproportionate population damage?",
+      "options": [
+        "Because large breeding adults are sterile and contribute nothing to population growth",
+        "Because removing specific size or sex classes skews sex ratios, truncates age structure, and removes the most fecund individuals",
+        "Because selective harvesting removes only invasive parasites from the host population",
+        "Because juvenile organisms can reproduce immediately without reaching maturity"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Overexploitation does not only reduce total numbers; it also alters the internal structure of populations. Selective harvesting of the largest fish, the oldest trees, or tusked male elephants changes age structure, sex ratios, and breeding success.",
+      "mini_lesson": "Populations are not uniform bags of identical individuals: selectively targeting the largest older fish (which produce exponentially more eggs than small adults) or poaching tusked male elephants skews sex ratios, disrupts social/mating systems, and slashes reproductive output far more severely than raw headcount losses suggest. Options (A) and (D) contradict basic reproductive biology."
+    },
+    {
+      "id": "W03_M17",
+      "week": 3,
+      "lecture": "Lec 13",
+      "source": "mock_unseen",
+      "question": "What broader ecological consequence follows when a single poisoned elephant carcass kills hundreds of scavenging vultures?",
+      "options": [
+        "Decomposer nutrient cycling accelerates and all mammalian pathogens vanish",
+        "Grassland primary productivity doubles overnight due to reduced bird predation",
+        "An entire scavenging guild is crippled, leaving carcasses to rot, slowing nutrient recycling, and increasing disease transmission risks",
+        "Vulture populations recover within weeks because they are fast-breeding $r$-selected insects"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "A single poisoned elephant carcass can kill hundreds of vultures that gather to feed on it. When vultures disappear, carcasses remain longer in the landscape, nutrient recycling slows down, and the risk of disease transmission through other scavengers can increase.",
+      "mini_lesson": "Vultures are slow-breeding ($K$-selected) communal scavengers that provide vital ecosystem sanitation by rapidly consuming carrion; when poachers lace an elephant carcass with poison to prevent circling vultures from alerting rangers, hundreds of vultures die at once, collapsing local sanitation and letting feral dogs and rats multiply around rotting carcasses. Option (D) misidentifies vultures as fast-breeding $r$-strategists."
+    },
+    {
+      "id": "W03_M18",
+      "week": 3,
+      "lecture": "Lec 13",
+      "source": "mock_unseen",
+      "question": "Why are sharks and rays in the Andaman Islands particularly vulnerable to collapse under heavy fishing pressure?",
+      "options": [
+        "They are fast-growing annual species that die naturally after a single month",
+        "They live only in landlocked desert ponds that dry up every summer",
+        "They are photosynthetic autotrophs that require clear surface sunlight",
+        "They have slow growth, late sexual maturity, and low reproductive output, and fisheries harvest both juveniles and breeding adults"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Sharks and rays grow slowly, mature late, and produce relatively few young. When fishing pressure removes both juveniles and adults in large numbers, as seen in fish landing centres in the Andaman Islands, the population cannot replace those losses quickly.",
+      "mini_lesson": "Elasmobranchs (sharks and rays) are classic $K$-selected marine predators with long gestation periods, late maturity, and tiny litters; when commercial fisheries harvest across both juvenile and adult cohorts (as documented in Andaman fish landing centers), recruitment collapses and drives trophic cascades across coral reef ecosystems. Options (A), (B), and (C) fabricate impossible life-history traits."
+    },
+    {
+      "id": "W03_M19",
+      "week": 3,
+      "lecture": "Lec 14",
+      "source": "mock_unseen",
+      "question": "What distinguishes an invasive alien species from an ordinary alien (exotic) species?",
+      "options": [
+        "An invasive species is any native organism that becomes abundant after seasonal rains",
+        "An alien species is introduced outside its natural range, whereas it becomes invasive only if it establishes, spreads rapidly, and causes ecological or economic harm",
+        "Every non-native species introduced by humans automatically becomes invasive within one generation",
+        "An alien species arrives only by natural wind dispersal, whereas an invasive species is created in laboratories"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Not every alien species becomes invasive. Many introduced species remain confined to gardens, farms, or plantations. An alien species becomes invasive when it establishes self-sustaining populations, spreads widely, and causes ecological, economic, or health harm.",
+      "mini_lesson": "Ecology maintains a strict two-step filter: 'alien/exotic' refers to biogeographical origin (introduced outside its historical range by humans, like many agricultural crops or ornamental plants), whereas 'invasive' refers to ecological impact (the subset of alien species that escape confinement, spread aggressively, and harm native biodiversity). Option (C) is a frequent trap that equates all non-native species with invasive pests."
+    },
+    {
+      "id": "W03_M20",
+      "week": 3,
+      "lecture": "Lec 14",
+      "source": "mock_unseen",
+      "question": "According to the Enemy Release Hypothesis, why do some introduced species proliferate so aggressively in a new region?",
+      "options": [
+        "Because they arrive without the coevolved predators, parasites, and pathogens that kept their numbers in check in their native range",
+        "Because native predators immediately form mutualistic alliances to protect the new arrival",
+        "Because introduced species no longer require water, sunlight, or soil nutrients in foreign habitats",
+        "Because local governments release native predators from zoos to feed the introduced species"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "In its native range, a species is usually held in check by predators, herbivores, parasites, and diseases that have evolved alongside it. When it is moved to a new region, it may leave many of those natural enemies behind. Ecologists call this the enemy release hypothesis.",
+      "mini_lesson": "In its home ecosystem, a plant or animal is constantly suppressed by specialist herbivores, predators, parasites, and pathogens that coevolved with it over millennia; when transported to a new continent without those natural enemies, it can redirect energy toward rapid growth and reproduction, outcompeting native species. Option (D) misinterprets the word 'release' literally as releasing animals from cages."
+    },
+    {
+      "id": "W03_M21",
+      "week": 3,
+      "lecture": "Lec 14",
+      "source": "mock_unseen",
+      "question": "Why did the accidental introduction of the brown tree snake (*Boiga irregularis*) on the island of Guam devastate native forest birds?",
+      "options": [
+        "The snake outcompeted native trees for sunlight and caused island-wide desertification",
+        "The snake arrived via military cargo after World War II and preyed on island birds that lacked evolutionary defenses against arboreal snakes, driving species like the Guam flycatcher to extinction",
+        "The snake released industrial heavy metals into Guam's freshwater aquifers",
+        "The snake hybridized genetically with native kingfishers and rendered them flightless"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The brown tree snake was accidentally transported to the island of Guam in military cargo after the Second World War. Guam's native forest birds had evolved without such predators and had few defenses. As the snake population exploded, it wiped out most of the island's native forest birds, driving species like the Guam flycatcher to extinction and the Guam kingfisher to extinction in the wild.",
+      "mini_lesson": "Oceanic island species often evolve without mammalian or reptilian predators and lose defensive behaviors (evolutionary naivety); when the nocturnal, tree-climbing brown tree snake hitchhiked to Guam in post-WWII cargo, it encountered defenseless prey and no natural enemies, wiping out nearly all native forest birds. Options (A), (C), and (D) invoke impossible ecological mechanisms."
+    },
+    {
+      "id": "W03_M22",
+      "week": 3,
+      "lecture": "Lec 14",
+      "source": "mock_unseen",
+      "question": "How have escaped African catfish (*Clarias gariepinus*) and introduced American bullfrogs harmed native wetland biodiversity?",
+      "options": [
+        "They purify polluted wetlands and restore native amphibian diversity",
+        "They consume only dead plastic debris and never interact with native species",
+        "African catfish escaped from aquaculture prey voraciously on native fish and chicks in wetlands like Bharatpur, while American bullfrogs act as carrier reservoirs that spread lethal chytrid fungus to native amphibians",
+        "They build calcium carbonate reefs that block shipping lanes in freshwater rivers"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "In India, the African catfish, introduced illegally for aquaculture because it grows fast and survives in poor water, has escaped into natural wetlands including Keoladeo National Park in Bharatpur, where it preys on native fish, amphibians, and even waterbird chicks, threatening species like the Sarus crane... The American bullfrog not only preys on smaller native frogs but also carries the chytrid fungus without dying from it, spreading deadly disease to vulnerable native amphibians.",
+      "mini_lesson": "Invasive aquatic vertebrates damage native communities through both predation and disease: hardy African catfish escape fish farms into sanctuaries like Bharatpur (Keoladeo) and devour native fish and waterbird food supplies, while American bullfrogs serve as tolerant reservoirs that spread deadly chytridiomycosis to susceptible native frogs. Options (A), (B), and (D) fabricate benign or marine traits."
+    },
+    {
+      "id": "W03_M23",
+      "week": 3,
+      "lecture": "Lec 14",
+      "source": "mock_unseen",
+      "question": "How do domestic and feral cats threaten the survival of the Scottish wildcat and native wildlife in reserves like Manas?",
+      "options": [
+        "Through genetic hybridization that dilutes the Scottish wildcat's distinct gene pool, and through direct predation on native birds and small mammals",
+        "Through competitive exclusion of large megaherbivores like elephants and rhinoceroses",
+        "Through root competition that prevents native forest trees from germinating",
+        "Through nitrogen fixation that triggers eutrophication in mountain lakes"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "In Scotland, the native Scottish wildcat has interbred extensively with domestic and feral cats. This hybridization blurs the genetic identity of the wild species until pure wildcats become extremely rare. Meanwhile, free-ranging domestic cats also act as direct predators, killing birds and small mammals even inside protected areas like Manas Tiger Reserve.",
+      "mini_lesson": "Domestic and feral affiliates of wild species pose a dual threat: where closely related native relatives exist (like the Scottish wildcat), interbreeding causes genetic swamping/hybridization that erases the pure wild genome; elsewhere (including inside Indian reserves like Manas), free-ranging cats act as subsidized predators that decimate native birds, reptiles, and small mammals. Options (B), (C), and (D) confuse feline impacts with megaherbivore or plant processes."
+    },
+    {
+      "id": "W03_M24",
+      "week": 3,
+      "lecture": "Lec 14",
+      "source": "mock_unseen",
+      "question": "In the invasion management hierarchy, why are prevention and border biosecurity prioritized above eradication?",
+      "options": [
+        "Because once an invasive species is widely established, complete eradication is rarely feasible and extremely costly compared to stopping its initial entry",
+        "Because border biosecurity requires releasing additional invasive predators into ports",
+        "Because eradication is always effortless and inexpensive across continental landscapes",
+        "Because early detection only works after native species have already gone extinct"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Management therefore follows a clear hierarchy: prevention first, followed by early detection and rapid response, then containment, long-term control, and only in limited cases complete eradication. Once an invasive species has spread across a large landscape, complete eradication is usually impossible, making prevention and biosecurity the most effective and economical defense.",
+      "mini_lesson": "Biological invasions are exponentially harder to reverse the longer they progress: stopping hitchhiking organisms at ports and borders (prevention) or eliminating a tiny founder population immediately upon arrival (early detection and rapid response) costs a fraction of attempting continental-scale eradication, which is usually ecologically impossible outside small islands. Option (C) reverses the economic and logistical reality of invasion management."
+    },
+    {
+      "id": "W03_M25",
+      "week": 3,
+      "lecture": "Lec 15",
+      "source": "mock_unseen",
+      "question": "Why does the ecological definition of pollution include noise and artificial light alongside chemical contaminants?",
+      "options": [
+        "Because noise and light instantly transmute into heavy metals like lead and mercury in the air",
+        "Because only physical energy can harm aquatic organisms, whereas chemicals affect only land plants",
+        "Because all natural sunlight and wind sounds are toxic to wildlife",
+        "Because pollution encompasses any harmful introduction of substances or physical energy that disrupts organismal physiology, orientation, communication, and survival"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "In ecology, pollution is not limited to smoke from chimneys or dirty water in rivers. It refers to the harmful introduction of substances or energy into the environment at levels that disrupt ecological systems. That means chemical contaminants like pesticides, heavy metals, and plastics are pollutants, and so are forms of energy such as excessive noise and artificial light at night.",
+      "mini_lesson": "Modern ecology defines pollution by its disruptive biological effect rather than just chemical matter: introducing excess physical energy—such as highway/shipping noise or coastal streetlights at night—alters sensory environments and disrupts feeding, mating calls, and migration just as severely as toxic chemicals. Option (A) is physically absurd, and Options (B) and (C) rely on false absolutes."
+    },
+    {
+      "id": "W03_M26",
+      "week": 3,
+      "lecture": "Lec 15",
+      "source": "mock_unseen",
+      "question": "How does chronic pollution exposure differ from acute pollution exposure in natural ecosystems?",
+      "options": [
+        "Acute exposure involves a sudden, high-dose event like an oil spill or chemical leak causing rapid mortality, whereas chronic exposure involves continuous or repeated low-level contamination that degrades reproduction, immunity, and behaviour over time",
+        "Acute exposure lasts for centuries without causing death, whereas chronic exposure vanishes within seconds",
+        "Acute exposure affects only terrestrial plants, whereas chronic exposure affects only deep-sea bacteria",
+        "Acute exposure always improves genetic diversity, whereas chronic exposure only changes weather patterns"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Acute pollution involves a sudden, high-intensity release, such as an oil spill or a chemical leak, which often causes immediate and visible mortality. Chronic pollution involves continuous or repeated exposure over long periods, such as agricultural runoff, urban sewage, traffic noise, or persistent heavy metals, which gradually weakens populations even when no dramatic die-off is seen.",
+      "mini_lesson": "Acute pollution hits an ecosystem with a sudden, high concentration of toxin (like a tanker spill), producing immediate dead fish or oiled seabirds; chronic pollution operates as a slow drip (daily pesticide runoff, persistent heavy metals, constant road noise) that quietly erodes fertility, immunity, and juvenile survival over generations. Option (B) reverses the timescales and severity profiles of the two terms."
+    },
+    {
+      "id": "W03_M27",
+      "week": 3,
+      "lecture": "Lec 15",
+      "source": "mock_unseen",
+      "question": "Which set correctly identifies the five major ecological pathways through which pollution harms biodiversity?",
+      "options": [
+        "Continental drift, solar flares, orbital eccentricity, volcanic outgassing, and glaciation",
+        "Allopatric speciation, adaptive radiation, mutualism, commensalism, and primary succession",
+        "Direct toxicity, reduced reproduction, behavioural disruption, habitat quality decline, and food web contamination",
+        "Seed banking, corridor restoration, genetic rescue, translocation, and ecotourism"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "We can group the ecological effects of pollution into five main pathways: direct toxicity, reduced reproduction, behavioural disruption, habitat quality decline, and food web contamination.",
+      "mini_lesson": "Pollution attacks biodiversity across five levels of biological organization: killing or sickening organisms outright (direct toxicity), impairing eggs/embryos/hormones (reduced reproduction), scrambling navigation and communication (behavioural disruption), degrading soil/water chemistry (habitat quality decline), and bioaccumulating across trophic links (food web contamination). Options (A), (B), and (D) list geological cycles, evolutionary processes, and conservation tools."
+    },
+    {
+      "id": "W03_M28",
+      "week": 3,
+      "lecture": "Lec 15",
+      "source": "mock_unseen",
+      "question": "How do coastal artificial lighting and chronic anthropogenic noise disrupt animal behaviour?",
+      "options": [
+        "Coastal lights guide sea turtle hatchlings safely to deep water, while highway noise helps frogs locate mates",
+        "Coastal lights disorient sea turtle hatchlings toward inland roads and predators instead of the ocean, while chronic noise masks acoustic communication used by birds, frogs, and marine mammals",
+        "Coastal lights and noise affect only human sleep patterns and have zero effect on wild vertebrates",
+        "Coastal lights cause coral calcification to double, while noise accelerates tree seed germination"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Sea turtle hatchlings emerging from nests at night normally orient toward the brighter horizon over the ocean. When coastal hotels, roads, and streetlights create brighter artificial glow inland, hatchlings crawl in the wrong direction and die from dehydration, predators, or traffic. Similarly, noise pollution from roads, industry, and shipping masks the acoustic signals that birds, frogs, and whales use to attract mates, defend territories, and detect predators.",
+      "mini_lesson": "Sensory pollutants hijack evolutionary cues: sea turtle hatchlings are hardwired to crawl toward the natural moon/starlight reflection over the open sea, so bright beachfront lighting lures them inland to their deaths, while traffic, industrial, and shipping noise drowns out mating and warning calls in birds, amphibians, and cetaceans. Option (A) reverses the biological outcome into a false benefit."
+    },
+    {
+      "id": "W03_M29",
+      "week": 3,
+      "lecture": "Lec 15",
+      "source": "mock_unseen",
+      "question": "Why are heavy metals such as mercury, lead, cadmium, and arsenic considered persistent ecological hazards?",
+      "options": [
+        "Because they evaporate completely into outer space within 24 hours of release",
+        "Because they are rapidly digested into harmless sugars by freshwater fish",
+        "Because as elemental contaminants they do not break down biologically, allowing them to accumulate in soils, sediments, and living tissues over decades",
+        "Because they affect only adult organisms and never harm embryos or juveniles"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Heavy metals such as mercury, lead, cadmium, and arsenic are especially dangerous because they do not degrade into harmless compounds. Once released from mining, industry, or waste disposal, they persist in soils and aquatic sediments for decades, entering food webs and accumulating in living tissues.",
+      "mini_lesson": "Unlike organic wastes that microbes can eventually decompose into carbon dioxide and water, toxic heavy metals (mercury, lead, cadmium, arsenic) are chemical elements that cannot be biologically broken down; once mined or discharged, they remain locked in river sediments, soils, and food chains indefinitely, Making source prevention far better than cleanup. Option (D) is false because embryos, larvae, and juveniles are actually the most sensitive life stages."
+    },
+    {
+      "id": "W03_M30",
+      "week": 3,
+      "lecture": "Lec 15",
+      "source": "mock_unseen",
+      "question": "Why do ecologists emphasize that 'the absence of a visible crisis is not evidence of ecological health' when assessing pollution?",
+      "options": [
+        "Because healthy ecosystems always display continuous mass mortality of fish and birds",
+        "Because visual inspection from a highway is sufficient to measure part-per-billion heavy metal levels",
+        "Because chemical pollutants never cause any visible mortality even at lethal doses",
+        "Because sublethal physiological harm, reproductive decline, and trophic bioaccumulation can quietly erode populations for years before a sudden collapse becomes visible"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "A river or wetland may look calm and green on the surface while persistent pollutants are quietly accumulating in sediments, plankton, fish, and birds, reducing reproductive success year after year. In pollution ecology, the absence of a visible crisis is not evidence of ecological health, which is why systematic ecological monitoring and prevention at the source are essential.",
+      "mini_lesson": "By the time a lake turns foul or thousands of dead fish wash ashore, ecological degradation is already advanced; chronic sublethal pollution (hormone disruption, egg-shell thinning, juvenile mortality, sediment toxicity) operates invisibly for years, requiring proactive chemical and biological monitoring rather than waiting for visible disasters. Option (B) is the exact complacency trap that ecological monitoring is designed to overcome."
+    }
+  ]
+}

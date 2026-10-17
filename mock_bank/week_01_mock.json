@@ -1,0 +1,492 @@
+{
+  "week": 1,
+  "lecture_briefings": {
+    "Lec 01": "Lecture 1 establishes the core premise of the entire course: human society is embedded inside nature, meaning our food, water, climate stability, and economic security depend on living ecosystems rather than existing separately from them. Because biodiversity drives ecosystem functioning, which in turn generates the ecosystem services that sustain human well-being, you cannot build long-term sustainable development on a collapsing ecological foundation. The lecture also contrasts complex, multi-layered natural forests (like the Andamans or Shola landscapes) with simplified monocultures (like industrial tree plantations in Finland), showing how biological diversity gives systems the resilience to spring back from shocks. Watch out for the 3 most important terms: Invisible Biodiversity (genes, microbes, fungi, soil life, and ecological processes), Ecosystem Services (the material and non-material benefits people obtain from ecosystems), and Resilience (the ability of a system to absorb disturbance and spring back).",
+    "Lec 02": "Lecture 2 transitions from broad environmental awareness to the rigorous science of ecology—literally the 'study of life at home' (from the Greek oikos and logos)—which investigates the interactions that determine where organisms live and how many of them exist there. Dr. Awadhiya separates objective ecological science (which provides empirical evidence and causal mechanisms) from environmental concern (which is an ethical, social, or political response). The lecture walks up the ecological hierarchy from a species-specific habitat to populations, interacting multi-species communities (such as Chital deer foraging alongside alarm-calling Hanuman langurs), and ecosystems where solar energy flows in one direction while nutrients are recycled continuously. Watch out for the 3 most important terms: Distribution vs. Abundance (where organisms occur spatially vs. how many occur there), Habitat (a functionally suitable, species-specific setting rather than a mere geographic point on a map), and Community Interactions (predation, competition, mutualism, herbivory, parasitism, and commensalism).",
+    "Lec 03": "Lecture 3 unpacks the full scientific scope of biodiversity as the variety of life in all its forms and across all levels of biological organization, correcting the common mistake of equating biodiversity with large wild animals or a raw species count. Using a thought experiment of two forests that each have 50 species—one 90% dominated by a single tree species and the other evenly balanced across diverse ecological roles—the lecture proves why species richness alone is an incomplete measure of biodiversity. It then scales from local organisms up to regional biomes (like the deodar-pine temperate coniferous forests of Manali) and the global biosphere, while warning that ecosystems can suffer hidden degradation through food-chain biomagnification or invasive alien species like Lantana camara even while still looking green. Watch out for the 3 most important terms: Species Richness (the simple count of species in an area, as opposed to evenness and functional diversity), Biome vs. Biosphere (a large regional zone defined by climate and vegetation vs. the global sum of all life on Earth), and Biomagnification (the progressive concentration of toxins like pesticides up a food chain from grass to insects, frogs, snakes, and apex hawks).",
+    "Lec 04": "Lecture 4 examines the concept of sustainability—continuity across time—through the classic Brundtland definition of meeting present needs without compromising the ability of future generations to meet their own needs. It emphasizes that sustainability is built on two pillars of moral restraint: prioritizing essential human needs (food, water, shelter, dignity) over unlimited luxury wants, and respecting biophysical carrying capacities so renewable resources are not extracted faster than they regenerate. Using historical wake-up calls like the 1970s oil crisis, Rachel Carson's Silent Spring (DDT eggshell thinning), and the 1984 Bhopal gas disaster (where short-term cost-cutting on safety systems caused multi-generational catastrophe), the lecture introduces Kate Raworth's Doughnut Model and the Three Pillars of Sustainability (Environmental, Social, and Economic) as a three-legged stool where the environmental pillar forms the irreplaceable biophysical foundation. Watch out for the 3 most important terms: Needs vs. Limits (essential human requirements vs. finite ecological carrying and absorption capacities), The Three Pillars / Triple Bottom Line (evaluating environmental, social, and economic durability together), and The Doughnut Model (keeping development inside the safe and just space between the inner social foundation and outer ecological ceiling).",
+    "Lec 05": "Lecture 5 synthesizes the entire first week into one integrated causal loop: ecology explains how living systems work (processes), biodiversity describes the living variety within them (variation), and sustainability evaluates whether human development can persist without eroding its own foundation (persistence). Crucially, the chain from biodiversity to ecosystem function to ecosystem services to human well-being is not a one-way street; human society constantly pushes back on biodiversity through a circular feedback loop of either destructive pressures (pollution, land conversion, overexploitation) or constructive management (ecological restoration and conservation). Applying this lens to farms, cities, and coastal mangrove belts shows that human settlements are multifunctional landscapes operating inside ecological constraints, not outside nature. Watch out for the 3 most important terms: Ecosystem Function vs. Ecosystem Services (the internal biophysical processes of nature vs. the usable benefits humans derive from them), Circular Feedback Loop (the two-way reciprocal relationship whereby human actions reshape the biodiversity that sustains them), and Greenwashing (using superficial sustainability rhetoric or planting uniform green cover while ignoring underlying ecological processes)."
+  },
+  "questions": [
+    {
+      "id": "W01_M01",
+      "week": 1,
+      "lecture": "Lec 01",
+      "source": "mock_unseen",
+      "question": "In ecological systems, what does the term “resilience” refer to?",
+      "options": [
+        "The ability of an ecosystem to permanently prevent all natural disturbances",
+        "The ability of a system to spring back and recover function after a disturbance",
+        "The maximum short-term crop yield extracted from a simplified monoculture",
+        "The total number of large visible mammals recorded during a forest survey"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Another important idea is resilience, the ability to come back after a disturbance. The ability to spring back. More diverse systems often have greater functional flexibility.",
+      "mini_lesson": "Ecological resilience is the capacity of a living system to absorb environmental shocks—such as drought, fire, or pest outbreaks—and spring back because multiple organisms share and back up vital functional roles. If one predator or pollinator declines, another species with a similar role can compensate. Distractor (A) uses the classic 'permanently / all' absolute trap: resilient ecosystems do not prevent disturbances from occurring, they recover from them."
+    },
+    {
+      "id": "W01_M02",
+      "week": 1,
+      "lecture": "Lec 01",
+      "source": "mock_unseen",
+      "question": "In the widely used Brundtland definition of sustainable development, which two foundational concepts receive special attention?",
+      "options": [
+        "Profit and industrial speed",
+        "Technology and market deregulation",
+        "Wilderness preservation and zero human growth",
+        "Needs and limits"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "A widely used definition of sustainable development says that development should meet present needs without compromising the ability of future generations to meet their own needs. Two words in this definition deserve special attention: Needs and limits.",
+      "mini_lesson": "Sustainable development balances two core imperatives: meeting essential human 'needs' (especially where poverty and deprivation exist today) while respecting ecological and social 'limits' so that future generations can also thrive. Distractor (C) is a common misconception trap claiming sustainability is anti-development, whereas (A) and (B) reduce development to pure technocratic growth."
+    },
+    {
+      "id": "W01_M03",
+      "week": 1,
+      "lecture": "Lec 01",
+      "source": "mock_unseen",
+      "question": "When comparing an intact natural forest from the Andamans with a heavily extracted monoculture landscape from Finland, what is the primary ecological consequence of extreme landscape simplification?",
+      "options": [
+        "It permanently eliminates all pests and environmental shocks",
+        "It guarantees higher long-term habitat continuity and wildlife diversity",
+        "It may provide immediate extraction benefits, but weakens regeneration, habitat continuity, and long-term resilience",
+        "It affects only the visual beauty of the forest without altering ecological functions"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "A more intact and varied natural setting from Andamans is placed besides a heavily extracted monocultured landscape largely devoid of wildlife from Finland. Simplification and extraction may provide immediate benefits, but they can also weaken regeneration, habitat continuity, and long-term resilience.",
+      "mini_lesson": "Natural multi-layered forests distribute ecological functions across dozens of interacting species, creating strong buffering capacity against disturbances. When a forest is converted into a uniform single-species plantation for short-term timber extraction, it loses wildlife habitat, functional redundancy, and long-term resilience to pests and climate shocks. Distractors (A) and (D) deploy false absolutes ('permanently', 'all', 'only') that ignore ecological vulnerability."
+    },
+    {
+      "id": "W01_M04",
+      "week": 1,
+      "lecture": "Lec 01",
+      "source": "mock_unseen",
+      "question": "Describing conventional economic growth with superficial environmental language while ignoring underlying ecological degradation is known as:",
+      "options": [
+        "Ecological restoration",
+        "Natural capital accounting",
+        "Greenwashing",
+        "Functional redundancy"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Also, sustainability is not just economic growth described with a green language. That would be greenwashing.",
+      "mini_lesson": "Greenwashing occurs when policies, corporations, or development projects use decorative eco-friendly slogans while continuing to degrade soils, water, and biodiversity underneath. Genuine sustainability requires keeping development within biophysical limits rather than merely rebranding unsustainable growth. Distractors (A), (B), and (C) are legitimate scientific and policy concepts from the course used as sibling-term swaps."
+    },
+    {
+      "id": "W01_M05",
+      "week": 1,
+      "lecture": "Lec 01",
+      "source": "mock_unseen",
+      "question": "What does a biodiversity-rich landscape such as a Shola forest demonstrate about the nature of biodiversity at the landscape scale?",
+      "options": [
+        "It includes variation in vegetation, habitat structure, ecological niches, and relationships among coexisting organisms",
+        "It is defined entirely by the population size of a single flagship animal species",
+        "It functions only when all human communities are removed from the continent",
+        "It consists solely of uniform tree plantations managed for maximum timber output"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "This image of Shola forest invites us to think at the scale of a landscape. A biodiversity rich landscape is not defined by one species alone. It includes variation in vegetation, habitat structure, ecological niches and relationships among living organisms.",
+      "mini_lesson": "At the landscape scale, as seen in the stunted montane Shola forest-grassland mosaics of Southern India, biodiversity is a system-level property encompassing diverse vegetation layers, microhabitats, niches, and interspecific connections. Distractors (B), (C), and (D) use classic exclusivity traps ('entirely', 'only', 'solely') to reduce a complex living mosaic to a single species or monoculture."
+    },
+    {
+      "id": "W01_M06",
+      "week": 1,
+      "lecture": "Lec 01",
+      "source": "mock_unseen",
+      "question": "Which set correctly identifies the major threats to biodiversity arising from unsustainable patterns of production and consumption?",
+      "options": [
+        "Pollination, decomposition, nutrient cycling, and primary production",
+        "Habitat loss and fragmentation, invasive species, pollution, human overpopulation, and overexploitation",
+        "Genetic variation, species evenness, functional redundancy, and ecological resilience",
+        "Theoretical modeling, laboratory experimentation, field observation, and habitat restoration"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "We should now identify some major threats to biodiversity that arise from unsustainable patterns of production and consumption. These include habitat loss and fragmentation, invasive species and ecological disruption, pollution, human overpopulation and overexploitation of biological resources.",
+      "mini_lesson": "Conservation biologists summarize the five major anthropogenic drivers of biodiversity loss—often remembered by the acronym HIPPO—as Habitat loss/fragmentation, Invasive species, Pollution, Human Population pressure, and Overexploitation. Option (B) matches the exact five-item list presented on the Lecture 1 slide. Distractor (A) lists ecosystem functions, (C) lists properties of healthy biodiversity, and (D) lists scientific research methods."
+    },
+    {
+      "id": "W01_M07",
+      "week": 1,
+      "lecture": "Lec 02",
+      "source": "mock_unseen",
+      "question": "The word “ecology” is derived from the Greek terms oikos and logos, which literally translate to:",
+      "options": [
+        "The ethical protection of endangered wild mammals",
+        "The study of household or life at home, referring to the environment in which organisms live",
+        "The commercial accounting of extractable forest timber",
+        "The classification of rocks and atmospheric weather patterns without living organisms"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The word ecology comes from two Greek terms. Oikos means household and logos means study. So the literal meaning is something like the study of life at home. Here the idea of home is not a building. It refers to the environment in which life exists.",
+      "mini_lesson": "Built from the Greek 'oikos' (household/home) and 'logos' (study), ecology literally means studying organisms in their 'home'—the surrounding biotic and abiotic environment with which they interact to survive. Distractor (A) confuses ecological science with ethical environmentalism, while (D) strips out living organisms entirely."
+    },
+    {
+      "id": "W01_M08",
+      "week": 1,
+      "lecture": "Lec 02",
+      "source": "mock_unseen",
+      "question": "In ecological science, while “distribution” refers to where organisms occur, what does “abundance” refer to?",
+      "options": [
+        "How many organisms occur in a given area",
+        "The number of non-living minerals present in bedrock",
+        "The evolutionary age of a taxonomic family",
+        "The political boundaries of a national park"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "The word distribution and abundance are central to ecological thinking. Distribution means where organisms occur. Abundance means how many organisms occur there.",
+      "mini_lesson": "Distribution and abundance are the twin pillars of population ecology: distribution maps spatial occurrence ('where'), whereas abundance quantifies population size or density ('how many') at a given place and time. Both shift dynamically in response to climate, resources, competition, and disturbance. On the exam, watch out for questions that swap the definitions of distribution and abundance."
+    },
+    {
+      "id": "W01_M09",
+      "week": 1,
+      "lecture": "Lec 02",
+      "source": "mock_unseen",
+      "question": "In Indian forests, why do Chital (spotted deer) frequently remain near Hanuman langurs?",
+      "options": [
+        "Langurs rely on Chital to climb trees and harvest canopy fruits for them",
+        "Chital and langurs belong to the same biological species and interbreed within a single population",
+        "Langurs drop leaves and fruits while feeding in trees and give alarm calls from high vantage points when predators approach",
+        "Both species are obligate parasites thatharm each other to reduce competition"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Chitals that is the spotted deers for instance often remain near langurs as we can see in this image because langurs drop leaves and fruits while they are feeding which provides food for the deer... Langurs also detect predators from a high vantage point and warn with alarm calls indirectly also increasing the safety of chitals.",
+      "mini_lesson": "The foraging association between Chital (spotted deer) and Hanuman langurs is a classic Indian forest example of positive community interaction: arboreal langurs drop unreachable canopy foliage and fruits that deer eat on the ground, while both species benefit from shared anti-predator vigilance against tigers and leopards. Distractor (B) confuses a multi-species community with a single-species population, and (A) reverses the physical biology of deer and primates."
+    },
+    {
+      "id": "W01_M10",
+      "week": 1,
+      "lecture": "Lec 02",
+      "source": "mock_unseen",
+      "question": "How does the movement of energy in an ecosystem fundamentally differ from the movement of nutrients?",
+      "options": [
+        "Energy is recycled indefinitely by decomposers, whereas nutrients flow in a single direction and are lost",
+        "Energy flows in a single direction starting from sunlight, whereas nutrients move in a cyclic manner and are reused",
+        "Both energy and nutrients are created entirely by apex predators at the top of the food chain",
+        "Neither energy nor nutrients require living producers or decomposers to move through an ecosystem"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "So energy flows through the system while nutrients are cycled and reused. Energy flows because it's in a single direction. Whereas nutrients are cycled. So it's a cyclic movement and they are also reused.",
+      "mini_lesson": "Ecosystems are governed by two distinct physical laws: solar energy enters via photosynthetic producers and flows in a strict one-way (unidirectional) path through consumers before dissipating as heat, whereas chemical nutrients (carbon, nitrogen, phosphorus) are broken down by decomposers and recycled endlessly within the system. Distractor (A) is a classic opposite-pole inversion trap that swaps the trajectories of energy and nutrients."
+    },
+    {
+      "id": "W01_M11",
+      "week": 1,
+      "lecture": "Lec 02",
+      "source": "mock_unseen",
+      "question": "Which biotic interaction benefits one organism while the other organism is neither clearly helped nor harmed?",
+      "options": [
+        "Competition",
+        "Mutualism",
+        "Parasitism",
+        "Commensalism"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Mutualism benefits both partners as in many pollination relationships like the flower and insect shown here. Parasitism benefits one organism while harming another... Commensalism benefits one while the other is neither clearly helped nor harmed.",
+      "mini_lesson": "Ecologists classify interspecific interactions by their fitness effects (+, -, or 0) on the two interacting species: competition is (-/-), mutualism is (+/+), predation/herbivory/parasitism are (+/-), and commensalism is (+/0), where one partner gains a benefit and the host is unaffected. Distractors (A), (B), and (C) are the exact sibling interaction terms from the same Lecture 2 slide."
+    },
+    {
+      "id": "W01_M12",
+      "week": 1,
+      "lecture": "Lec 02",
+      "source": "mock_unseen",
+      "question": "When an ecologist directly observes wild dog puppies in their native forest habitat to record behavior, habitat use, and group structure without artificial manipulation, which approach is being used?",
+      "options": [
+        "Theoretical ecology",
+        "Laboratory ecology",
+        "Field ecology",
+        "Chemical immobilization"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Field ecology studies organisms in natural settings. In this image, we see wild dog puppies in their natural environment, showing how field ecology begins with direct observation of organisms in the habitats where they actually live.",
+      "mini_lesson": "Ecology combines three complementary research methods: theoretical ecology uses mathematical models to predict patterns ('helps us think'), laboratory ecology manipulates isolated variables in controlled setups like sea-urchin removal tanks ('helps us test'), and field ecology observes and measures wild organisms like dhole (wild dog) puppies in their real habitats ('helps us verify in nature'). Distractors (A) and (B) are sibling-method traps from the same triad."
+    },
+    {
+      "id": "W01_M13",
+      "week": 1,
+      "lecture": "Lec 03",
+      "source": "mock_unseen",
+      "question": "Scientifically, how is biodiversity defined in its full scope?",
+      "options": [
+        "Only the count of large charismatic mammals and birds living in untouched wilderness",
+        "A static list of Latin species names divorced from ecological interactions",
+        "The total commercial weight of timber and agricultural crops produced in a country",
+        "The variety of life in all its forms and at all levels of organization, both within and among living systems"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Scientifically, biodiversity means the variety of life in all its forms and at all levels of organization... It also includes variation within living systems and variation among living systems.",
+      "mini_lesson": "The scientific definition of biodiversity has two indispensable halves: 'all its forms' (plants, vertebrates, invertebrates, fungi, bacteria, and microbes, whether visible or microscopic) and 'all levels of organization' (from genes within a species up to communities, ecosystems, biomes, and the global biosphere). Distractor (A) uses the 'only' trap to narrow biodiversity to charismatic megafauna, while (B) strips away ecological relationships."
+    },
+    {
+      "id": "W01_M14",
+      "week": 1,
+      "lecture": "Lec 03",
+      "source": "mock_unseen",
+      "question": "Consider two forests that each contain 50 species: in the first forest, a single tree species makes up 90% of the vegetation, while in the second, species are evenly distributed across diverse ecological roles. What does this comparison demonstrate?",
+      "options": [
+        "Species richness alone is a complete and sufficient measure of biodiversity",
+        "Both forests have identical ecological resilience and functional stability",
+        "Species richness is only a starting point and does not capture relative dominance, evenness, or functional roles",
+        "A forest skewed heavily toward one dominant species is always more resilient to pests"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "When people first hear the word biodiversity, they often think it simply means the number of species in a place. That number is called species richness... Relative dominance also matters because a system that is heavily skewed towards one species is often more fragile... And so species richness is a useful starting point but it is not a complete measure of biodiversity.",
+      "mini_lesson": "Species richness is simply the headcount of different species in a place (here, 50 in both forests). However, true biodiversity also depends on species evenness (how equitably individuals are distributed across species) and functional diversity (the range of ecological roles performed). A forest where one tree species accounts for 90% of individuals is functionally fragile despite having the same species richness as an evenly balanced forest. Distractors (A), (B), and (D) invert this core principle."
+    },
+    {
+      "id": "W01_M15",
+      "week": 1,
+      "lecture": "Lec 03",
+      "source": "mock_unseen",
+      "question": "A large regional ecological zone defined mainly by climate and dominant vegetation type—such as the temperate coniferous forest of deodar and pine in Manali—is called a:",
+      "options": [
+        "Population",
+        "Microhabitat",
+        "Biome",
+        "Genetic allele"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Beyond the ecosystem level, we come to the biome. A biome is a large regional ecological zone defined mainly by climate and dominant vegetation type. The image on this slide shows a landscape from Manali in the western Himalayas and it is a good example of a temperate coniferous forest biome.",
+      "mini_lesson": "Sitting between a local ecosystem and the planetary biosphere, a biome is a broad regional ecological unit shaped by macroclimate (temperature, precipitation, snowfall) and its characteristic dominant vegetation—such as the temperate coniferous forests of deodar and pine in the Western Himalayas, tropical rainforests, or deserts. Distractors (A) and (B) refer to much smaller, localized ecological scales."
+    },
+    {
+      "id": "W01_M16",
+      "week": 1,
+      "lecture": "Lec 03",
+      "source": "mock_unseen",
+      "question": "Because many forest animals such as tigers are elusive, nocturnal, or rare, how do field ecologists most frequently detect and document their presence?",
+      "options": [
+        "By relying exclusively on daytime visual headcounts of every individual",
+        "By reading indirect signs such as pugmarks, calls, nests, droppings, scratch marks on bark, or feeding signs",
+        "By removing all vegetation cover so animals cannot hide",
+        "By assuming a species is extinct whenever it is not directly seen during a walk"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "In field ecology, we very often work with indirect signs like these rather than direct sightings because many animals are elusive, nocturnal, or simply rare. Biodiversity in a forest may also be inferred from calls, nests, droppings, scratch marks on bark or feeding signs.",
+      "mini_lesson": "In wildlife surveys, direct visual sightings of cryptic carnivores like the Bengal tiger are rare. Field ecologists therefore rely heavily on indirect evidence—such as pugmarks (footprints in soft mud), territorial claw scratches on tree bark, scat (droppings), alarm/mating vocalizations, and feeding remains—to confirm species presence and habitat use. Distractor (A) uses the hard absolute 'exclusively', which would miss most nocturnal and elusive biodiversity."
+    },
+    {
+      "id": "W01_M17",
+      "week": 1,
+      "lecture": "Lec 03",
+      "source": "mock_unseen",
+      "question": "In the five-step food chain of grass, insect, frog, snake, and hawk, what happens when persistent pesticides enter at the bottom and undergo biomagnification?",
+      "options": [
+        "Toxins concentrate to lethal levels in apex hawks, triggering a trophic cascade that destabilizes the ecosystem even while all five species are still present",
+        "The toxin is completely neutralized by insects before reaching higher trophic levels",
+        "Only grass cover is directly poisoned while predators remain completely unaffected",
+        "The total number of species immediately drops to zero in the first week"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Pesticides enter the chain at the bottom accumulating in insects and then in frogs then in snakes. And by the time the hawk eats several snakes, the toxin has reached lethal levels. This process is called biomagnification. With hawks gone, snakes increase. So frogs decline, insects surge, and the grass cover falls. The species count has barely changed... And yet the system is already breaking down.",
+      "mini_lesson": "Biomagnification is the progressive concentration of non-biodegradable toxins at successively higher trophic levels of a food chain. When apex hawks die off from concentrated pesticide loads, snake populations surge unchecked, wiping out frogs, which allows herbivorous insects to explode and defoliate the grass—demonstrating how ecosystem function can collapse long before simple species counts drop. Distractors (B), (C), and (D) use false absolutes ('completely', 'only', 'immediately')."
+    },
+    {
+      "id": "W01_M18",
+      "week": 1,
+      "lecture": "Lec 03",
+      "source": "mock_unseen",
+      "question": "Why does a lush green landscape of flowering Lantana camara visited by butterflies in Dehradun warn against judging ecosystem health by visual appearance alone?",
+      "options": [
+        "Lantana camara is a native Himalayan conifer that only grows in sub-zero snowfields",
+        "Butterflies only visit landscapes that are completely devoid of all plant life",
+        "Any green plant automatically increases native biodiversity regardless of its origin",
+        "Lantana camara is an invasive alien shrub from Central America whose dense thickets crowd out native vegetation and weaken native ecological relationships"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Lantana camara is an invasive alien species originally from Central America that has spread aggressively across Indian forests and grasslands. It forms dense thickets that crowd out native vegetation, reducing the variety of plants that native insects, birds, and mammals depend on. The butterfly may still be present. The landscape may still look green. And yet the underlying biodiversity has already shifted.",
+      "mini_lesson": "To an untrained eye, a green shrub covered in flowers and butterflies looks like healthy nature, but Lantana camara is one of India's worst invasive alien weeds. By forming impenetrable, allelopathic thickets, it suppresses native understory plants and starves native herbivores and specialist insects—proving that superficial greenness can mask severe biodiversity replacement. Distractor (C) states the exact 'green appearance' fallacy that the lecture refutes."
+    },
+    {
+      "id": "W01_M19",
+      "week": 1,
+      "lecture": "Lec 04",
+      "source": "mock_unseen",
+      "question": "How does sustainability analysis distinguish between human “needs” and “wants”?",
+      "options": [
+        "Needs and wants are identical because all consumer desires must be satisfied without restraint",
+        "Essential needs such as food, clean water, health, shelter, safety, and dignity deserve priority, whereas wants represent unlimited consumption desires like a luxury car",
+        "Needs apply only to wealthy industrial nations, while wants apply to deprived communities",
+        "Sustainability rejects all human needs in order to keep nature untouched"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "In sustainability, needs are not the same as unlimited wants... Some might say, 'I need a new car.' But that is a want. That's not a need in the sustainability sense. Essential needs, such as food, clean water, health, shelter, safety, and dignity deserve priority.",
+      "mini_lesson": "The Brundtland framework prioritizes irreducible human needs—food, clean water, healthcare, shelter, safety, and dignity—while recognizing that planetary ecosystems cannot sustain unlimited luxury 'wants'. This distinction links ecological limits directly to social equity: when affluent groups overconsume for luxury wants while vulnerable groups lack basic survival needs, the system fails both socially and environmentally. Distractor (D) is the false 'anti-human' misconception trap."
+    },
+    {
+      "id": "W01_M20",
+      "week": 1,
+      "lecture": "Lec 04",
+      "source": "mock_unseen",
+      "question": "Under what condition can a renewable natural resource—such as a forest, fishery, groundwater aquifer, or soil—become effectively non-renewable?",
+      "options": [
+        "When it is protected inside a conservation reserve",
+        "Whenever local communities use traditional seasonal restraint",
+        "When human extraction occurs faster than the resource can naturally regenerate and recover",
+        "Renewable resources are infinite and can never be depleted under any rate of use"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Even renewable resources can become effectively non-renewable if we use them faster than they regenerate. Forests, fisheries, ground water, and soil can renew themselves over time, but not under unlimited pressure. Sustainability therefore requires that use must respect regeneration.",
+      "mini_lesson": "Every living system has a biophysical carrying capacity and a natural rate of biological renewal. If timber logging, fishing, or groundwater pumping exceeds that natural regeneration rate, the resource base erodes and collapses just like a finite fossil fuel reserve. Distractor (D) uses the hard absolute 'never' to state the exact fallacy exposed by historical resource collapses."
+    },
+    {
+      "id": "W01_M21",
+      "week": 1,
+      "lecture": "Lec 04",
+      "source": "mock_unseen",
+      "question": "What core sustainability lesson is illustrated by the December 1984 Bhopal gas disaster involving Tank 610?",
+      "options": [
+        "Industrial accidents affect only the immediate financial balance sheet of the factory owner",
+        "Economic growth is always sustainable as long as short-term operating costs are minimized",
+        "Chemical pollution disappears immediately once the gas disperses into the air",
+        "Short-term financial cost-cutting on safety and maintenance can quietly destroy system foundations and create catastrophic, multi-generational health and environmental consequences"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "In the years before the disaster, Union Carbide had pushed cost-cutting measures at the plant, turning off refrigeration systems, chemical scrubbers, and flare towers, while neglecting maintenance and safety drills. Each of these decisions offered a short-term financial saving. Together, they created the conditions for catastrophe... The consequences are still being felt today in the health of survivors and their descendants.",
+      "mini_lesson": "Before the December 1984 methyl isocyanate leak in Bhopal, management shut down refrigeration units, chemical scrubbers, and flare towers to save money in the short run. Those small short-term financial savings triggered an irreversible catastrophe that killed thousands and left persistent groundwater and soil contamination across generations—proving how ignoring safety and ecological limits for immediate profit destroys long-term viability. Distractors (A), (C), and (B) use false absolutes ('only', 'immediately', 'always')."
+    },
+    {
+      "id": "W01_M22",
+      "week": 1,
+      "lecture": "Lec 04",
+      "source": "mock_unseen",
+      "question": "In the doughnut model of economics, where should human development aim to remain?",
+      "options": [
+        "Inside the central hole below the social foundation, where basic human needs remain unmet",
+        "Far outside the outer ring beyond the ecological ceiling, where planetary limits are overshot",
+        "Within the ring between the inner social foundation (where human needs are met) and the outer ecological ceiling (where planetary limits are respected)",
+        "In a state of zero economic and infrastructure activity so that no resources are ever used"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "At the center of the doughnut is a hole where human needs remain unmet... As we move outward, we cross the inner edge which represents the social foundation... if we move too far outward, we cross the outer edge which represents the ecological ceiling. The body of the doughnut, the ring between the two boundaries, is the zone where development should aim to remain.",
+      "mini_lesson": "Kate Raworth's Doughnut Model visualizes sustainable development as a safe and just space between two concentric boundaries: an inner 'social foundation' (below which people suffer deprivation in food, water, health, and education) and an outer 'ecological ceiling' (beyond which human pressure overshoots planetary carrying capacity). Distractor (A) describes the zone of social shortfall, while (B) describes the zone of ecological overshoot."
+    },
+    {
+      "id": "W01_M23",
+      "week": 1,
+      "lecture": "Lec 04",
+      "source": "mock_unseen",
+      "question": "What does the “triple bottom line” approach—and the visual model of sustainability as a three-legged stool—emphasize when evaluating a project?",
+      "options": [
+        "A project is fully successful as long as its financial column is positive, regardless of social or ecological damage",
+        "Outcomes must be judged across social, environmental, and economic dimensions together, because weakening any one pillar destabilizes the whole structure",
+        "Each of the three pillars stands completely alone and never interacts with the other two",
+        "Environmental sustainability is optional if short-term economic growth is rapid enough"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The image of a stool is a helpful visual model. If one leg weakens badly, the whole structure becomes unstable, regardless of how strong the other two appear... A related concept is the triple bottom line, which encourages us to judge outcomes in social, environmental, and financial terms, rather than in financial terms alone.",
+      "mini_lesson": "The three-legged stool model and the Triple Bottom Line (People/Social, Planet/Environmental, Profit/Economic) show that sustainability requires all three dimensions to remain strong simultaneously. Furthermore, the environmental leg is biophysically foundational because society and the economy cannot survive without water, fertile soil, energy, and functioning ecosystems. Distractor (A) states the narrow financial view that the Triple Bottom Line explicitly rejects."
+    },
+    {
+      "id": "W01_M24",
+      "week": 1,
+      "lecture": "Lec 04",
+      "source": "mock_unseen",
+      "question": "Why does advanced technology—such as modern mechanized logging machinery—not automatically solve sustainability problems on its own?",
+      "options": [
+        "More advanced tools can increase efficiency, but they can also accelerate the speed and scale of extraction if not guided by ecological limits and governance",
+        "Technology always reduces resource efficiency and cannot ever help reduce pollution",
+        "Technology completely removes all natural carrying capacities and ecological boundaries",
+        "Mechanized tools only affect social institutions and have no impact on forest ecosystems"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "But technology does not remove all ecological limits. The logging machinery referenced on this slide illustrates this point. More advanced tools can increase efficiency, but they can also increase the speed and scale of extraction if their use is not guided by sustainability principles. Better tools still require better choices.",
+      "mini_lesson": "While green technologies (efficient irrigation, clean energy, monitoring tools) are helpful, technology is a multiplier of human intent: without wise governance, values, and limit awareness, powerful machines like industrial forestry harvesters simply allow us to clear-cut forests and deplete fish stocks faster than ever. Distractor (C) states the technocratic fallacy ('technology removes all limits') that Dr. Awadhiya directly warns against."
+    },
+    {
+      "id": "W01_M25",
+      "week": 1,
+      "lecture": "Lec 05",
+      "source": "mock_unseen",
+      "question": "In the compact Week 1 synthesis connecting the three core concepts of the course, how are ecology, biodiversity, and sustainability related?",
+      "options": [
+        "Ecology is about processes, biodiversity is about variation, and sustainability is about persistence over time",
+        "Ecology is about political slogans, biodiversity is about market prices, and sustainability is about short-term profit",
+        "All three terms have the exact same definition and can be used interchangeably in any context",
+        "Ecology studies only remote wilderness, biodiversity studies only zoos, and sustainability studies only urban factories"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "So we can summarize the three ideas in a compact way. Ecology is about processes. Biodiversity is about variation. And sustainability is about persistence over time. Ecology explains, biodiversity diversifies, sustainability evaluates persistence.",
+      "mini_lesson": "Week 1 links its three title concepts into a single diagnostic sequence: ecology explains how living systems operate ('processes'), biodiversity describes the living richness within those systems ('variation'), and sustainability evaluates whether human development can endure without breaking that foundation ('persistence over time').Ecology without biodiversity is too thin; biodiversity without ecology is a static list; sustainability without both is blind greenwashing."
+    },
+    {
+      "id": "W01_M26",
+      "week": 1,
+      "lecture": "Lec 05",
+      "source": "mock_unseen",
+      "question": "In the causal chain linking biodiversity to human well-being, what is the precise distinction between “ecosystem functions” and “ecosystem services”?",
+      "options": [
+        "Functions are government laws protecting nature, whereas services are taxes paid by polluting industries",
+        "Functions are ecological processes (such as soil nutrient cycling and water filtration), whereas services are the usable benefits people receive from those processes",
+        "Functions occur only in cities, whereas services occur only in uninhabited forests",
+        "Services exist independently of living organisms, whereas functions require human engineering"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "But the next step is from ecosystem function to ecosystem services. Functions are ecological processes. Services are the usable benefits that people receive from those processes. Soil processes support agriculture by maintaining fertility.",
+      "mini_lesson": "In the four-step linkage chain (Biodiversity -> Ecosystem Function -> Ecosystem Services -> Human Well-Being), 'ecosystem functions' are the biophysical processes carried out by organisms (decomposition, pollination, water absorption), while 'ecosystem services' are the resulting human benefits (fertile cropland, flood safety, clean drinking water). Distractors (A), (C), and (D) confuse ecological mechanisms with legal taxes or artificial engineering."
+    },
+    {
+      "id": "W01_M27",
+      "week": 1,
+      "lecture": "Lec 05",
+      "source": "mock_unseen",
+      "question": "Why is the relationship connecting biodiversity, ecosystem services, and human society described as a circular feedback loop rather than a one-way street?",
+      "options": [
+        "Because solar energy cycles back to the sun after passing through human cities",
+        "Because once an ecosystem is degraded, it always restores itself automatically without human choices mattering",
+        "Because human well-being is completely independent of ecological processes",
+        "Because human societies not only receive benefits from ecosystems, but also push back to either weaken or strengthen biodiversity through extraction, pollution, land use, or restoration"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "But human actions do not stand outside this chain. It's not a one-way street. Human actions push back on it. People can strengthen or weaken the whole system through management, restoration, extraction, pollution and land use change. So the relationship is circular.",
+      "mini_lesson": "While biodiversity drives ecosystem functions and services that sustain human life, human decisions continuously feed back into the top of the chain: unsustainable land conversion, pollution, and overharvesting erode biodiversity, whereas conservation, sustainable design, and ecological restoration rebuild it. Recognizing this circular feedback loop is the core of systems thinking. Distractor (A) violates the one-way flow of energy, while (C) and (B) use false absolutes."
+    },
+    {
+      "id": "W01_M28",
+      "week": 1,
+      "lecture": "Lec 05",
+      "source": "mock_unseen",
+      "question": "How do coastal ecosystems such as mangroves and wetlands illustrate the link between biodiversity and disaster risk reduction?",
+      "options": [
+        "They absorb wave energy, stabilize shorelines, and support fisheries and habitat, meaning their degradation turns biodiversity loss directly into a human disaster risk issue",
+        "They increase tsunami and storm surge speed by funneling ocean water into coastal cities",
+        "They provide only decorative scenery for tourists and have no physical effect on shoreline stability",
+        "They prevent all coastal storms from forming in the atmosphere"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Mangroves and wetlands can buffer coast. They help reduce risk by absorbing energy, by stabilizing shorelines and by supporting ecological complexity. Coastal ecosystems also support fisheries and habitat... When those ecosystems degrade, biodiversity loss can turn them directly into a disaster risk issue for human communities.",
+      "mini_lesson": "Coastal mangroves and wetlands are classic multifunctional landscapes: their dense root networks physically dissipate wave energy and hold shoreline soils in place (protective value) while serving as breeding nurseries for commercial fisheries (productive value). Clearing them for short-term coastal development directly exposes human settlements to catastrophic storm damage. Distractor (C) uses the 'only decorative' misconception that Lecture 5 explicitly refutes."
+    },
+    {
+      "id": "W01_M29",
+      "week": 1,
+      "lecture": "Lec 05",
+      "source": "mock_unseen",
+      "question": "Why does effective ecological restoration require a deep understanding of biodiversity rather than simply planting any green trees?",
+      "options": [
+        "Because trees never contribute to carbon storage or soil stability",
+        "Because recovery requires re-establishing living diversity, functional roles, and ecological processes rather than reducing restoration to simply planting something green",
+        "Because restoration is only concerned with counting the total number of saplings planted for official reports",
+        "Because native species cannot survive in restored landscapes without continuous chemical pesticide spraying"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Protected areas need ecological reasoning to understand processes and pressures. Restoration needs biodiversity understanding so that recovery is not reduced to simply planting something green.",
+      "mini_lesson": "A common management blunder is equating ecological restoration with mass monoculture tree planting. Without restoring native species composition, understory diversity, soil microbes, pollinators, and trophic interactions, a uniform plantation lacks functional resilience and habitat value. Distractor (C) describes superficial bureaucratic reporting ('counting saplings') rather than true ecological recovery."
+    },
+    {
+      "id": "W01_M30",
+      "week": 1,
+      "lecture": "Lec 05",
+      "source": "mock_unseen",
+      "question": "Why is it a scientific mistake to treat ecology as only “nature study” in remote wilderness areas?",
+      "options": [
+        "Because wild forests no longer contain any ecological interactions",
+        "Because farms, cities, and coasts are also human-shaped systems embedded in ecological realities that depend on pollination, soil life, water regulation, and green cooling",
+        "Because urban areas operate completely outside physical and biological constraints",
+        "Because agricultural output depends exclusively on synthetic chemicals and never on living soil or pollinators"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "And a third mistake is treating ecology as only nature study in remote or wild places. Ecology certainly includes wild landscapes but it is not limited to them. It also applies to farms, cities, coast and other managed systems... Human systems are embedded in ecological systems and that is why applied ecology matters for sustainability.",
+      "mini_lesson": "Human-dominated landscapes—farmlands (agricultural ecology), cities (urban ecology), and settled coastlines (coastal ecology)—are not separate from nature; they rely continuously on pollination, microbial soil fertility, urban tree cooling, and wetland storm-runoff absorption. Treating cities or farms as purely engineered spaces outside ecology leads to heat islands, flooding, and soil collapse. Distractors (A), (C), and (D) rely on false absolutes ('any', 'completely', 'exclusively')."
+    }
+  ]
+}

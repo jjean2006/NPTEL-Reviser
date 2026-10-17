@@ -1,0 +1,492 @@
+{
+  "week": 4,
+  "lecture_briefings": {
+    "Lec 16": "Climate is the long-term pattern of weather calculated over a classical 30-year baseline across five interacting Earth systems (atmosphere, hydrosphere, cryosphere, lithosphere, and biosphere), and modern human emissions are driving rising temperatures, shifting rainfall, extreme events, and altered seasons. Under Shelford's Law of Tolerance, organisms thrive only within a narrow optimal environmental range and drop to zero when conditions exceed their physiological limits, forcing species to shift poleward or upslope along mountain lapse rates—often riding an 'escalator to extinction' when they run out of summit space or sea ice. Changing seasonal cues also trigger phenological mismatches (like trees fruiting before hornbills nest) and hit four groups hardest: narrow specialists (koala), range-restricted endemics (Nilgiri tahr), poor dispersers (red panda), and small fragmented populations (pygmy hog). Watch out for these 3 key terms: Shelford's Law of Tolerance (bell-shaped survival curve showing population collapse outside physiological limits), Phenological Mismatch (desynchronization of seasonal life-cycle timing between interacting species like plants and pollinators/seed dispersers), and Threat Multiplier (how climate change amplifies existing hazards like drought, fire, disease, and *Lantana* invasion).",
+    "Lec 17": "Climate and land-use pressures also disrupt planetary chemical and water balances through ocean acidification, desertification, and the overloading of global nutrient cycles. When oceans absorb excess atmospheric CO2, seawater becomes less alkaline, depleting carbonate ions and preventing corals, plankton, and shellfish from building calcium carbonate skeletons—an impact that cascades up marine food webs to top predators. On land, burning fossil fuels accelerates the carbon cycle while industrial fertilizers, livestock waste, and sewage overload the nitrogen and rock-derived phosphorus cycles, washing into waterways to trigger eutrophication—explosive algal blooms whose bacterial decomposition strips water of oxygen and creates aquatic dead zones. Watch out for these 3 key terms: Ocean Acidification (CO2-driven drop in seawater alkalinity that impairs calcium carbonate shell and reef formation), Phosphorus vs. Nitrogen Cycles (phosphorus has no major atmospheric gas phase and comes from rock weathering, whereas atmospheric N2 requires microbial or industrial fixation), and Eutrophication (nutrient overload driving algal blooms, light blockage, microbial oxygen depletion, and aquatic dead zones).",
+    "Lec 18": "Extinction is the permanent global loss of a species (distinct from local extirpation or functional extinction, where surviving individuals like the two remaining female Northern White Rhinos can no longer reproduce or fulfill their ecological role). While Earth's fossil record shows natural background turnover and catastrophic mass events—most famously the K-Pg dinosaur extinction 66 million years ago, proven by an iridium-rich clay layer and the 180-km Chicxulub impact crater—human activities have accelerated modern extinction rates to 20 to 100 times (and up to 1,000 times) above background levels. Today, the IUCN Red List tracks species marching toward extinction under the combined weight of habitat destruction (like Chambal River sand mining and Amazon deforestation), overexploitation, invasive predators (like the cane toad), emerging fungal diseases (chytridiomycosis in amphibians and white-nose syndrome in bats), and plastic pollution. Watch out for these 3 key terms: Extirpation vs. Functional Extinction (local disappearance from one area vs. a population too reduced or skewed to reproduce or perform its ecosystem role), IUCN Red List Categories (the status scale from Least Concern and Near Threatened to Vulnerable, Endangered, Critically Endangered, Extinct in the Wild, and Extinct), and K-Pg Asteroid Evidence (the global iridium layer, shocked quartz, gypsum cores, and Yucatan crater proving the impact winter that ended non-avian dinosaurs).",
+    "Lec 19": "Looking closely at how species actually vanish—such as the flightless Dodo of Mauritius, wiped out within ~80 years of Dutch arrival in 1598 by hunting, habitat loss, and invasive rats and pigs eating its single ground-laid egg—reveals that extinction rarely has a single cause and often triggers co-extinctions of host-specific parasites and mutualists (like the pygmy hog-sucking louse) or coral bleaching breakdowns. Conservation biologists analyze these declines through two complementary frameworks: the Declining Population Paradigm (which diagnoses external human push factors driving a population down) and the Small Population Paradigm (which explains the internal genetic and demographic traps that destabilize a population once it is already tiny). Tiny, isolated populations suffer from demographic stochasticity, the Allee effect (failure to find mates, hunt in packs, or defend against predators below a critical density), and inbreeding depression—locking them into a self-reinforcing Extinction Vortex unless saved by interventions like genetic rescue (such as introducing Texas pumas to restore the inbred Florida panther). Watch out for these 3 key terms: Declining vs. Small Population Paradigms (external deterministic pressures shrinking a population vs. internal stochastic, genetic, and behavioral risks of smallness), Allee Effect (breakdown of survival, pack hunting, or mating success when population size or density drops below a critical threshold), and Genetic Rescue vs. Genetic Pollution (deliberate gene flow introduced to cure inbreeding depression vs. harmful hybridization with domestic/alien relatives that erases a wild genome).",
+    "Lec 20": "Unlike the Big Five prehistoric mass extinctions caused by volcanism, climate shifts, and asteroids, the ongoing Sixth Mass Extinction is driven by a single biological species—humans—threatening roughly 1 million species (including 41% of amphibians) through sequential overexploitation like industrial whaling and the 19th-century collapse of the American bison. While humanity has only rarely pursued deliberate extinction for deadly pathogens (eradicating smallpox in 1980 and cattle rinderpest in 2011) and now debates high-tech de-extinction (like the short-lived 2003 cloned Pyrenean ibex or CRISPR cold-adapted mammoth hybrids), cloning cannot replace habitat conservation. Ultimately, extinction risk is governed by ecological vulnerability traits (specialization, human market attention, infrastructure overlap like the Great Indian Bustard with power lines, and large home ranges) and quantified mathematically by MacArthur and Wilson's Species-Area Relationship ($S = cA^z$), which proves that losing 90% of a habitat wipes out roughly 50% of its species. Watch out for these 3 key terms: Sixth Mass Extinction (the ongoing human-driven biodiversity crisis where species loss runs 100 to 1,000 times above natural background rates), Deliberate Extinction vs. De-extinction (targeted eradication of disease agents like smallpox/rinderpest vs. cloning or gene-editing extinct species like the Pyrenean ibex), and Species-Area Relationship $S = cA^z$ (island biogeography power law used to calculate how habitat area loss translates into predictable species extinctions)."
+  },
+  "questions": [
+    {
+      "id": "W04_M01",
+      "week": 4,
+      "lecture": "Lec 16",
+      "source": "mock_unseen",
+      "question": "Which five interacting components make up Earth's climate system?",
+      "options": [
+        "Atmosphere, hydrosphere, cryosphere, lithosphere, and biosphere",
+        "Troposphere, stratosphere, mesosphere, thermosphere, and exosphere",
+        "Crust, upper mantle, lower mantle, outer core, and inner core",
+        "Producers, primary consumers, secondary consumers, apex predators, and decomposers"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Climate arises from the continuous interaction of five major components of the Earth system: the atmosphere, the hydrosphere, the cryosphere, the lithosphere, and the biosphere.",
+      "mini_lesson": "Earth's long-term climate is governed not just by air (atmosphere), but by heat, moisture, and carbon exchanges across liquid water (hydrosphere), ice and snow (cryosphere), land and rocks (lithosphere), and all living organisms (biosphere). Option (B) lists only vertical layers of the atmosphere, Option (C) lists internal geological layers of the Earth, and Option (D) lists food-chain trophic levels."
+    },
+    {
+      "id": "W04_M02",
+      "week": 4,
+      "lecture": "Lec 16",
+      "source": "mock_unseen",
+      "question": "Why does upslope range shifting along mountain temperature gradients often become an 'escalator to extinction' for montane species?",
+      "options": [
+        "Because mountain summits grow taller every year and freeze all climbing animals",
+        "Because as temperatures warm, high-altitude species move upslope following cooler lapse-rate conditions until they run out of land area and suitable habitat at the mountain peak",
+        "Because atmospheric temperature increases rapidly with altitude in the troposphere",
+        "Because lowland generalist species refuse to move upslope when temperatures rise"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Because temperature decreases with altitude due to the environmental lapse rate, many mountain species respond to warming by shifting their ranges upslope. However, mountains are cone-shaped, so moving higher means squeezing into smaller and smaller areas until, at the summit, there is nowhere left to go—a process ecologists call the escalator to extinction.",
+      "mini_lesson": "Due to the atmospheric lapse rate (cooler temperatures at higher elevations), warming forces montane plants and animals to climb higher to stay within their thermal tolerance zone; because mountains narrow toward the peak, available habitat shrinks at every step until summit-restricted species have nowhere cooler left to go and vanish. Option (C) inverts the physical lapse rate."
+    },
+    {
+      "id": "W04_M03",
+      "week": 4,
+      "lecture": "Lec 16",
+      "source": "mock_unseen",
+      "question": "How does climate warming create a phenological mismatch between forest trees and hornbills?",
+      "options": [
+        "Hornbills lose their feathers permanently and become aquatic filter feeders",
+        "Forest trees stop producing seeds altogether and switch to spore reproduction",
+        "Shifting temperature and rainfall cues cause fruiting in trees to peak earlier than the hornbill nesting season, leaving chicks without peak food availability and reducing seed dispersal",
+        "Warming causes hornbills and fruiting trees to synchronize their life cycles with 100% precision"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Phenology is the timing of seasonal biological events such as flowering, fruiting, breeding, and migration. If warming causes forest trees to fruit earlier while hornbills still time their nesting by day length or later cues, peak fruit supply and peak chick demand no longer match, harming both hornbill reproduction and tree seed dispersal.",
+      "mini_lesson": "Phenology is nature's seasonal calendar; when interacting species rely on different environmental cues (e.g., plants responding to early spring warmth while birds time breeding by photoperiod), climate change desynchronizes them—creating an ecological mismatch where peak food arrives before or after offspring hatch. Option (D) states the exact opposite of a phenological mismatch."
+    },
+    {
+      "id": "W04_M04",
+      "week": 4,
+      "lecture": "Lec 16",
+      "source": "mock_unseen",
+      "question": "Which pairing correctly matches the four climate-vulnerable species examples from Lecture 16 with their specific vulnerability trait?",
+      "options": [
+        "Koala (marine filter feeder), Nilgiri tahr (cosmopolitan generalist), Red panda (long-distance migrant), and Pygmy hog (desert burrower)",
+        "Koala (arctic ice predator), Nilgiri tahr (deep-sea hydrothermal specialist), Red panda (savanna grazer), and Pygmy hog (canopy glider)",
+        "Koala (invasive pest), Nilgiri tahr (high dispersal ability), Red panda (broad diet generalist), and Pygmy hog (abundant global population)",
+        "Koala (narrow eucalyptus specialist), Nilgiri tahr (range-restricted montane endemic), Red panda (poor dispersal across fragmented forests), and Pygmy hog (tiny fragmented grassland population of ~250 individuals)"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Four groups of species are especially vulnerable to climate change: specialists with narrow requirements like the koala, range-restricted endemics like the Nilgiri tahr in the Western Ghats, species with poor dispersal ability like the red panda in fragmented Himalayan forests, and species with very small isolated populations like the pygmy hog in Assam's grasslands, which has only around 250 individuals left.",
+      "mini_lesson": "Lecture 16 illustrates the four pillars of climate vulnerability through four flagship vertebrates: the Koala (dietary/thermal specialist on eucalyptus), the Nilgiri tahr (restricted to high-elevation Western Ghats shola-grassland sky islands), the Red panda (unable to cross cleared valleys between Himalayan forest patches), and the Pygmy hog (tiny population trapped in Manas alluvial grasslands). Options (A), (B), and (C) scramble or invert their ecological traits."
+    },
+    {
+      "id": "W04_M05",
+      "week": 4,
+      "lecture": "Lec 16",
+      "source": "mock_unseen",
+      "question": "Why is climate change described as a 'threat multiplier' in disturbed forest ecosystems?",
+      "options": [
+        "Because rising heat and drought interact with forest fragmentation, tree stress, wildfire, and invasive weeds like *Lantana camara* in a reinforcing cycle that amplifies biodiversity loss",
+        "Because climate change eliminates all other human threats like logging, mining, and poaching",
+        "Because warming multiplies the number of pristine national parks across tropical continents",
+        "Because higher temperatures prevent forest fires and eradicate invasive plant species"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Climate change acts as a threat multiplier because it intensifies existing pressures. Prolonged drought and heat weaken forest trees, make them more susceptible to pests and disease, increase the frequency and intensity of wildfires, and open canopy gaps where fire-prone invasive weeds like Lantana camara spread, fueling even more fires.",
+      "mini_lesson": "Climate change rarely acts in isolation; instead, heatwaves and droughts amplify existing human disturbances by drying out fragmented forests, fueling hotter wildfires, weakening trees against pathogens, and accelerating the spread of flammable invasive shrubs like *Lantana camara* in a vicious feedback loop. Options (B), (C), and (D) invert this synergistic threat into a benign effect."
+    },
+    {
+      "id": "W04_M06",
+      "week": 4,
+      "lecture": "Lec 16",
+      "source": "mock_unseen",
+      "question": "How does biodiversity itself help buffer ecosystems and human societies against climate change?",
+      "options": [
+        "By releasing all soil and peatland carbon rapidly into the atmosphere",
+        "Through carbon-sequestering ecosystems like intact forests, peatlands, and mangroves, and through functional redundancy where multiple species stabilize ecosystem processes under stress",
+        "By replacing all native trees with single-species concrete barriers",
+        "By halting photosynthesis during warm years to conserve atmospheric carbon dioxide"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Biodiversity is not just a victim of climate change; it is also a vital buffer against it. Intact forests, peatlands, wetlands, and mangroves store vast amounts of carbon and protect coastlines from storms, while diverse communities with functional redundancy ensure that if one species declines under thermal stress, others performing similar ecological roles can keep the ecosystem functioning.",
+      "mini_lesson": "Intact ecosystems provide both climate mitigation (locking away massive carbon reserves in old-growth forests, peatlands, and coastal mangroves) and climate adaptation/resilience via functional redundancy—when several species share a role like pollination or nitrogen fixation, the ecosystem keeps working even if one thermally sensitive species declines. Option (A) reverses carbon sequestration."
+    },
+    {
+      "id": "W04_M07",
+      "week": 4,
+      "lecture": "Lec 17",
+      "source": "mock_unseen",
+      "question": "How does excess atmospheric carbon dioxide cause ocean acidification and harm marine food webs?",
+      "options": [
+        "Dissolved CO2 makes seawater less alkaline and reduces carbonate availability, impairing calcium carbonate shell and skeleton formation in corals, plankton, and shellfish",
+        "Dissolved CO2 turns ocean water into pure freshwater and causes corals to overgrow continents",
+        "Dissolved CO2 increases seawater pH to extreme alkalinity, dissolving the bones of terrestrial mammals",
+        "Dissolved CO2 affects only deep-sea volcanic rocks and has no impact on living calcifying organisms"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "As the oceans absorb large amounts of excess carbon dioxide from the atmosphere, chemical reactions make seawater less alkaline, a process called ocean acidification. This makes it harder for marine organisms such as corals, molluscs, and calcifying plankton to build and maintain their calcium carbonate shells and skeletons, with ripple effects up the food chain to fish and marine mammals like dolphins.",
+      "mini_lesson": "When seawater absorbs excess $CO_2$, it forms carbonic acid, lowering ocean pH (making it less alkaline) and reducing the carbonate ions needed by corals, oysters, pteropods, and calcifying plankton to secrete calcium carbonate ($CaCO_3$) shells and reefs—undermining the foundation of marine food webs all the way up to top predators like dolphins. Option (C) reverses the pH direction."
+    },
+    {
+      "id": "W04_M08",
+      "week": 4,
+      "lecture": "Lec 17",
+      "source": "mock_unseen",
+      "question": "What does desertification involve in arid, semi-arid, and dry sub-humid regions?",
+      "options": [
+        "The spontaneous geological movement of sand dunes across polar ice caps",
+        "The progressive decline in biological productivity, soil structure, organic matter, and moisture retention driven by overgrazing, deforestation, groundwater depletion, and poor irrigation",
+        "The rapid conversion of tropical rainforests into freshwater coral reefs",
+        "An increase in topsoil depth and vegetation cover caused by heavy fertilizer application"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Desertification is not simply the literal expansion of existing sand deserts; it is the degradation of land in arid, semi-arid, and dry sub-humid areas, marked by a decline in biological productivity, soil quality, and moisture retention due to pressures like overgrazing, deforestation, groundwater overuse, and improper irrigation.",
+      "mini_lesson": "A common misconception is that desertification means Sahara-like sand dunes marching across the map; ecologically, it is the in-situ degradation of fragile drylands where overgrazing, vegetation removal, aquifer mining, and soil salinization strip the soil of organic matter and moisture-holding capacity until plants can no longer regenerate. Option (A) confuses dryland land degradation with polar geography."
+    },
+    {
+      "id": "W04_M09",
+      "week": 4,
+      "lecture": "Lec 17",
+      "source": "mock_unseen",
+      "question": "How have human activities disrupted the global carbon cycle?",
+      "options": [
+        "By permanently locking all atmospheric carbon dioxide inside living plant leaves",
+        "By stopping cellular respiration and decomposition in all terrestrial ecosystems",
+        "By burning fossil fuels that rapidly transfer carbon stored in geological reservoirs over millions of years into the active atmosphere-ocean system while clearing carbon-storing forests",
+        "By converting atmospheric nitrogen gas directly into coal and petroleum deposits"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "In nature, carbon moves between the atmosphere, oceans, living organisms, and soils through photosynthesis, respiration, and decomposition, while vast amounts remain locked in geological reservoirs as coal, oil, and gas. Human activities have disrupted this balance by burning fossil fuels—releasing millions of years of stored carbon in just a few decades—while simultaneously clearing forests that would normally absorb it.",
+      "mini_lesson": "The natural carbon cycle balances rapid biological exchanges (photosynthesis vs. respiration/decomposition) with ultra-slow geological storage; humanity has short-circuited this cycle by extracting fossilized carbon (coal, oil, natural gas) and combusting it into the atmosphere far faster than oceans and shrinking forests can reabsorb it. Options (A) and (B) describe impossible halts to basic biological processes."
+    },
+    {
+      "id": "W04_M10",
+      "week": 4,
+      "lecture": "Lec 17",
+      "source": "mock_unseen",
+      "question": "Why are specialized microorganisms essential to the functioning of the nitrogen cycle?",
+      "options": [
+        "Because plants can absorb abundant atmospheric $N_2$ gas directly through their bark without any chemical conversion",
+        "Because nitrogen exists only inside deep igneous rocks and never enters the atmosphere",
+        "Because nitrogen-fixing, nitrifying, and denitrifying bacteria convert unreactive atmospheric $N_2$ into biologically usable forms (ammonia and nitrates) and eventually return nitrogen gas to the air",
+        "Because microorganisms permanently destroy nitrogen atoms during photosynthesis"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Although nitrogen gas makes up about 78% of Earth's atmosphere, most plants and animals cannot use it directly in that form. Specialized microorganisms perform nitrogen fixation, ammonification, nitrification, and denitrification, converting atmospheric nitrogen into forms plants can absorb and eventually returning nitrogen back to the atmosphere.",
+      "mini_lesson": "Even though $N_2$ constitutes ~78% of the air, its triple chemical bond makes it unusable to plants and animals until nitrogen-fixing microbes (or industrial fertilizer factories) convert it into ammonia ($NH_3$/$NH_4^+$) and nitrifying bacteria convert it into nitrates ($NO_3^-$), before denitrifying bacteria close the cycle. Option (A) is a classic biology trap, and Option (B) confuses the nitrogen cycle with the phosphorus cycle."
+    },
+    {
+      "id": "W04_M11",
+      "week": 4,
+      "lecture": "Lec 17",
+      "source": "mock_unseen",
+      "question": "What major feature distinguishes the phosphorus cycle from the carbon and nitrogen cycles?",
+      "options": [
+        "Phosphorus has no major atmospheric gas phase and originates primarily from the weathering of rocks, minerals, and soil before moving through food webs and aquatic sediments",
+        "Phosphorus makes up 78% of the Earth's atmosphere as a breathable gas",
+        "Phosphorus is produced exclusively by marine mammals and never enters terrestrial soils",
+        "Phosphorus cycles between the stratosphere and plant leaves in a matter of seconds"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Unlike carbon and nitrogen, the phosphorus cycle has no significant atmospheric gas phase. Phosphorus comes mainly from the slow weathering of rocks and minerals in the lithosphere, enters soils and water bodies, moves through producers, consumers, and decomposers, and eventually settles into aquatic sediments.",
+      "mini_lesson": "While carbon ($CO_2$, $CH_4$) and nitrogen ($N_2$, $N_2O$) cycle globally through large atmospheric gas reservoirs, phosphorus is a sedimentary/lithospheric cycle with no major gaseous phase—it is released slowly by rock weathering (and human phosphate mining) and washes downstream into lakes and ocean sediments. Option (B) confuses phosphorus with atmospheric nitrogen ($N_2$)."
+    },
+    {
+      "id": "W04_M12",
+      "week": 4,
+      "lecture": "Lec 17",
+      "source": "mock_unseen",
+      "question": "During eutrophication, what directly causes the severe drop in dissolved oxygen that kills fish and benthic invertebrates?",
+      "options": [
+        "Living surface algae consume all water molecules and turn the lake into dry land",
+        "Nitrogen fertilizers chemically bind every oxygen atom in the atmosphere above the lake",
+        "Submerged aquatic plants produce toxic levels of pure oxygen at night",
+        "Dense surface algal blooms block sunlight to deeper plants, and when the massive algal biomass dies, aerobic bacteria consume dissolved oxygen while decomposing the dead algae"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "As dense algal blooms spread across the water surface, they block sunlight from reaching submerged aquatic plants below. When this huge mass of algae eventually dies and sinks, decomposer bacteria multiply rapidly to break down the dead organic matter, consuming the dissolved oxygen in the water and creating hypoxic or anoxic dead zones where fish and other aquatic animals suffocate.",
+      "mini_lesson": "In eutrophication, living algae at the surface are not what directly suffocate the lake during the day; rather, the thick algal mat shades out deeper oxygen-producing plants, and when the short-lived algae die in bulk, exploding populations of aerobic decomposer bacteria strip the water column of dissolved oxygen ($O_2$), creating suffocating dead zones. Options (A), (B), and (C) misstate the biogeochemical mechanism."
+    },
+    {
+      "id": "W04_M13",
+      "week": 4,
+      "lecture": "Lec 18",
+      "source": "mock_unseen",
+      "question": "Why is the Northern White Rhinoceros classified as 'functionally extinct' even though living individuals still exist?",
+      "options": [
+        "Because the species has adapted to live entirely underwater in deep ocean trenches",
+        "Because only two individuals remain alive—both of them females kept under protection—meaning the population can no longer reproduce naturally or perform its ecological role in the wild",
+        "Because millions of Northern White Rhinos survive in the wild but refuse to eat grass",
+        "Because the species was cloned in 1889 and replaced by domestic cattle"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "A species can also become functionally extinct before the very last individual dies. Take the Northern White Rhinoceros: only two individuals remain in the world, and both are females, Najin and Fatu, living under 24-hour armed protection in Kenya. Without a male, the species cannot reproduce naturally, and its ecological role in the wild is already gone.",
+      "mini_lesson": "Functional extinction occurs when a species still has surviving individuals, but its numbers or demographics (such as the last two Northern White Rhinos, Najin and Fatu, both being female) make natural reproduction impossible or reduce the population too far to perform its ecosystem engineering role in the wild. Option (C) contradicts its critically depleted status."
+    },
+    {
+      "id": "W04_M14",
+      "week": 4,
+      "lecture": "Lec 18",
+      "source": "mock_unseen",
+      "question": "What geological evidence confirmed that a massive asteroid impact triggered the Cretaceous–Paleogene (K–Pg) extinction 66 million years ago?",
+      "options": [
+        "Written historical records found inside European caves",
+        "A global clay layer enriched in iridium (an element rare in Earth's crust but abundant in asteroids) together with the 180-km Chicxulub impact crater in Yucatán, Mexico",
+        "Fossilized plastic ghost nets embedded in Jurassic limestone",
+        "A sudden disappearance of all atmospheric nitrogen gas 10,000 years ago"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Scientists found a thin layer of clay across the globe at the boundary between the Cretaceous and Paleogene periods, about 66 million years ago, containing unusually high levels of iridium—an element rare in Earth's crust but common in asteroids. This was later matched to the 180-kilometer-wide Chicxulub crater buried beneath the Yucatán Peninsula in Mexico, where drill cores revealed shattered rock and vaporized gypsum that blocked sunlight and triggered a global impact winter.",
+      "mini_lesson": "The K–Pg mass extinction that wiped out non-avian dinosaurs was proven by two smoking guns: a worldwide boundary clay spike of extraterrestrial iridium (discovered by Walter and Luis Alvarez) and the 180-km Chicxulub crater in Yucatán, Mexico, where impact vaporization of sulfur-rich gypsum rocks shrouded Earth in aerosols, halting photosynthesis in an 'impact winter.' Options (A), (C), and (D) are chronological nonsense."
+    },
+    {
+      "id": "W04_M15",
+      "week": 4,
+      "lecture": "Lec 18",
+      "source": "mock_unseen",
+      "question": "How did Georges Cuvier and Charles Darwin transform the scientific understanding of extinction in the 18th and 19th centuries?",
+      "options": [
+        "Cuvier proved through mammoth and mastodon fossils that species genuinely go extinct via catastrophic events, while Darwin showed that gradual extinction is a natural outcome of competition and failure to adapt under natural selection",
+        "Cuvier argued that no species could ever go extinct in a fixed creation, while Darwin proved that asteroids kill every species every century",
+        "Both Cuvier and Darwin claimed that fossils were merely oddly shaped mineral rocks with no biological origin",
+        "Cuvier invented CRISPR gene editing, while Darwin established the IUCN Red List categories"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "For a long time, many naturalists believed in a fixed creation where no species could ever be lost. Georges Cuvier changed this by comparing fossils of mammoths and mastodons with living elephants, proving that extinction was real and proposing catastrophism. Later, Charles Darwin integrated extinction into evolutionary theory, showing that species also vanish gradually through natural selection when they fail to adapt to changing conditions or new competitors.",
+      "mini_lesson": "Before the late 1700s, Western natural history assumed nature was static and complete; comparative anatomist Georges Cuvier proved extinction beyond doubt by showing that fossil mammoths and mastodons were distinct from living elephants and had vanished (attributing losses to sudden 'catastrophism'), while Charles Darwin explained extinction as the continuous evolutionary flip-side of speciation via natural selection. Option (B) attributes pre-Cuvier dogma to Cuvier himself."
+    },
+    {
+      "id": "W04_M16",
+      "week": 4,
+      "lecture": "Lec 18",
+      "source": "mock_unseen",
+      "question": "How does illegal and excessive sand mining in the National Chambal Sanctuary threaten riverine biodiversity?",
+      "options": [
+        "It adds excessive sandbanks that turn the Chambal River into a high-altitude glacier",
+        "It affects only deep-sea whales and has no effect on freshwater reptiles",
+        "It destroys critical riverbank basking and nesting sandbars required by the Critically Endangered Gharial and Red-crowned roofed turtle while disturbing Ganges river dolphins",
+        "It increases dissolved oxygen and doubles the hatching success of gharial eggs"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "In the National Chambal Sanctuary, sand mining along the riverbanks directly destroys the sandbars where the critically endangered gharial and the red-crowned roofed turtle lay their eggs and bask, while noise, boat movement, and sediment changes also disturb the endangered Ganges river dolphin.",
+      "mini_lesson": "Riverine sandbars are not barren waste piles—they are essential reproductive and thermoregulatory habitat; excavating sand from the Chambal River obliterates the nesting beaches of Critically Endangered gharials and red-crowned roofed turtles and degrades the acoustic, prey-rich channels of the Ganges river dolphin. Options (A), (B), and (D) fabricate impossible geographic or beneficial effects."
+    },
+    {
+      "id": "W04_M17",
+      "week": 4,
+      "lecture": "Lec 18",
+      "source": "mock_unseen",
+      "question": "Why did the 1935 introduction of the cane toad (*Rhinella marina*) into Australia become a classic biological control disaster?",
+      "options": [
+        "The cane toad consumed all sugarcane crops across Australia and caused severe famine",
+        "The cane toad failed to control cane beetles and instead spread rapidly across Australia, fatally poisoning native predators such as northern quolls, monitor lizards, and snakes that tried to eat it",
+        "The cane toad froze Australian rivers by absorbing geothermal heat",
+        "The cane toad hybridized with kangaroos and koalas across tropical savannas"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "In 1935, the cane toad was intentionally introduced into Australia from Hawaii to control beetles damaging sugarcane crops. Not only did it fail to control the beetles, it multiplied rapidly and spread across the continent. Because the cane toad possesses potent poison glands, native Australian predators such as the northern quoll, large lizards, and snakes that had not evolved with bufotoxins died swiftly when they tried to eat it.",
+      "mini_lesson": "Introduced deliberately in 1935 to eat sugarcane beetles, the cane toad ignored the beetles high on the stalks and instead became an unstoppable toxic invader; because Australian native predators (like the endangered northern quoll, goannas, and snakes) had no evolutionary resistance to bufotoxins, biting a cane toad proved rapidly fatal. Option (A) confuses eating cane beetles with eating sugarcane itself."
+    },
+    {
+      "id": "W04_M18",
+      "week": 4,
+      "lecture": "Lec 18",
+      "source": "mock_unseen",
+      "question": "How do the fungal diseases chytridiomycosis and white-nose syndrome cause mass mortality in wild vertebrates?",
+      "options": [
+        "Chytridiomycosis dissolves the calcium shells of marine oysters, while white-nose syndrome causes coral bleaching",
+        "Both diseases affect only tropical hardwood trees and never infect animals",
+        "Chytridiomycosis infects the permeable skin of amphibians—disrupting water and electrolyte balance and driving over 90 species extinct—while white-nose syndrome wakes hibernating North American bats repeatedly until they starve",
+        "Both diseases are beneficial mutualisms that increase amphibian and bat longevity"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Chytridiomycosis, caused by the chytrid fungus, attacks the skin of amphibians—through which they breathe and regulate water and salts—and has driven more than 90 amphibian species to extinction globally. Another devastating fungal disease is white-nose syndrome in North American bats, first detected in 2006 and spread partly on cave gear, which irritates hibernating bats, causing them to wake up repeatedly in winter, burn through their fat reserves, and starve to death.",
+      "mini_lesson": "Emerging wildlife pathogens can cause rapid extinctions: the chytrid fungus (*Batrachochytrium dendrobatidis*) thickens amphibian skin, blocking cutaneous respiration and electrolyte balance and causing cardiac arrest (wiping out >90 species), while *Pseudogymnoascus destructans* (white-nose syndrome) disrupts winter torpor in cave-hibernating bats so they exhaust their fat stores and perish before spring insects appear. Options (A), (B), and (D) misidentify the hosts and mechanisms."
+    },
+    {
+      "id": "W04_M19",
+      "week": 4,
+      "lecture": "Lec 19",
+      "source": "mock_unseen",
+      "question": "Which combination of traits and human pressures caused the Dodo (*Raphus cucullatus*) of Mauritius to go extinct within roughly 80 years of Dutch arrival in 1598?",
+      "options": [
+        "It was a migratory seabird that drowned when Atlantic hurricanes intensified",
+        "It was a small-island endemic, flightless giant pigeon that laid a single egg on the ground, lacked fear of humans, and faced simultaneous hunting, forest clearing, and egg predation by introduced rats, pigs, and monkeys",
+        "It was an apex mammalian carnivore that starved when mammoths disappeared during the Ice Age",
+        "It was intentionally eradicated by a global World Health Organization vaccination campaign"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The Dodo was a large, flightless bird—actually a giant relative of pigeons and doves—endemic only to the island of Mauritius, where Dutch sailors arrived in 1598. Because it had evolved without mammalian predators, it nested on the ground, laid only a single egg at a time, and showed no fear of humans; combined with direct hunting, forest clearing, and invasive rats, pigs, dogs, and monkeys eating its eggs, the Dodo was extinct by around 1662 to 1681, within about 80 years.",
+      "mini_lesson": "The Dodo's rapid extinction (~1598 to 1662/1681) exemplifies how biological vulnerability and multiple human drivers converge: restricted to a single island (Mauritius), flightless, laying just one egg on the ground ($K$-selected reproductive bottleneck), and evolutionarily naive to predators, it was overwhelmed when hunting by sailors combined with invasive pigs, rats, and macaques plundering its ground nests. Options (A), (C), and (D) fabricate its taxonomy and extinction cause."
+    },
+    {
+      "id": "W04_M20",
+      "week": 4,
+      "lecture": "Lec 19",
+      "source": "mock_unseen",
+      "question": "What does 'co-extinction' mean, and how is it illustrated by the Critically Endangered Pygmy hog?",
+      "options": [
+        "When two unrelated species on different continents are struck by the same meteor",
+        "When a host species declines or goes extinct, causing dependent host-specific organisms—such as the Pygmy hog-sucking louse (*Haematopinus oliveri*)—to face extinction alongside it",
+        "When two invasive species hybridize to form a super-competitor",
+        "When corals expel their symbiotic algae temporarily during a cool winter night"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Because species are linked in intricate ecological webs, the loss of one species can trigger the loss of another—a process called co-extinction. A striking example is the critically endangered pygmy hog in Assam and its host-specific parasite, the pygmy hog-sucking louse; if the pygmy hog goes extinct, this louse, which can live on no other animal on Earth, automatically goes extinct with it.",
+      "mini_lesson": "Co-extinction is the domino effect of biodiversity loss across tightly coevolved relationships (obligate parasites, host-specific pollinators, or mutualists): because the Critically Endangered Pygmy hog-sucking louse (*Haematopinus oliveri*) feeds exclusively on the Pygmy hog, the extinction of its mammalian host guarantees the automatic secondary extinction of the parasite. Option (D) describes coral bleaching (which occurs under heat stress, not cool nights)."
+    },
+    {
+      "id": "W04_M21",
+      "week": 4,
+      "lecture": "Lec 19",
+      "source": "mock_unseen",
+      "question": "How did conservation biologist Graeme Caughley distinguish the 'Declining Population Paradigm' from the 'Small Population Paradigm'?",
+      "options": [
+        "The Declining Population Paradigm studies only marine fish, whereas the Small Population Paradigm studies only desert insects",
+        "The Declining Population Paradigm focuses on genetic drift, whereas the Small Population Paradigm focuses on asteroid impacts",
+        "The Declining Population Paradigm addresses external human-driven causes pushing a population downward (habitat loss, overkill, competition), whereas the Small Population Paradigm addresses internal demographic, behavioural, and genetic risks to which tiny isolated populations are vulnerable",
+        "Both paradigms state that population size has zero effect on extinction probability"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Conservation biology examines extinction through two main frameworks: the declining population paradigm and the small population paradigm. The declining population paradigm focuses on the external agents—such as habitat loss, overexploitation, or invasive species—that push a once-large population down toward smallness, whereas the small population paradigm focuses on what happens once a population is already small and isolated, where internal risks like inbreeding, demographic chance, and the Allee effect take over.",
+      "mini_lesson": "These two paradigms answer different diagnostic questions: the Declining Population Paradigm asks *why* a population is shrinking (external deterministic pressures: 'no suitable habitat, competed out, or killed out') and prescribes removing the external threat, whereas the Small Population Paradigm asks *why tiny populations fail even if protected* (internal stochasticity, inbreeding, Allee effect) and prescribes population/genetic management. Options (A), (B), and (D) misrepresent both frameworks."
+    },
+    {
+      "id": "W04_M22",
+      "week": 4,
+      "lecture": "Lec 19",
+      "source": "mock_unseen",
+      "question": "Why does the Asiatic wild dog (dhole) suffer from an Allee effect when pack size drops too low?",
+      "options": [
+        "Because dholes are obligate pack hunters that rely on cooperative group sizes to bring down large prey, defend kills from tigers and leopards, and help raise pups",
+        "Because dholes are photosynthetic plants that require dense canopy shading",
+        "Because dholes can reproduce only when thousands of individuals congregate on ocean beaches",
+        "Because dholes become genetically identical the moment a single individual leaves the pack"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "In social species like the dhole, or Asiatic wild dog, survival depends on pack size. Dholes hunt cooperatively in packs to bring down prey larger than themselves and to share the work of guarding and feeding pups; if a pack shrinks below a critical number of adults, hunting efficiency drops and pup survival fails—a classic behavioural Allee effect.",
+      "mini_lesson": "The Allee effect isn't just about solitary animals failing to find a mate in a vast landscape; in cooperative social carnivores like the dhole (Asiatic wild dog) or African wild dog, a pack that falls below a critical threshold of adults cannot efficiently hunt large ungulates, defend kills against larger predators, or provision pups at the den, causing per-capita survival to collapse. Options (B), (C), and (D) are biologically false."
+    },
+    {
+      "id": "W04_M23",
+      "week": 4,
+      "lecture": "Lec 19",
+      "source": "mock_unseen",
+      "question": "What is the 'Extinction Vortex' in small, isolated populations?",
+      "options": [
+        "A tropical cyclone that blows migratory birds across the equator",
+        "A deep ocean whirlpool that traps plastic waste in subtropical gyres",
+        "A self-reinforcing positive feedback loop where small population size increases inbreeding depression, genetic drift, and demographic stochasticity, which further reduces reproduction and survival, shrinking the population even faster toward extinction",
+        "A rapid evolutionary mechanism that doubles genetic diversity whenever a population drops below 10 individuals"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "When a population becomes very small and isolated, genetic problems like inbreeding depression and loss of variation combine with demographic fluctuations and environmental shocks in a downward spiral. Reduced fitness leads to fewer births and higher death rates, making the population even smaller, which further worsens inbreeding and chance fluctuations—pulling the species into what conservation biologists call an extinction vortex.",
+      "mini_lesson": "The Extinction Vortex is a deadly positive-feedback spiral: small population size $\\rightarrow$ increased inbreeding and random genetic drift + demographic chance (e.g., an all-male birth cohort) $\\rightarrow$ lower fertility, congenital defects, and higher juvenile mortality $\\rightarrow$ an even smaller population in the next generation, accelerating downward until the population hits zero. Option (D) reverses the genetic consequence of small bottlenecks."
+    },
+    {
+      "id": "W04_M24",
+      "week": 4,
+      "lecture": "Lec 19",
+      "source": "mock_unseen",
+      "question": "How did conservationists successfully rescue the Florida panther from severe inbreeding depression in the 1990s?",
+      "options": [
+        "By cloning extinct saber-toothed cats and releasing them into the Everglades",
+        "By translocating eight female pumas from a closely related Texas population into Florida, which restored genetic heterozygosity, reduced congenital heart and tail defects, and allowed the population to rebound from ~30 to over 200 individuals",
+        "By removing all deer and prey species from southern Florida",
+        "By cross-breeding Florida panthers with domestic house cats to create a hybrid swarm"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "By the early 1990s, the isolated Florida panther population had dropped to around 20 to 30 individuals and showed classic signs of severe inbreeding depression, including kinked tails, cowlicks, heart defects, and poor sperm quality. Conservationists carried out genetic rescue by introducing eight female pumas from a closely related Texas population; genetic diversity rose, physical defects declined sharply, and the panther population recovered to more than 200 adults.",
+      "mini_lesson": "The Florida panther is the textbook success story of genetic rescue: isolated in south Florida down to ~20–30 individuals, rampant inbreeding caused kinked tails, atrial septal heart defects, cryptorchidism, and low survivorship, until introducing 8 unrelated female Texas pumas restored gene flow and tripled survival and abundance. Option (D) confuses carefully managed subspecies genetic rescue with destructive genetic pollution/hybridization."
+    },
+    {
+      "id": "W04_M25",
+      "week": 4,
+      "lecture": "Lec 20",
+      "source": "mock_unseen",
+      "question": "How does the ongoing Sixth Mass Extinction differ fundamentally from the 'Big Five' prehistoric mass extinctions in Earth's geological record?",
+      "options": [
+        "The Big Five were caused by human industrial agriculture, whereas the Sixth is caused by solar flares",
+        "The Sixth Mass Extinction affects only single-celled bacteria and spares all vertebrates",
+        "The Big Five occurred over single afternoons, whereas the Sixth is slower than natural background rates",
+        "The Big Five were driven by physical planetary catastrophes (volcanism, asteroid impacts, geological climate shifts), whereas the Sixth is driven by a single biological species—humans—pushing extinction rates 100 to 1,000 times above background levels"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Earth has experienced five major mass extinctions in the geological past—each wiping out more than 75% of species through physical forces like massive volcanic eruptions, climate shifts, or asteroid impacts. What makes the ongoing Sixth Mass Extinction unique in Earth's 4.5-billion-year history is that it is driven by a single biological species—human beings—with current extinction rates running 100 to 1,000 times higher than the natural background rate.",
+      "mini_lesson": "A mass extinction is defined when $>75\\%$ of species vanish within a geologically brief window; unlike the Ordovician, Devonian, Permian, Triassic, and Cretaceous–Paleogene (K–Pg) events driven by abiotic planetary shocks, the Anthropocene Sixth Mass Extinction is driven by human land use, overexploitation, climate change, pollution, and invasives, threatening ~1 million species (including 41% of amphibians). Options (A), (B), and (C) invert the cause, scope, and rate."
+    },
+    {
+      "id": "W04_M26",
+      "week": 4,
+      "lecture": "Lec 20",
+      "source": "mock_unseen",
+      "question": "Which two infectious pathogens have been deliberately driven to global eradication in the wild through coordinated human vaccination campaigns?",
+      "options": [
+        "Chytridiomycosis and white-nose syndrome",
+        "Malaria (*Plasmodium*) and dengue fever virus",
+        "Smallpox virus in humans (declared eradicated in 1980) and Rinderpest virus in cattle and wild ungulates (declared eradicated in 2011)",
+        "Rabies virus and avian influenza virus"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "While conservation strives to prevent extinction, there is a small group of organisms—deadly pathogens and parasites—where humanity has deliberately pursued planned extinction. Only two diseases have ever been completely eradicated globally through coordinated campaigns: smallpox in humans, declared eradicated in 1980, and rinderpest, a devastating viral cattle plague characterized by the four Ds (depression, discharge, diarrhea, and dehydration), declared eradicated in 2011.",
+      "mini_lesson": "Deliberate (planned) extinction is reserved for devastating disease agents: through global ring vaccination and surveillance, humanity eradicated Smallpox in 1980 and Rinderpest (a morbillivirus that killed millions of domestic cattle and wild African buffaloes/antelopes via the '4 Ds': depression, ocular/nasal discharge, diarrhea, dehydration) in 2011, with Guinea worm and Polio near eradication. Options (A), (B), and (D) list diseases that remain active today."
+    },
+    {
+      "id": "W04_M27",
+      "week": 4,
+      "lecture": "Lec 20",
+      "source": "mock_unseen",
+      "question": "What happened in the 2003 attempt to achieve 'de-extinction' of the Pyrenean ibex (bucardo), and why do conservationists caution against relying on de-extinction?",
+      "options": [
+        "Scientists cloned a Pyrenean ibex from frozen cells preserved before the last female (Celia) died, making it the first subspecies 'un-extincted' by cloning, but the clone died within minutes from severe lung defects—showing that high-tech cloning cannot replace habitat protection",
+        "Scientists successfully released 50,000 cloned Pyrenean ibexes across Spain, completely restoring the mountain ecosystem",
+        "Scientists used Jurassic amber DNA to clone a woolly mammoth that survived for 80 years in Siberia",
+        "De-extinction requires zero financial cost and automatically restores degraded forests without human effort"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "After the last Pyrenean ibex, a female named Celia, died in 2000 when a falling tree crushed her, scientists used preserved frozen skin cells to clone a calf in 2003. Although it became the first taxon to be brought back from extinction by birth, the clone died within minutes due to severe lung defects—becoming the first species to go extinct twice, and illustrating why expensive de-extinction technologies cannot substitute for protecting living species and their habitats.",
+      "mini_lesson": "In 2000, the last Pyrenean ibex (bucardo), Celia, died; in 2003, researchers used somatic cell nuclear transfer (cloning) into domestic goat surrogates to birth one live clone, which suffocated minutes later due to a malformed lung lobe—making the bucardo the only animal to go extinct twice and highlighting that cloning/CRISPR cannot solve cloning defects, missing learned behaviors, or lost habitats. Option (B) fabricates a successful mass reintroduction."
+    },
+    {
+      "id": "W04_M28",
+      "week": 4,
+      "lecture": "Lec 20",
+      "source": "mock_unseen",
+      "question": "Why has the Great Indian Bustard been pushed to the brink of extinction alongside India's desert renewable energy boom?",
+      "options": [
+        "Because solar panels absorb all atmospheric oxygen across Rajasthan grasslands",
+        "Because its open arid grassland habitat overlaps heavily with solar and wind power projects, and as a heavy-bodied bird with frontal vision defects and a slow reproductive rate of just one egg per year, it suffers fatal collisions with overhead power transmission lines",
+        "Because the Great Indian Bustard feeds exclusively on deep-sea hydrothermal vent crabs",
+        "Because wind turbines increase annual rainfall and turn Rajasthan into a mangrove swamp"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The Great Indian Bustard shows how ecological overlap with human infrastructure and slow life-history traits combine to create extreme vulnerability. Its open grassland habitats in Rajasthan and Gujarat overlap heavily with new solar and wind energy parks; because this heavy flying bird has limited frontal vision and lays only one egg per year, fatal collisions with overhead high-voltage transmission lines push the tiny remaining population toward extinction.",
+      "mini_lesson": "The Critically Endangered Great Indian Bustard illustrates 'ecological overlap' + '$K$-selected bottleneck': open desert grasslands prized by bustards are frequently misclassified as 'wastelands' and covered with solar/wind parks and overhead transmission cables; because bustards are among the heaviest flying birds with wide sideways vision (poor narrow frontal vision to spot wires ahead) and lay only 1 egg every 1–2 years, power-line collisions are catastrophic. Options (A), (C), and (D) are physically absurd."
+    },
+    {
+      "id": "W04_M29",
+      "week": 4,
+      "lecture": "Lec 20",
+      "source": "mock_unseen",
+      "question": "What pattern did 20th-century industrial whaling follow before the 1986 International Whaling Commission moratorium?",
+      "options": [
+        "Whalers harvested only abundant minke whales and left large blue and fin whales untouched",
+        "Whale populations increased continuously throughout the 1930s because steam harpoons improved reproduction",
+        "Whalers sequentially depleted the largest, most profitable species first—collapsing Blue whales (down to ~1% of pre-whaling numbers), then Fin whales, then Sperm and Sei whales, and finally targeting smaller Minke whales ('fishing down' the size spectrum)",
+        "Industrial whaling occurred only in freshwater rivers and ended in 1598"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Twentieth-century industrial whaling shows a classic pattern of sequential overexploitation: fleets first targeted the largest and most profitable species, the blue whale—peaking at over 30,000 killed in 1930 alone and reducing blue whales to about 1% of their original population—then shifted down in size to fin whales, then sei and sperm whales, and finally to the much smaller minke whale before the 1986 commercial whaling moratorium.",
+      "mini_lesson": "Armed with steamships, exploding harpoon cannons, and factory ships, 20th-century whalers did not stop when one species collapsed; instead, they practiced sequential depletion ('fishing down'), crashing giant Blue whales first (leaving just ~1% by 2001), switching to Fin whales (14% left), then Sei/Sperm whales, and finally harvesting smaller Minke whales (80% left) until the 1986 IWC moratorium. Option (A) reverses the historical sequence."
+    },
+    {
+      "id": "W04_M30",
+      "week": 4,
+      "lecture": "Lec 20",
+      "source": "mock_unseen",
+      "question": "Using MacArthur and Wilson's Species–Area Relationship ($S = cA^z$) with a typical island/fragment exponent of $z = 0.30$, approximately what percentage of species will eventually be lost if 90% of a natural habitat is destroyed (leaving 10% of the original area)?",
+      "options": [
+        "Approximately 10% of species are lost",
+        "Approximately 90% of species are lost immediately",
+        "Zero percent of species are lost as long as 10% of the area remains",
+        "Approximately 50% of species are lost (since $0.10^{0.30} \\approx 0.50$)"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Using MacArthur and Wilson's species-area relationship, S equals c times A raised to the power z, we can estimate how habitat loss translates into species loss. With a typical z value of 0.30, if 90% of a habitat is destroyed so that only 10% of the original area remains, 0.1 raised to the power 0.3 is about 0.50—meaning roughly 50% of the species will eventually be lost.",
+      "mini_lesson": "MacArthur and Wilson's Species–Area Relationship ($S = cA^z$) follows a power law: when remaining area fraction is $A_1 / A_0 = 0.10$ (a 90% habitat loss) and $z = 0.30$, the surviving fraction of species is $S_1 / S_0 = (0.10)^{0.30} \\approx 0.501$, meaning a 90% loss of habitat area drives roughly 50% of its species to extinction (and similarly, for $z = 0.15$ and a 1.8% annual loss of tropical forests housing 10 million species, roughly $0.27\\% = 27,000$ species are committed to extinction per year). Option (B) mistakenly assumes a 1:1 linear relationship."
+    }
+  ]
+}

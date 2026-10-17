@@ -1,0 +1,492 @@
+{
+  "week": 6,
+  "lecture_briefings": {
+    "Lec 26": "Because nature is an evolving continuum rather than a set of static boxes, biologists treat 'species' as a flexible scientific tool comprising multiple complementary frameworks: the Biological Species Concept (interbreeding and gene flow), Morphological (anatomical traits, though vulnerable to cryptic species and shark/dolphin/ichthyosaur convergent evolution), Phylogenetic (smallest diagnosable branch, though prone to oversplitting), Ecological (niche and resource use), and Evolutionary (independent lineage fate). Speciation occurs when gene flow between populations is interrupted—either geographically via allopatric speciation or within the same area via sympatric host shifts and plant polyploidy—allowing independent mutations, natural selection, and drift to accumulate. Once diverging, lineages are kept separate by pre-zygotic barriers acting before fertilization (habitat, temporal, behavioural, mechanical, and gametic isolation) and post-zygotic barriers acting after fertilization (embryo inviability, hybrid sterility like the 63-chromosome mule, and F2 hybrid breakdown), while ring species and subspecies (like Sundarbans vs. Central Indian tigers, unlike artificial dog breeds) reveal speciation in action. Watch out for these 3 key terms: Species Concepts Toolkit (Biological, Morphological, Phylogenetic, Ecological, and Evolutionary concepts and their specific trade-offs), Allopatric vs. Sympatric Speciation (divergence across a physical geographic barrier vs. divergence within the same geographic area via niche/host shifts or polyploidy), and Pre-zygotic vs. Post-zygotic Barriers (checkpoints preventing fertilization like temporal/behavioural isolation vs. post-fertilization failures like hybrid sterility in mules).",
+    "Lec 27": "Built on Herbert Simon's 1962 parable of the two watchmakers (Hora's resilient modular subassemblies vs. Tempus's fragile continuous assembly), living nature is organized as a nested hierarchy—from subcellular organelles, cells, tissues, organs, and organisms up to populations, communities, ecosystems, biomes, and the biosphere—where higher levels display 'emergent properties' (like a termite mound's self-regulating ventilation or the langur-chital alarm-and-foraging partnership) that no single part possesses alone. Within this hierarchy, biodiversity spans three core dimensions: genetic diversity (measured via polymorphism—where the most common allele is <95%—and heterozygosity), species diversity (measured via species richness, species evenness, species accumulation curves, and the Shannon vs. Simpson indices), and ecosystem diversity. Across spatial scales, ecologists partition richness into Alpha diversity (within one local site), Beta diversity (species turnover between sites), and Gamma diversity (total regional diversity)—a distinction proven critical by the island lizard thought experiment (where draining a swamp raises local site richness from 1 to 2 woodland lizards but permanently drops island-wide Gamma diversity from 3 to 2) and by Norman Myers's Biodiversity Hotspots ($\\ge 1,500$ endemic vascular plants and $\\ge 70\\%$ primary vegetation loss). Watch out for these 3 key terms: Modularity & Emergence (Hora's stable nested subunits vs. higher-level properties like termite mound climate control that arise from component interactions), Polymorphism & Heterozygosity (genetic variation metrics tracking whether multiple alleles exist below the 95% threshold and the fraction of individuals carrying two different alleles), and Alpha, Beta, and Gamma Diversity (within-site local diversity, between-site compositional turnover, and total regional landscape diversity).",
+    "Lec 28": "Biogeography investigates 'which place has what and how many' by distinguishing distribution (the geographic range where a species occurs) from abundance (how many individuals occupy that range across four risk combinations: widespread/abundant, widespread/sparse, restricted/dense, and restricted/rare). Ranges are bounded first by abiotic factors—such as mountain altitudinal zonation, alpine treeline limits, Liebig's Law of the Minimum (the shortest barrel stave governing growth), Shelford's Law of Tolerance, and warming-driven upslope shifts of *Anopheles* mosquitoes and *Plasmodium* malaria into highlands—and second by biotic interactions including allelopathy (chemical inhibition under teak trees or fungal antibiosis tested via leaf-extract controls), sea urchin (*Paracentrotus*) grazing on rocky-shore algae, specialist food dependence (*Drosophila pachea* needing senita cactus sterols), and interspecific competition. Because active habitat selection (which can create deadly 'ecological traps'), seasonal migration (like Demoiselle cranes flying from Central Asia to Rajasthan), and three modes of one-way dispersal (diffusion by Gir lions, jump dispersal by zebra mussels in ship ballast, and evolutionary secular dispersal) also shape occupancy, ecologists use transplant experiments and a dichotomous decision key to diagnose why a species is absent from a site. Watch out for these 3 key terms: Distribution vs. Abundance & Liebig's Law of the Minimum (spatial range extent vs. local population size, constrained by whichever essential resource is scarcest), Biotic Range Controls: Allelopathy & Specialist Dependence (chemical suppression verified by controlled extract assays vs. consumer range locked to a host like *Drosophila pachea* on senita cactus), and Dispersal Modes & Transplant Experiments (diffusion, jump, and secular dispersal, and moving organisms beyond their range to test dispersal limitation vs. abiotic/biotic lethality).",
+    "Lec 29": "India's extraordinary biogeography spans alpine meadows (Dachigam NP and pilgrimage-pressured Kedarnath WLS), moist deciduous forests requiring elephant corridors (Mudumalai), dry deciduous water-limited forests (Harda and the Ken River mosaic in Panna Tiger Reserve), natural vs. degraded scrub (Ranthambore), Thar sand dunes where spiny-tailed lizards rely on undisturbed burrows, Jamnagar estuaries, the seasonal salt flats of the Rann and Little Rann of Kutch (supporting the Indian wild ass and salinity-sensitive flamingos), Chilika brackish lagoon (home to the Irrawaddy dolphin), Western Ghats Shola-grassland water sponges, Andaman evergreen island forests, intertidal mangroves with prop roots and pneumatophores, and marine coral reefs. Across all these biomes, a crucial conservation gulf separates *de jure* protection (legal status on paper and maps) from *de facto* habitat quality on the ground (actual availability of food, water, shelter, breeding sites, and low disturbance). The National Chambal Gharial Sanctuary demonstrates this vividly: despite legal sanctuary status, rampant sand mining in Morena (documented by field photos and satellite imagery), riverside agriculture, noisy water pumps, chemical runoff, cattle trampling, and barrages have destroyed gharial and turtle nesting sandbars, forcing managers to rely on *ex-situ* egg collection and hatchery head-starting just to prevent local extinction. Watch out for these 3 key terms: De Jure Protection vs. De Facto Habitat Quality (legal designation on a map vs. real on-the-ground food, water, shelter, breeding substrate, and low disturbance), Indian Habitat Archetypes (Shola-grassland montane water mosaics, mangroves with pneumatophores, Chilika lagoon Irrawaddy dolphins, and Rann of Kutch wild ass/flamingos), and Chambal Gharial Head-Starting (collecting wild gharial eggs for captive hatching and rearing because cumulative sand mining and disturbance have broken natural *in-situ* recruitment).",
+    "Lec 30": "Animal behaviour is any observable response to internal or external cues—studied descriptively in natural settings by ethology and evolutionarily through cost-benefit trade-offs by behavioural ecology, where natural selection favours behaviours whose fitness benefits exceed their costs. Group living (such as male lion coalitions sharing paternity to defend prides and cubs, vs. female lions sharing territory defense against within-group food competition), interspecies alarm signaling (langurs warning chital deer), and self-sacrificing help are explained by W. D. Hamilton's rule of kin selection ($r \\cdot b > c$, famously illustrated by J. B. S. Haldane's quip about saving 2 siblings at $r = 0.5$, 4 nephews at $r = 0.25$, or 8 cousins at $r = 0.125$), while territorial defence (auditory, visual, olfactory, and physical contests in chital, blackbuck, rhinos, and penguins) obeys an inverse resource-density law where richer food patches (like dense flowers for hummingbirds) shrink territory size. To turn behaviour into rigorous conservation data, field biologists use camera-trap 24-hour activity curves (revealing low temporal overlap of 0.24 between tigers and chital vs. 0.67 between tigers and scavenging jackals in Sariska), standardized ethograms (precisely defining sitting, standing, walking, vigilance, feeding, running, auto-grooming, and allo-grooming), and scan vs. focal animal sampling to build time budgets that detect environmental stress or predator pressure before populations crash. Watch out for these 3 key terms: Ethology vs. Behavioural Ecology (systematic natural observation and cataloging of behaviour vs. evolutionary cost-benefit analysis of how behaviour maximizes fitness), Hamilton's Rule & Inclusive Fitness ($r \\cdot b > c$, where genetic relatedness times recipient benefit outweighs actor cost), and Ethograms, Scan/Focal Sampling & Time Budgets (standardized behaviour catalogs and sampling protocols used to quantify how animals allocate time across feeding, vigilance, and movement)."
+  },
+  "questions": [
+    {
+      "id": "W06_M01",
+      "week": 6,
+      "lecture": "Lec 26",
+      "source": "mock_unseen",
+      "question": "How does the Biological Species Concept define a species, and what are its primary operational limitations?",
+      "options": [
+        "It defines a species as natural populations that actually or potentially interbreed and are reproductively isolated from other groups, but it cannot be applied to fossils or asexual organisms and is hard to test in geographically separated populations",
+        "It defines a species solely by bone measurements in museum fossils and fails for all living birds",
+        "It defines a species by chromosome number alone and requires every species to live in the same habitat",
+        "It defines a species by diet alone and applies only to bacteria and fungi"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "The biological species concept defines a species as a group of natural populations that actually or potentially interbreed and are reproductively isolated from other such groups... It cannot be applied to fossils since interbreeding cannot be tested. It does not fit asexual organisms and for geographically separated populations interbreeding cannot be directly assessed.",
+      "mini_lesson": "Ernst Mayr's Biological Species Concept anchors species identity in internal gene flow and external reproductive isolation; while powerful for living, sexually reproducing animals and plants, it breaks down where breeding cannot be observed or does not occur—namely fossils, asexual prokaryotes, allopatric populations, and hybrid/ring zones. Options (B), (C), and (D) confuse it with morphological, cytological, or ecological concepts."
+    },
+    {
+      "id": "W06_M02",
+      "week": 6,
+      "lecture": "Lec 26",
+      "source": "mock_unseen",
+      "question": "Why does convergent evolution—illustrated by the shark, the dolphin, and the extinct ichthyosaur—pose a major caution for the Morphological Species Concept?",
+      "options": [
+        "Because sharks, dolphins, and ichthyosaurs interbreed freely in the open ocean to form a single species",
+        "Because unrelated evolutionary lineages (a fish, a mammal, and a marine reptile) can independently evolve similar streamlined body forms under similar aquatic selection pressures, making appearance alone misleading",
+        "Because all three organisms belong to the same genus and share identical DNA sequences",
+        "Because the Morphological Species Concept can never be used for fossils or field guides"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Perhaps the biggest caution against relying solely on morphology is convergent evolution. Unrelated lineages can independently evolve similar body forms under similar environmental pressures. The diagram shows a shark, a dolphin, and an extinct ichthyosaur—all with streamlined bodies suited to aquatic movement yet belonging to completely different evolutionary lineages: fish, mammal, and marine reptile.",
+      "mini_lesson": "The Morphological Species Concept groups organisms by diagnostic physical traits (which is indispensable for fossils and field guides, like identifying a blackbuck by its spiral horns and pelage), but it can be fooled in two ways: convergent evolution makes distantly related lineages look superficially alike (shark, dolphin, ichthyosaur), while sexual dimorphism and cryptic species make one species look like two or three species look like one. Option (D) is false because fossils and field work are actually where morphology shines."
+    },
+    {
+      "id": "W06_M03",
+      "week": 6,
+      "lecture": "Lec 26",
+      "source": "mock_unseen",
+      "question": "What is the main conservation advantage and the main taxonomic risk of the Phylogenetic Species Concept?",
+      "options": [
+        "It ignores genetics completely, risking the lumping of all mammals into one species",
+        "It applies only to extinct dinosaurs and cannot detect living populations",
+        "It detects cryptic, evolutionarily distinct lineages (such as a rare range-restricted lineage hidden inside a widespread morphospecies) that need urgent protection, though its main risk is oversplitting minor genetic variants into separate species",
+        "It classifies domestic dog breeds as separate phyla based on coat colour"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "The phylogenetic concept defines a species as the smallest diagnosable evolutionary lineage—the smallest group forming a distinct branch on an evolutionary tree... This concept is especially useful for cryptic species and evolutionarily distinct lineages invisible to interbreeding tests. Its main risk is oversplitting: minor genetic differences could be elevated to species rank without clear biological significance.",
+      "mini_lesson": "By defining a species as the smallest diagnosable tip on an evolutionary tree, the Phylogenetic Species Concept rescues endangered cryptic species (like Lineage C in the lecture's small-mammal case study, which looked identical to widespread Lineage A but occupied a tiny, threatened range); however, if applied too aggressively, it risks taxonomic 'oversplitting' by promoting trivial genetic differences to full species rank. Option (A) states the opposite of phylogenetic analysis."
+    },
+    {
+      "id": "W06_M04",
+      "week": 6,
+      "lecture": "Lec 26",
+      "source": "mock_unseen",
+      "question": "How does sympatric speciation differ from allopatric speciation?",
+      "options": [
+        "Sympatric speciation requires a mountain range or ocean barrier, whereas allopatric speciation occurs on the same host plant",
+        "Sympatric speciation occurs only in fossils, whereas allopatric speciation occurs only in bacteria",
+        "Both processes require 100% unrestricted gene flow between diverging populations at all times",
+        "Allopatric speciation initiates divergence through a physical geographic barrier, whereas sympatric speciation reduces gene flow within a shared geographic area through host-plant shifts, microhabitat choice, mate preference, or polyploidy"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "The most common route to speciation is allopatric speciation—that is, speciation through geographic separation... Sympatric speciation takes place within a shared area when gene flow decreases through resource use, mate preference, or microhabitat choice... In plants, polyploidy—that is, doubling of chromosome numbers—can also produce instant reproductive isolation without any geographic component at all.",
+      "mini_lesson": "Both modes of speciation require reducing gene flow so lineages can diverge: Allopatric ('different homeland') speciation splits a population physically with a river, mountain, or ocean strait, whereas Sympatric ('same homeland') speciation splits a population right in the same area when subgroups switch to a new host plant, diverge in courtship preferences, or undergo polyploidy (chromosomal doubling in plants). Option (A) swaps the two definitions."
+    },
+    {
+      "id": "W06_M05",
+      "week": 6,
+      "lecture": "Lec 26",
+      "source": "mock_unseen",
+      "question": "Why is a mule—the hybrid offspring of a horse and a donkey—almost always sterile, and what class of reproductive barrier does this represent?",
+      "options": [
+        "It is a pre-zygotic mechanical barrier caused by incompatible courtship songs",
+        "It is a post-zygotic hybrid sterility barrier: a horse ($2n = 64$) and a donkey ($2n = 62$) produce a mule with an odd chromosome number ($2n = 63$) that cannot pair properly during meiosis to form gametes",
+        "It is a pre-zygotic temporal barrier because horses breed only in winter and donkeys breed only in summer",
+        "It proves that horses and donkeys exchange genes freely in nature and belong to a single species"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The mule illustrates hybrid sterility clearly. A horse has 64 chromosomes and a donkey has 62. Their hybrid has 63, an odd number that prevents proper chromosome pairing during gamete formation, making mules almost always sterile... So we must remember that the existence of a hybrid does not automatically mean that the parent populations belong to one species.",
+      "mini_lesson": "Because fertilization has already occurred, mule sterility is a classic post-zygotic barrier: receiving 32 chromosomes from the horse parent ($2n=64$) and 31 from the donkey parent ($2n=62$) leaves the mule with 63 chromosomes—an odd number that prevents homologous pairing during meiosis, blocking sustained gene flow between the two parent species. Option (D) is a major misconception explicitly corrected in Lecture 26."
+    },
+    {
+      "id": "W06_M06",
+      "week": 6,
+      "lecture": "Lec 26",
+      "source": "mock_unseen",
+      "question": "What do 'ring species' (populations arranged around a mountain barrier) and natural 'subspecies' (such as Sundarbans vs. Central Indian tigers) reveal compared to domesticated dog breeds?",
+      "options": [
+        "Dog breeds are separate biological species that cannot interbreed, whereas ring species are clones",
+        "Ring species prove that evolution is instantaneous and never involves intermediate populations",
+        "Ring species show speciation as a gradual continuum where neighbouring populations interbreed but terminal ends cannot, while subspecies reflect natural local adaptation—unlike dog breeds (*Canis lupus familiaris*), which are artificial human-selected varieties within one species",
+        "Human racial categories represent distinct biological species separated by post-zygotic sterility"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Ring species make speciation as a continuum concrete... Adjacent populations interbreed freely... But by the time we reach the end points, the populations have diverged enough that they cannot interbreed when they meet... Within a species, geographically distinct populations showing consistent differences are called subspecies... Breeds are different. They are varieties within domesticated species produced by artificial human selection.",
+      "mini_lesson": "Ring species (where populations A–B–C–D–E–F grade around a barrier until endpoints A and F can no longer interbreed) and natural tiger subspecies (locally adapted to Sundarbans mangroves vs. Madhya Pradesh forests, yet still interfertile) capture evolutionary divergence in progress; by contrast, domestic dog breeds (*Canis familiaris*) result from artificial human selection within a single species, and human racial categories have no subspecies/species validity. Option (A) and Option (D) are scientifically false."
+    },
+    {
+      "id": "W06_M07",
+      "week": 6,
+      "lecture": "Lec 27",
+      "source": "mock_unseen",
+      "question": "In Herbert Simon's 1962 parable of the two watchmakers, why does Hora prosper while Tempus fails, and what principle does this illustrate for biological diversity?",
+      "options": [
+        "Hora builds his watch using stable, nested modular subassemblies so an interruption only affects the current subunit, illustrating how hierarchical modularity makes biological systems resilient to disruption",
+        "Tempus builds modular subassemblies while Hora builds a single continuous chain that collapses at every phone call",
+        "The parable shows that biological systems are flat catalogs where every molecule depends directly on the entire biosphere at once",
+        "Hora succeeds because he eliminates all levels of organization between cells and the biosphere"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Tempus assembles his watch as a single continuous process. And every time he is interrupted by a phone call, the half-built watch falls apart... Hora, by contrast, builds his watch from stable subassemblies... Hierarchically structured systems are much more likely to survive disruptions than non-hierarchical ones, because a failure at one level does not automatically destroy all the levels above or below it.",
+      "mini_lesson": "Drawn from Herbert Simon's *The Architecture of Complexity* (1962), Hora thrives because he groups small parts into stable intermediate modules, whereas Tempus's non-modular watch shatters whenever interrupted; living systems—from repeating centipede segments to nested cells, tissues, organs, organisms, populations, communities, and ecosystems—persist precisely because this modular hierarchy localizes damage and confers resilience. Option (B) swaps the two watchmakers."
+    },
+    {
+      "id": "W06_M08",
+      "week": 6,
+      "lecture": "Lec 27",
+      "source": "mock_unseen",
+      "question": "What is an 'emergent property' in biological organization, and how is it illustrated by a termite mound or the langur–chital association?",
+      "options": [
+        "A property present inside every isolated atom that disappears when organisms interact in a community",
+        "A new property appearing at a higher level of organization—such as a termite colony's mound regulating internal temperature and airflow, or canopy langurs and ground chital forming a foraging and alarm-calling partnership—that cannot be predicted by studying one individual in isolation",
+        "A genetic mutation that causes a single termite to conscious-design architectural blueprints in a laboratory",
+        "The complete absence of any interaction between biotic communities and abiotic environments"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Emergence refers to the appearance of new properties at higher levels of organization that cannot be predicted simply by studying the parts in isolation. So for instance, consider the termite mound shown on this slide... together, a colony of termites constructs a mound that actively regulates its own internal temperature and air flow... A well-known Indian example here is the langur-chital association.",
+      "mini_lesson": "At each step up the biological hierarchy, interactions among parts generate 'emergent properties' larger than the sum of the parts: no single termite understands thermodynamics, yet the colony's mound self-ventilates; neither a langur nor a chital alone constitutes an interspecies early-warning and dropped-fruit foraging network—that property emerges only at the community level. Option (C) falsely attributes colony emergence to individual conscious planning."
+    },
+    {
+      "id": "W06_M09",
+      "week": 6,
+      "lecture": "Lec 27",
+      "source": "mock_unseen",
+      "question": "How do conservation geneticists use 'polymorphism' and 'heterozygosity' to assess the genetic health of a wildlife population?",
+      "options": [
+        "Polymorphism counts the number of habitats in a biome, while heterozygosity counts total population headcount",
+        "A gene is polymorphic only when one allele reaches 100% fixation, and low heterozygosity proves infinite adaptive potential",
+        "Polymorphism measures whether multiple alleles are common at a locus (most frequent allele <95%), while heterozygosity measures the proportion of individuals carrying two different alleles at a locus—where low heterozygosity warns of inbreeding or a past population bottleneck",
+        "Both metrics measure only non-heritable scars acquired during an animal's lifetime"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "A gene is considered polymorphic when more than one allele is sufficiently common in the population. The conventional threshold is that the most frequent allele is present at less than 95% frequency... Heterozygosity measures the proportion of individuals in a population that carry two different alleles at a given gene locus... When heterozygosity is low, it may be a warning sign of inbreeding or of a past population bottleneck.",
+      "mini_lesson": "To quantify genetic diversity within a population (such as the lecture's 8-deer example where 4 of 8 deer are $Aa$, giving an observed heterozygosity of $0.50$), biologists check two metrics: Polymorphism (whether a gene locus has multiple alleles with the most common allele below the $95\\%$ threshold) and Heterozygosity (the fraction of individuals carrying two different alleles, e.g., $Aa$ vs. $AA$/$aa$), which drops sharply during bottlenecks and inbreeding. Option (B) inverts both thresholds."
+    },
+    {
+      "id": "W06_M10",
+      "week": 6,
+      "lecture": "Lec 27",
+      "source": "mock_unseen",
+      "question": "When measuring species diversity, how do 'species evenness', 'species accumulation curves', and the 'Shannon vs. Simpson indices' complement simple species richness?",
+      "options": [
+        "Evenness ignores relative abundance, accumulation curves fall to zero as sampling increases, and Shannon/Simpson indices measure only soil pH",
+        "A community where one species makes up 90% of individuals has higher evenness than a community where 10 species are equally abundant",
+        "If a species accumulation curve is still rising steeply, sampling is 100% complete and no further surveys are needed",
+        "Evenness measures how equally individuals are distributed among species, a leveling-off accumulation curve confirms adequate sampling effort, and combining richness and evenness yields the Shannon index (sensitive to rare species) and Simpson index (weighted toward dominant species)"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "A community of 10 species where one species makes up 90% of all individuals is very different from one where all 10 species are equally abundant. This second dimension is called species evenness... Eventually, if sampling has been sufficient, the curve levels off, indicating that most species have been found... The Shannon index is sensitive to rare species, while the Simpson index gives more weight to the dominant species.",
+      "mini_lesson": "Raw species richness (headcount of species) misses relative abundance, which is captured by species evenness; meanwhile, plotting a species accumulation curve tells researchers whether they have sampled enough (the curve plateaus) or need more surveys (still rising steeply), and composite indices merge richness and evenness—with the Shannon index emphasizing rare species and the Simpson index weighting dominant species. Options (B) and (C) reverse evenness and accumulation-curve interpretation."
+    },
+    {
+      "id": "W06_M11",
+      "week": 6,
+      "lecture": "Lec 27",
+      "source": "mock_unseen",
+      "question": "What does a high 'beta ($\\beta$) diversity' between two habitats in a landscape indicate?",
+      "options": [
+        "That the two habitats have identical species composition and share nearly all of their species",
+        "That the two sites differ strongly in species composition, sharing very few species and each harbouring species unique to its habitat",
+        "That the genetic heterozygosity inside a single individual organism is zero",
+        "That the entire planet has only one biome type"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Beta diversity measures how different two sites are in their species composition. A high beta diversity between two sites means that they share few species and each contains many species unique to it. Low beta diversity means that the sites are compositionally similar.",
+      "mini_lesson": "While Alpha ($\\alpha$) diversity measures richness inside a single habitat patch and Gamma ($\\gamma$) diversity measures the total regional pool, Beta ($\\beta$) diversity measures compositional turnover between sites (e.g., comparing a meadow, a forest, and a wetland): high $\\beta$ diversity means each habitat supports a distinct assemblage of unique species, so conservarion must protect all habitat types rather than just one. Option (A) describes low beta diversity."
+    },
+    {
+      "id": "W06_M12",
+      "week": 6,
+      "lecture": "Lec 27",
+      "source": "mock_unseen",
+      "question": "In Lecture 27's island lizard case study (where an island has 2 woodland lizard species and 1 unique swamp lizard species), what happens to Alpha and Gamma diversity when the swamp is drained and converted into woodland?",
+      "options": [
+        "Both local Alpha diversity and island-wide Gamma diversity double to 6 species",
+        "Local Alpha diversity at the former swamp drops to zero, while island-wide Gamma diversity increases from 3 to 5",
+        "The former swamp is colonized by the 2 woodland lizards—making local site Alpha diversity appear to rise from 1 to 2—while the swamp specialist goes extinct, causing island-wide Gamma diversity to fall from 3 to 2",
+        "The swamp specialist lizard immediately evolves into a marine mammal"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Now, consider what happens when the swamp is drained and converted to woodland. The former swamp area is colonized by two woodland lizard species. Locally, at the site that used to be a swamp, the species richness appears to have increased from one to two... But the swamp specialist lizard, which could only survive in the swamp, has been lost from the island. Island-wide biodiversity has actually fallen from three species to two. And this is a net loss of biodiversity at the gamma scale.",
+      "mini_lesson": "This classic thought experiment proves why measuring only local Alpha diversity can mislead environmental impact assessments: draining a unique wetland and replacing it with woodland allows two common woodland generalists to move in (raising local site richness from 1 to 2), but wipes out the irreplaceable swamp specialist, reducing regional Gamma diversity from 3 to 2. Options (A) and (B) miscalculate the scale-dependent shift."
+    },
+    {
+      "id": "W06_M13",
+      "week": 6,
+      "lecture": "Lec 28",
+      "source": "mock_unseen",
+      "question": "How do 'distribution' and 'abundance' differ in biogeography, and why can a locally abundant species still face high extinction risk?",
+      "options": [
+        "Distribution is the geographic area where a species occurs and abundance is how many individuals live there; a species that is locally dense but restricted to a tiny geographic range faces high extinction risk if that single habitat is disturbed",
+        "Distribution counts total individuals in a cage, whereas abundance measures the latitude of mountain peaks",
+        "A species with a widespread range is always completely safe from decline even if its local abundance drops to near zero everywhere",
+        "Monitoring distribution alone is sufficient for conservation because abundance never changes before extinction"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Distribution tells us where a species occurs—in which geographic areas or habitats it is found. Abundance on the other hand tells us how many individuals occur in a given place... A localized but locally abundant species faces a very high risk if its restricted habitat is threatened because it has become sort of endemic. It's not found anywhere else.",
+      "mini_lesson": "Biogeography evaluates species across a $2 \\times 2$ matrix of range size (distribution) and population density (abundance): only species that are both *widespread and abundant* are secure, whereas *widespread but sparse* species risk Allee/demographic collapse and *locally dense but range-restricted* endemics can be wiped out by a single localized disturbance. Options (C) and (D) ignore how abundance and range interact."
+    },
+    {
+      "id": "W06_M14",
+      "week": 6,
+      "lecture": "Lec 28",
+      "source": "mock_unseen",
+      "question": "What does Liebig's Law of the Minimum state, as illustrated by the barrel with staves of unequal height?",
+      "options": [
+        "Adding abundant sunlight or carbon dioxide will always increase plant growth even when soil water or nitrogen is completely absent",
+        "Growth and survival are constrained by whichever essential resource is in the shortest supply (the shortest stave of the barrel), and adding non-limiting resources cannot compensate for the limiting factor",
+        "Organisms grow fastest when all environmental conditions exceed their upper lethal tolerance limits",
+        "Only a single abiotic variable ever influences the position of an alpine treeline"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "A formal principle for thinking about these interacting factors is Liebig's law of the minimum. The classic illustration on this slide is a barrel with staves of unequal height. Now water fills only to the level of the shortest stave regardless of how tall the others are. Similarly, applied to ecology, growth is constrained by whichever required resource is the scarcest.",
+      "mini_lesson": "Just as a wooden barrel can hold water only up to its shortest stave, Liebig's Law of the Minimum states that an organism's growth and distribution are limited by the scarcest essential resource relative to its needs (such as moisture in a desert or nitrogen in leached soil), regardless of how abundant other resources are. Option (A) states the exact fallacy Liebig's law refutes, and Option (D) contradicts the multi-factor nature of treelines."
+    },
+    {
+      "id": "W06_M15",
+      "week": 6,
+      "lecture": "Lec 28",
+      "source": "mock_unseen",
+      "question": "How is global warming reshaping the altitudinal distribution of malaria in mountainous regions?",
+      "options": [
+        "Warming freezes high-altitude lakes and eliminates *Anopheles* mosquitoes from all tropical countries",
+        "Warming pushes malaria transmission downward into deep ocean trenches",
+        "Because both the *Anopheles* mosquito vector and the *Plasmodium* parasite are temperature-sensitive, warming extends suitable transmission conditions to higher elevations, exposing highland populations that previously had cold protection",
+        "Malaria distribution is governed strictly by bedrock geology and is completely unaffected by temperature"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "The graph shows a rising relationship between temperature and the median altitude at which malaria transmission occurs. Both the Anopheles mosquito that is the vector and the Plasmodium parasite are temperature sensitive. So warmer conditions accelerate development and increase the transmission risk, and as temperatures rise, malaria-suitable conditions extend to higher elevations that were previously protected by cold.",
+      "mini_lesson": "Species ranges shift dynamically when climate changes, and this includes pathogens and vectors: because warmer temperatures speed up larval development and parasite incubation in *Anopheles* mosquitoes and *Plasmodium*, global warming is pushing the upper altitudinal limit of malaria upslope into immunologically naive highland human and wildlife populations. Options (A), (B), and (D) contradict the empirical temperature-altitude relationship."
+    },
+    {
+      "id": "W06_M16",
+      "week": 6,
+      "lecture": "Lec 28",
+      "source": "mock_unseen",
+      "question": "Why is sparse undergrowth beneath a teak tree not sufficient by itself to prove allelopathy, and what experimental design is required to confirm it?",
+      "options": [
+        "Visual observation of bare ground beneath a tree is 100% proof of chemical inhibition and requires no testing",
+        "Allelopathy can only be tested by cutting down the entire forest and paving the soil with asphalt",
+        "Sparse undergrowth is always caused by sea urchin grazing on forest hillslopes",
+        "Shading, root competition, and soil moisture differences can mimic bare zones, so researchers must compare seed germination and root growth in plain control medium versus leaf-extract/leachate treatment while keeping light, water, and nutrients constant"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "We should not assume allelopathy simply because a species is absent from beneath another plant because shading, root competition and soil moisture differences can also produce a similar appearance... Seeds in the control grow in plain medium and seeds in the treatment grow in medium containing leaf extract or litter leachate from the suspected donor plant... A consistent statistically robust difference here provides the evidence of chemical inhibition and isolates it from competition for light, water or nutrients.",
+      "mini_lesson": "Field correlations can be deceptive: bare soil under teak trees could result from canopy shading or root competition for water rather than allelopathic chemicals, just as rocky-shore algal absence requires manipulative sea-urchin (*Paracentrotus*) removal/caging experiments to prove grazing control. To prove allelopathy rigorously, scientists run controlled bioassays comparing seed germination and radicle growth in pure water vs. leaf/litter leachate with identical light and moisture. Option (A) confuses field observation with experimental proof."
+    },
+    {
+      "id": "W06_M17",
+      "week": 6,
+      "lecture": "Lec 28",
+      "source": "mock_unseen",
+      "question": "Why is the desert fruit fly *Drosophila pachea* found exclusively where the senita cactus grows?",
+      "options": [
+        "Because the senita cactus preys on the fruit fly using sticky carnivorous traps",
+        "Because the fly's larvae require a specific sterol compound found only in the senita cactus to complete their development, illustrating how high resource specialization locks a consumer's range to its host",
+        "Because the fruit fly pollinates alpine conifers above the snow line",
+        "Because the fruit fly is an aquatic crustacean that lives in ship ballast water"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "A prey's distribution can also limit its predator's range. Drosophila pachea is a fruit fly and it breeds exclusively in senita cactus systems. Its larvae require a specific sterol that is found only in that cactus and without it they cannot complete their development. So the fly's range is therefore strictly tied to wherever the cactus grows.",
+      "mini_lesson": "Biotic range limitation runs in both directions: predators like sea urchins can restrict their algal prey, or a specialized food resource can restrict its consumer—as seen in *Drosophila pachea*, whose larvae cannot develop without a unique sterol produced only by the senita cactus, binding the insect's geographic distribution to that of its host plant. Options (A), (C), and (D) fabricate unrelated biology."
+    },
+    {
+      "id": "W06_M18",
+      "week": 6,
+      "lecture": "Lec 28",
+      "source": "mock_unseen",
+      "question": "How do the three modes of one-way dispersal—diffusion, jump dispersal, and secular dispersal—differ, and what does survival in a transplant experiment outside a species' current range reveal?",
+      "options": [
+        "Diffusion is gradual spread through suitable habitat (Gir lions), jump dispersal is rapid crossing of barriers (zebra mussels in ballast water), secular dispersal occurs over evolutionary timescales (humans out of Africa), and transplant survival proves absence was due to dispersal limitation or habitat non-recognition rather than lethal conditions",
+        "Diffusion occurs in one second via cargo planes, whereas jump dispersal takes millions of years across continuous forest",
+        "If a transplanted species survives and reproduces outside its native range, it proves the new site is abiotically lethal",
+        "Seasonal return migration of Demoiselle cranes is an example of one-way secular dispersal"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Diffusion is the gradual spread over generations through a suitable habitat—lions slowly filling the Gir landscape... Jump dispersal is a rapid movement across unsuitable barriers—the zebra mussel spreading through ballast water... Secular dispersal is a very long-term spread over evolutionary time scales... If a species transplanted outside its current range survives, its distribution is limited by physical inaccessibility, insufficient time for dispersal or a failure to recognize a suitable habitat there.",
+      "mini_lesson": "Unlike two-way seasonal migration (Demoiselle cranes commuting between Central Asia and Rajasthan), one-way dispersal operates across three scales: gradual multi-generational *diffusion* across contiguous habitat (Gir lions), rapid long-distance *jump dispersal* across inhospitable barriers (zebra mussels in ship ballast), and deep-time evolutionary *secular dispersal*. When ecologists transplant an organism beyond its range, *survival* diagnoses dispersal/accessibility limitation, whereas *mortality* diagnoses biotic (predation/competition) or abiotic intolerance. Options (B), (C), and (D) invert these definitions."
+    },
+    {
+      "id": "W06_M19",
+      "week": 6,
+      "lecture": "Lec 29",
+      "source": "mock_unseen",
+      "question": "What management lessons emerge from comparing alpine meadows in Dachigam National Park and Kedarnath Wildlife Sanctuary, and from examining scrub habitats in Ranthambore?",
+      "options": [
+        "All alpine meadows have year-round tropical growing seasons and zero human visitation",
+        "Even within the same alpine habitat type, local disturbance context differs (such as heavy pilgrimage foot traffic in Kedarnath requiring visitor and livelihood management), and in semi-arid landscapes managers must distinguish functional natural scrub from degraded forest",
+        "Every thorny scrub patch in India is an ecological wasteland that should be paved over immediately",
+        "Forests and alpine meadows have identical vertical canopy complexity and snow-melt timing"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Comparing Kedarnath with Dachigam makes a key point. Even within the same broad habitat type, the disturbance context differs enormously and each situation requires its own management analysis... A key management skill is distinguishing natural scrub from degraded forest. They may look similar but require entirely different responses. Natural scrub is a functional habitat. Degraded forest is a conservation problem.",
+      "mini_lesson": "Effective habitat management requires reading local context rather than applying cookie-cutter rules: Dachigam and Kedarnath are both fragile, short-season Himalayan alpine meadows, yet Kedarnath must manage intense pilgrimage foot traffic along sacred routes; similarly, thorny scrub in Ranthambore may be either a healthy, natural semi-arid ecosystem for ungulates and tigers or a once-dense forest degraded by overgrazing and lopping. Option (C) makes the classic mistake of dismissing natural scrub."
+    },
+    {
+      "id": "W06_M20",
+      "week": 6,
+      "lecture": "Lec 29",
+      "source": "mock_unseen",
+      "question": "Why are the Spiny-tailed lizard in Rajasthan's Thar desert and flamingos in Gujarat's Little Rann of Kutch vulnerable even when their broad regional landscapes still exist on maps?",
+      "options": [
+        "Because both species require dense coniferous snow forests to survive",
+        "Because Spiny-tailed lizards are marine filter feeders and flamingos burrow in dry sand dunes",
+        "Because they depend on narrow microhabitat conditions—the Spiny-tailed lizard requires undisturbed sandy soil for burrows to escape desert heat and predators, while flamingos require a tight window of shallow water depth and salinity to filter-feed on algae and plankton",
+        "Because both species are invasive generalists that thrive on vehicle compaction and industrial brine dumping"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "The spiny-tailed lizard illustrates a broad ecological principle here. Many species depend not just on a general habitat type, but on specific microclimates within it. This lizard uses burrows for protection from heat and predators... It requires undisturbed sandy soil for burrowing... Flamingos depend on shallow saline wetlands and mud flats... Habitat suitability in such places is controlled primarily by water depth and salinity. If conditions move outside a narrow range, effective feeding becomes impossible.",
+      "mini_lesson": "Broad biome labels ('desert' or 'wetland') hide critical microhabitat requirements: in Jodhpur's arid plains, surface disturbance by tractors, vehicles, or solar/wind grading crushes the burrows that Spiny-tailed lizards need for thermoregulation and predator escape; in the Little Rann of Kutch (also home to the Indian wild ass), water diversion or salt-pan changes that alter depth or salinity outside a narrow band prevent congregating flamingos from filter-feeding. Option (B) swaps the two species' adaptations."
+    },
+    {
+      "id": "W06_M21",
+      "week": 6,
+      "lecture": "Lec 29",
+      "source": "mock_unseen",
+      "question": "Which pairing accurately describes the ecological features of Chilika Lake, Western Ghats Shola-grassland mosaics, and coastal mangroves?",
+      "options": [
+        "Chilika is an alpine glacier in Kashmir, Sholas are arid salt flats in Gujarat, and mangroves are deep-sea trenches",
+        "Chilika contains only pure freshwater with zero marine connection, Sholas are single-species eucalyptus plantations, and mangroves lack roots",
+        "All three habitats are artificial urban reservoirs created in the late 20th century",
+        "Chilika is India's largest brackish coastal lagoon (a Ramsar site in Odisha supporting the rare Irrawaddy dolphin), Shola-grasslands are high-elevation valley-forest and ridge-grassland mosaics that sustain peninsular rivers, and mangroves use prop roots and gas-exchanging pneumatophores in intertidal mudflats"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Chilika lake in Odisha is India's largest coastal lagoon and a Ramsar wetland of international importance... Chilika supports fish populations, migratory birds and the globally rare Irrawaddy dolphin... Shola forests are montane forest-grassland mosaics found in the higher elevations of the Western Ghats... Mangroves occupy the intertidal zone... They survive waterlogged saline conditions through structural adaptations: prop roots for support and pneumatophores projecting above the water line for gas exchange.",
+      "mini_lesson": "Lecture 29 highlights three signature Indian wetland/forest systems: (1) Chilika Lake in Odisha, where freshwater river inflow and seawater mixing create a productive brackish Ramsar lagoon for migratory waterfowl and Irrawaddy dolphins; (2) Western Ghats Shola-grasslands, an integrated unit of stunted evergreen forest in misty valley folds and grasslands on ridges that regulates river flows; and (3) intertidal mangroves equipped with structural prop roots and upward-breathing pneumatophores. Options (A), (B), and (C) misstate their geography and ecology."
+    },
+    {
+      "id": "W06_M22",
+      "week": 6,
+      "lecture": "Lec 29",
+      "source": "mock_unseen",
+      "question": "What is the difference between *de jure* protection and *de facto* habitat conditions, and when does a habitat become an 'ecological trap'?",
+      "options": [
+        "*De jure* refers to legal designation on paper and maps, whereas *de facto* refers to actual on-the-ground conditions (food, water, shelter, breeding sites, low disturbance); when degradation erodes *de facto* conditions, a habitat that still looks suitable on paper can lure animals into an ecological trap where survival or reproduction fails",
+        "*De jure* refers to soil nutrient chemistry, whereas *de facto* refers only to international treaties",
+        "A legally notified sanctuary automatically guarantees 100% reproductive success regardless of sand mining or pollution",
+        "An ecological trap is a steel cage used by researchers during focal animal sampling"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Habitat quality depends on the real on the ground availability of food, water, shelter, breeding sites and freedom from disturbance. These are what we call de facto conditions—the conditions on the ground. When disturbance and degradation erode these conditions, a habitat can become an ecological trap—a place that appears suitable but cannot sustain survival or reproduction... The core insight is the gap between de jure protection—what the law designates—and de facto conditions—what is actually happening on the ground.",
+      "mini_lesson": "Conservation law creates *de jure* protected areas on maps, but wild animals survive and breed only if *de facto* conditions on the ground remain intact; when human pressures degrade nesting banks or water quality inside a park that still looks physically present, animals drawn to the site suffer reproductive failure or high mortality—turning the habitat into an ecological trap. Option (C) is the 'paper park' fallacy refuted throughout Lecture 29."
+    },
+    {
+      "id": "W06_M23",
+      "week": 6,
+      "lecture": "Lec 29",
+      "source": "mock_unseen",
+      "question": "In the National Chambal Sanctuary case study, how do multiple human pressures combine to degrade *de facto* habitat quality for the Critically Endangered Gharial?",
+      "options": [
+        "Only a single pressure—natural monsoon rain—affects the Chambal River",
+        "Large-scale mechanical sand mining (documented via satellite imagery in Morena) physically removes nesting sandbars, while riverside farming, noisy water pumps, fertilizer/pesticide runoff, cattle trampling, and river barrages cumulatively make the sanctuary inhospitable for natural breeding",
+        "Sand mining improves gharial nesting by excavating deep vertical pits in the riverbank",
+        "Field foot patrols alone easily detect 100% of illegal sand extraction without any need for satellite remote sensing"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Spatial analysis reveals near complete coverage of usable nesting banks by sand mining activity... Beyond direct physical destruction, the habitat faces cumulative degradation from multiple sources: agricultural fields extend to the very edge of the riverbank... water extraction pumps for agriculture create continuous noise and smoke... fertilizers, pesticides, and other chemicals drain directly from fields into the river... cattle grazing compacts soil and sand... barrages and dams fragment the river.",
+      "mini_lesson": "The Chambal Gharial study is a masterclass in cumulative impact assessment and remote sensing: satellite imagery revealed dozens of excavators stripping away specific sloped sandbars in Morena district on a scale invisible to routine foot patrols, while riverside farming, noisy diesel pumps, agrochemical runoff tainting fish prey, livestock bank compaction, washing disturbance, and dams jointly pushed *de facto* habitat quality below the breeding threshold. Options (C) and (D) reverse the findings."
+    },
+    {
+      "id": "W06_M24",
+      "week": 6,
+      "lecture": "Lec 29",
+      "source": "mock_unseen",
+      "question": "What does the reliance on *ex-situ* egg collection, hatchery incubation, and juvenile rearing ('head-starting') for Gharials inside the National Chambal Sanctuary signify?",
+      "options": [
+        "That gharials have evolved to lay eggs only inside concrete incubators and never in river sand",
+        "That *in-situ* habitat conditions in the Chambal River are completely pristine and undisturbed",
+        "That *de facto* nesting conditions inside a legally designated sanctuary have deteriorated so severely from sand mining and disturbance that natural *in-situ* hatching cannot sustain the population without *ex-situ* intervention",
+        "That legal sanctuary designation on paper is sufficient by itself to prevent local extinction"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "For gharials in Chambal, however, degradation has progressed to the point where ex-situ elements have also become necessary: collecting eggs from vulnerable nests, hatching them in a protected offsite facility, rearing hatchlings to a more robust life stage, and then releasing them back into the sanctuary. That this step is required inside a legally designated protected area is a clear indicator that de facto conditions have fallen below the threshold that is needed for natural breeding.",
+      "mini_lesson": "Normally, inside a vast national wildlife sanctuary, *in-situ* protection should allow wild species to breed naturally; the fact that managers must collect wild Gharial eggs from Chambal sandbars, hatch them in offsite hatcheries, rear juveniles until large enough to survive, and release them back proves that *de facto* riverine habitat quality has dropped below the threshold required for natural recruitment. Options (B) and (D) ignore the lesson of the case study."
+    },
+    {
+      "id": "W06_M25",
+      "week": 6,
+      "lecture": "Lec 30",
+      "source": "mock_unseen",
+      "question": "How does 'behavioural ecology' differ from classical 'ethology', and how is the cost–benefit framework illustrated by group living in lions?",
+      "options": [
+        "Ethology describes and catalogs observable behaviour in natural settings, whereas behavioural ecology examines how behaviours evolve through fitness cost–benefit trade-offs—such as male lions in coalitions gaining pride access and cub defense at the cost of shared paternity, while females gain cooperative territory defense at the cost of within-group food competition",
+        "Ethology studies only plant root chemistry, whereas behavioural ecology studies only fossilized dinosaur bones",
+        "Group living in lions carries only benefits and zero costs, and those benefits are identical for males and females",
+        "Natural selection favours behaviours whenever their energetic and injury cost exceeds their survival and reproductive benefit"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Ethology is the scientific study of animal behavior, typically through systematic observation in natural settings. It focuses on describing and cataloging what animals do. Behavioral ecology goes a step further by asking why those behaviors exist... Males in a coalition gain access to mates and can collectively defend cubs from infanticide. Their cost is that paternity must be shared among coalition members. Females benefit from kin support and cooperative territory defense helping to secure food. The cost is that within-group competition can reduce each individual's food intake.",
+      "mini_lesson": "Ethology asks *what* animals do (observing and cataloging natural behaviours), whereas behavioural ecology asks *why* natural selection favours a behaviour using cost-benefit economics (benefit $>$ cost): in lions, group living pays off differently by sex—male coalitions trade shared paternity for pride takeover and cub survival, while female prides trade increased food competition/parasite risk for cooperative hunting, cub defense, and territory retention. Options (C) and (D) violate cost-benefit selection logic."
+    },
+    {
+      "id": "W06_M26",
+      "week": 6,
+      "lecture": "Lec 30",
+      "source": "mock_unseen",
+      "question": "According to W. D. Hamilton's rule ($r \\cdot b > c$) and J. B. S. Haldane's inclusive fitness illustration, when is a costly helping or alarm-calling behaviour evolutionarily favoured?",
+      "options": [
+        "Only when the genetic relatedness ($r$) between helper and recipient is zero",
+        "When genetic relatedness ($r$) multiplied by the reproductive benefit to the relative ($b$) exceeds the reproductive cost to the helper ($c$)—which is why sacrificing oneself can preserve equivalent shared genes if it saves more than 2 siblings ($r = 0.50$), 4 nephews/nieces ($r = 0.25$), or 8 cousins ($r = 0.125$)",
+        "When the personal cost to the actor ($c$) is ten times larger than the benefit to the relative ($b$)",
+        "Only when animals act for the good of unrelated species through group selection regardless of genetic relatedness"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Hamilton's rule states that a helping behavior is favored by natural selection when relatedness multiplied by the benefit to the recipient exceeds the cost to the helper, written as r into b greater than c... If an individual loses its life to save two of its siblings or four nephews or nieces or eight cousins, then this can be a fair deal in evolutionary terms. Siblings share approximately 50% of genes, nephews and nieces 25% and cousins 12.5%.",
+      "mini_lesson": "Kin selection explains apparent altruism (such as ground squirrel alarm calls or cooperative breeding) through indirect/inclusive fitness: because relatives share alleles by common descent ($r = 0.5$ for full siblings, $0.25$ for nephews/nieces, $0.125$ for first cousins), natural selection favours a helping gene whenever $r \\cdot b > c$, famously summarized by Haldane's remark that he would lay down his life for two brothers or eight cousins. Options (A), (C), and (D) invert Hamilton's inequality."
+    },
+    {
+      "id": "W06_M27",
+      "week": 6,
+      "lecture": "Lec 30",
+      "source": "mock_unseen",
+      "question": "What are the four categories of territorial defence strategies, and how does territory size respond to changes in food resource density (such as flower density for nectar-feeding hummingbirds)?",
+      "options": [
+        "Territorial defence uses only lethal physical combat, and territory size expands when flower density increases",
+        "Territory size is a rigid, unchanging genetic constant for every species regardless of food abundance",
+        "Animals defend territories using auditory (calls/roars), visual (displays/postures), olfactory (scent marking), and physical (chasing/fighting) strategies, and territory size decreases inversely as resource density increases because energy needs can be met in a smaller area",
+        "Olfactory scent marking works only when the territory owner is physically standing on the boundary"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Territorial defense strategies fall into four categories: auditory defense... visual defense... olfactory defense employs scent marking, urine, or gland secretions that advertise occupancy even when the animal is absent... physical defense escalates to chasing, fighting, or ritualized aggression... As flower density increases, more food is available in a concentrated manner, and the territory size decreases, since an animal can now meet its energy needs from a smaller area.",
+      "mini_lesson": "Because physical combat (as in chital, blackbuck, rhinos, or colonial penguins) risks serious injury, animals escalate territorial defense from low-cost auditory calls, visual postures, and persistent olfactory scent marks up to physical fights only when necessary; moreover, territory size is plastic and inversely proportional to resource density—when nectar-rich flowers are dense, a hummingbird defends a much smaller patch than when flowers are sparse. Options (A), (B), and (D) contradict these behavioural principles."
+    },
+    {
+      "id": "W06_M28",
+      "week": 6,
+      "lecture": "Lec 30",
+      "source": "mock_unseen",
+      "question": "In the camera-trap 24-hour activity study from Sariska Tiger Reserve, what did the temporal overlap coefficients between tiger–chital ($0.24$) and tiger–jackal ($0.67$) indicate?",
+      "options": [
+        "That chital deer actively hunt tigers during the middle of the night",
+        "That camera-trap activity curves alone prove with 100% certainty the exact physiological cause of every interaction without needing field context",
+        "That tigers and chital have identical 24-hour activity schedules ($1.00$), whereas jackals never use the same forest",
+        "That the prey species (chital) showed low temporal overlap ($0.24$) with the tiger—consistent with temporal predator avoidance—whereas the scavenger (jackal) showed much higher temporal overlap ($0.67$), consistent with scavenging on tiger kills or shared habitat timing"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "In this activity plot, we observe an overlap coefficient of 0.24 between tiger and chital in Sariska, representing low overlap between activity patterns in this predator-prey relationship. In contrast, we observe a much higher overlap coefficient of 0.67 between tiger and jackal in Sariska, representing higher overlap between activity patterns in this predator-scavenger relationship.",
+      "mini_lesson": "By plotting time-stamped camera-trap detections across a 24-hour clock, ecologists quantify how species partition time: in Sariska, chital deer minimized activity during peak tiger hours (low overlap of $0.24$, suggesting temporal anti-predator avoidance), whereas golden jackals matched tiger activity windows closely (high overlap of $0.67$, reflecting scavenging opportunities on tiger kills), though field context is always required to confirm the mechanism. Option (B) ignores the lecture's caution that activity curves generate hypotheses rather than standalone proof."
+    },
+    {
+      "id": "W06_M29",
+      "week": 6,
+      "lecture": "Lec 30",
+      "source": "mock_unseen",
+      "question": "In a standardized ungulate ethogram, how is the trade-off between 'vigilance' and 'feeding' defined, and how is 'auto-grooming' distinguished from 'allo-grooming'?",
+      "options": [
+        "Vigilance and feeding can both be performed simultaneously at 100% capacity, and auto-grooming means fighting with predators",
+        "Vigilance (stationary with ears raised scanning surroundings) trades off against feeding (mouth directed at vegetation consuming food), while auto-grooming is self-scratching/licking to remove ectoparasites and allo-grooming is one individual grooming another to strengthen social bonds",
+        "Walking is defined as having all four hooves suspended in the air, whereas running requires the abdomen touching the ground",
+        "Ethogram definitions are intentionally vague so each observer can invent personal categories in the field"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Vigilance is defined as the animal stationary, ears raised, and actively scanning the surroundings... Increased vigilance typically comes at the cost of reduced feeding time since both cannot be performed simultaneously at full capacity... Auto grooming is defined as an animal scratching or licking its own body. It helps remove ectoparasites, irritants, and debris... Allo grooming is defined as one animal grooming another individual. It can strengthen social bonds, reduce mutual parasite loads, or signal tolerance or kinship.",
+      "mini_lesson": "An ethogram eliminates observer bias by defining mutually clear, repeatable behaviour states: because an ungulate cannot keep its head down cropping grass (feeding) while holding its head up with ears raised scanning for predators (vigilance), rising disturbance or predator risk forces a measurable drop in feeding time; similarly, ethograms separate self-maintenance (auto-grooming) from social bonding (allo-grooming), and slow locomotion with at least one hoof grounded (walking) from aerial suspension phases (running). Option (C) swaps walking, running, and sitting."
+    },
+    {
+      "id": "W06_M30",
+      "week": 6,
+      "lecture": "Lec 30",
+      "source": "mock_unseen",
+      "question": "How does 'scan sampling' differ from 'focal animal sampling' when constructing a time budget, and why did juvenile chital show lower vigilance than adults in the Lecture 30 field study?",
+      "options": [
+        "Scan sampling follows a single animal continuously for hours, whereas focal sampling photographs the entire forest once a year",
+        "Juveniles showed 100% vigilance and zero feeding because young animals do not need energy for growth",
+        "Scan sampling never misses brief 1-second behaviours between intervals, and focal sampling never depends on which individual is chosen",
+        "Scan sampling records the current activity of all visible group members at regular intervals (efficient for group patterns, though brief behaviours between scans may be missed), whereas focal sampling follows one individual continuously to record exact durations; in the time budget, juveniles showed lower vigilance because group protection allowed them to prioritize feeding during active growth"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Scan sampling records the behavior of all visible individuals at set regular intervals... Its main limitation, however, is that brief behaviors occurring between the scan intervals may be missed... Focal animal sampling: a single individual is selected and is followed continuously for a fixed period... Juveniles showed lower vigilance than adults, possibly because group members provide collective protection that reduces individual vigilance requirement for young animals who also need to concentrate more on feeding being in the active growth phases.",
+      "mini_lesson": "Field ethologists use two complementary sampling protocols to build percentage time budgets: *scan sampling* sweeps left-to-right across a herd at fixed time ticks to capture group-level activity (trading off missed brief events between scans), while *focal animal sampling* tracks one unbiasedly chosen individual continuously to log exact start/end durations and sequences. In the chital time-budget analysis, feeding, walking, and looking dominated overall, with juveniles investing less time in vigilance and more in feeding thanks to the collective safety shield of adult herd members. Options (A), (B), and (C) reverse the methods and findings."
+    }
+  ]
+}

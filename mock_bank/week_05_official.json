@@ -1,0 +1,172 @@
+{
+  "week": 5,
+  "lecture_briefings": {
+    "Lec 21": "Coexistence means the continued persistence of people and biodiversity in shared, multifunctional landscapes through active adjustment, tolerance, and management rather than the total absence of tension. Because human settlements, farms, and roads cover most of the planet and animals constantly cross reserve boundaries for food, water, mates, and seasonal migration, 'fortress conservation' (strictly separating nature from people) fails when used alone and even allows external pressures like plastic waste in Mukurthi National Park to spill inside. True sustainability requires combining four pillars—ecological integrity, social legitimacy, long-term resilience, and adaptive management—while shifting from a reactive 'conflict-only' mindset (which sees Asian elephants merely as threats or ivory commodities) to a coexistence mindset that respects them as keystone ecosystem engineers and conservation flagships. Watch out for these 3 key terms: Coexistence (continued shared persistence of people and wildlife managed at acceptable risk, not zero conflict), Fortress Thinking (the flawed assumption that conservation can succeed solely by excluding humans inside fenced borders), and Multifunctional Landscapes (working spaces like shade-grown tea plantations and agro-pastoral belts that support both human livelihoods and wildlife movement).",
+    "Lec 22": "Farms, villages, and cities are not biological deserts; they remain active ecological landscapes where biodiversity serves as living 'ecological infrastructure' performing work that engineered concrete systems cannot easily replace. Diverse communities of animal pollinators (zoophily across bees, butterflies, birds, moths, and bats) stabilize crop yields across changing weather, while predators and insect parasitoids naturally suppress agricultural pests. Below and above ground, soil engineers like termites and earthworms recycle nutrients, multi-depth plant roots bind mountain slopes against landslides and increase rainwater infiltration, tree canopies regulate local microclimates (as seen when deer huddle under shade in Nauradehi Wildlife Sanctuary during peak summer), and wetland plants bio-remediate municipal wastewater. Watch out for these 3 key terms: Ecological Infrastructure (living networks of pollinators, soil microbes, roots, and wetlands that keep working landscapes functioning for free), Zoophily & Parasitoids (animal-mediated pollination vs. insects that lay eggs in or on pest hosts to suppress outbreaks), and Functional Backup / Ecological Redundancy (having multiple species—such as tigers, leopards, and wolves—performing similar roles so ecosystem stability endures if one species declines).",
+    "Lec 23": "Human economies are wholly embedded within ecological systems: biodiversity supports livelihoods directly through fisheries, non-timber forest products (NTFPs like fruits, nuts, resins, bamboo, and medicinal plants that spread rural cash income across seasons), diverse grazing pastures, nature tourism, and multi-output agroforestry. Equally important are indirect economic benefits—mangroves buffering cyclone storm surges, wetlands filtering drinking water, wild pollinators sustaining billions in farm output, and forest roots preventing costly soil erosion—which act as 'natural insurance' that buffers economic shocks. Because many ecosystem services are not traded in markets, diffuse across users, and exhibit time lags before collapse appears, economists use the Total Economic Value (TEV) framework—combining Direct Use, Indirect Use, and Option Value with non-use Existence, Altruistic, and Bequest Values—to make hidden ecological capital visible in policy decisions. Watch out for these 3 key terms: Direct vs. Indirect Use Value (harvested goods like fish/NTFPs and ecotourism vs. unpriced regulating services like mangrove storm buffering and watershed filtration), Option Value (keeping biodiversity intact today for potential future uses like undiscovered medicines), and Existence vs. Bequest vs. Altruistic Value (non-use satisfaction that wild species simply exist vs. saving nature for future generations vs. valuing nature for other people today).",
+    "Lec 24": "Beyond market prices and GDP, biodiversity underpins human social identity, sacred heritage (such as the river confluence at Devprayag and community-protected Sacred Groves), community belonging around village commons, and hands-on ecological literacy. Traditional ecological knowledge and ethnopharmacology have yielded life-saving modern medicines—most famously Artemisinin from sweet wormwood (*Artemisia annua*, Nobel Prize 2015) for malaria, aspirin from willow bark, and curare for surgery—while nature's designs inspire engineering breakthroughs through biomimicry (from kingfisher-beak bullet trains to termite-mound passive cooling and lotus-leaf self-cleaning coatings). Exposure to diverse green and blue spaces also lowers cortisol and blood pressure, filters air and water pollutants, buffers zoonotic disease spillover, and fosters 'ecological citizenship,' though sustainability demands addressing environmental injustice so low-income and displaced communities share equitably in these health and cultural benefits. Watch out for these 3 key terms: Cultural Ecosystem Services (non-material benefits grouped into recreation, inspiration, education, heritage, and shared public spaces), Ethnopharmacology & Biomimicry (studying traditional medicinal plants like *Artemisia annua* vs. engineering technologies modeled on biological structures like kingfisher beaks and humpback whale flippers), and Environmental Injustice (the unequal distribution where marginalized communities bear high pollution and conservation restriction costs while having the least access to healthy green spaces).",
+    "Lec 25": "Human-wildlife conflict (HWC) arises whenever wildlife needs or behaviours clash with human interests—through crop raiding, livestock depredation, property damage, injury, or institutional land restrictions—generating both visible direct costs and hidden indirect costs like lost sleep, guarding time, missed schooling, and eroded institutional trust. Conflict is driven physically by habitat fragmentation, road/canal barriers across movement corridors, settlement attractants (open garbage, grain, fruiting trees), and seasonal/hormonal peaks, but its intensity is powerfully mediated by social, economic, and cultural context—illustrated by the Bishnoi community in Rajasthan tolerating blackbucks in their fields while poverty or delayed compensation elsewhere triggers retaliation. Moving from reactive incident control to durable coexistence requires five guiding principles—proactive risk reduction, fair cost/benefit sharing, combining local and scientific knowledge, credible institutional trust (supported by outreach like the Anubhuti school program), and adaptive management—deployed through practical tools like maintained fences, radio-collar early warning alarms, accessible compensation/insurance, corridor-sensitive land-use planning, and routine attractant removal. Watch out for these 3 key terms: Direct vs. Indirect Conflict Costs (visible crop/livestock/property damage vs. hidden burdens like lost sleep, guarding labour, children missing school, and institutional distrust), Four Ecological Drivers of HWC (habitat fragmentation, movement across human corridors, settlement attractants, and seasonal/breeding peaks), and Conflict Frame vs. Coexistence Frame (reactive, incident-by-incident problem-animal removal vs. proactive redesign of landscapes, routines, and institutions to keep risk within acceptable limits)."
+  },
+  "questions": [
+    {
+      "id": "W05_Q01",
+      "week": 5,
+      "lecture": "Lec 25",
+      "source": "official_quiz",
+      "question": "What is human–wildlife conflict?",
+      "options": [
+        "A situation where wildlife needs or behaviour clash with human interests and lead to damage, fear, injury, loss, or retaliation",
+        "Any peaceful interaction between humans and wildlife",
+        "The presence of wildlife in a landscape without any cost",
+        "A condition where all species remain inside protected areas"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Human-wildlife conflict occurs when the needs or behavior of wildlife clash with human interests and lead to damage, fear, injury, loss, or retaliation.",
+      "mini_lesson": "Not every encounter between people and wildlife is a conflict: human-wildlife conflict (HWC) specifically arises when wildlife foraging, movement, or territorial behaviour clashes with human safety, livelihoods, or governance rules, producing unacceptable costs (crop damage, livestock loss, injury, fear) and potential retaliation. Options (B) and (C) describe neutral or harmonious interactions, while Option (D) describes complete spatial separation."
+    },
+    {
+      "id": "W05_Q02",
+      "week": 5,
+      "lecture": "Lec 21",
+      "source": "official_quiz",
+      "question": "Why can a protected area alone fail to secure a species over time?",
+      "options": [
+        "Protected areas always reduce biodiversity",
+        "Species cannot survive inside reserves",
+        "Human activity is absent around all reserves",
+        "Many species move beyond reserves for food, water, mates, or seasonal habitat"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Protected areas are important but they are not closed worlds. Animals may leave them to find food, water, mates or seasonal habitat. If the surrounding landscape is hostile, fragmented or intolerant, then the reserve alone cannot guarantee survival.",
+      "mini_lesson": "Administrative lines on a map do not confine ecological processes: wide-ranging and migratory animals regularly step outside national parks and sanctuaries to access seasonal forage, waterholes, or breeding partners, meaning their survival depends heavily on corridors and human tolerance in the surrounding landscape matrix. Options (A), (B), and (C) rely on false absolutes."
+    },
+    {
+      "id": "W05_Q03",
+      "week": 5,
+      "lecture": "Lec 23",
+      "source": "official_quiz",
+      "question": "What is option value in biodiversity valuation?",
+      "options": [
+        "The value of replacing ecosystems with infrastructure",
+        "The value of using only one species now",
+        "The benefit of keeping biodiversity available for possible future uses",
+        "The cost of removing biodiversity from markets"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Option value is the benefit of keeping biodiversity available for future possible uses, like a new medicine from a rainforest plant.",
+      "mini_lesson": "In the Total Economic Value (TEV) framework, Option Value is the insurance-like benefit of conserving species and genetic diversity today so they remain available for unforeseen future applications—such as discovering a new antibiotic, cancer drug, or drought-resistant crop gene decades from now. Options (A), (B), and (D) invert conservation valuation into habitat destruction or monoculture use."
+    },
+    {
+      "id": "W05_Q04",
+      "week": 5,
+      "lecture": "Lec 23",
+      "source": "official_quiz",
+      "question": "What are examples of non-timber forest products?",
+      "options": [
+        "Fruits, nuts, resins, medicinal plants, bamboo, and fibres",
+        "Roads, drains, fences, and bridges",
+        "Coal, cement, steel, and petroleum",
+        "Cars, buildings, markets, and pipelines"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Many rural communities collect non-timber forest produce, such as fruits, nuts, resins, medicinal plants, bamboo, and fibers. These products are sold in local markets or used at home.",
+      "mini_lesson": "Non-Timber Forest Products (NTFPs) are renewable biological materials harvested from forests without felling standing trees for lumber—including wild fruits, nuts, gums, resins, medicinal herbs, bamboo, and plant fibres that sustain rural livelihoods across different seasons. Options (B), (C), and (D) list civil infrastructure, fossil/industrial minerals, and manufactured goods."
+    },
+    {
+      "id": "W05_Q05",
+      "week": 5,
+      "lecture": "Lec 22",
+      "source": "official_quiz",
+      "question": "What is microclimate regulation by vegetation?",
+      "options": [
+        "Reducing heat stress by shade, lower surface temperatures, and humidity influence",
+        "Increasing heat stress by removing tree cover",
+        "Preventing all seasonal variation in climate",
+        "Replacing water regulation with pest regulation"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "So, vegetation can reduce heat stress by providing shade, lowering surface temperatures, and influencing humidity. Tree cover and green systems therefore make local conditions less extreme.",
+      "mini_lesson": "Microclimate regulation is the local cooling and buffering effect created by trees and vegetation—blocking direct solar radiation with canopy shade, lowering ground temperatures, and releasing moisture through transpiration (vividly illustrated by deer huddling under a single shady tree during peak summer in Nauradehi Wildlife Sanctuary). Option (B) reverses the effect, and Option (C) makes an impossible claim of eliminating seasons."
+    },
+    {
+      "id": "W05_Q06",
+      "week": 5,
+      "lecture": "Lec 24",
+      "source": "official_quiz",
+      "question": "Which set represents cultural services of biodiversity?",
+      "options": [
+        "Flood control, pollination, soil structure, and carbon storage",
+        "Recreation, inspiration, education, heritage, and shared public spaces",
+        "Crop raiding, livestock loss, property damage, and fear",
+        "Compensation, insurance, fences, and early warnings"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The first service introduced is recreation... The second cultural service is inspiration... The third cultural service is education... The fourth service is heritage... The fifth cultural service in this sequence is shared public spaces.",
+      "mini_lesson": "Cultural ecosystem services are the non-material benefits people obtain from contact with nature, organized in Lecture 24 into five core categories: recreation, artistic and biomimetic inspiration, outdoor education, spiritual/historical heritage, and shared public gathering spaces. Option (A) lists regulating services, Option (C) lists human-wildlife conflict harms, and Option (D) lists conflict-mitigation tools."
+    },
+    {
+      "id": "W05_Q07",
+      "week": 5,
+      "lecture": "Lec 21",
+      "source": "official_quiz",
+      "question": "What is a major limitation of fortress thinking in conservation?",
+      "options": [
+        "Not all biodiversity can be isolated from people",
+        "It gives too much importance to shared landscapes",
+        "It ignores the need for protected areas altogether",
+        "It assumes people and wildlife must always interact directly"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Fortress thinking treats conservation mainly as separation. The idea is that biodiversity is protected best when people are kept out and nature is kept apart... But not all biodiversity can be isolated from people.",
+      "mini_lesson": "Fortress conservation assumes nature can be saved purely by fencing off protected areas and excluding local people; its central limitation is that most biodiversity lives or moves outside reserve boundaries, external pollutants (like plastic in Mukurthi NP) cross fences, and strict exclusion without fairness erodes local social legitimacy. Options (B), (C), and (D) state the exact opposite of what fortress thinking assumes."
+    },
+    {
+      "id": "W05_Q08",
+      "week": 5,
+      "lecture": "Lec 22",
+      "source": "official_quiz",
+      "question": "How does biodiversity help regulate water in a landscape?",
+      "options": [
+        "By stopping rainfall from entering the soil",
+        "By increasing surface runoff in simplified landscapes",
+        "By influencing infiltration, storage, and runoff through vegetation, roots, and living soils",
+        "By eliminating wetlands from human-used areas"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Vegetation and biodiversity also influence infiltration, storage, and runoff... A biodiverse landscape often has layered vegetation... Also, roots of different depths... And soil shaped by living organisms... And together all these features can help the landscape absorb and retain water more effectively.",
+      "mini_lesson": "Multi-layered canopies, roots of varying depths, and burrowing soil organisms act like a living sponge that slows surface water runoff, increases rainwater infiltration into the ground, prevents flash floods and landslides, and recharges soil and aquifer storage. Options (A), (B), and (D) describe hydrological degradation rather than regulation."
+    },
+    {
+      "id": "W05_Q09",
+      "week": 5,
+      "lecture": "Lec 21",
+      "source": "official_quiz",
+      "question": "Which factor can make coexistence difficult?",
+      "options": [
+        "Perfectly equal sharing of all conservation costs",
+        "Inadequate planning of roads, settlements, farms, or infrastructure",
+        "Complete absence of ecological uncertainty",
+        "Guaranteed support from all institutions"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "At the same time, we must also realize that coexistence is difficult. One major reason is unequal cost... Another problem is inadequate planning. Roads, settlements, farms and tourist infrastructure may be developed without enough attention to human movement or habitat need.",
+      "mini_lesson": "Coexistence breaks down when roads, railways, canals, farms, or settlements are built across wildlife corridors without ecological planning—turning shared landscapes into collision and conflict zones—alongside unequal cost distribution, weak institutions, and climatic uncertainty. Options (A), (C), and (D) describe idealized conditions that would make coexistence easier, not harder."
+    },
+    {
+      "id": "W05_Q10",
+      "week": 5,
+      "lecture": "Lec 24",
+      "source": "official_quiz",
+      "question": "How can biodiversity support physical health?",
+      "options": [
+        "By increasing polluted water flow",
+        "By removing all disease risk permanently",
+        "By replacing all healthcare systems",
+        "By filtering pollutants, improving air and water quality, and supporting stable ecological regulation"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Biodiversity also supports physical health. Biodiverse ecosystems filter pollutants. Forests trap dust and absorb gases. Wetlands remove toxins and pathogens from water... Biodiverse systems also maintain stable temperatures, humidities and water flows.",
+      "mini_lesson": "Healthy ecosystems act as preventive public health infrastructure: tree foliage traps airborne dust and absorbs gases, wetlands filter waterborne toxins and pathogens, canopy shade prevents heatstroke, and intact food webs buffer against disease vector outbreaks. Options (B) and (C) use extreme absolutes ('removing all disease risk permanently', 'replacing all healthcare systems') that the professor explicitly warns against."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "week": 3,
+  "lecture_briefings": {
+    "Lec 11": "Human pressure on biodiversity is driven by both total population size and per-capita consumption rates, meaning ecological footprints grow through five pathways: land conversion, water extraction, energy infrastructure, material mining, and waste generation. Even renewable technologies like wind farms carry ecological footprints through land clearing, access roads, mechanical noise, and bird collisions with turbine blades. When human disturbances reshape landscapes, narrow-niche specialist species (like the giant panda or the ecosystem-engineering Greater One-Horned Rhinoceros) decline early, while disturbance-tolerant generalists (like the Palash tree) proliferate and mask deeper community diversity loss. Watch out for these 3 key terms: Ecological Footprint (the total land, water, material, and waste demand placed on nature), Specialist vs. Generalist Species (narrow-requirement species that crash first vs. broad-tolerance species that survive disturbance), and Direct vs. Indirect Disturbance Effects (immediate habitat removal like quarrying vs. delayed cascading changes like road edges inviting invasive weeds).",
+    "Lec 12": "Habitat impact is not just total destruction; it unfolds across four distinct forms—habitat degradation (declining quality), habitat fragmentation (breaking continuous landscapes into isolated islands), habitat displacement (pushing wildlife into marginal low-capacity refuges), and outright habitat loss. Degradation occurs invisibly through soil erosion, pesticide biomagnification (such as DDD multiplying from 0.01 ppm in Clear Lake water to 2,500 ppm in fish-eating birds), ghost nets in oceans, and plastics penetrating even strictly protected reserves. Meanwhile, landscape fragmentation progresses through four spatial stages—dissection (a road or railway cut), perforation (initial clearings like a roadside shop or resort), fragmentation (isolated patches), and attrition (complete disappearance of remaining patches). Watch out for these 3 key terms: Biomagnification (the progressive concentration of persistent toxins at higher trophic levels), Dissection-Perforation-Fragmentation-Attrition (the four sequential geometric stages of landscape breakup), and Edge Effects (altered light, wind, temperature, and invasive-species penetration along fragment boundaries that shrink the true interior core).",
+    "Lec 13": "Overexploitation occurs whenever humans harvest biological resources—through fishing, logging, hunting, or grazing—at a rate that exceeds the population's natural capacity to regenerate. Because biological renewal has strict ecological speed limits, even a renewable living resource becomes effectively non-renewable if harvest outpaces reproduction and recruitment, regardless of whether the extraction is legally permitted. Overexploitation is accelerated by open-access 'Tragedy of the Commons' dynamics, the scarcity-price spiral (where extreme rarity drives up black-market prices and poaching incentives), and selective harvesting of large breeding adults or tusked males, which destabilizes age structure, sex ratios, and entire food webs. Watch out for these 3 key terms: Overexploitation (harvesting a living resource faster than its natural regeneration capacity), Tragedy of the Commons (unregulated open-access competition where every user maximizes immediate catch at the expense of shared collapse), and Scarcity-Price Spiral (economic feedback loop where declining population size increases market value and intensifies harvesting pressure).",
+    "Lec 14": "Not every non-native organism is an ecological villain: an alien (exotic) species is simply one introduced outside its natural evolutionary range, whereas an invasive alien species is one that establishes, spreads aggressively, and causes ecological or economic harm. Human trade, transport (such as ship ballast water or cargo planes carrying the brown tree snake to Guam), and ornamental planting breach natural biogeographical barriers, allowing invaders to thrive via the Enemy Release Hypothesis (escaping coevolved predators and diseases) and human-disturbed edges. Once established, invasives drive native species to extinction through direct predation, competition, disease transmission (like chytrid fungus), and genetic hybridization, making border biosecurity and prevention far more effective than late-stage eradication. Watch out for these 3 key terms: Native vs. Alien vs. Invasive Species (naturally evolved residents vs. human-introduced outsiders vs. established outsiders that spread and cause harm), Enemy Release Hypothesis (the advantage gained by an introduced species when freed from its native predators, parasites, and pathogens), and Invasion Management Hierarchy (the sequence from high-return Prevention and Early Detection down to Containment, Control, and high-cost Eradication).",
+    "Lec 15": "In ecology, pollution is defined broadly as the harmful introduction of either chemical substances (pesticides, plastics, heavy metals, nutrient runoff) or physical energy (chronic noise and artificial light at night) at rates exceeding an ecosystem's capacity to dilute, breakdown, or recycle them. Beyond sudden, visible acute disasters like oil spills, ecosystems suffer silently from chronic exposure that causes sublethal harm—disrupting hormone systems, weakening juvenile survival, masking frog and bird acoustic calls with traffic noise, and disorienting sea turtle hatchlings with coastal streetlights. Because persistent pollutants like mercury, lead, and arsenic accumulate in sediments and food webs long before mass die-offs appear, the absence of a visible crisis is never proof of ecological health, making proactive source prevention and ecological monitoring essential. Watch out for these 3 key terms: Chemical vs. Energy Pollution (toxic substances like heavy metals/pesticides vs. sensory disruptions like noise and artificial light at night), Acute vs. Chronic Exposure (sudden high-dose contamination events vs. long-term, low-level continuous pollution), and Sublethal Effects (physiological, behavioral, or reproductive impairments that weaken populations over generations without causing immediate death)."
+  },
+  "questions": [
+    {
+      "id": "W03_Q01",
+      "week": 3,
+      "lecture": "Lec 11",
+      "source": "official_quiz",
+      "question": "Why do specialist species often decline earlier under ecological pressure?",
+      "options": [
+        "They can easily shift food and habitat use",
+        "They depend on narrow habitat, food, or breeding conditions",
+        "They reproduce faster than generalist species",
+        "They are always disturbance-tolerant"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "This is what makes specialists so vulnerable. They depend on narrow specific conditions, and when human pressure alters those conditions, they have few or no alternatives.",
+      "mini_lesson": "Specialist species (such as the giant panda or the Greater One-Horned Rhinoceros) evolve to exploit a very specific diet, microclimate, or breeding habitat, which leaves them with no fallback options when human disturbance alters their environment. Distractors (A), (C), and (D) invert the concept by attributing the traits of adaptable, disturbance-tolerant generalist species to specialists."
+    },
+    {
+      "id": "W03_Q02",
+      "week": 3,
+      "lecture": "Lec 12",
+      "source": "official_quiz",
+      "question": "What does habitat fragmentation involve?",
+      "options": [
+        "Only pollution of a single water body",
+        "Breaking a natural landscape into smaller isolated parcels within a human-dominated matrix",
+        "Complete removal of all species from a region",
+        "Natural growth of continuous forest corridors"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Fragmentation occurs when a natural landscape is broken up into small parcels of natural ecosystem isolated from one another within a matrix of land dominated by human activities.",
+      "mini_lesson": "Habitat fragmentation is a spatial transformation where once-continuous ecosystems are divided by roads, farms, or settlements into smaller, isolated patches surrounded by a human-modified landscape matrix. Option (A) confuses spatial breakup with localized water degradation, Option (C) describes total regional extirpation, and Option (D) describes connectivity restoration rather than fragmentation."
+    },
+    {
+      "id": "W03_Q03",
+      "week": 3,
+      "lecture": "Lec 12",
+      "source": "official_quiz",
+      "question": "Why is soil erosion a habitat degradation problem?",
+      "options": [
+        "It adds nutrients to all rivers",
+        "It increases topsoil depth",
+        "It removes biologically active topsoil and can cause sedimentation in aquatic habitats",
+        "It prevents all landslides permanently"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "The top soil is the most biologically active and nutrient-rich layer and when it is lost, the land becomes less able to support vegetation... and the sediment carried into rivers and lakes causes sedimentation that degrades aquatic habitats, reduces water storage capacity, and can even alter the course of rivers over time.",
+      "mini_lesson": "Soil erosion inflicts a double ecological blow: on land, it strips away the nutrient-rich, biologically active topsoil needed by plants and soil microbes; in water, the washed-away soil settles as sediment that smothers riverbeds, reduces reservoir capacity, and degrades aquatic habitats. Options (A), (B), and (D) are false positive statements that reverse the destructive physical effects of erosion."
+    },
+    {
+      "id": "W03_Q04",
+      "week": 3,
+      "lecture": "Lec 12",
+      "source": "official_quiz",
+      "question": "What are ghost nets?",
+      "options": [
+        "Nets used to protect wildlife from predators",
+        "Lost, abandoned, or discarded fishing nets that continue trapping marine life",
+        "Nets used only in freshwater farming",
+        "Natural coral structures that trap plastic"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The first is ghost nets. These are fishing nets that have been lost, abandoned, or discarded in the ocean. They continue to drift through marine habitats for years or even decades, trapping and killing fish, marine mammals, sea turtles, and seabirds indiscriminately.",
+      "mini_lesson": "Ghost nets are synthetic fishing nets lost or dumped at sea that persist for decades without biodegrading, acting as perpetual, unmonitored traps that entangle and kill marine mammals, sea turtles, sharks, and seabirds. Option (A) fabricates a protective conservation purpose, while Options (C) and (D) misidentify where they occur and what they are made of."
+    },
+    {
+      "id": "W03_Q05",
+      "week": 3,
+      "lecture": "Lec 13",
+      "source": "official_quiz",
+      "question": "Why can a renewable biological resource become effectively non-renewable?",
+      "options": [
+        "Because all renewable resources stop reproducing naturally",
+        "Because legal use automatically destroys all species",
+        "Because removal may exceed the resource’s capacity to regenerate",
+        "Because only non-living resources can be harvested"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "A species may reproduce, grow and renew itself, but it can do so only at a certain rate. If removal rises above it, decline becomes likely. This is why even a renewable resource can become effectively non-renewable.",
+      "mini_lesson": "Fish stocks, forests, and wildlife are renewable only because living populations reproduce and grow at a finite biological rate; when human harvesting removes individuals faster than the population can replace them, the stock collapses and becomes effectively non-renewable. Options (A), (B), and (D) rely on absurd hard absolutes ('all', 'automatically', 'only') that ignore the balance between extraction rate and regeneration rate."
+    },
+    {
+      "id": "W03_Q06",
+      "week": 3,
+      "lecture": "Lec 14",
+      "source": "official_quiz",
+      "question": "What is a native species?",
+      "options": [
+        "A species introduced for human use",
+        "A species that survives only in captivity",
+        "A species that occurs naturally in a region and is part of its long-term ecological community",
+        "Any species that spreads aggressively"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "A native species is one that occurs naturally in a particular region. It is part of the long-term ecological community of that place. It has evolved with local environmental conditions and developed relationships with other native species over time.",
+      "mini_lesson": "A native (indigenous) species is one that originated and evolved naturally within a given region's ecological community, sharing long-term food-web and coevolutionary checks with neighbouring organisms. Option (A) defines an alien/exotic species, Option (B) defines an 'Extinct in the Wild' species, and Option (D) confuses native status with invasive spread."
+    },
+    {
+      "id": "W03_Q07",
+      "week": 3,
+      "lecture": "Lec 13",
+      "source": "official_quiz",
+      "question": "What is the key ecological principle behind sustainable use?",
+      "options": [
+        "Removal may exceed regeneration if demand is high",
+        "Removal must remain below regeneration capacity",
+        "Any legal extraction is sustainable",
+        "Biological renewal is unaffected by habitat quality"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "This leads us to the ecological principle behind sustainable use. Populations can recover only when removal remains below regeneration.",
+      "mini_lesson": "Sustainable harvesting requires that the rate of human extraction stays strictly below the biological population's natural rate of reproduction and replacement so the breeding stock remains intact. Option (C) is a classic policy trap—legal quotas can still be ecologically unsustainable if set too high—while Option (A) prioritizes market demand over biological limits."
+    },
+    {
+      "id": "W03_Q08",
+      "week": 3,
+      "lecture": "Lec 15",
+      "source": "official_quiz",
+      "question": "Why is light pollution ecologically significant?",
+      "options": [
+        "It affects only electricity consumption",
+        "It improves all nocturnal behaviour",
+        "It alters natural day-night conditions, orientation, timing, and activity patterns",
+        "It prevents all insect movement"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Light pollution similarly changes the natural rhythm of darkness and light that has governed life on Earth across evolutionary time. Many organisms rely on these cycles for feeding, migration, reproduction and orientation.",
+      "mini_lesson": "Artificial light at night is a form of physical energy pollution that disrupts the evolutionary day-night (circadian) cues organisms rely on for navigation, predator avoidance, foraging, and reproduction—such as disorienting newly hatched sea turtles away from the ocean. Option (A) reduces an ecological threat to a narrow economic utility issue, while Options (B) and (D) use false absolutes ('all')."
+    },
+    {
+      "id": "W03_Q09",
+      "week": 3,
+      "lecture": "Lec 11",
+      "source": "official_quiz",
+      "question": "Why are energy systems described as having ecological footprints?",
+      "options": [
+        "They require only sunlight and wind",
+        "They require land, water, materials, mines, dams, roads, drilling, or transmission infrastructure",
+        "They never cause habitat change",
+        "They affect only urban areas"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The third is energy production, which requires land, infrastructure, and materials... Beyond wind, energy systems also require mines, dams, pipelines, and roads, each leaving its own footprint.",
+      "mini_lesson": "Every energy system—whether fossil fuel, hydropower, solar, or wind—requires physical land, raw material mining, access roads, and transmission lines that alter or fragment natural habitats. Option (A) confuses a renewable energy source (sunlight/wind) with the physical infrastructure required to harvest and transmit it, while Options (C) and (D) use false absolutes."
+    },
+    {
+      "id": "W03_Q10",
+      "week": 3,
+      "lecture": "Lec 13",
+      "source": "official_quiz",
+      "question": "What is overexploitation?",
+      "options": [
+        "Any use of biological resources",
+        "Use of biological resources beyond their capacity to regenerate",
+        "Complete protection of all species from use",
+        "Natural increase in wildlife populations"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Overexploitation means using biological resources beyond their capacity to regenerate. The key issue is not simply use. The key issue is the rate of removal in relation to ecological limits.",
+      "mini_lesson": "Ecology distinguishes between biological resource use and overexploitation: harvesting only becomes overexploitation when the rate of removal surpasses the population's natural capacity to replenish itself. Option (A) is a classic trap that equates all human resource use with overexploitation, whereas Option (C) describes strict preservation."
+    }
+  ]
+}

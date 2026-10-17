@@ -1,0 +1,6 @@
+.graphify_env/
+graphify-out/
+__pycache__/
+*.pyc
+.DS_Store
+.vercel/

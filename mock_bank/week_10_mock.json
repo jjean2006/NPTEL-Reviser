@@ -1,0 +1,492 @@
+{
+  "week": 10,
+  "lecture_briefings": {
+    "Lec 46": "Lecture 46 launches the biodiversity management module by establishing the overarching architectural principles of conservation planning. Rather than treating conservation as static specimen collection, effective management must protect dynamic ecological functions—processes like pollination, seed dispersal, predation, decomposition, and nutrient cycling—that sustain ecosystem productivity and resilience. It introduces Problem Tree Analysis (where the visible decline of a species is the trunk, and underlying socioeconomic or governance drivers are the roots) alongside the five-stage Adaptive Management cycle (Plan -> Act -> Monitor -> Evaluate -> Adjust), which treats every field intervention as a testable hypothesis. Watch out for the 3 most important terms: Ecological Function (pollination, seed dispersal, predation, decomposition, and nutrient cycling), Adaptive Management (iterative cycle of planning, acting, monitoring, evaluating, and adjusting), and Problem Tree Analysis (distinguishing visible trunk symptoms from underlying root causes).",
+    "Lec 47": "Lecture 47 covers Ex-Situ Conservation—the preservation of species or genetic material in designated facilities outside their natural habitats (zoos, botanical gardens, arboreta for trees, bambuseta for bamboos, seed banks at -20°C for orthodox seeds, and cryobanks in liquid nitrogen at -196°C for recalcitrant seeds and gametes). Ex-situ conservation serves as a vital insurance strategy that prevents immediate extinction in high-risk species while safeguarding a reservoir of individuals and alleles for future wild reintroduction. To succeed, ex-situ programs rely on three pillars: representative sampling across diverse wild populations (to capture genetic variation and avoid losing rare alleles), studbooks (detailed registries of ancestry, births, deaths, transfers, and breeding history to prevent inbreeding), and habitat-like enclosures with behavioural enrichment (to support natural movement, welfare, health, and breeding while preventing repetitive stereotypies). Watch out for the 3 most important terms: Ex-Situ Insurance Strategy (preserving species/germplasm outside threatened habitats to prevent immediate extinction), Representative Sampling vs. Studbooks (capturing wild allelic diversity during collection vs. tracking pedigrees and breeding history in captivity), and Habitat-Like Enclosures (supporting natural movement, behaviour, welfare, health, and breeding).",
+    "Lec 48": "Lecture 48 transitions to In-Situ Conservation—protecting species and ecosystems within their natural surroundings—and examines both India's statutory protected area network and Jared Diamond's geometric reserve design principles. Under India's Wildlife (Protection) Act of 1972, in-situ conservation operates through four official Protected Area categories: National Parks, Wildlife Sanctuaries, Conservation Reserves, and Community Reserves (which must remain backed by real staffing and monitoring so they do not become 'Paper Parks'). Geometrically, where feasible, single large reserves are preferred over several small ones (SLOSS), compact or circular reserves are preferred over elongated ones because they minimize the edge-to-area ratio (reducing edge effects, weed invasion, and outside disturbance), and fragmented landscapes with isolated populations require connectivity planning via ecological corridors and stepping stones. Watch out for the 3 most important terms: India's 4 In-Situ Protected Area Categories (National Park, Sanctuary, Conservation Reserve, and Community Reserve), Compact/Circular Reserve Geometry (minimizing perimeter-to-area ratio to reduce edge effects and outside disturbance), and Connectivity Planning (linking fragmented habitats via corridors to maintain gene flow).",
+    "Lec 49": "Lecture 49 bridges global conservation targets with real-world GIS spatial planning for designing new protected areas ('designer sanctuaries'). Globally, the Kunming-Montreal Global Biodiversity Framework (CBD COP-15) sets the '30 by 30' target of conserving at least 30% of land and ocean areas by 2030. To identify where new sanctuaries should be placed, planners overlay multiple GIS layers—existing Protected Area polygons, species occurrence records, the Biodiversity Intactness Index (BII), NTCA tiger/wildlife corridor maps, linear infrastructure threats, and forest land-tenure maps—while drawing final boundaries along recognizable natural topographic features like rivers and ridgelines. Watch out for the 3 most important terms: Global 30 by 30 Target (conserving 30% of terrestrial and marine areas by 2030), Gap Analysis & Multi-Criteria GIS Overlays (combining intactness, corridors, and threat maps to locate unprotected biodiversity), and Reserved Forest Cadastral Filtering (selecting forest blocks with pre-settled legal tenure).",
+    "Lec 50": "Lecture 50 provides an insider Indian Forest Service (IFS) walkthrough of the statutory legal procedure for notifying a Wildlife Sanctuary under the Wildlife (Protection) Act, 1972. Under the standard route (for non-Reserved Forest lands), the State Government issues an initial declaration of intention under Section 18, followed by a time-consuming inquiry by the District Collector under Sections 19–25 to adjudicate, acquire, or settle private land and customary rights before final notification under Section 26A(1)(a). However, if the candidate area comprises already notified Reserved Forests (under the Indian Forest Act, 1927), their land status, boundaries, compartment records, and rights position are already legally settled and documented, allowing the State to fast-track sanctuary notification directly under Section 26A(1)(b)! Watch out for the 3 most important terms: Reserved Forest Fast-Track Advantage (land status, boundaries, records, and rights position are already well structured and documented), Section 18 vs. Section 26A (initial intention vs. final statutory notification under WLPA 1972), and Collector's Rights Inquiry (Sections 19–25 process for settling claims in non-RF lands)."
+  },
+  "questions": [
+    {
+      "id": "W10_M01",
+      "week": 10,
+      "lecture": "Lec 46",
+      "source": "mock_unseen",
+      "question": "What is the five-stage iterative cycle that defines “Adaptive Management” in biodiversity conservation?",
+      "options": [
+        "Capture, Tag, Release, Recapture, and Sell",
+        "Plan, Act, Monitor, Evaluate, and Adjust/Revise",
+        "Avoid, Minimise, Restore, Offset, and Abandon",
+        "Isolate, Inbreed, Bottle-neck, Drift, and Extirpate"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Adaptive management is an iterative, systematic conservation decision process that treats every management intervention as a testable hypothesis following the cycle: Plan -> Act -> Monitor -> Evaluate -> Adjust or Revise.",
+      "mini_lesson": "Because ecosystems are complex and dynamic, conservation cannot rely on rigid, unchangeable 10-year plans; instead, Adaptive Management treats every management action (such as prescribed burning or waterhole creation) as an experiment. Managers plan the intervention, implement it (Act), collect empirical data (Monitor), analyze whether it achieved the goal (Evaluate), and refine the policy (Adjust). Distractor (C) lists the Mitigation Hierarchy from Week 12."
+    },
+    {
+      "id": "W10_M02",
+      "week": 10,
+      "lecture": "Lec 46",
+      "source": "mock_unseen",
+      "question": "In conservation planning, what is the core diagnostic principle of “Problem Tree Analysis”?",
+      "options": [
+        "It cuts down old trees in a forest to count the rings inside the trunk",
+        "It treats all wildlife species as branches and classifies them into taxonomic families",
+        "It models the visible conservation problem (such as population decline) as the trunk, but requires interventions to target the underlying socioeconomic and governance roots",
+        "It mandates planting only exotic timber species along forest boundaries"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Problem Tree Analysis is a root-cause diagnostic method where the visible symptom—such as a sharp decline in an endangered animal—is recognized as the trunk, while the true drivers that management must address are the underlying root causes, like poverty, weak enforcement, or tenure insecurity.",
+      "mini_lesson": "If wildlife rangers see tiger numbers dropping (the trunk) and respond only by arresting poachers on the surface, the poaching will resume if the underlying roots—such as lack of rural livelihoods, illegal trade demand, or corruption—remain unaddressed. Problem Tree Analysis forces planners to trace visible problems down to their root socio-ecological causes before designing interventions."
+    },
+    {
+      "id": "W10_M03",
+      "week": 10,
+      "lecture": "Lec 46",
+      "source": "mock_unseen",
+      "question": "Which sequence correctly represents the “Four-Step Management Chain” that links human drivers to conservation success?",
+      "options": [
+        "Threat -> Ecological Change -> Strategic Response -> Ecosystem Recovery",
+        "Ecosystem Recovery -> Threat -> Strategic Response -> Ecological Change",
+        "Strategic Response -> Threat -> Ecosystem Recovery -> Ecological Change",
+        "Ecological Change -> Ecosystem Recovery -> Threat -> Strategic Response"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "The systematic conservation management framework follows a sequential four-step causal chain: identifying the Threat, understanding the resulting Ecological Change, implementing a targeted Strategic Response, and monitoring for Ecosystem Recovery.",
+      "mini_lesson": "Conservation management is a logical problem-solving chain: first, diagnose the specific Threat (e.g., cattle overgrazing); second, assess the Ecological Change it causes (e.g., soil compaction and native sapling loss); third, deploy the Strategic Response (e.g., community stall-feeding and pasture zonation); and fourth, verify Ecosystem Recovery through monitoring."
+    },
+    {
+      "id": "W10_M04",
+      "week": 10,
+      "lecture": "Lec 46",
+      "source": "mock_unseen",
+      "question": "Why is managing for broad “ecological processes” (such as natural fire regimes, hydrologic flows, and herbivore-carnivore interactions) considered more sustainable than managing exclusively for a single flagship species?",
+      "options": [
+        "Single species management always causes immediate extinction of all plants",
+        "Maintaining intact ecological processes supports entire biological communities, sustains multi-species interactions, and preserves system resilience without requiring perpetual artificial subsidies",
+        "Managing processes costs zero rupees and requires no field forest rangers",
+        "Flagship species never interact with other organisms in an ecosystem"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Focusing management solely on the numbers of a single high-profile species often leads to heavy artificial subsidies; in contrast, restoring and protecting underlying ecological processes maintains the entire functional web, benefiting sympatric species and ensuring self-sustaining resilience.",
+      "mini_lesson": "If a manager focuses narrowly on maximizing tiger numbers by installing artificial water troughs and fencing out all competitors, the forest can degrade into an artificial zoo. Managing the underlying processes—healthy prey habitats, natural fire intervals, and unpolluted watersheds—creates an intact, resilient ecosystem where tigers, pollinators, and songbirds all flourish naturally without endless artificial meddling."
+    },
+    {
+      "id": "W10_M05",
+      "week": 10,
+      "lecture": "Lec 46",
+      "source": "mock_unseen",
+      "question": "What happens if a protected area management plan implements large-scale habitat interventions without continuous ecological monitoring?",
+      "options": [
+        "The management plan automatically becomes 100% successful by default",
+        "All invasive weed species immediately die out on their own",
+        "The reserve is automatically reclassified as a UNESCO Biosphere Reserve",
+        "The system becomes non-adaptive: unintended negative ecological side-effects go unnoticed and managers cannot determine whether interventions worked or failed"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Without systematic ecological monitoring, the feedback loop of adaptive management is broken; interventions become blind, unintended harms go uncorrected, and managers operate on guesswork rather than evidence.",
+      "mini_lesson": "Monitoring is not an optional academic luxury—it is the sensory organ of adaptive management! If you dig 50 artificial waterholes but never monitor whether they spread anthrax or help invasive dogs prey on fawns, your intervention could be destroying the very animals you set out to save. Monitoring provides the evidence needed to adjust or halt damaging actions."
+    },
+    {
+      "id": "W10_M06",
+      "week": 10,
+      "lecture": "Lec 46",
+      "source": "mock_unseen",
+      "question": "Why is participatory conservation (involving local fringe communities in decision-making and benefit-sharing) critical for long-term protected area management?",
+      "options": [
+        "It eliminates the need for any Wildlife Protection laws or boundaries",
+        "It ensures that local communities bear 100% of all conservation costs without receiving any tourism revenue",
+        "Local communities possess valuable traditional ecological knowledge, and aligning conservation goals with local rights and livelihood benefits reduces poaching and border conflicts",
+        "It allows communities to convert the entire national park core into industrial farmland"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Participatory management integrates local and indigenous communities as active partners; when local people share in conservation governance and receive tangible economic or resource benefits, compliance rises and human-wildlife conflicts decrease dramatically.",
+      "mini_lesson": "Fortress conservation—fencing off land with armed guards while treating surrounding villagers purely as poachers and trespassers—creates hostility and sabotage. When fringe communities participate in Eco-Development Committees (EDCs), receive shares of ecotourism revenue, and have their traditional rights respected, they become the reserve's most vigilant frontline protectors."
+    },
+    {
+      "id": "W10_M07",
+      "week": 10,
+      "lecture": "Lec 47",
+      "source": "mock_unseen",
+      "question": "In seed banking and plant ex-situ conservation, what is the fundamental biological difference between “orthodox seeds” and “recalcitrant seeds”?",
+      "options": [
+        "Orthodox seeds can tolerate desiccation down to 3–7% moisture content and survive sub-zero storage at -20°C, whereas recalcitrant seeds lose viability if dried and must be conserved via cryogenic methods",
+        "Orthodox seeds are produced by animals, whereas recalcitrant seeds are produced by fungi",
+        "Orthodox seeds must be planted within 10 minutes of harvesting, whereas recalcitrant seeds never germinate",
+        "Orthodox seeds are stored exclusively in open outdoor fields without temperature control"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Orthodox seeds can be dehydrated to low moisture levels (3-7%) without cellular injury and stored for decades in deep freezers at -20°C; in contrast, recalcitrant seeds (such as mango, jackfruit, or many dipterocarps) are killed by desiccation and freezing, requiring cryopreservation in liquid nitrogen at -196°C.",
+      "mini_lesson": "Most temperate crops and grasses produce orthodox seeds: drying them stops metabolic aging without killing them, so they can be stored in conventional -20°C seed vaults for centuries. However, many tropical rainforest trees produce large, fleshy recalcitrant seeds that die if dried below 20-30% moisture; their living tissues can be preserved only through cryopreservation in liquid nitrogen at -196°C."
+    },
+    {
+      "id": "W10_M08",
+      "week": 10,
+      "lecture": "Lec 47",
+      "source": "mock_unseen",
+      "question": "In ex-situ botanical conservation, how does an “arboretum” differ from a “bambusetum”?",
+      "options": [
+        "An arboretum is a facility for keeping marine cetaceans, whereas a bambusetum is a facility for storing seeds",
+        "An arboretum is a botanical facility specialized in woody tree and shrub species, whereas a bambusetum is specialized exclusively in bamboo taxa",
+        "An arboretum is a computer database for studbooks, whereas a bambusetum is an electrified perimeter fence",
+        "Both terms refer to identical collections of desert cacti"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Specialized botanical facilities include arboreta, which are dedicated living collections of woody trees and shrubs, and bambuseta, which specialize in the living germplasm and taxonomic study of bamboo taxa (*Poaceae: Bambusoideae*).",
+      "mini_lesson": "Botanical gardens often maintain specialized living collections for distinct taxonomic groups: an arboretum focuses on cultivating and scientifically studying woody trees and shrubs (essential for long-lived forest species), while a bambusetum is dedicated specifically to diverse species of bamboo (which flower only once in decades and require living clump conservation)."
+    },
+    {
+      "id": "W10_M09",
+      "week": 10,
+      "lecture": "Lec 47",
+      "source": "mock_unseen",
+      "question": "What are “stereotypies” in captive wildlife, and what do they indicate about animal welfare?",
+      "options": [
+        "Normal vocalizations produced by wild animals during the mating season",
+        "Inherited chromosomal mutations that improve digestive efficiency",
+        "Repetitive, invariant, and functionless abnormal motor behaviours (such as pacing, bar-biting, or head-weaving) indicating chronic stress and an unstimulating environment",
+        "Markings applied to captive animals using subcutaneous PIT tags"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Stereotypies are repetitive, invariant, and functionless behavioral patterns—such as continual pacing along fence lines, neck twisting, or bar-biting—developed by captive animals as pathological indicators of chronic stress, boredom, or confinement.",
+      "mini_lesson": "When a large predator like a tiger or bear is kept in a barren, undersized concrete enclosure with nothing to do, its natural foraging and patrolling instincts are frustrated. The animal develops repetitive, purposeless motor ticks called stereotypies (like pacing the same 10-metre path for eight hours). Observing stereotypies is an immediate red flag that enclosure design and welfare are failing."
+    },
+    {
+      "id": "W10_M10",
+      "week": 10,
+      "lecture": "Lec 47",
+      "source": "mock_unseen",
+      "question": "What is the primary objective of “behavioral enrichment” in captive wildlife husbandry?",
+      "options": [
+        "To teach captive animals how to perform circus tricks for paying tourists",
+        "To force all animals into complete chemical immobilization every afternoon",
+        "To completely replace natural animal diets with dry synthetic pellets",
+        "To introduce environmental complexity, foraging puzzles, climbing structures, and sensory stimuli to encourage natural species-typical behaviors and prevent stereotypies"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Behavioral enrichment involves modifying captive environments through physical climbing structures, foraging challenges, novel scents, and feeding puzzles to stimulate cognitive activity, promote natural species-typical behaviors, and suppress abnormal stereotypies.",
+      "mini_lesson": "Instead of handing an animal its food on a silver platter in a sterile cage, modern zoos use behavioral enrichment: hiding meat inside logs, freezing fish in ice blocks, placing scratching posts, or introducing scents of prey. These challenges stimulate the animal's brain and body, encouraging natural problem-solving and play while eliminating boredom and neurotic pacing."
+    },
+    {
+      "id": "W10_M11",
+      "week": 10,
+      "lecture": "Lec 47",
+      "source": "mock_unseen",
+      "question": "In modern ex-situ germplasm preservation, what is “cryopreservation” and at what temperature is it typically maintained?",
+      "options": [
+        "Storing seeds in a dry kitchen cupboard at room temperature ($+25^\\circ\\text{C}$)",
+        "Deep preservation of living cells, gametes, embryos, or tissue cultures in liquid nitrogen at an ultralow temperature of $-196^\\circ\\text{C}$",
+        "Heating tissues in boiling water ($+100^\\circ\\text{C}$) to kill bacteria",
+        "Burying seeds 6 feet deep under quicklime ($CaO$)"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Cryopreservation involves cooling and storing living cells, gametes, embryos, or recalcitrant plant tissues at ultralow temperatures in liquid nitrogen ($-196^\\circ\\text{C}$), completely arresting all biochemical and enzymatic metabolic reactions.",
+      "mini_lesson": "At $-196^\\circ\\text{C}$ in liquid nitrogen, molecular kinetic energy drops so low that all cellular respiration, enzyme action, and biochemical decay freeze in their tracks. Sperm, eggs, early embryos, and recalcitrant plant shoot tips preserved in cryobanks can remain genetically viable and undamaged for centuries, providing a frozen ark of biodiversity."
+    },
+    {
+      "id": "W10_M12",
+      "week": 10,
+      "lecture": "Lec 47",
+      "source": "mock_unseen",
+      "question": "How do the ongoing operational costs of ex-situ captive breeding compare to in-situ protected area conservation across different animal body sizes?",
+      "options": [
+        "Ex-situ conservation costs are identical for all organisms from beetles to elephants",
+        "In-situ conservation is impossible for large mammals",
+        "Ex-situ captive breeding costs escalate exponentially with large animal body size (due to massive housing, meat/fodder, heating, and veterinary demands), making large-scale megafauna ex-situ preservation far more expensive per individual than in-situ protection",
+        "Ex-situ breeding of tigers and rhinos costs less than maintaining a single national park guard"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "A key economic reality of ex-situ conservation is that costs scale steeply with body size; housing, feeding, and managing a viable captive population of megaherbivores or large carnivores costs millions annually, whereas in-situ reserves protect thousands of coexisting individuals across entire ecosystems at much lower cost per individual.",
+      "mini_lesson": "Feeding, cleaning, heating, and medically managing a single captive tiger or elephant costs tens of thousands of dollars every year; maintaining a genetically viable captive population of 250 individuals would cost millions annually. In contrast, a 1,000 $\\text{km}^2$ in-situ national park protects hundreds of wild tigers alongside millions of trees, deer, birds, and insects at an area-based budget that is far more cost-effective."
+    },
+    {
+      "id": "W10_M13",
+      "week": 10,
+      "lecture": "Lec 48",
+      "source": "mock_unseen",
+      "question": "How is “in-situ conservation” officially defined in conservation biology?",
+      "options": [
+        "The permanent removal of wild animals to indoor laboratory aquaria",
+        "The exclusive preservation of seed DNA inside $-20^\\circ\\text{C}$ freezers",
+        "The conservation of ecosystems and natural habitats and the maintenance and recovery of viable populations of species in their natural surroundings",
+        "The artificial breeding of captive animals in urban zoological parks"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "In-situ conservation is defined under the Convention on Biological Diversity as the conservation of ecosystems and natural habitats and the maintenance and recovery of viable populations of species in their natural surroundings.",
+      "mini_lesson": "Latin 'in-situ' literally means 'on-site': it is the conservation of wild organisms within the native ecosystems where they evolved, where natural selection, predation, climate adaptation, and community interactions continue in real time. Distractors (A), (B), and (D) are all examples of ex-situ ('off-site') conservation."
+    },
+    {
+      "id": "W10_M14",
+      "week": 10,
+      "lecture": "Lec 48",
+      "source": "mock_unseen",
+      "question": "In international conservation governance, what is meant by the term “Paper Park”?",
+      "options": [
+        "A designated sanctuary created specifically for recycling office stationery",
+        "A protected area that exists legally on paper or maps but lacks actual on-the-ground field staff, funding, boundary demarcation, enforcement, and ecological management",
+        "A botanical arboretum that cultivates only pulpwood trees",
+        "A temporary field camp built entirely of cardboard"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "A 'Paper Park' is a protected area that has been officially gazetted or drawn on government maps but possesses no real-world conservation effectiveness due to absent field guards, lack of operating budgets, non-existent boundary enforcement, and unchecked illegal logging or poaching.",
+      "mini_lesson": "Governments can easily boast about meeting international treaty targets by drawing boundaries on a map and declaring that $20\\%$ of their territory is protected. However, if those areas have zero rangers on patrol, no vehicles, no boundary signs, and poachers clear-cut the forest with impunity, the reserve is merely a 'paper park'—a legal fiction that offers zero real protection to biodiversity."
+    },
+    {
+      "id": "W10_M15",
+      "week": 10,
+      "lecture": "Lec 48",
+      "source": "mock_unseen",
+      "question": "In the famous “SLOSS debate” of reserve design (Single Large vs. Several Small of equal total area), why does island biogeography theory generally favor a Single Large reserve?",
+      "options": [
+        "A single large reserve has higher edge-to-area exposure than small fragments",
+        "Single large reserves are easier to convert into city suburbs",
+        "Several small reserves are immune to all diseases and fires",
+        "A single large reserve can sustain larger minimum viable populations, buffers wide-ranging apex predators, minimizes local extinction rates, and minimizes edge effects"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "In the SLOSS debate, a single large reserve is generally superior to several small fragments of equivalent area because it sustains viable populations of wide-ranging apex carnivores, maintains complete trophic chains, minimizes edge-to-area ratios, and has lower rates of local extinction.",
+      "mini_lesson": "Ten tiny 10 $\\text{km}^2$ fragments might equal the total area of one 100 $\\text{km}^2$ reserve, but an elephant herd or a tiger cannot survive inside a 10 $\\text{km}^2$ postage-stamp fragment without coming into constant conflict with surrounding villages. A single large continuous block preserves home ranges, core interior habitat, and diverse microclimates."
+    },
+    {
+      "id": "W10_M16",
+      "week": 10,
+      "lecture": "Lec 48",
+      "source": "mock_unseen",
+      "question": "What is the analytical purpose of “Gap Analysis” in systematic conservation planning?",
+      "options": [
+        "Measuring the physical gap between two bars in a zoo cage",
+        "Overlaying existing protected area networks on GIS maps of species distributions and vegetation types to identify unrepresented ecosystems and missing habitats that lack legal protection",
+        "Calculating the empty space inside a seed storage ampoule",
+        "Determining the distance an animal can jump over a highway fence"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Gap analysis is a systematic GIS-based planning approach that overlays maps of existing protected areas against species distributions, endemic hotspots, and vegetation types to locate the ecological 'gaps'—unprotected ecosystems that must be prioritized for new reserves.",
+      "mini_lesson": "Historically, many national parks were established in high mountain peaks or scenic rocks simply because nobody wanted to farm there, leaving fertile lowland rainforests and rich grasslands completely unprotected. Gap Analysis uses GIS to compare what is already protected against where biodiversity actually lives, exposing the unprotected 'gaps' that need new reserves."
+    },
+    {
+      "id": "W10_M17",
+      "week": 10,
+      "lecture": "Lec 48",
+      "source": "mock_unseen",
+      "question": "According to Jared Diamond’s reserve design principles, why is a “clustered” spatial arrangement of multiple reserves preferred over a linear or scattered arrangement?",
+      "options": [
+        "Clustered reserves shorten inter-patch distances, facilitating natural dispersal, gene flow, and recolonization (the rescue effect) if a local catastrophe hits one patch",
+        "Clustered reserves make it easier for commercial logging trucks to clear the perimeter",
+        "Linear reserves are immune to climate change",
+        "Scattered reserves completely prevent all bird migrations"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "When multiple reserves exist, arranging them in a close cluster rather than a linear or widely scattered string is preferred because shorter inter-patch distances facilitate animal movement and the metapopulation 'rescue effect' between sub-populations.",
+      "mini_lesson": "If four small reserves are arranged in a tight cluster, an animal dispersing from Patch A has a high probability of finding Patches B, C, or D just a few kilometres away. If they are strung out in a long, distant line, animals trying to disperse across the gaps are far more likely to die in human settlements or highways before reaching the next patch."
+    },
+    {
+      "id": "W10_M18",
+      "week": 10,
+      "lecture": "Lec 48",
+      "source": "mock_unseen",
+      "question": "In protected area zoning, what is the functional relationship between the “Core Zone” and the “Buffer Zone”?",
+      "options": [
+        "The core zone allows heavy industrial mining, while the buffer zone is strictly inviolate",
+        "Both core and buffer zones must be cleared of all vegetation every two years",
+        "The core zone is kept as an inviolate sanctuary dedicated solely to biodiversity and undisturbed ecological processes, while the surrounding buffer zone absorbs peripheral human resource use and cushions the core against external pressures",
+        "The buffer zone is located inside the core zone to house tourists"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "A protected area is structured into a strictly inviolate Core Zone—where no extractive human activities are permitted to safeguard natural ecological processes—surrounded by a multi-use Buffer Zone that cushions the core from external human disturbance while supporting compatible sustainable livelihoods.",
+      "mini_lesson": "Protected areas use concentric zoning like an egg: the Core Zone (the yolk) is an inviolate sanctuary where wildlife lives free from timber felling, grazing, or construction. The Buffer Zone (the egg white) surrounds the core, allowing controlled grazing, non-timber forest produce collection, and ecotourism, absorbing human pressures so disturbances do not spill into the core."
+    },
+    {
+      "id": "W10_M19",
+      "week": 10,
+      "lecture": "Lec 49",
+      "source": "mock_unseen",
+      "question": "Adopted under Target 3 of the Kunming-Montreal Global Biodiversity Framework (CBD COP-15), what is the global “30 by 30” conservation commitment?",
+      "options": [
+        "Reducing human population by 30% by the year 2030",
+        "Conserving and managing at least 30% of global terrestrial, inland water, and coastal/marine areas through protected areas and OECMs by 2030",
+        "Cutting down 30% of all forests by the year 2030 to build roads",
+        "Limiting the maximum number of national parks in any country to 30"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "A landmark global target from the Kunming-Montreal Global Biodiversity Framework is the '30 by 30' goal: conserving at least $30\\%$ of the world's land, freshwater, and oceans by the year 2030 through ecologically representative protected area networks and other effective area-based conservation measures (OECMs).",
+      "mini_lesson": "At the 2022 UN Biodiversity Conference (COP-15), world governments recognized that conserving isolated 10-15% fragments is not enough to stop global extinction. They agreed to the '30 by 30' target—legally protecting and managing at least $30\\%$ of the planet's terrestrial, freshwater, and marine areas by 2030 using both traditional national parks and indigenous-managed lands."
+    },
+    {
+      "id": "W10_M20",
+      "week": 10,
+      "lecture": "Lec 49",
+      "source": "mock_unseen",
+      "question": "What does the “Biodiversity Intactness Index” (BII) quantify when used as a GIS spatial planning layer for designing new protected areas?",
+      "options": [
+        "The speed at which safari jeeps drive through a park gate",
+        "The total volume of crude oil spilled along marine coastlines",
+        "The number of visitors buying tickets at zoo entrances",
+        "The average abundance of native species in an area relative to their undisturbed historical baseline populations across different land-use pressures"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "The Biodiversity Intactness Index (BII) is a modelled metric estimating the average remaining population abundance of originally present native species relative to an undisturbed reference baseline, helping planners identify high-integrity wilderness landscapes.",
+      "mini_lesson": "A satellite photo might show an area covered in green canopy, but if heavy hunting or livestock grazing has stripped away most understory plants and animals, the area has low ecological integrity. The Biodiversity Intactness Index (BII) estimates what percentage of original native species populations still persist, allowing planners to identify intact landscapes worth protecting."
+    },
+    {
+      "id": "W10_M21",
+      "week": 10,
+      "lecture": "Lec 49",
+      "source": "mock_unseen",
+      "question": "What is an “umbrella corridor” in landscape-scale conservation planning?",
+      "options": [
+        "A physical roof built over a highway to keep monkeys dry during monsoon rain",
+        "A pipeline used to transport liquid petroleum hydrocarbons",
+        "A regional movement corridor delineated to meet the large spatial requirements of an apex umbrella species (such as the Tiger), which simultaneously safeguards dispersal habitat for dozens of sympatric biodiversity species",
+        "A fence that prevents all animal movement between reserves"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "An umbrella corridor is an ecological connectivity zone designed around the extensive movement requirements of wide-ranging apex species (like tiger corridors mapped by the NTCA), which under its broad spatial 'umbrella' protects habitat connectivity for numerous co-occurring plants and smaller animals.",
+      "mini_lesson": "Because an apex predator like a tiger needs large contiguous forested areas to disperse between breeding reserves, a corridor wide and continuous enough for tigers naturally contains the habitats, rivers, and forage needed by deer, leopards, hornbills, and frogs. Planning corridors for the umbrella species automatically protects sympatric biodiversity beneath its umbrella."
+    },
+    {
+      "id": "W10_M22",
+      "week": 10,
+      "lecture": "Lec 49",
+      "source": "mock_unseen",
+      "question": "Which combination of data layers is integrated in a Multi-Criteria GIS analysis when planning a new “designer sanctuary”?",
+      "options": [
+        "Existing PA network, species distribution and IUCN status, Biodiversity Intactness Index (BII), wildlife corridors, linear infrastructure threats, and forest cadastral tenure",
+        "Ticket prices, hotel star ratings, airline schedules, and souvenir shop revenues",
+        "Distance to the North Pole, lunar phases, and astrological calendars",
+        "Market prices of cement, gravel, and asphalt for highway construction"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Designing a new sanctuary requires multi-layer GIS analysis: overlaying existing PA boundaries, species occurrence and IUCN status, the Biodiversity Intactness Index, landscape corridor linkages, infrastructure threat fractures, and cadastral forest tenure maps.",
+      "mini_lesson": "Modern protected areas are not drawn blindly on paper; planners layer multiple spatial datasets in GIS—where the wildlife lives (species data), where gaps exist (PA layer), how intact the habitat is (BII), where animals migrate (corridors), where roads and mines threaten them (threat layers), and whether the land is already government forest (cadastral tenure)."
+    },
+    {
+      "id": "W10_M23",
+      "week": 10,
+      "lecture": "Lec 49",
+      "source": "mock_unseen",
+      "question": "Why do conservation planners and IFS officers strive to align protected area boundaries along prominent natural features (such as mountain ridgelines, rivers, or deep gorges) rather than arbitrary straight geometric lines?",
+      "options": [
+        "Straight lines are mathematically illegal in geography",
+        "Natural physical features are easily recognized by field rangers and local communities on the ground, simplify patrol demarcation, and are far easier to defend unambiguously in legal disputes",
+        "Rivers prevent all animal species from ever crossing into the reserve",
+        "Mountain ridges automatically eliminate the need for anti-poaching staff"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Delineating sanctuary boundaries along natural topographic features—such as watershed divides, ridgelines, and prominent rivers—ensures that boundaries are visibly obvious to patrolling staff and villagers on the ground, avoiding costly boundary litigation and encroachment disputes.",
+      "mini_lesson": "If a sanctuary boundary is drawn as an arbitrary straight line through a dense forest, neither a patrol ranger nor a villager gathering firewood can tell when they have crossed the legal line without a survey team. Aligning the boundary along a flowing river or a steep mountain crest creates an unmistakable physical dividing line that everyone understands, preventing encroachment disputes."
+    },
+    {
+      "id": "W10_M24",
+      "week": 10,
+      "lecture": "Lec 49",
+      "source": "mock_unseen",
+      "question": "When filtering candidate forest blocks for a new sanctuary, why does prioritizing government-notified “Reserved Forest” (RF) compartments drastically streamline the establishment process?",
+      "options": [
+        "Reserved forests have zero wild animals living inside them",
+        "Reserved forests require no ecological significance under the Wildlife Protection Act",
+        "Reserved forests can only be managed by international United Nations staff",
+        "Their legal land ownership, boundaries, and private rights positions were already thoroughly investigated, compensated, and legally settled under the Indian Forest Act, avoiding protracted land-acquisition disputes"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Prioritizing existing Reserved Forest (RF) land for new sanctuaries is strategically smart because their land titles, compartment maps, and private rights were already legally settled under the Indian Forest Act, 1927, bypassing lengthy land acquisition battles.",
+      "mini_lesson": "Creating a sanctuary on revenue land or private village commons triggers years of intense legal battles over land titles and compensation. Because Reserved Forests (RFs) under the Indian Forest Act, 1927 already underwent exhaustive legal inquiries where all private rights were either extinguished or formally recorded, transforming them into a sanctuary avoids new land-acquisition lawsuits."
+    },
+    {
+      "id": "W10_M25",
+      "week": 10,
+      "lecture": "Lec 50",
+      "source": "mock_unseen",
+      "question": "Under India’s Wildlife (Protection) Act, 1972, what is the legal significance of a “Section 18” notification?",
+      "options": [
+        "It declares the final, irrevocable completion of a National Park",
+        "It is the initial official declaration by the State Government of its intention to constitute a specified area as a Wildlife Sanctuary",
+        "It orders the immediate eviction of all wild carnivores from the forest",
+        "It issues hunting licenses to commercial tour operators"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Under Section 18 of the Wildlife (Protection) Act, 1972, the State Government issues a notification declaring its intention to constitute any area—possessing adequate ecological, faunal, or floral significance—as a Wildlife Sanctuary.",
+      "mini_lesson": "Section 18 is the official starting whistle: it does not create the final sanctuary yet, but legally announces that the State Government intends to establish a Wildlife Sanctuary across a defined geographic area. This notification formally triggers the administrative and rights-settlement machinery that follows."
+    },
+    {
+      "id": "W10_M26",
+      "week": 10,
+      "lecture": "Lec 50",
+      "source": "mock_unseen",
+      "question": "What critical legal safeguard is provided by “Section 18A” of the Wildlife (Protection) Act, 1972?",
+      "options": [
+        "It provides immediate statutory protection to the candidate sanctuary area pending the completion of the rights inquiry, preventing destructive land-use conversions in the interim",
+        "It permits mining companies to clear-cut the forest before the sanctuary is formed",
+        "It transfers all wildlife to private ownership",
+        "It abolishes the position of Chief Wildlife Warden"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Section 18A ensures that pending the completion of rights inquiries under Sections 19 to 25, the provisions of the Act apply to protect the candidate sanctuary from commercial exploitation and habitat destruction in the interim.",
+      "mini_lesson": "Because settling legal claims and land boundaries can take years, unscrupulous actors might try to rush in, clear trees, or open mines before the final sanctuary is gazetted. Section 18A acts as a legal shield: it applies statutory wildlife protection laws to the area during the interim period while the Collector's inquiry is underway."
+    },
+    {
+      "id": "W10_M27",
+      "week": 10,
+      "lecture": "Lec 50",
+      "source": "mock_unseen",
+      "question": "What is the statutory role of the District Collector under “Section 19” of the Wildlife (Protection) Act, 1972 following a Section 18 notification?",
+      "options": [
+        "To personally shoot all dangerous wild animals inside the area",
+        "To construct luxury five-star resorts inside the proposed core zone",
+        "To convert the proposed sanctuary into an open agricultural grazing commons",
+        "To inquire into and determine the existence, nature, and extent of any private rights or claims of any person in or over the land proposed for the sanctuary"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Under Section 19 of the WLPA 1972, when a notification is issued under Section 18, the District Collector is mandated to inquire into and determine the existence, nature, and extent of the rights of any person in or over the proposed sanctuary land.",
+      "mini_lesson": "The District Collector is the chief civil revenue authority. Under Section 19, the Collector conducts a formal judicial inquiry to find out who holds private land titles, grazing concessions, water access, or forest produce collection rights inside the proposed sanctuary boundaries so those claims can be legally addressed."
+    },
+    {
+      "id": "W10_M28",
+      "week": 10,
+      "lecture": "Lec 50",
+      "source": "mock_unseen",
+      "question": "What does “Section 20” (Bar of accrual of rights) of the Wildlife (Protection) Act, 1972 mandate?",
+      "options": [
+        "It prohibits any person from entering the sanctuary forever",
+        "After the issue of a Section 18 notification, no new civil, property, or customary rights can be acquired in or over the proposed sanctuary land (except by succession)",
+        "It eliminates all previously existing private property rights without compensation",
+        "It bars all wildlife research and veterinary monitoring"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Section 20 imposes a strict 'bar of accrual of rights': after the date of notification under Section 18, no new right shall be acquired in or over the land comprised in the proposed sanctuary, except by succession.",
+      "mini_lesson": "If people knew a sanctuary was about to be created, speculators might quickly buy up land, build structures, or claim new grazing rights to demand huge cash compensation from the government. Section 20 stops this by freezing rights: no new rights can be acquired or registered on that land after the Section 18 notification date."
+    },
+    {
+      "id": "W10_M29",
+      "week": 10,
+      "lecture": "Lec 50",
+      "source": "mock_unseen",
+      "question": "Under “Section 21” of the Wildlife (Protection) Act, 1972, within what time period must any person claiming a right in the proposed sanctuary submit a written claim to the Collector following the official proclamation?",
+      "options": [
+        "Within 24 hours",
+        "Within 10 years",
+        "Within 2 months",
+        "Within 50 years"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Under Section 21, the Collector publishes a proclamation in the local language specifying the sanctuary boundaries and requiring any person claiming a right to submit a written claim within two months from the date of proclamation.",
+      "mini_lesson": "To ensure fair process, Section 21 requires the Collector to publish notices in every local village in their vernacular language. Anyone with a legitimate claim (such as farmland, a pathway, or a water source) has a statutory window of two months to submit their claim in writing for adjudication."
+    },
+    {
+      "id": "W10_M30",
+      "week": 10,
+      "lecture": "Lec 50",
+      "source": "mock_unseen",
+      "question": "What is the key procedural difference between Section 26A(1)(a) and Section 26A(1)(b) in the final declaration of a Wildlife Sanctuary in India?",
+      "options": [
+        "Section 26A(1)(a) is the final notification issued only after the lengthy Section 19–25 rights inquiry is fully disposed of, whereas Section 26A(1)(b) allows direct final notification for areas already notified as Reserved Forests, completely bypassing the Section 19–25 inquiry",
+        "Section 26A(1)(a) applies only to marine sanctuaries, whereas 26A(1)(b) applies only to mountain peaks",
+        "Section 26A(1)(b) abolishes all forest guards and allows uncontrolled commercial logging",
+        "Section 26A(1)(a) requires United Nations approval, whereas 26A(1)(b) does not"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Section 26A is the final statutory declaration of a Wildlife Sanctuary: clause (1)(a) is used after claims under Sections 19 to 25 are inquired and settled, whereas clause (1)(b) allows immediate declaration for any area that is already a notified Reserved Forest without needing any Section 19-25 inquiry.",
+      "mini_lesson": "Section 26A(1)(a) is the slow route: it cannot be issued until the Collector has spent months or years investigating and settling every single private claim under Sections 19 to 25. In contrast, Section 26A(1)(b) is the IFS fast-track route: if the land is already a Reserved Forest under the Indian Forest Act, those rights were settled decades ago, so the government can immediately issue the final sanctuary notification in the Official Gazette!"
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+{
+  "week": 11,
+  "lecture_briefings": {
+    "Lec 51": "Lecture 51 introduces the principles of wildlife capture, animal marking, and the four modes of wildlife restraint. For long-term research and monitoring, animals can be marked non-invasively or fitted with subcutaneous PIT tags (Passive Integrated Transponders—tiny unpowered microchips that emit a unique ID code when scanned, providing permanent individual identification). When animals must be handled, managers choose among four modes of restraint: Behavioural restraint (using training, conditioning, or desensitisation in captive settings), Physical restraint (direct manual handling, such as supporting a small reptile's full body weight and avoiding squeezing or grabbing its tail, which triggers caudal autotomy), Mechanical restraint (using cages, box traps, nets, chutes, or a Ketch-All pole that provides short-distance loop control while keeping handlers safely away), and Chemical restraint (immobilizing drugs). Watch out for the 3 most important terms: PIT Tags (microchips for long-term individual identification), The 4 Modes of Restraint (Behavioural, Physical, Mechanical, and Chemical), and Ketch-All Pole vs. Reptile Handling (short-distance standoff control pole vs. supporting the body and never holding a lizard by its tail alone).",
+    "Lec 52": "Lecture 52 covers Chemical Restraint—the remote delivery of immobilizing pharmaceuticals and the life-threatening emergency of Capture Myopathy. It maps the spectrum of drug delivery equipment by working distance: hand syringes ($0\\text{ m}$), jab sticks ($1\\text{--}2\\text{ m}$, ideal when an animal is approachable, confined, or partially restrained in a crate or trap), quiet lung-powered blowpipes ($<5\\text{ m}$), adjustable-pressure compressed gas/CO2 projectors like Dan-Inject ($10\\text{--}30\\text{ m}$), and high-force gunpowder projector rifles ($30\\text{--}60+\\text{ m}$, which shatter lightweight plastic darts). Pharmacologically, it contrasts Neuromuscular Blockers (which paralyze voluntary skeletal muscles without providing any sedation, analgesia, or unconsciousness, leaving the animal terrified and risking suffocation) with CNS Depressants (dissociatives like ketamine, alpha-2 agonists like xylazine, and potent opioids like etorphine that depress the central nervous system). Finally, it warns against Capture Myopathy—where intense chase stress and fear cause extreme lactic acidosis, hyperthermia, muscle necrosis (rhabdomyolysis), dark brown urine (myoglobinuria), and fatal kidney failure—which is prevented by limiting chase times and using funnel-shaped Boma capture corrals. Watch out for the 3 most important terms: Jab Stick vs. Remote Projectors (jab stick for confined/approachable animals vs. blowpipe, air gun, and powder gun), Neuromuscular Blockers vs. CNS Depressants (muscle paralysis with zero sedation/analgesia vs. central brain sedation/analgesia), and Capture Myopathy (stress-induced lactic acidosis, hyperthermia, and muscle breakdown causing myoglobinuria and delayed death).",
+    "Lec 53": "Lecture 53 examines active In-Situ Habitat Management—the field interventions managers use to manipulate food, water, cover, and disturbance regimes inside protected areas. While tools such as prescribed burning, controlled grazing, weed eradication, canopy opening, artificial waterhole creation, and tree planting are widely used, the lecture emphasizes one overarching rule of caution: no habitat intervention is universally 'good' or 'bad'; management tools can help or harm depending on timing, intensity, location, and monitoring. For example, adding artificial waterholes in an arid reserve can inadvertently favour water-dependent generalists, spread waterborne disease, degrade surrounding vegetation via trampling, and disadvantage desert-adapted specialists, just as dense tree plantations inside natural grasslands destroy open-savanna biodiversity rather than restoring it. Watch out for the 3 most important terms: Central Caution of Habitat Management (tools can help or harm depending on timing, intensity, location, and monitoring), Artificial Water Provisioning Trade-offs (concentrating herbivory, trampling, and disease around waterholes), and Grassland vs. Plantation Mismanagement (why planting trees in natural grasslands or savannas destroys native habitat).",
+    "Lec 54": "Lecture 54 dives into Wildfire Science, Fire Ecology, and Suppression Tactics, drawing on the instructor's specialized expertise in forest fire management. Based on the Fire Triangle (Fuel, Heat, and Oxygen), wildfires are classified by the vertical forest layer they burn: Ground fires (slow, flameless smoldering deep in subsurface peat and humus), Surface fires (burning dry leaf litter and grass on the forest floor), and Crown fires (high-intensity fires that climb vertical 'ladder fuels' into the upper treetops and spread rapidly across canopies). Beyond killing animals directly, severe wildfires alter soil physics by vaporizing waxy organic compounds from litter that condense onto cooler mineral grains below, creating a water-repellent 'hydrophobic soil' layer that blocks rainwater infiltration and triggers severe surface runoff, erosion, and flash floods. Watch out for the 3 most important terms: Ground vs. Surface vs. Crown Fires (subsurface peat smoldering vs. forest floor litter vs. rapid treetop canopy fires bridged by ladder fuels), Hydrophobic Soil (wildfire-induced water-repellent soil that reduces infiltration and increases runoff), and Fire Lines & Counter Burning/Backfiring (removing fuel strips and burning inward toward the main fire front).",
+    "Lec 55": "Lecture 55 investigates Plastic Pollution as a pervasive chemical and physical threat to terrestrial and aquatic biodiversity. Plastics are classified by size into macroplastics ($>25\\text{ mm}$), mesoplastics ($5\\text{--}25\\text{ mm}$), microplastics ($<5\\text{ mm}$), and nanoplastics ($<1\\text{ }\\mu\\text{m}$), with large debris fragmenting into microplastics through solar UV photolysis and mechanical abrasion. Physically, plastics cause entanglement, ghost fishing (abandoned nets that perpetually trap marine life), and gastrointestinal blockage/false satiation (seen even in mountain ungulates like the Nilgiri Tahr ingesting tourist litter in Mukurthi National Park). Chemically, microplastics act as toxic 'chemical sponges' that adsorb hydrophobic persistent organic pollutants (POPs, DDT, PAHs) from water while leaching internal Endocrine Disrupting Chemicals (EDCs) like Bisphenol A (BPA) and phthalates that derail hormone signalling and reproduction. Watch out for the 3 most important terms: Microplastics & Photolysis (plastic particles $<5\\text{ mm}$ formed via UV light polymer cleavage), Ghost Fishing & Gut Impaction (perpetual trapping by lost nets and starvation from plastic-filled stomachs), and Endocrine Disrupting Chemicals / Chemical Sponge Effect (leaching BPA/phthalates and concentrating ambient hydrophobic toxins)."
+  },
+  "questions": [
+    {
+      "id": "W11_M01",
+      "week": 11,
+      "lecture": "Lec 51",
+      "source": "mock_unseen",
+      "question": "Which set correctly identifies the four fundamental modes of wildlife restraint used in conservation and veterinary management?",
+      "options": [
+        "Lethal, Semi-lethal, Commercial, and Non-commercial restraint",
+        "Behavioural, Physical, Mechanical, and Chemical restraint",
+        "Passive, Active, Acoustic, and Visual restraint",
+        "In-situ, Ex-situ, In-vitro, and Cryogenic restraint"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Wildlife restraint methods are broadly grouped into four distinct categories: behavioural restraint (operant training and habituation), physical restraint (direct manual handling), mechanical restraint (cages, crushes, nets, and poles), and chemical restraint (pharmaceutical immobilization).",
+      "mini_lesson": "Handling wildlife safely requires choosing the right tool for the job across four tiers: Behavioural (conditioning an animal to cooperate voluntarily), Physical (using bare or gloved hands to hold small animals), Mechanical (using physical equipment like cages, poles, or nets), and Chemical (injecting immobilizing drugs). Distractor (D) lists in-situ and ex-situ conservation methods."
+    },
+    {
+      "id": "W11_M02",
+      "week": 11,
+      "lecture": "Lec 51",
+      "source": "mock_unseen",
+      "question": "Why must handlers avoid grasping small lizards or geckos solely by the tail during physical capture?",
+      "options": [
+        "The tail contains venom glands that will inject poison into the handler's fingers",
+        "Lizard tails are made entirely of cartilage and will permanently melt when touched",
+        "It triggers caudal autotomy—a reflexive anti-predator adaptation where the animal sheds its tail to escape, impairing its balance, fat storage, and social status",
+        "Lizards can only breathe through pores located on the tip of the tail"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "During physical restraint of small reptiles, handlers must support the animal's body and never grasp only the tail, as many species undergo caudal autotomy (fracturing the tail vertebrae to escape), which costs the animal substantial stored lipid energy and impairs locomotion.",
+      "mini_lesson": "Many lizards and geckos have evolved fracture planes across their tail vertebrae: when a predator grabs them by the tail, muscular contractions snap the vertebra, allowing the tail to thrash as a distraction while the lizard runs away. If a handler triggers this 'caudal autotomy', the lizard loses its primary winter fat storage and running balance."
+    },
+    {
+      "id": "W11_M03",
+      "week": 11,
+      "lecture": "Lec 51",
+      "source": "mock_unseen",
+      "question": "What severe physiological hazard can develop if a wild animal is pursued over an extended distance or struggles violently during manual or physical capture?",
+      "options": [
+        "Capture myopathy (severe metabolic lactic acidosis, hyperthermia, rhabdomyolysis, and delayed shock or death)",
+        "Hardy-Weinberg equilibrium",
+        "Immediate genetic trisomy across all chromosomes",
+        "Complete immunity to all viral infections"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Prolonged pursuit, severe fear, or violent physical struggling triggers capture myopathy—a non-infectious metabolic syndrome characterized by massive adrenaline surges, extreme anaerobic lactic acidosis, elevated body temperature, and necrosis of skeletal and cardiac muscle.",
+      "mini_lesson": "Wild animals are adapted for short, explosive sprints to evade predators, not for being chased by vehicles or held down in nets for 30 minutes. Prolonged exertion causes extreme anaerobic glycolysis, flooding muscle tissues with lactic acid and skyrocketing body temperature. This breaks down muscle fibers (rhabdomyolysis) and poisons the kidneys, killing the animal days later."
+    },
+    {
+      "id": "W11_M04",
+      "week": 11,
+      "lecture": "Lec 51",
+      "source": "mock_unseen",
+      "question": "When physically handling raptors (birds of prey like eagles, hawks, or owls), what is the most critical anatomical safety priority for the handler?",
+      "options": [
+        "Holding the bird by its beak to stop all biting",
+        "Firmly securing and controlling the feet and talons (tarsi) while folding and supporting the wings against the body, because the powerful talons are the bird's primary offensive weapon",
+        "Wrapping the bird's neck with electrical wire",
+        "Exposing the raptor to bright strobe lights to stun its eyesight"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "In the physical handling of raptors, the handler's primary focus must always be on controlling the powerful talons and feet (tarsi); while beaks look dangerous, raptors kill and defend primarily with foot-crushing pressure and sharp talons.",
+      "mini_lesson": "While parrots bite, raptors (eagles, owls, hawks) deliver their lethal defence through massive crushing grip pressure in their talons, which can easily pierce human fingers to the bone. Handlers wear heavy leather gauntlets and immediately grasp the raptor's lower legs (tarsi) above the feet, pinning the talons together while tucking the wings against the body."
+    },
+    {
+      "id": "W11_M05",
+      "week": 11,
+      "lecture": "Lec 51",
+      "source": "mock_unseen",
+      "question": "In mechanical restraint, what is the operational purpose of a “squeeze cage” (or crush)?",
+      "options": [
+        "To permanently compress an animal to half its normal size",
+        "To transport dead carcasses to incineration pits",
+        "To catch wild insects using ultraviolet reflective soapy water",
+        "To temporarily move an adjustable padded wall to gently press an animal against the side of the enclosure, immobilizing it safely for inspection or injection without hands-on struggle"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "A squeeze cage (or veterinary crush) utilizes a movable side panel that can be gently advanced to press a large carnivore or ungulate securely against the cage bars, restricting its movement without injury so staff can examine wounds or administer an injection safely.",
+      "mini_lesson": "When a dangerous captive animal (like a leopard or chimpanzee) needs an injection or wound check, darting it carries anesthetic risks. A squeeze cage has a sliding inner wall that keepers slowly pull forward: the animal is gently wedged against the opposite bars, allowing the vet to administer a calm intramuscular injection through the mesh without any chase or physical wrestling."
+    },
+    {
+      "id": "W11_M06",
+      "week": 11,
+      "lecture": "Lec 51",
+      "source": "mock_unseen",
+      "question": "How does operant conditioning with positive reinforcement achieve effective “behavioural restraint” in zoo animals?",
+      "options": [
+        "By starving animals until they become comatose",
+        "By shocking animals with high-voltage electrical prods whenever they move",
+        "By pairing food rewards and verbal/clicker cues with target-training, teaching animals to voluntarily present an ear vein, paw, or tail through an inspection port without stress or chemical sedation",
+        "By placing animals under permanent hypnosis"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Behavioural restraint uses positive reinforcement operant conditioning—rewarding desired cooperative actions with treats—to train captive elephants, primates, or marine mammals to voluntarily present ears, paws, or flippers for blood sampling and health checks without stress.",
+      "mini_lesson": "Rather than shooting a 4-tonne zoo elephant with an opioid dart every time it needs a routine blood test or foot trim, trainers use behavioural restraint. By rewarding the elephant with bananas whenever it touches a target stick and presents its ear at the gate, the elephant calmly stands still and offers its ear vein voluntarily, completely stress-free."
+    },
+    {
+      "id": "W11_M07",
+      "week": 11,
+      "lecture": "Lec 52",
+      "source": "mock_unseen",
+      "question": "In remote chemical delivery, when is a lung-powered “blowpipe” (blowgun) preferred over gas- or powder-projector dart rifles?",
+      "options": [
+        "When an animal is approachable at short range (<5 metres) in quiet indoor zoo enclosures, night stalls, or dense arboreal cages where silent, gentle dart delivery minimizes panic and prevents tissue impact trauma",
+        "When darting thick-skinned elephants across an open savanna at 80 metres",
+        "During severe monsoon gales with 50-knot head-winds",
+        "When firing heavy metal darts weighing over 500 grams"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "A blowpipe relies on human breath pressure, making it virtually silent and delivering a light dart with low impact velocity at close range (<5 m); it is ideal for quiet zoo enclosures and arboreal primates where loud rifle reports would cause panic and bullet-like dart impacts could break bones.",
+      "mini_lesson": "A gunshot-like crack from a dart rifle in a concrete indoor stall echoes loudly, causing caged animals to smash into walls in terror. A blowpipe is almost completely silent, light, and cheap. Powered by a quick puff of human breath, it delivers a small dart at short range (<5 m) so gently that the animal barely flinches, avoiding bone fractures and severe bruising."
+    },
+    {
+      "id": "W11_M08",
+      "week": 11,
+      "lecture": "Lec 52",
+      "source": "mock_unseen",
+      "question": "What is the key operational advantage of a compressed air or $CO_2$ dart projector (such as a Dan-Inject rifle) over gunpowder-charge rifles?",
+      "options": [
+        "It can fire darts over a distance of 5 kilometres",
+        "It features an adjustable pressure manometer that allows handlers to precisely calibrate the discharge velocity to the animal's distance and body size, minimizing tissue trauma and dart bounce-offs at medium distances (10–30 m)",
+        "It requires zero drugs and immobilizes animals purely by sound waves",
+        "It uses disposable paper darts that dissolve in the rain"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Compressed gas and $CO_2$ rifles (such as Dan-Inject systems) feature an adjustable pressure regulator, allowing the operator to fine-tune propellant pressure to the target distance (typically 10-30 m); this prevents high-velocity tissue damage at close range while preventing dart bounce-off at longer ranges.",
+      "mini_lesson": "If you shoot a deer at 12 metres with a fixed, high-power gunpowder charge, the dart hits with bone-shattering force; if you shoot at 30 metres with too little power, the dart bounces off without injecting the drug. Compressed gas rifles have a dial (manometer): dial down to 3–4 bar for a close shot or dial up to 8–10 bar for a distant shot, delivering the dart at the exact gentle velocity needed."
+    },
+    {
+      "id": "W11_M09",
+      "week": 11,
+      "lecture": "Lec 52",
+      "source": "mock_unseen",
+      "question": "Why should lightweight plastic veterinary darts NEVER be fired using high-force gunpowder-charge projector rifles?",
+      "options": [
+        "Plastic darts are invisible to gunpowder",
+        "Plastic reacts with gunpowder to create toxic Bisphenol A (BPA) vapors",
+        "Gunpowder charges generate an extreme explosive discharge force and chamber pressure that can shatter, crush, or disintegrate lightweight plastic dart bodies inside the barrel or upon launch",
+        "Gunpowder projector rifles can only fire wooden arrows"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Gunpowder-powered projector rifles generate immense explosive chamber pressure; lightweight plastic darts will shatter or crush under this violent acceleration, requiring sturdy aluminum-barrel darts specifically engineered for powder propulsion.",
+      "mini_lesson": "Gunpowder blank cartridges produce explosive pressure spikes thousands of times higher than human lungs or compressed air. If you put a delicate plastic syringe dart into a powder-powered projector gun, the explosion will blow the tail off, crush the drug chamber, and spray shattered plastic shards everywhere instead of flying accurately to the target."
+    },
+    {
+      "id": "W11_M10",
+      "week": 11,
+      "lecture": "Lec 52",
+      "source": "mock_unseen",
+      "question": "What is “myoglobinuria”, and why is it a critical clinical hallmark of Capture Myopathy during wildlife handling?",
+      "options": [
+        "A normal increase in urine production caused by drinking river water",
+        "A genetic disorder where animals inherit three copies of chromosome 21",
+        "A temporary change in coat colour during winter",
+        "The excretion of dark red/brown urine containing myoglobin released from damaged, dying skeletal muscle tissue (rhabdomyolysis), which physically blocks kidney tubules and causes acute renal failure"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "During capture myopathy, extreme exertion and acidosis cause rhabdomyolysis (necrosis of skeletal muscle fibers), releasing huge amounts of the muscle protein myoglobin into the bloodstream; as the kidneys filter this out, urine turns dark brown/red (myoglobinuria), plugging renal tubules and causing fatal kidney failure.",
+      "mini_lesson": "When a wild animal struggles in a trap or flees in a panic, severe anaerobic lactic acidosis literally cooks and ruptures its muscle cells (rhabdomyolysis). The muscle oxygen-storing protein (myoglobin) floods into the bloodstream and filters into the kidneys, turning the urine dark chocolate-brown or port-wine red. Myoglobin precipitates in the delicate renal tubules, causing irreversible kidney shutdown."
+    },
+    {
+      "id": "W11_M11",
+      "week": 11,
+      "lecture": "Lec 52",
+      "source": "mock_unseen",
+      "question": "How does the “Boma capture technique” drastically reduce the incidence of fatal capture myopathy when capturing herds of wild ungulates?",
+      "options": [
+        "It uses underwater submarines to herd animals across deep rivers",
+        "It utilizes long, tapering funnel-shaped cloth or canvas barrier walls to gently herd entire family groups into a concealed central holding corral without prolonged vehicle chases or high-speed roping",
+        "It injects all animals with lethal doses of neuromuscular blockers from aircraft",
+        "It permanently binds the animals' legs with steel chains before moving them"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The Boma capture technique (originated in Africa and widely used in India) employs long, funnel-shaped opaque cloth curtains that guide free-ranging herds gently into a disguised boma enclosure, avoiding prolonged high-speed vehicle pursuits and thereby drastically reducing capture myopathy.",
+      "mini_lesson": "Instead of chasing individual antelopes across the plains with jeeps and dart guns (which drives heart rates, body temperatures, and lactic acid through the roof), the Boma technique uses human psychology and landscape funneling. A helicopter or horsemen gently nudge a whole herd between two miles-long fabric walls that taper into an enclosed corral; the animals stay together as a calm family unit, avoiding fatal metabolic stress."
+    },
+    {
+      "id": "W11_M12",
+      "week": 11,
+      "lecture": "Lec 52",
+      "source": "mock_unseen",
+      "question": "During post-immobilization field monitoring of a chemically darted wild carnivore, why is a rectal thermometer mandatory, and why must monitoring continue for 3 to 10 days after release?",
+      "options": [
+        "A rectal thermometer is used to check for internal parasites, and 10 days are needed to collect PIT tags",
+        "Rectal temperature proves the animal is in Hardy-Weinberg equilibrium",
+        "Capture stress and drugs disrupt thermoregulation, and malignant hyperthermia (>40°C) causes irreversible brain and organ necrosis; furthermore, delayed capture myopathy and organ failure can manifest several days to over a week after the animal appears to have recovered",
+        "Monitoring is required only if the animal is sold to a commercial circus"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Continuous vital-sign monitoring (Airway, Breathing, Circulation) during immobilization is critical; rectal temperature must be measured because malignant hyperthermia ($>40^\\circ\\text{C}$) rapidly causes fatal brain edema, and post-release monitoring must continue for 3 to 10 days because capture myopathy frequently causes delayed mortalities days or weeks later.",
+      "mini_lesson": "Darted predators cannot sweat or pant normally to cool down: if body temperature rises above $40^\\circ\\text{C}$ ($104^\\circ\\text{F}$), brain damage and metabolic collapse occur rapidly, requiring immediate cold-water dousing. Even after the animal wakes up and trots into the forest, handlers cannot celebrate yet: kidneys plugged by myoglobin can fail slowly, causing animals to collapse and die 3 to 10 days after the capture event."
+    },
+    {
+      "id": "W11_M13",
+      "week": 11,
+      "lecture": "Lec 53",
+      "source": "mock_unseen",
+      "question": "In active in-situ habitat management, which of the following is an example of manipulating vegetative succession to improve forage quality for native grazers?",
+      "options": [
+        "Paving all forest trails with waterproof asphalt",
+        "Spraying synthetic chemical insecticides across the entire canopy to eliminate all insects",
+        "Controlled rotational surface burning or selective mechanical brush-cutting to remove dense woody weed thickets and stimulate the regrowth of nutritious, palatable tender grasses",
+        "Erecting concrete walls along all river banks to stop water flow"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Active habitat manipulation includes prescribed rotational burning and brush clearing to arrest woody encroachment, open up choked grasslands, and stimulate the emergence of high-protein, tender grass shoots for wild herbivores.",
+      "mini_lesson": "Without natural disturbance, grasslands in tropical parks quickly get choked by unpalatable woody shrubs and thick, dead, fibrous grass thatch that wild deer and bison cannot digest. By carrying out controlled, low-intensity burns or selective cutting at the right season, managers clear the dead cellulose and stimulate a lush green flush of nutritious young shoots."
+    },
+    {
+      "id": "W11_M14",
+      "week": 11,
+      "lecture": "Lec 53",
+      "source": "mock_unseen",
+      "question": "Why can haphazardly adding artificial concrete waterholes across an arid or semi-arid wildlife sanctuary cause unintended ecological damage?",
+      "options": [
+        "Waterholes permanently stop all rainfall from falling in the region",
+        "It concentrates herbivore herds around fixed points, causing severe localized overgrazing and soil trampling ('piosphere' degradation), spreads waterborne parasites, and disadvantages native desert specialists that rely on water independence",
+        "Waterholes cause all wild carnivores to become strict herbivores",
+        "Artificial waterholes emit high levels of Polycyclic Aromatic Hydrocarbons"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Artificial water provisioning in arid habitats creates localized overgrazing and soil trampling (the 'piosphere' effect), facilitates predator ambush, spreads waterborne pathogens like anthrax, and favours common water-dependent generalists at the expense of rare arid-adapted specialists.",
+      "mini_lesson": "Digging waterholes everywhere seems kind, but it disrupts natural arid ecology: hundreds of deer congregate around the trough, stripping all vegetation within a 1 km radius down to bare dust (the piosphere effect) and spreading parasites in the mud. Furthermore, water-dependent common animals invade the deep desert, outcompeting rare arid specialists (like desert gazelles) that evolved to survive without surface water."
+    },
+    {
+      "id": "W11_M15",
+      "week": 11,
+      "lecture": "Lec 53",
+      "source": "mock_unseen",
+      "question": "Why is planting dense commercial tree plantations (such as Eucalyptus, Pine, or Teak) in natural open grasslands or savannas considered destructive to biodiversity rather than an act of ecological restoration?",
+      "options": [
+        "Grasslands have zero biodiversity and contain no living organisms",
+        "Trees consume too much nitrogen gas from the atmosphere",
+        "Plantations convert all wild animals into domestic livestock",
+        "Ancient native grasslands and savannas are biodiverse, intact biomes supporting specialized flora, ground-nesting birds, and endemic herbivores; planting dense tree canopies shades out native grasses, depletes groundwater, and destroys unique grassland ecosystems"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "A pervasive misconception in habitat management is that planting trees is always equal to restoration; planting dense tree monocultures into ancient natural grasslands (like Shola grasslands or Terai savannas) destroys endemic grassland biodiversity, dries up local aquifers, and shatters grassland food webs.",
+      "mini_lesson": "Many forest departments historically classified natural grasslands as 'wastelands' and planted fast-growing trees to increase 'green cover'. But natural grasslands are ancient, complex ecosystems home to critically endangered specialists (like the Great Indian Bustard, floricans, and pygmy hogs) that cannot survive under a closed tree canopy. Planting trees in grasslands destroys the ecosystem."
+    },
+    {
+      "id": "W11_M16",
+      "week": 11,
+      "lecture": "Lec 53",
+      "source": "mock_unseen",
+      "question": "What is the primary ecological rationale for carrying out “prescribed burning” (controlled, cool early-dry-season fires) in fire-adapted forest habitats?",
+      "options": [
+        "To burn every tree in the forest down to its roots",
+        "To safely consume dry dead leaf litter and combustible ground fuels under controlled low-intensity weather conditions, preventing the catastrophic accumulation of heavy fuel loads that would otherwise trigger destructive crown fires later in the summer",
+        "To sterilize the soil so no plants can ever grow again",
+        "To drive all animals out of the sanctuary permanently"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Prescribed burning—lighting controlled, low-intensity surface fires during cool early-season conditions—removes accumulated dead fuels and leaf litter in a mosaic pattern, reducing the risk of catastrophic high-intensity crown fires during the peak dry season while maintaining nutrient recycling.",
+      "mini_lesson": "Fire suppression paradox: if rangers extinguish every single small spark for 20 years, dead leaves, branches, and thickets pile up into massive fuel loads. When a fire eventually catches during a scorching summer drought, it burns so hot it climbs into the treetops as a catastrophic crown fire. Cool early-season prescribed burns safely burn off that litter in manageable patches."
+    },
+    {
+      "id": "W11_M17",
+      "week": 11,
+      "lecture": "Lec 53",
+      "source": "mock_unseen",
+      "question": "When managing aggressive invasive alien plants (such as *Lantana camara* or *Prosopis juliflora*) in a protected area, why does merely slashing the above-ground stems often worsen the invasion?",
+      "options": [
+        "Invasive shrubs possess dormant root-stocks and underground lignotubers that respond to cutting by sending up vigorous multi-stem coppice shoots, requiring systematic root-stock uprooting paired with immediate active native revegetation to succeed",
+        "Slashing stems causes the plants to turn into carnivorous animals",
+        "Invasive weeds die only if sprayed with pure seawater",
+        "Cutting stems attracts swarms of African elephants that plant more weeds"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Merely cutting or bush-hogging above-ground *Lantana camara* stems stimulates aggressive coppicing and multiple root suckers, producing an even denser thicket; effective eradication requires uprooting the root-stock below the soil surface, followed by immediate active seeding of native perennial grasses.",
+      "mini_lesson": "Cutting *Lantana* with a machete is like pruning a garden rose: the deep root-stock remains completely alive and triggers dormant buds to sprout five thick stems where there was once only one! To beat invasive weeds, teams must extract the root crown (using cut-and-root-stock methods) and immediately seed dense native grasses to shade out weed seedlings."
+    },
+    {
+      "id": "W11_M18",
+      "week": 11,
+      "lecture": "Lec 53",
+      "source": "mock_unseen",
+      "question": "Why do rigid, fixed-schedule habitat interventions (such as burning a compartment every year on March 1st without checking weather or vegetation condition) routinely fail?",
+      "options": [
+        "Calendars are prohibited under the Wildlife Protection Act",
+        "March is the only month when fire can ignite in nature",
+        "Interventions must be dynamically timed to match variable seasonal moisture, seed germination stages, and animal nesting cycles, and adjusted based on monitored ecological responses rather than mechanical dates",
+        "All habitat interventions succeed automatically regardless of timing"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Habitat management tools help or harm depending on timing, intensity, location, and monitoring; implementing interventions on rigid calendar dates regardless of drought fluctuations or breeding phenology causes severe ecological damage.",
+      "mini_lesson": "In nature, seasons shift: a drought year makes March dangerously hot and windy, while a late monsoon makes March soaking wet. Lighting a prescribed burn on a fixed calendar date without checking fuel moisture can cause the fire to escape into the canopy or burn ground-nesting birds during an early breeding season."
+    },
+    {
+      "id": "W11_M19",
+      "week": 11,
+      "lecture": "Lec 54",
+      "source": "mock_unseen",
+      "question": "In wildfire science, the chemical combustion of forest fuels is governed by the “Fire Triangle”, which consists of which three essential components?",
+      "options": [
+        "Nitrogen, Carbon dioxide, and Argon",
+        "Fuel, Heat, and Oxygen",
+        "Infectivity, Pathogenicity, and Virulence",
+        "National Park, Sanctuary, and Conservation Reserve"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The combustion process in forest fires is governed by the classic Fire Triangle: Fuel (combustible organic matter), Heat (ignition energy raising fuel to kindling temperature), and Oxygen (supporting chemical oxidation); removing any one component extinguishes the fire.",
+      "mini_lesson": "A forest fire is a chemical chain reaction that cannot exist without three ingredients: **Fuel** (dry leaves, branches, wood), **Heat** (sun, lightning, match), and **Oxygen** (ambient air). Every firefighting tool targets one corner of the triangle: water removes heat, dirt/foam smothers oxygen, and cleared fire lines remove fuel."
+    },
+    {
+      "id": "W11_M20",
+      "week": 11,
+      "lecture": "Lec 54",
+      "source": "mock_unseen",
+      "question": "How does a “ground fire” differ from a “surface fire” in forest fire classification?",
+      "options": [
+        "A ground fire burns through the tops of tall trees at high wind speeds",
+        "A ground fire burns dry leaves on the surface, whereas a surface fire occurs only underwater",
+        "A ground fire is ignited exclusively by dropped satellite batteries",
+        "A ground fire burns sub-surface in deep peat, muck, buried roots, and compact organic soil layers without open visible flames, smoldering slowly for weeks and proving very difficult to detect and suppress"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Wildfires are categorized by vertical fuel strata: surface fires consume leaf litter, herbs, and low brush on the forest floor, whereas ground fires burn sub-surface in deep organic peat, humus, and roots without visible flames, smoldering underground for long durations.",
+      "mini_lesson": "A surface fire races visibly across the forest floor burning dry twigs and grass. A ground fire, by contrast, burns entirely underground in oxygen-starved peat bogs, humus, and buried tree roots. Because there are no leaping flames—only creeping smoke and intense heat beneath the soil—ground fires can smolder undetected for months and re-ignite surface fires weeks later."
+    },
+    {
+      "id": "W11_M21",
+      "week": 11,
+      "lecture": "Lec 54",
+      "source": "mock_unseen",
+      "question": "In wildfire behavior, what are “ladder fuels” and why are they considered extremely dangerous?",
+      "options": [
+        "Wooden ladders used by forest guards to watch for poachers",
+        "Chemical retardants sprayed from aeroplanes to extinguish flames",
+        "Vertical fuel arrangements—such as tall shrubs, small understory trees, lianas, and low-hanging dead branches—that provide a continuous vertical fuel bridge allowing low-intensity surface fires to climb into the tree canopy and ignite destructive crown fires",
+        "Moist wetland grasses that are completely fire-proof"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Ladder fuels are vertical fuels—including tall shrubs, climbing lianas, low tree branches, and intermediate saplings—that bridge the gap between the forest floor and tree crowns, allowing relatively harmless surface fires to climb into the overstory and explode into deadly crown fires.",
+      "mini_lesson": "If a forest has a clean open trunk space between the ground and the leafy canopy, a ground fire just sweeps harmlessly underneath the big trees. But if climbing vines, dead hanging branches, and dense bushes act like the rungs of a ladder, the surface flames climb straight up into the treetops, transforming a mild ground fire into an uncontrollable, roaring crown fire."
+    },
+    {
+      "id": "W11_M22",
+      "week": 11,
+      "lecture": "Lec 54",
+      "source": "mock_unseen",
+      "question": "What is a “fire line” (or fire break) in forest management, and how does it stop wildfires?",
+      "options": [
+        "A continuous strip of ground deliberately cleared of all vegetation and organic litter down to bare mineral soil, which physically starves an advancing surface fire of fuel and serves as a control line for firefighters",
+        "A line of high-pressure water pipes permanently installed across all tree branches",
+        "An electric fence used to prevent tigers from crossing roads",
+        "A painted yellow line drawn on tourist safari roads"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "A fire line (or fire break) is a cleared strip constructed across the forest by hand tools or bulldozers down to bare mineral soil, removing all combustible fuels to halt surface fire advance and providing a secure base for backfiring operations.",
+      "mini_lesson": "Before fire season, forest staff rake and clear 5 to 10-metre wide strips through the forest down to exposed mineral dirt. When a creeping surface fire hits this barren strip, it runs out of fuel and goes out on its own. Fire lines also give rangers a safe, clear road to park equipment and initiate suppression operations."
+    },
+    {
+      "id": "W11_M23",
+      "week": 11,
+      "lecture": "Lec 54",
+      "source": "mock_unseen",
+      "question": "In wildfire suppression, what is “backfiring” (or counter burning)?",
+      "options": [
+        "A mechanical defect where a dart rifle explodes in the operator's hands",
+        "Deliberately igniting a controlled fire along the inner edge of an established control line that burns backward toward the advancing main wildfire front, consuming all intervening fuel so the main fire suffocates and dies when they meet",
+        "Throwing buckets of water on an engine that has overheated",
+        "Running backwards away from a wild tiger"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Backfiring (counter burning) is an indirect suppression tactic where firefighters deliberately ignite a fire along the inner side of a control line; the in-draft of the main wildfire sucks this fire toward the advancing front, burning out all intervening fuel and starving the wildfire when the two fronts collide.",
+      "mini_lesson": "When a roaring wildfire is too hot for direct attack, firefighters set up an indirect defense miles ahead along a river or road. They deliberately light a fire along the inner edge: as the massive approaching wildfire sucks in oxygen, it pulls this new fire toward itself, burning up all the trees and brush in between. When the wildfire arrives, it hits an already-burned blackened wasteland and dies instantly."
+    },
+    {
+      "id": "W11_M24",
+      "week": 11,
+      "lecture": "Lec 54",
+      "source": "mock_unseen",
+      "question": "How does a high-intensity wildfire create “hydrophobic soil”, and what catastrophic landscape impact follows during subsequent rains?",
+      "options": [
+        "The fire creates underground caves where water collects and freezes into ice",
+        "Hydrophobic soil turns all groundwater into pure ethyl alcohol",
+        "Fire adds heavy crude oil directly into the soil from burning wood",
+        "Intense heat vaporizes natural waxy organic compounds from burning forest litter; these gaseous waxes penetrate downward into cooler subsurface mineral soil layers and condense as a continuous water-repellent coating around soil grains, collapsing rainwater infiltration and triggering violent surface runoff, flash floods, and mudslides"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Intense wildfires vaporize aliphatic hydrocarbons and waxy organics in plant litter; these gasified waxes diffuse downward along the temperature gradient into cooler soil depths, condensing around mineral soil particles to form a water-repellent (hydrophobic) layer that blocks infiltration and causes massive surface runoff, gullying, and debris flows.",
+      "mini_lesson": "Plants have waxy waterproof coatings on their leaves to prevent drying out. During a blazing wildfire, these plant waxes vaporize into hot gas that penetrates downward into the soil; when the gas hits the cooler soil a few inches below, it condenses into a solid, waxy, water-repellent coating around every sand and dirt particle. When the first heavy monsoon rains arrive, water cannot soak in at all—it sheets off like rain on glass, triggering flash floods and massive mudslides."
+    },
+    {
+      "id": "W11_M25",
+      "week": 11,
+      "lecture": "Lec 55",
+      "source": "mock_unseen",
+      "question": "In marine and environmental pollution science, what is the standardized dimensional cutoff that defines a “microplastic”?",
+      "options": [
+        "Any particle larger than 1 metre in diameter",
+        "Solid synthetic polymer particles measuring less than 5 millimetres ($< 5\\text{ mm}$) in diameter",
+        "Any plastic bottle weighing more than 10 kilograms",
+        "Plastic particles visible only under electron microscopes ($< 1\\text{ nm}$)"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Microplastics are defined scientifically as synthetic solid polymer particles or fragments measuring less than $5\\text{ mm}$ ($< 5\\text{ mm}$) in their longest dimension, encompassing primary manufactured beads and secondary weathered fragments.",
+      "mini_lesson": "Plastics are categorized into a standardized size hierarchy: Macroplastics ($>25\\text{ mm}$, like intact bags and bottles), Mesoplastics ($5\\text{--}25\\text{ mm}$, like bottle caps), Microplastics ($<5\\text{ mm}$, about the size of a sesame seed or smaller), and Nanoplastics ($<1\\text{ }\\mu\\text{m}$). The $<5\\text{ mm}$ cutoff is high-yield because particles this small are easily ingested by zooplankton, fish, and shellfish."
+    },
+    {
+      "id": "W11_M26",
+      "week": 11,
+      "lecture": "Lec 55",
+      "source": "mock_unseen",
+      "question": "By what primary mechanism does solar ultraviolet (UV) radiation convert discarded macroplastics (like water bottles and crates) into billions of microscopic plastic particles in aquatic environments?",
+      "options": [
+        "Photolysis (solar photo-oxidation): UV photons break carbon-carbon polymer backbone bonds, causing the plastic to become brittle, crack, and fragment into microplastics under wave and wind abrasion",
+        "Photosynthesis: plastics use solar energy to convert water into glucose",
+        "Combustion: UV rays ignite plastic to form soot that dissolves in seawater",
+        "Endocrine disruption: UV light converts plastic polymers into living fish eggs"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Secondary microplastics originate through photolysis (UV degradation): high-energy solar ultraviolet radiation excites electrons and severs chemical bonds along polymer chains, making the plastic brittle, chalky, and structurally fragile so that mechanical wave action grinds it into micro-fragments.",
+      "mini_lesson": "Plastic does not biologically rot like a banana peel; instead, intense sunlight drives photolysis. High-energy UV rays break the covalent chemical bonds holding the long synthetic polymer chains together, causing the plastic to turn brittle and develop micro-cracks. Tumbling in ocean waves and beach gravel then shatters the embrittled plastic into millions of microscopic fragments."
+    },
+    {
+      "id": "W11_M27",
+      "week": 11,
+      "lecture": "Lec 55",
+      "source": "mock_unseen",
+      "question": "What is “ghost fishing” caused by Abandoned, Lost, or Discarded Fishing Gear (ALDFG) in marine ecosystems?",
+      "options": [
+        "Spiritual rituals performed by commercial fishermen before setting sail",
+        "Catching fish using glow-in-the-dark artificial lures",
+        "Using underwater acoustic hydrophones to record whale songs",
+        "Lost, abandoned, or cut commercial monofilament nets and crab pots that perpetually drift or snag on reefs, continuously catching, entangling, and drowning marine wildlife without any human harvesting"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Ghost fishing is the lethal, self-perpetuating cycle where abandoned, lost, or discarded fishing gear (ALDFG / ghost nets) drifts through the sea or snares on reefs, continually trapping fish, sea turtles, and marine mammals; as trapped animals die and sink, the net cleans itself and refloats to kill again.",
+      "mini_lesson": "Modern fishing gear is made of nearly indestructible synthetic nylon that takes centuries to break down. When nets are lost or discarded at sea, they keep fishing on their own: fish and turtles get entangled and drown; scavengers arrive to eat the carcasses and also get trapped; the weight of carcasses sinks the net to the bottom; scavengers consume the flesh, lightening the net so it floats back up to start killing all over again."
+    },
+    {
+      "id": "W11_M28",
+      "week": 11,
+      "lecture": "Lec 55",
+      "source": "mock_unseen",
+      "question": "Why do microplastics act as toxic “chemical sponges” in marine and freshwater environments?",
+      "options": [
+        "They absorb large volumes of freshwater and cause lakes to dry up completely",
+        "Because their synthetic polymer surface is highly hydrophobic with a massive surface-area-to-volume ratio, they adsorb and concentrate dissolved ambient hydrophobic toxins (such as POPs, PCBs, DDT, and PAHs) from surrounding seawater at concentrations up to a million times higher than background levels",
+        "They release vast amounts of dissolved oxygen that suffocates fish",
+        "They attract heavy metal ions through magnetic attraction"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Because plastics are synthetic hydrophobic polymers with high surface-area-to-volume ratios, microplastic particles behave like chemical sponges—adsorbing hydrophobic persistent organic pollutants (POPs, PCBs, DDT, and PAHs) from seawater and concentrating them up to $10^6$ times above ambient water levels.",
+      "mini_lesson": "Water-hating (hydrophobic) industrial poisons like DDT, PCBs, and oil residues don't dissolve well in seawater; instead, they eagerly stick to any oily, non-polar surface they can find. Floating microplastics provide millions of square metres of hydrophobic surface area, soaking up ambient chemical toxins like sponges. When small fish or plankton eat these plastic crumbs, they swallow a concentrated dose of chemical poison."
+    },
+    {
+      "id": "W11_M29",
+      "week": 11,
+      "lecture": "Lec 55",
+      "source": "mock_unseen",
+      "question": "Chemical plasticizers such as Bisphenol A (BPA) and Phthalates, commonly added to plastics during manufacturing, pose which specific biological hazard to wildlife?",
+      "options": [
+        "They turn animal bones into transparent glass",
+        "They cause immediate explosive combustion upon contact with stomach acid",
+        "They act as Endocrine Disrupting Chemicals (EDCs) that mimic or block natural hormones (such as estrogens and androgens), disrupting reproductive systems, sex determination, and embryonic development in fish, reptiles, and mammals",
+        "They improve fertility and increase reproductive output tenfold"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Additives leached from ingested plastics include Bisphenol A (BPA) and phthalates, which function as Endocrine Disrupting Chemicals (EDCs) by binding hormone receptors, altering gene expression, and causing feminization, skewed sex ratios, and reproductive failure across wildlife taxa.",
+      "mini_lesson": "To make plastics flexible or rigid, factories add chemical compounds like BPA and phthalates. When wildlife swallows plastic fragments, stomach acids leach these chemicals into their tissues. Because their molecular shape closely resembles natural steroid hormones (like estrogen), they bind to cell receptors, confusing the endocrine system and causing intersex fish, skewed hatchling sex ratios, and infertility."
+    },
+    {
+      "id": "W11_M30",
+      "week": 11,
+      "lecture": "Lec 55",
+      "source": "mock_unseen",
+      "question": "In terrestrial wildlife ecology, which endangered endemic mountain ungulate was documented ingesting plastic waste and snack wrappers discarded along trekking trails in Mukurthi National Park, Tamil Nadu?",
+      "options": [
+        "The Nilgiri Tahr (*Nilgiritragus hylocrius*)",
+        "The Snow Leopard (*Panthera uncia*)",
+        "The Blackbuck (*Antilope cervicapra*)",
+        "The Great Indian Rhinoceros (*Rhinoceros unicornis*)"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "A poignant terrestrial case study of plastic pollution in India is the Nilgiri Tahr (*Nilgiritragus hylocrius*) in Mukurthi National Park, Tamil Nadu, where necropsies and scat surveys documented tahrs consuming plastic litter and food wrappers discarded along high-altitude trekking trails.",
+      "mini_lesson": "Plastic pollution is not just a problem for marine sea turtles and albatrosses: in the high-altitude montane grasslands of Mukurthi National Park in the Nilgiris, tourists carelessly drop salty snack wrappers and plastic bags along trails. Attracted by the salt residue, endangered Nilgiri Tahrs ingest the plastic, leading to fatal rumen compaction and starvation."
+    }
+  ]
+}

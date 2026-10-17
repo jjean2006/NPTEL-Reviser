@@ -1,0 +1,492 @@
+{
+  "week": 12,
+  "lecture_briefings": {
+    "Lec 56": "Lecture 56 examines Oil Spills—the release of liquid petroleum hydrocarbons into marine, coastal, or terrestrial environments—and their devastating physical and chemical impacts on biodiversity. Physically, crude oil coats the feathers of seabirds and the fur of marine mammals like sea otters, destroying the microscopic trapped-air layer that provides waterproofing and thermal insulation and leading to rapid death from hypothermia. Chemically, the most dangerous components of petroleum are aromatic hydrocarbons—especially Polycyclic Aromatic Hydrocarbons (PAHs)—which persist in sediments, damage cell membranes, and cause cancer, mutations, and embryonic failure. Spill response teams deploy floating containment booms (to corral surface slicks), mechanical skimmers (to lift oil off calm water), in-situ burning, or chemical dispersants (surfactants that break slicks into tiny subsurface droplets, trading off reduced surface hazard to seabirds against heightened toxicity for water-column fish and coral larvae). Watch out for the 3 most important terms: Oil Spill & PAHs (release of liquid petroleum hydrocarbons whose toxicity is driven by Polycyclic Aromatic Hydrocarbons), Feather/Fur Maceration & Hypothermia (loss of insulating air layers causing fatal chilling), and Booms, Skimmers & Dispersants (mechanical containment/recovery vs. chemical droplet dispersion trade-offs).",
+    "Lec 57": "Lecture 57 explores the ecological impacts and engineering solutions for Linear Infrastructure—facilities that extend as long lines across landscapes, such as roads, railways, power transmission lines, pipelines, and canals. Beyond killing animals directly via vehicle collisions (often clustered at spatial 'roadkill hotspots') and opening forest edges to weeds and poachers, roads create a powerful 'barrier effect' where animals avoid crossing due to traffic noise, lights, and open pavement, slicing once-continuous populations into isolated fragments. Planning for linear infrastructure must follow the four-step Mitigation Hierarchy in strict sequence: Avoid (keeping routes away from critical habitats altogether—the most effective step), Minimise (reducing impacts via speed limits, noise barriers, and crossing structures), Restore (rehabilitating construction verges), and Offset (compensating for residual damage as a last resort). Engineering structures under the 'Minimise' step include vegetated wildlife overpasses (ecoducts), high-openness underpasses, suspended canopy bridges for arboreal mammals and reptiles, and guide fences (whose ends must flare away from the road) that funnel wildlife safely toward crossings. Watch out for the 3 most important terms: Linear Infrastructure & Barrier Effect (line-like facilities such as railways/roads that cause animals to avoid crossing and isolate populations), The Mitigation Hierarchy (Avoid -> Minimise -> Restore -> Offset), and Canopy Bridges & Guide Fences (aerial crossings for arboreal species and fencing that guides animals toward safe crossing structures).",
+    "Lec 58": "Lecture 58 introduces the Economic Valuation of Biodiversity and Ecosystem Services, explaining why invisible ecological benefits are routinely destroyed when decision-makers count only direct market prices. To prevent this blind spot, economists use the Total Economic Value (TEV) framework, which captures both Use Values—Direct Use (consumptive timber/fish and non-consumptive safari tourism), Indirect Use (regulating services like pollination, carbon storage, and flood buffering), and Option Value (preserving species for potential future discoveries like new medicines)—and Non-Use Values, including Existence Value (satisfaction from simply knowing wild species exist) and Bequest Value (preserving nature for future generations). To measure these values in monetary terms, economists apply specific tools: the Market Price Method (traded goods), Replacement Cost / Damage Cost Avoided (engineering substitutes for regulating services), Travel Cost Method (visitor trip expenses for recreational parks), Hedonic Pricing Method (property value premiums near green spaces), Contingent Valuation Method (survey questionnaires asking people's Willingness to Pay for non-use conservation), and Benefits Transfer (adapting values from prior study sites). Watch out for the 3 most important terms: Total Economic Value / TEV (capturing both use values and non-use values), Existence vs. Bequest vs. Option Value (knowing a species exists vs. passing it to future generations vs. potential future uses), and Contingent Valuation Method / CVM (using surveys to ask Willingness to Pay for conservation).",
+    "Lec 59": "Lecture 59 synthesizes the governance, ethical, and strategic decision-making frameworks required to manage biodiversity in an uncertain, resource-constrained world. Because ecosystems are complex and full scientific certainty often arrives only after a species or habitat has already collapsed, managers rely on the Precautionary Principle: when there is a plausible threat of serious or irreversible ecological harm, lack of complete scientific certainty must not be used as an excuse to postpone cost-effective protective action. At the same time, because conservation budgets, staff, and time are finite, agencies must practice Conservation Triage—systematically prioritizing interventions toward species, corridors, and habitats where management action will achieve the highest net gain in long-term survival and ecosystem resilience. Watch out for the 3 most important terms: The Precautionary Principle (acting proactively to prevent irreversible harm despite scientific uncertainty), Conservation Triage (allocating scarce conservation resources to maximize survival and ecological return), and Co-Management & Stakeholder Alignment (integrating scientific evidence with local community stewardship).",
+    "Lec 60": "Lecture 60 brings the entire 60-lecture course together into a unified synthesis of Biodiversity for Sustainability. Walking back across the 12-week arc—from ecological hierarchies, sustainability pillars, anthropogenic threats (habitat loss, fragmentation, invasives, climate change, pollution, overexploitation), and coexistence to species/site prioritization, population monitoring, conservation genetics, wildlife health, in-situ/ex-situ management, capture/restraint, fire ecology, linear infrastructure, and economic valuation—Dr. Awadhiya highlights the single unifying doctrine of the course. Variation at every biological scale (genetic diversity within populations, species richness and functional diversity within communities, and landscape complexity across ecosystems) is the irreplaceable insurance engine that gives living nature the resilience to absorb shocks and keep supplying the ecosystem services upon which human civilization depends. Watch out for the 3 most important terms: Biological Variation as the Foundation of Resilience (why diversity across genes, species, and ecosystems prevents collapse), The Biodiversity-Function-Services-Sustainability Chain (how living variety underpins human survival), and Integrated Coexistence (embedding conservation across both protected areas and human-dominated landscapes)."
+  },
+  "questions": [
+    {
+      "id": "W12_M01",
+      "week": 12,
+      "lecture": "Lec 56",
+      "source": "mock_unseen",
+      "question": "Why does oiling of seabirds and marine mammals (like sea otters) during a petroleum spill rapidly cause fatal hypothermia, even in temperate waters?",
+      "options": [
+        "Oil converts all body fat into liquid water",
+        "Oil mats and coats feathers and fur, destroying the microscopic trapped layer of air that provides thermal insulation and waterproofing, allowing cold water to soak directly against bare skin",
+        "Oil accelerates feather growth so heavily that birds become too heavy to fly",
+        "Oil blocks the nostrils, causing animals to stop breathing within seconds"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The physical effect of crude oil on marine birds and furred mammals is devastating: oil mats plumage and pelage, collapsing the delicate microscopic barbules and destroying the trapped insulating air layer; without waterproofing, cold water touches the skin, driving fatal hypothermia.",
+      "mini_lesson": "Seabirds and otters survive freezing seas not through blubber alone, but because their preened feathers and dense fur trap a microscopic cushion of air against their skin. Crude oil acts like a heavy grease, collapsing those air pockets and dissolving the natural waterproofing oils; cold seawater soaks straight to the skin, causing rapid core heat loss and fatal hypothermia."
+    },
+    {
+      "id": "W12_M02",
+      "week": 12,
+      "lecture": "Lec 56",
+      "source": "mock_unseen",
+      "question": "In maritime oil spill emergency response, what is the primary operational function of floating “containment booms”?",
+      "options": [
+        "To chemically disintegrate oil molecules into harmless freshwater",
+        "To measure the exact concentration of PAHs in deep-sea fishes",
+        "To act as temporary floating mechanical barriers on the water surface that contain, concentrate, and deflect the spreading oil slick away from sensitive mangroves, estuaries, and coral reefs",
+        "To illuminate the coastline with high-intensity floodlights at night"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Containment booms are temporary floating physical barriers with weighted subsurface skirts deployed around an oil slick to corral the oil on the water surface, stop its spread, and divert it away from critical coastal habitats like mangroves and fish nursery estuaries.",
+      "mini_lesson": "When crude oil spills onto the sea, it spreads outwards in a paper-thin slick covering square kilometres. Containment booms are floating curtains with buoyant tubes on top and weighted skirts underneath; boats pull them around the slick to corral the oil into a thick layer so skimmers can suck it up, or anchor them across river mouths to protect sensitive mangrove lagoons."
+    },
+    {
+      "id": "W12_M03",
+      "week": 12,
+      "lecture": "Lec 56",
+      "source": "mock_unseen",
+      "question": "What is the primary operational limitation of mechanical oil skimmers during offshore oil spill cleanup?",
+      "options": [
+        "They work effectively only in relatively calm water conditions, and their pumps and intake valves are easily jammed by floating seaweed, plastics, and marine debris",
+        "They require zero fuel and run on solar energy",
+        "They can recover oil only if the water is boiling",
+        "They convert crude oil into dangerous radioactive waste"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Mechanical skimmers physically collect oil from the sea surface without chemicals, but their field efficacy is severely limited by sea state; choppy waves over 1-2 metres cause oil to splash over booms and bypass skimmers, while floating flotsam and seaweed frequently clog skimmer pumps.",
+      "mini_lesson": "Skimmers are essentially giant mechanical pool vacuums that suck or scrape oil off the water surface. However, the open ocean is rarely calm: in choppy seas with 2-metre waves, oil washes right over the collection lip, and floating marine trash or kelp easily clogs the suction pumps, making mechanical recovery difficult in stormy weather."
+    },
+    {
+      "id": "W12_M04",
+      "week": 12,
+      "lecture": "Lec 56",
+      "source": "mock_unseen",
+      "question": "What is the critical ecological trade-off of applying chemical dispersants (such as Corexit) to offshore marine oil slicks?",
+      "options": [
+        "Dispersants eliminate 100% of all hydrocarbons from the planet within one hour",
+        "Dispersants break the surface oil slick into micro-droplets, which protects surface seabirds and coastal shorelines from oiling, but drives toxic dispersed oil and surfactant chemicals down into the water column where it poisons fish larvae, pelagic plankton, and benthic coral reefs",
+        "Dispersants cause water to freeze into icebergs",
+        "Dispersants are completely non-toxic to all marine organisms under all conditions"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Chemical dispersants involve a major environmental trade-off: by lowering surface tension, they break surface oil slicks into minute subsurface droplets, sparing surface seabirds and coastal marshes, but substantially increasing chemical toxicity and exposure for water-column fish eggs, pelagic larvae, and deep benthic corals.",
+      "mini_lesson": "Chemical dispersants are essentially heavy detergents sprayed from aeroplanes: they break a thick surface slick into billions of microscopic droplets that disperse throughout the water column. This saves penguins and otters on the surface, but pushes the toxic oil underwater—where fish gills absorb it and delicate coral larvae are poisoned."
+    },
+    {
+      "id": "W12_M05",
+      "week": 12,
+      "lecture": "Lec 56",
+      "source": "mock_unseen",
+      "question": "Why do high-molecular-weight Polycyclic Aromatic Hydrocarbons (PAHs) from petroleum spills represent a long-term, multi-decade threat to coastal ecosystems like mangroves and salt marshes?",
+      "options": [
+        "PAHs evaporate into the upper atmosphere within three minutes",
+        "PAHs dissolve instantly in water and are flushed out by the next tide",
+        "PAHs are nutritious food sources that improve fish reproduction",
+        "Heavy PAHs are hydrophobic, adsorb onto organic silt and clay particles, settle into low-oxygen (anoxic) muddy sediments where microbial breakdown is extremely slow, and continuously leach chronic carcinogens and mutagens into benthic food chains for decades"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "High-molecular-weight PAHs are hydrophobic and bind tightly to fine muddy sediments; in the anoxic, waterlogged soils of mangrove forests and estuaries, biodegradation is exceedingly slow, allowing toxic, mutagenic PAHs to persist in sediment reservoirs for decades, chronically contaminating benthic invertebrates and fish.",
+      "mini_lesson": "Light petroleum fractions (like gasoline) evaporate quickly into the air, but heavy PAHs (fused benzene rings) are gummy, insoluble, and sink into coastal mud. In the oxygen-poor, muddy sediment beneath mangrove roots, bacteria cannot easily break them down. They persist for 30+ years, bioaccumulating in crabs and clams and causing chronic tumors and embryonic heart failure in fish."
+    },
+    {
+      "id": "W12_M06",
+      "week": 12,
+      "lecture": "Lec 56",
+      "source": "mock_unseen",
+      "question": "Under what condition is “in-situ burning” of an offshore oil spill feasible, and what is its major environmental downside?",
+      "options": [
+        "It can burn oil of any thickness underwater with zero smoke",
+        "It works only during torrential rainstorms and leaves pure drinking water behind",
+        "It requires a fresh, unweathered slick concentrated to at least 2–3 mm thickness by fire-resistant booms; while rapidly eliminating up to 95% of surface oil, it produces heavy plumes of toxic black soot and leaves heavy, unburned tarry residues that sink",
+        "In-situ burning is strictly used inside enclosed laboratory test-tubes"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "In-situ burning can rapidly remove up to $95\\%$ of oil from the sea surface, but it requires a fresh, unweathered oil slick corralled to a minimum thickness of 2-3 mm; furthermore, it generates massive toxic black smoke plumes (particulate soot) and dense, toxic burn residues that sink to the seabed.",
+      "mini_lesson": "Lighting an oil slick on fire at sea eliminates millions of barrels of oil before it hits beaches. But it requires thick, fresh oil: if the slick spreads thinner than 2–3 mm or mixes with water into an emulsified 'chocolate mousse', it won't ignite. Furthermore, burning creates clouds of black toxic soot and leaves behind heavy, tarry residues that sink onto the seabed."
+    },
+    {
+      "id": "W12_M07",
+      "week": 12,
+      "lecture": "Lec 57",
+      "source": "mock_unseen",
+      "question": "Which sequence correctly states the four steps of the international “Mitigation Hierarchy” (BBOP standard) in their strict, non-negotiable order of implementation?",
+      "options": [
+        "Avoid -> Minimise -> Restore -> Offset",
+        "Offset -> Avoid -> Restore -> Minimise",
+        "Minimise -> Offset -> Avoid -> Restore",
+        "Restore -> Minimise -> Offset -> Avoid"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "The internationally accepted mitigation hierarchy mandates a strict four-step sequence for linear infrastructure: Avoid first by routing away from critical biodiversity; Minimise unavoidable impacts during construction and operation; Restore damaged verges on-site; and as a strict last resort, Offset residual residual impacts.",
+      "mini_lesson": "You cannot jump straight to planting trees elsewhere (Offsetting) to justify bulldozing a pristine tiger sanctuary! The Mitigation Hierarchy requires planners to first **Avoid** (re-route the road away from sensitive habitats); second, **Minimise** damage that cannot be avoided (build overpasses and fences); third, **Restore** construction verges; and only as a strict final resort, **Offset** residual damage."
+    },
+    {
+      "id": "W12_M08",
+      "week": 12,
+      "lecture": "Lec 57",
+      "source": "mock_unseen",
+      "question": "In road mitigation engineering, why must the terminal ends of wildlife exclusion fences be “flared” away from the highway into the forest interior?",
+      "options": [
+        "To make the fence look like an artistic sculpture for passing motorists",
+        "Straight fence ends create an 'end-of-fence trap' where animals follow the fence to its end, walk straight onto the road, and become trapped on the highway between opposing fences; flaring the ends angles animals safely away from the roadway back into the forest",
+        "Flaring the fence allows elephants to push the posts down easily",
+        "Fence ends are flared only to catch flying bats"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "A critical engineering rule in road mitigation is that wildlife guide fences must have their terminal ends flared outward away from the road into the forest; straight ends funnel animals directly onto the road edge, creating a fatal fence-end trap where animals wander onto the asphalt and cannot escape.",
+      "mini_lesson": "If a fence ends parallel to the road, an animal walking along the fence reaches the end and steps right onto the highway—and when traffic approaches, it gets trapped between the fences on either side! Flaring the fence ends in a wide funnel angling deep back into the forest turns approaching animals away from the pavement and back into the woods."
+    },
+    {
+      "id": "W12_M09",
+      "week": 12,
+      "lecture": "Lec 57",
+      "source": "mock_unseen",
+      "question": "What is an “ecoduct” (or wildlife overpass), and what key architectural feature makes it effective for large mammals?",
+      "options": [
+        "A narrow concrete pedestrian footbridge with no plants or barriers",
+        "An underground sewer pipe carrying wastewater away from highway rest-stops",
+        "A broad bridge (>50 metres wide) spanning a highway or railway, covered with deep native soil, planted with local vegetation, and fitted with sound/light deflection berms to mimic natural contiguous ground for wide-ranging carnivores and ungulates",
+        "A toll booth that charges animals a fee to cross the road"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "An ecoduct (wildlife overpass) is a wide bridge spanning linear infrastructure, engineered with deep soil substrates, native shrubs and grasses, and sound-baffling screens along the edges to create a seamless extension of the forest floor that shy, large-ranging animals like tigers and bears will readily cross.",
+      "mini_lesson": "Wild animals will not walk across a bare, echoing concrete footbridge overlooking noisy trucks. An ecoduct is a wide (often 50–100 m) green bridge covered in deep earth, grass, and bushes, with earth berms and wooden screens along the edges that block headlights and engine noise, making the crossing look and feel like unbroken forest floor."
+    },
+    {
+      "id": "W12_M10",
+      "week": 12,
+      "lecture": "Lec 57",
+      "source": "mock_unseen",
+      "question": "In wildlife underpass engineering, what is the “Openness Index”, and why must it be maximized for large forest ungulates?",
+      "options": [
+        "The number of hours a highway gate stays open during the day",
+        "The percentage of tourists allowed to walk along the railway tracks",
+        "The ratio of money spent on fencing versus road pavement",
+        "The geometric formula $\\frac{\\text{Height} \\times \\text{Width}}{\\text{Length}}$; high openness ensures natural daylight penetrates through the underpass, preventing the dark, tunnel-like appearance that causes large animals to refuse entry"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "The Openness Index of a wildlife underpass is calculated as $(\\text{Height} \\times \\text{Width}) / \\text{Length}$; large ungulates and carnivores avoid long, narrow, dark culverts, requiring structures with high openness values where daylight and a clear view of the opposite side are visible.",
+      "mini_lesson": "If a wildlife underpass under a 6-lane highway is low, narrow, and 60 metres long, it looks like a pitch-black cave from the outside. Prey animals like deer fear entering dark confined spaces where predators might ambush them. Maximizing the Openness Index ($[\\text{Height} \\times \\text{Width}] / \\text{Length}$) ensures animals standing at the entrance can see daylight and open forest on the other side."
+    },
+    {
+      "id": "W12_M11",
+      "week": 12,
+      "lecture": "Lec 57",
+      "source": "mock_unseen",
+      "question": "How do spatial carcass surveys and GPS tracking identify “roadkill hotspots” to guide mitigation placement?",
+      "options": [
+        "Roadkill occurs completely randomly across every centimetre of a highway with zero pattern",
+        "Systematic carcass surveys plot repeated wildlife collision coordinates along roads, revealing statistically significant clusters (hotspots) where animal migration corridors or water access routes intersect the roadway, identifying high-priority locations for underpasses and fencing",
+        "Roadkill surveys are used only to set higher vehicle speed limits",
+        "Hotspots are identified by looking at where trees are tallest from aeroplanes"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Wildlife collisions do not occur uniformly across road networks; systematic carcass monitoring and GPS spatial clustering identify discrete roadkill hotspots where traditional movement corridors intersect traffic, allowing costly underpasses and fencing to be targeted with surgical precision.",
+      "mini_lesson": "Building wildlife overpasses everywhere across a 200 km highway would cost billions. By mapping roadkill GPS points over several years, ecologists discover that $80\\%$ of collisions happen along just three or four specific 1-km stretches where animals travel between water sources and feeding hills. Identifying these 'hotspots' ensures overpasses are built exactly where animals actually cross."
+    },
+    {
+      "id": "W12_M12",
+      "week": 12,
+      "lecture": "Lec 57",
+      "source": "mock_unseen",
+      "question": "For small amphibians (frogs, toads, salamanders) and reptiles, which specialized linear infrastructure mitigation design is most effective?",
+      "options": [
+        "Elevated rope bridges suspended 30 metres in the tree canopy",
+        "High-voltage electrified fences designed for elephants",
+        "Small concrete pipe or box culverts placed at frequent intervals along the roadbed, paired with continuous low (0.5 m) solid drift walls along the curb that prevent amphibians from hopping onto the hot asphalt and direct them into the culverts",
+        "Broad ecoducts fitted with artificial neon streetlights"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Mitigating roads for amphibians and small reptiles requires small, closely spaced culverts beneath the roadbed, integrated with continuous low drift walls or curbs that prevent small fauna from climbing onto hot asphalt and guide them into damp crossing tunnels.",
+      "mini_lesson": "A tiny tree frog or toad cannot walk 2 kilometres down a road to reach a massive deer overpass, and chain-link fences won't stop them. Road ecologists install low, solid, slippery plastic or concrete drift walls (about knee-high) along the ditch, paired with small, damp culvert pipes every 50 metres so migrating amphibians are deflected into safe tunnels under the road."
+    },
+    {
+      "id": "W12_M13",
+      "week": 12,
+      "lecture": "Lec 58",
+      "source": "mock_unseen",
+      "question": "Under the Total Economic Value (TEV) framework, what are the two broad overarching categories into which all ecosystem values are divided?",
+      "options": [
+        "Government values and Corporate values",
+        "Cash values and Gold values",
+        "Use Values (direct, indirect, and option) and Non-Use Values (existence, bequest, and altruistic)",
+        "Active values and Passive values"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "The Total Economic Value (TEV) framework divides all biodiversity and ecosystem benefits into two foundational branches: Use Values (where benefits derive from human use of ecological goods and services) and Non-Use Values (benefits derived without any human interaction or physical use).",
+      "mini_lesson": "Total Economic Value (TEV) recognizes that nature's value goes far beyond timber or fish sold in a store. It categorizes value into **Use Values**—things humans use directly (eating fruit, visiting a park), indirectly (clean water, pollination), or hold for future options—and **Non-Use Values**—the moral satisfaction of knowing nature exists and passing it down to our grandchildren."
+    },
+    {
+      "id": "W12_M14",
+      "week": 12,
+      "lecture": "Lec 58",
+      "source": "mock_unseen",
+      "question": "What is the distinction between “Direct Consumptive Use Value” and “Direct Non-Consumptive Use Value” in ecosystem economics?",
+      "options": [
+        "Direct consumptive use applies only to tigers, whereas non-consumptive use applies only to bacteria",
+        "Direct consumptive use involves extracting or harvesting physical biological resources from nature (such as timber, fish, fodder, and medicinal plants), whereas direct non-consumptive use involves enjoying nature without extracting materials (such as ecotourism, birdwatching, and photography)",
+        "Direct consumptive use costs zero money, whereas non-consumptive use is illegal",
+        "Both terms refer exclusively to burning fossil fuels in power plants"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Direct use values split into consumptive uses—where biological resources are physically extracted and consumed (timber, firewood, fish, non-timber forest products)—and non-consumptive uses—where nature is experienced and enjoyed without physical removal (wildlife safari tourism, recreational diving).",
+      "mini_lesson": "Both are direct uses because humans interact with the ecosystem in person. The difference is extraction: taking fish from a coral reef or cutting firewood from a mangrove is *consumptive*, whereas taking photos of the coral reef during a paid scuba dive or birdwatching in a sanctuary is *non-consumptive* (the resource remains intact for the next visitor)."
+    },
+    {
+      "id": "W12_M15",
+      "week": 12,
+      "lecture": "Lec 58",
+      "source": "mock_unseen",
+      "question": "Which of the following is an example of an “Indirect Use Value” of biodiversity?",
+      "options": [
+        "Selling tiger skins on the black market",
+        "Purchasing canned tuna at a supermarket",
+        "Eating wild berries while hiking in a national park",
+        "Regulating and supporting ecosystem services—such as wetland flood mitigation, forest watershed filtration, wild bee pollination of crops, and mangrove storm surge buffering"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Indirect use values represent the background life-support and regulatory functions of healthy ecosystems—such as carbon sequestration, groundwater recharge, soil erosion prevention, and flood attenuation—that support human economic activity without direct physical harvesting.",
+      "mini_lesson": "You don't buy an indirect service in a grocery bag: you benefit from it as a protective background shield! When an intact mangrove forest absorbs the brutal shockwave of a cyclone, protecting thousands of coastal farming homes from destruction, it generates massive indirect use value without anyone cutting down a single mangrove branch."
+    },
+    {
+      "id": "W12_M16",
+      "week": 12,
+      "lecture": "Lec 58",
+      "source": "mock_unseen",
+      "question": "What is “Option Value” in biodiversity economics?",
+      "options": [
+        "The option to convert a wildlife sanctuary into an industrial coal mine",
+        "The economic value placed on preserving biological diversity today so that potential unforeseen future uses, discoveries (such as novel cancer medicines or drought-tolerant crop genes), or technologies remain available for tomorrow",
+        "The choice of whether to buy a ticket for a zoo or a cinema",
+        "The price of purchasing options contracts on the stock exchange"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Option value is the economic premium society is willing to pay to preserve biodiversity for potential future discoveries—such as unstudied plant alkaloids that could yield life-saving pharmaceuticals or wild crop relatives that hold genetic resistance against future crop blights.",
+      "mini_lesson": "Think of Option Value as an insurance policy: out of millions of wild plants and fungi in the rainforest, only a tiny fraction have been screened for medicinal compounds. If we clear-cut a forest today, we might wipe out the only wild shrub that contains the cure for Alzheimer's before scientists even discover it. Option value is the value of keeping those future doors open."
+    },
+    {
+      "id": "W12_M17",
+      "week": 12,
+      "lecture": "Lec 58",
+      "source": "mock_unseen",
+      "question": "How does “Existence Value” differ from “Bequest Value” within the non-use branch of the TEV framework?",
+      "options": [
+        "Existence value is the utility humans derive from simply knowing that a species (like the Snow Leopard or Blue Whale) continues to exist in the wild independent of any use, whereas Bequest value is the value placed on preserving intact natural heritage for future human generations",
+        "Existence value applies only to farm animals, whereas bequest value applies only to dead trees",
+        "Existence value is measured in kilograms, whereas bequest value is measured in litres",
+        "Existence value requires buying a pet, whereas bequest value requires selling land"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Within non-use values, existence value is the satisfaction derived from knowing that pristine nature and wild species exist in their own right, even if an individual never expects to see them; bequest value reflects the moral and altruistic desire to pass down an intact, functioning natural world to future generations.",
+      "mini_lesson": "A person living in a high-rise flat in London might gladly donate £50 every year to save Antarctic blue whales, even knowing they will never visit Antarctica in their lifetime—that pure satisfaction of knowing whales exist is *Existence Value*. If that same person wants those whales to still roam the oceans for their great-grandchildren, that is *Bequest Value*."
+    },
+    {
+      "id": "W12_M18",
+      "week": 12,
+      "lecture": "Lec 58",
+      "source": "mock_unseen",
+      "question": "Which ecosystem valuation technique is the ONLY method capable of estimating Non-Use Values (such as Existence and Bequest values)?",
+      "options": [
+        "Market Price Method",
+        "Travel Cost Method (TCM)",
+        "Contingent Valuation Method (CVM) using stated-preference Willingness to Pay (WTP) surveys",
+        "Hedonic Property Pricing Method"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Because non-use values leave no behavioral footprint in commercial markets or travel expenditures, the Contingent Valuation Method (CVM)—using structured hypothetical willingness-to-pay surveys—is the only economic valuation methodology capable of measuring existence and bequest values.",
+      "mini_lesson": "You cannot look at house prices (Hedonic Pricing) or travel expenses (Travel Cost Method) to find out how much people value the existence of deep-sea polar ice fish they never visit! Because non-use values leave no trail in the market, the Contingent Valuation Method (CVM) is the only tool available: economists construct structured surveys to ask citizens how much they are willing to pay (WTP) in taxes or donations to protect that existence."
+    },
+    {
+      "id": "W12_M19",
+      "week": 12,
+      "lecture": "Lec 59",
+      "source": "mock_unseen",
+      "question": "What is the core mandate of the “Precautionary Principle” (Principle 15 of the Rio Declaration) in conservation policy?",
+      "options": [
+        "Governments must never take any conservation action until 100% scientific certainty is reached across every laboratory",
+        "Where there are threats of serious or irreversible environmental damage, lack of full scientific certainty shall not be used as a reason for postponing cost-effective measures to prevent environmental degradation",
+        "All development projects should proceed immediately without environmental impact assessments",
+        "Precaution means locking all wild animals in cages"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The Precautionary Principle mandates that where ecological threats involve serious or irreversible harm, the absence of complete scientific certainty must never be used as a justification to delay protective, cost-effective conservation intervention.",
+      "mini_lesson": "If scientists suspect a pesticide is thinning eagle eggshells or a dam is cutting off the last breeding river for river dolphins, corporate polluters often demand 'absolute, undeniable 100% scientific proof' before anything is done. The Precautionary Principle flips this burden: if an irreversible catastrophe is threatened, waiting for 100% certainty until the dolphin is already extinct is unacceptable—protective action must be taken immediately."
+    },
+    {
+      "id": "W12_M20",
+      "week": 12,
+      "lecture": "Lec 59",
+      "source": "mock_unseen",
+      "question": "In wildlife management and resource allocation, what is “Conservation Triage”?",
+      "options": [
+        "Spending all conservation funds exclusively on the single most photogenic animal in the country",
+        "Dividing a national park into three equal squares for agriculture, timber, and mining",
+        "A veterinary surgical procedure for amputating damaged limbs on safari",
+        "A structured decision-making protocol for prioritizing scarce conservation budgets, personnel, and time toward species, corridors, or habitats where management intervention has the highest probability of delivering long-term persistence and ecological return"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Conservation triage is the systematic framework used to allocate finite conservation funding, staff, and time; borrowing from battlefield medicine, it prioritizes species and ecosystems where targeted interventions will deliver the highest return in preventing extinction and securing functional persistence.",
+      "mini_lesson": "Conservation budgets are painfully limited: a forest department might have ₹1 crore to spend across 100 endangered species. Spending that entire budget on a species whose habitat is 100% gone and cannot be saved is tragic if it means letting 15 other species go extinct that could have been saved for ₹5 lakhs each. Conservation triage rationally directs funds where intervention will achieve the greatest long-term survival gain."
+    },
+    {
+      "id": "W12_M21",
+      "week": 12,
+      "lecture": "Lec 59",
+      "source": "mock_unseen",
+      "question": "Why does effective conservation governance increasingly rely on “co-management” and polycentric partnerships rather than top-down command-and-control alone?",
+      "options": [
+        "Because national governments have legally abolished all Forest Departments",
+        "Co-management allows private corporations to privatize all wildlife",
+        "Complex socio-ecological landscapes require integrating statutory authority, scientific research, NGO agility, and local indigenous traditional knowledge to build shared legitimacy and voluntary compliance",
+        "Command-and-control works with 100% perfection in all countries"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Modern conservation governance recognizes polycentric co-management: sharing rights, responsibilities, and decisions among government agencies, local communities, scientific institutions, and civil society builds transparent, adaptive stewardship across landscapes.",
+      "mini_lesson": "A forest department sitting in a state capital cannot monitor thousands of square kilometres of wilderness alone with guns and decrees. Polycentric co-management connects formal forest law with the daily eyes-and-ears of local communities, independent monitoring by university ecologists, and grassroots funding from conservation NGOs, creating resilient, shared governance that outlasts political election cycles."
+    },
+    {
+      "id": "W12_M22",
+      "week": 12,
+      "lecture": "Lec 59",
+      "source": "mock_unseen",
+      "question": "In environmental decision-making, what is the crucial difference between a “reversible” ecological change and an “irreversible” ecological change?",
+      "options": [
+        "A reversible change (like temporary grass depletion from drought) can recover naturally once the stressor is removed, whereas an irreversible change (like the global extinction of a species or total loss of deep tropical topsoil) is permanent and can never be undone across human timescales",
+        "Reversible changes are always caused by humans, whereas irreversible changes are always caused by the sun",
+        "Irreversible changes can be completely undone in five minutes with money",
+        "Both terms mean identical things in environmental law"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "A fundamental boundary in conservation policy is reversibility: while mild disturbance or temporary population dips can be reversed through protection and active restoration, species extinction and complete biome collapse are irreversible—extinction is forever.",
+      "mini_lesson": "If a factory pollutes a stream, we can shut down the factory, aerate the water, and the stream's chemistry will recover within a decade (reversible). But if that pollution wipes out the last population of a freshwater turtle found nowhere else on Earth, that unique genetic code is gone forever (irreversible). Recognizing irreversibility is why environmental decisions must be strictly risk-averse."
+    },
+    {
+      "id": "W12_M23",
+      "week": 12,
+      "lecture": "Lec 59",
+      "source": "mock_unseen",
+      "question": "How does incorporating ongoing scientific monitoring into Protected Area Management Plans transform conservation from static administrative bureaucracy into adaptive governance?",
+      "options": [
+        "It eliminates all forest staff and replaces them with computer algorithms",
+        "It establishes real-time empirical feedback loops, ensuring that management practices (such as fire regimens, invasive weed clearing, and anti-poaching patrols) are continuously audited and updated based on measured ecological outcomes rather than outdated historical routines",
+        "It allows park managers to ignore all laws passed by parliament",
+        "It makes it illegal to publish scientific research in peer-reviewed journals"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Integrating periodic scientific research and empirical monitoring into statutory management plans ensures adaptive governance: policy choices are treated as hypotheses and routinely evaluated, allowing managers to discard failing practices and scale up evidence-backed successes.",
+      "mini_lesson": "Traditional forest bureaucracy often repeated the exact same management manual written in 1960 every single year regardless of results. Adaptive governance requires management plans to include scientific audit milestones: if camera-trap data shows tiger prey crashing or satellite imagery shows invasive weeds expanding under current burning schedules, the management plan must be updated based on evidence."
+    },
+    {
+      "id": "W12_M24",
+      "week": 12,
+      "lecture": "Lec 59",
+      "source": "mock_unseen",
+      "question": "What invaluable ecological contribution does Traditional Ecological Knowledge (TEK)—held by indigenous and local forest communities—provide to formal conservation science?",
+      "options": [
+        "It teaches animals how to communicate with satellites",
+        "TEK is exclusively about factory manufacturing of automobiles",
+        "TEK proves that modern physics and chemistry are completely false",
+        "It provides multi-generational, deep-time observations of local seasonal weather cycles, historical wildlife migration routes, medicinal plant phenology, and subtle environmental shifts that modern short-term research studies frequently overlook"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Traditional Ecological Knowledge (TEK) represents centuries of accumulated, place-based empirical observations passed down orally through generations; integrating TEK with formal scientific ecology enriches our understanding of historical baselines, subtle animal phenology, and sustainable harvesting regimes.",
+      "mini_lesson": "A PhD researcher might spend two years studying a wildlife sanctuary, but the indigenous community living at its border has lived there for 800 years. Their elders hold deep-time memory of which dry seasons dried up which natural springs, where herds travelled during 50-year droughts, and which medicinal bark can be sustainably peeled without killing the tree—invaluable baseline data that science alone cannot reconstruct."
+    },
+    {
+      "id": "W12_M25",
+      "week": 12,
+      "lecture": "Lec 60",
+      "source": "mock_unseen",
+      "question": "In the concluding synthesis of the course, what is identified as the foundational biological engine that underpins ecological resilience, ecosystem services, and long-term human sustainability?",
+      "options": [
+        "Industrial factory automation and synthetic chemical fertilizer production",
+        "Biological variation across all hierarchical scales—genetic diversity within populations, species and functional richness within communities, and heterogeneous complexity across landscapes",
+        "The complete eradication of all predators from natural habitats",
+        "Replacing all wild forests with single-species eucalyptus timber plantations"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The grand unifying doctrine of the entire course is that biological variation across all scales—from alleles in a gene pool to functional traits across species and structural diversity across biomes—is the irreplaceable engine of ecological resilience, safeguarding the flow of ecosystem services that sustain human civilization.",
+      "mini_lesson": "The master theme tying all 60 lectures together is *variation*. Monocultures and genetically identical populations are brittle glass: one new pathogen, heatwave, or drought shatters them completely. Living nature survives and persists across geological time because its biodiversity—diverse genes, diverse species with overlapping roles, and diverse landscape patches—provides the functional flexibility to absorb shocks and keep the planetary life-support machine running."
+    },
+    {
+      "id": "W12_M26",
+      "week": 12,
+      "lecture": "Lec 60",
+      "source": "mock_unseen",
+      "question": "Which sequence correctly traces the fundamental causal cascade from biodiversity to human well-being?",
+      "options": [
+        "Biodiversity -> Ecosystem Function -> Ecosystem Services -> Human Well-Being",
+        "Human Well-Being -> Ecosystem Services -> Ecosystem Function -> Biodiversity",
+        "Ecosystem Services -> Biodiversity -> Human Well-Being -> Ecosystem Function",
+        "Ecosystem Function -> Human Well-Being -> Ecosystem Services -> Biodiversity"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "The conceptual architecture of sustainable development links living nature to humanity through a four-stage causal chain: Living Biodiversity drives biophysical Ecosystem Functions, which generate usable Ecosystem Services, which directly underpin Human Well-Being.",
+      "mini_lesson": "Human society cannot survive floating in a void: our food, water, and climate stability depend on the living pyramid beneath us. (1) **Biodiversity** (living variety) drives (2) **Ecosystem Function** (pollination, nutrient recycling, carbon storage), which produces (3) **Ecosystem Services** (clean water, crop harvest, flood buffering), which directly enables (4) **Human Well-Being**."
+    },
+    {
+      "id": "W12_M27",
+      "week": 12,
+      "lecture": "Lec 60",
+      "source": "mock_unseen",
+      "question": "Why is the relationship between human society and biodiversity characterized as a “two-way feedback loop” rather than a one-way street?",
+      "options": [
+        "Because animals vote in human elections",
+        "Because nature is completely immune to human actions",
+        "Because humans and wildlife exchange currency through international banks",
+        "While biodiversity generates the ecosystem services that sustain human civilization, human activities constantly push back through either destructive anthropogenic pressures (pollution, overharvesting, fragmentation) or constructive ecological stewardship and restoration, altering the very biodiversity that supports us"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "The link between biodiversity and human society is not a one-way extraction; it is a circular feedback loop where our economic production and consumption choices exert heavy pressures that degrade biodiversity, which in turn feeds back as declining water security, emerging pandemics, and economic instability.",
+      "mini_lesson": "Nature sustains us, but what we do directly impacts nature, which then impacts us right back! If society clear-cuts forests and drains wetlands for quick profit, that degraded biodiversity feeds back as devastating flash floods, crop pollination failures, and emerging zoonotic epidemics, proving that human development and planetary ecology are locked in a continuous circular feedback loop."
+    },
+    {
+      "id": "W12_M28",
+      "week": 12,
+      "lecture": "Lec 60",
+      "source": "mock_unseen",
+      "question": "Why is relying exclusively on “fortress conservation” (isolated, fenced protected areas covering 5% of land) insufficient to halt global biodiversity loss without an integrated coexistence strategy across the working landscape matrix?",
+      "options": [
+        "Fenced reserves are illegal under international human rights treaties",
+        "Wild animals, seeds, water, and climate cannot be confined by fences; most biodiversity occurs outside protected areas in agricultural, grazing, and forestry mosaics where sustainable land management and human coexistence are essential to prevent genetic isolation",
+        "All wild animals voluntarily migrate to cities to live in zoo enclosures",
+        "Fortress conservation is impossible because trees cannot grow inside parks"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Setting aside pristine protected areas across $5\\%$ of our land is critical but wholly insufficient; more than $80\\%$ of biodiversity resides outside reserves in the matrix of working agricultural, pastoral, and urban landscapes where sustainable multi-functional coexistence must be achieved.",
+      "mini_lesson": "Even if we lock up 5% of a country as inviolate national parks, those parks become tiny islands surrounded by an ocean of hostile farmland and highways. Most elephants, leopards, pollinators, and migratory birds spend large parts of their lives crossing working landscapes between reserves. True sustainability requires making farms, working forests, and waterways wildlife-friendly through coexistence."
+    },
+    {
+      "id": "W12_M29",
+      "week": 12,
+      "lecture": "Lec 60",
+      "source": "mock_unseen",
+      "question": "What is the ethical and ecological principle of “intergenerational equity” in sustainable development?",
+      "options": [
+        "Current generations have the right to extract and consume all natural resources today and leave zero biodiversity for the future",
+        "Future generations must pay cash taxes to past generations for timber harvested 100 years ago",
+        "Each human generation holds the Earth's ecosystems in moral trust, bearing a duty to meet present essential needs without degrading or exhausting the planet's ecological life-support systems, so that future generations inherit a healthy, resilient, and biodiverse Earth",
+        "Intergenerational equity applies only to computer software updates"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Intergenerational equity is the moral foundation of sustainable development: the present generation is a custodian holding the planetary biosphere in trust, ethically bound to pass on an intact, resilient natural heritage that gives our children and grandchildren the same ecological opportunities we enjoyed.",
+      "mini_lesson": "We did not inherit the Earth as our private property to liquidate for short-term profit; we borrowed it in trust from future generations. Intergenerational equity recognizes that our children and grandchildren have a fundamental moral right to inherit clean water, fertile soil, a stable climate, and living wildlife, rather than an empty, degraded ecological wasteland."
+    },
+    {
+      "id": "W12_M30",
+      "week": 12,
+      "lecture": "Lec 60",
+      "source": "mock_unseen",
+      "question": "What is the ultimate course takeaway regarding the relationship between biodiversity conservation and economic development?",
+      "options": [
+        "Biodiversity conservation is not an optional aesthetic charity or an impediment to growth, but the indispensable biophysical foundation upon which all economic productivity, climate security, and long-term human survival depends",
+        "Biodiversity conservation is an expensive decorative luxury that developing nations should postpone until all industrialization is completed",
+        "Economic development can continue expanding indefinitely without soil, clean water, or living ecosystems",
+        "The entire economy should be based entirely on extracting petroleum oil from marine national parks"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "In conclusion, biodiversity conservation is not a luxury or a sentimental charity to be indulged only in wealthy years; it is the non-negotiable biophysical infrastructure that underpins all economic activity, social stability, and human survival on Earth.",
+      "mini_lesson": "You cannot run a factory, bank, or city without clean freshwater, predictable rainfall, fertile topsoil, and food crops pollinated by insects. Destroying biodiversity to boost quarterly GDP is like tearing the bricks out of the foundation of your house to sell as firewood: the house will soon collapse on top of you. Biodiversity is the foundation of human survival."
+    }
+  ]
+}

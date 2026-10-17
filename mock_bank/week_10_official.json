@@ -1,0 +1,172 @@
+{
+  "week": 10,
+  "lecture_briefings": {
+    "Lec 46": "Lecture 46 launches the biodiversity management module by establishing the overarching architectural principles of conservation planning. Rather than treating conservation as static specimen collection, effective management must protect dynamic ecological functions—processes like pollination, seed dispersal, predation, decomposition, and nutrient cycling—that sustain ecosystem productivity and resilience. It introduces Problem Tree Analysis (where the visible decline of a species is the trunk, and underlying socioeconomic or governance drivers are the roots) alongside the five-stage Adaptive Management cycle (Plan $\\rightarrow$ Act $\\rightarrow$ Monitor $\\rightarrow$ Evaluate $\\rightarrow$ Adjust), which treats every field intervention as a testable hypothesis. Watch out for the 3 most important terms: Ecological Function (pollination, seed dispersal, predation, decomposition, and nutrient cycling), Adaptive Management (iterative cycle of planning, acting, monitoring, evaluating, and adjusting), and Problem Tree Analysis (distinguishing visible trunk symptoms from underlying root causes).",
+    "Lec 47": "Lecture 47 covers Ex-Situ Conservation—the preservation of species or genetic material in designated facilities outside their natural habitats (zoos, botanical gardens, arboreta for trees, bambuseta for bamboos, seed banks at $-20^\\circ\\text{C}$ for orthodox seeds, and cryobanks in liquid nitrogen at $-196^\\circ\\text{C}$ for recalcitrant seeds and gametes). Ex-situ conservation serves as a vital insurance strategy that prevents immediate extinction in high-risk species while safeguarding a reservoir of individuals and alleles for future wild reintroduction. To succeed, ex-situ programs rely on three pillars: representative sampling across diverse wild populations (to capture genetic variation and avoid losing rare alleles), studbooks (detailed registries of ancestry, births, deaths, transfers, and breeding history to prevent inbreeding), and habitat-like enclosures with behavioural enrichment (to support natural movement, welfare, health, and breeding while preventing repetitive stereotypies). Watch out for the 3 most important terms: Ex-Situ Insurance Strategy (preserving species/germplasm outside threatened habitats to prevent immediate extinction), Representative Sampling vs. Studbooks (capturing wild allelic diversity during collection vs. tracking pedigrees and breeding history in captivity), and Habitat-Like Enclosures (supporting natural movement, behaviour, welfare, health, and breeding).",
+    "Lec 48": "Lecture 48 transitions to In-Situ Conservation—protecting species and ecosystems within their natural surroundings—and examines both India's statutory protected area network and Jared Diamond's geometric reserve design principles. Under India's Wildlife (Protection) Act of 1972, in-situ conservation operates through four official Protected Area categories: National Parks, Wildlife Sanctuaries, Conservation Reserves, and Community Reserves (which must remain backed by real staffing and monitoring so they do not become 'Paper Parks'). Geometrically, where feasible, single large reserves are preferred over several small ones (SLOSS), compact or circular reserves are preferred over elongated ones because they minimize the edge-to-area ratio (reducing edge effects, weed invasion, and outside disturbance), and fragmented landscapes with isolated populations require connectivity planning via ecological corridors and stepping stones. Watch out for the 3 most important terms: India's 4 In-Situ Protected Area Categories (National Park, Sanctuary, Conservation Reserve, and Community Reserve), Compact/Circular Reserve Geometry (minimizing perimeter-to-area ratio to reduce edge effects and outside disturbance), and Connectivity Planning (linking fragmented habitats via corridors to maintain gene flow).",
+    "Lec 49": "Lecture 49 bridges global conservation targets with real-world GIS spatial planning for designing new protected areas ('designer sanctuaries'). Globally, the Kunming-Montreal Global Biodiversity Framework (CBD COP-15) sets the '30 by 30' target of conserving at least $30\\%$ of land and ocean areas by 2030. To identify where new sanctuaries should be placed, planners overlay multiple GIS layers—existing Protected Area polygons, species occurrence records, the Biodiversity Intactness Index (BII), NTCA tiger/wildlife corridor maps, linear infrastructure threats, and forest land-tenure maps—while drawing final boundaries along recognizable natural topographic features like rivers and ridgelines. Watch out for the 3 most important terms: Global 30 by 30 Target (conserving $30\\%$ of terrestrial and marine areas by 2030), Gap Analysis & Multi-Criteria GIS Overlays (combining intactness, corridors, and threat maps to locate unprotected biodiversity), and Reserved Forest Cadastral Filtering (selecting forest blocks with pre-settled legal tenure).",
+    "Lec 50": "Lecture 50 provides an insider Indian Forest Service (IFS) walkthrough of the statutory legal procedure for notifying a Wildlife Sanctuary under the Wildlife (Protection) Act, 1972. Under the standard route (for non-Reserved Forest lands), the State Government issues an initial declaration of intention under Section 18, followed by a time-consuming inquiry by the District Collector under Sections 19–25 to adjudicate, acquire, or settle private land and customary rights before final notification under Section 26A(1)(a). However, if the candidate area comprises already notified Reserved Forests (under the Indian Forest Act, 1927), their land status, boundaries, compartment records, and rights position are already legally settled and documented, allowing the State to fast-track sanctuary notification directly under Section 26A(1)(b)! Watch out for the 3 most important terms: Reserved Forest Fast-Track Advantage (land status, boundaries, records, and rights position are already well structured and documented), Section 18 vs. Section 26A (initial intention vs. final statutory notification under WLPA 1972), and Collector's Rights Inquiry (Sections 19–25 process for settling claims in non-RF lands)."
+  },
+  "questions": [
+    {
+      "id": "W10_Q01",
+      "week": 10,
+      "lecture": "Lec 47",
+      "source": "official_quiz",
+      "question": "Why should captive enclosures be habitat-like?",
+      "options": [
+        "To reduce documentation requirements",
+        "To support natural movement, behaviour, welfare, health, and breeding",
+        "To make all species follow the same diet",
+        "To avoid scientific management"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Captive enclosures in conservation breeding programs should be designed to be habitat-like—replicating natural substrate, vegetation, and shelter—to support natural movement, behaviour, welfare, health, and breeding.",
+      "mini_lesson": "Barren concrete cages induce chronic stress, immune suppression, reproductive failure, and repetitive abnormal behaviours (stereotypies like pacing). Designing habitat-like enclosures with natural substrates, climbing structures, and hiding cover enables animals to express natural locomotion and foraging behaviours, which is essential for both physical health and successful captive breeding. The distractors suggest cutting corners on record-keeping, nutrition, or science."
+    },
+    {
+      "id": "W10_Q02",
+      "week": 10,
+      "lecture": "Lec 47",
+      "source": "official_quiz",
+      "question": "Why is representative sampling important in ex-situ conservation?",
+      "options": [
+        "It ensures only the best-looking individuals are collected",
+        "It helps capture genetic variation and avoid loss of alleles",
+        "It prevents the need for records",
+        "It replaces future restoration planning"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "When collecting founder seeds or animals for ex-situ conservation, representative sampling across diverse wild populations and microhabitats is critical because it captures the breadth of genetic variation and avoids the loss of rare alleles.",
+      "mini_lesson": "If collectors sample seeds or founder animals from only one convenient location or pick only the largest, most visually appealing individuals, they create a severe artificial founder bottleneck that leaves behind vital stress-resistance alleles. Representative sampling across different sites and maternal lines ensures the ex-situ gene bank preserves the species' true evolutionary potential. Distractor (A) describes artificial selection bias—the exact mistake collectors must avoid!"
+    },
+    {
+      "id": "W10_Q03",
+      "week": 10,
+      "lecture": "Lec 48",
+      "source": "official_quiz",
+      "question": "Why are compact or circular reserves generally preferred where feasible?",
+      "options": [
+        "They are easier to convert into zoos",
+        "They have higher edge-to-area pressure",
+        "They usually reduce edge effects and outside disturbance",
+        "They prevent natural dispersal"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "In reserve geometry, compact or nearly circular reserves are generally preferred over narrow, elongated shapes because a circle minimizes the perimeter-to-area ratio, which reduces edge effects and outside disturbance.",
+      "mini_lesson": "Of all geometric shapes, a circle encloses the maximum core interior area within the shortest possible outer boundary perimeter. Because microclimatic drying, invasive weeds, fire, domestic dogs, and poaching penetrate from the outer boundary inward, a compact/circular shape minimizes edge-to-area exposure and protects deep interior specialists. Distractor (B) states the exact geometric opposite (elongated/linear shapes have higher edge-to-area pressure)."
+    },
+    {
+      "id": "W10_Q04",
+      "week": 10,
+      "lecture": "Lec 48",
+      "source": "official_quiz",
+      "question": "A fragmented landscape with isolated wildlife populations mainly requires which management focus?",
+      "options": [
+        "Connectivity planning",
+        "Captive display planning",
+        "Scenic viewpoint development",
+        "Uniform fencing across all habitats"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "When a landscape is fragmented into isolated habitat patches with separated wildlife populations, the primary spatial management focus must be connectivity planning—establishing corridors and stepping stones to restore gene flow and movement.",
+      "mini_lesson": "Isolated populations trapped in small habitat fragments face inbreeding depression, genetic drift, and local extinction if they cannot exchange individuals across the surrounding matrix. Connectivity planning restores functional movement between patches through continuous wildlife corridors or stepping-stone habitats. Distractor (D) 'Uniform fencing across all habitats' would worsen isolation and block dispersal completely."
+    },
+    {
+      "id": "W10_Q05",
+      "week": 10,
+      "lecture": "Lec 48",
+      "source": "official_quiz",
+      "question": "Which group correctly represents protected-area categories used for in-situ conservation in India?",
+      "options": [
+        "National Park, Sanctuary, Conservation Reserve, and Community Reserve",
+        "Zoo, aquarium, seed bank, and cryobank",
+        "Arboretum, bambusetum, gene bank, and rescue centre",
+        "Nursery, enclosure, corridor map, and field camp"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Under India's Wildlife (Protection) Act of 1972, in-situ conservation is legally implemented through four statutory protected-area categories: National Parks, Wildlife Sanctuaries, Conservation Reserves, and Community Reserves.",
+      "mini_lesson": "India's Wildlife (Protection) Act recognizes four official Protected Area categories for conserving ecosystems in their natural surroundings (in-situ): National Parks, Sanctuaries, and (added in the 2002 amendment) Conservation Reserves and Community Reserves. Notice how Distractors (B) and (C) are classic opposite-pole traps: they list the exact facilities used for ex-situ conservation (zoos, seed banks, cryobanks, arboreta, bambuseta) from Lecture 47!"
+    },
+    {
+      "id": "W10_Q06",
+      "week": 10,
+      "lecture": "Lec 46",
+      "source": "official_quiz",
+      "question": "Pollination, seed dispersal, predation, decomposition, and nutrient cycling are important because they represent which aspect of biodiversity management?",
+      "options": [
+        "Revenue generation",
+        "Boundary demarcation",
+        "Ecological function",
+        "Species display"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "A core principle of biodiversity management is maintaining ecological function—the biological and physical processes such as pollination, seed dispersal, predation, decomposition, and nutrient cycling that keep ecosystems self-sustaining.",
+      "mini_lesson": "A forest can still have standing trees yet be ecologically 'dead' (an empty forest) if its pollinators, seed dispersers, apex predators, and soil decomposers disappear. These five processes—pollination, seed dispersal, predation, decomposition, and nutrient cycling—constitute ecological function, the engine that allows ecosystems to regenerate and persist over time. The distractors reduce management to administrative borders, zoo displays, or cash revenue."
+    },
+    {
+      "id": "W10_Q07",
+      "week": 10,
+      "lecture": "Lec 47",
+      "source": "official_quiz",
+      "question": "What does ex-situ conservation involve?",
+      "options": [
+        "Maintaining species only through community grazing systems",
+        "Protecting species only by expanding natural corridors",
+        "Preventing all movement of species between facilities",
+        "Moving species or genetic material to designated facilities outside natural habitats"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Ex-situ ('off-site') conservation involves moving living organisms, seeds, gametes, or genetic material to designated controlled facilities outside their natural habitats—such as zoos, botanical gardens, seed banks, and cryobanks.",
+      "mini_lesson": "Latin 'ex-situ' literally means 'off-site': when wild populations face imminent collapse, conservationists maintain backup living collections or frozen germplasm in specialized facilities outside their native habitat. Distractors (A), (B), and (C) deploy hard absolutes ('only', 'all'), with (B) actually describing in-situ corridor conservation."
+    },
+    {
+      "id": "W10_Q08",
+      "week": 10,
+      "lecture": "Lec 50",
+      "source": "official_quiz",
+      "question": "Why can reserved forests be strategically useful for faster sanctuary notification?",
+      "options": [
+        "They require no ecological significance",
+        "They are automatically free from all human use",
+        "They are suitable only for ex-situ conservation",
+        "Their land status, boundaries, records, and rights position are often already well structured or documented"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Reserved forests are strategically valuable for faster sanctuary notification under the Wildlife (Protection) Act because their legal land status, compartment boundaries, land records, and settlement of rights are already well structured and documented under the Indian Forest Act.",
+      "mini_lesson": "Notifying a new Wildlife Sanctuary on non-forest or revenue land requires years of District Collector inquiries (Sections 19–25 of WLPA 1972) to verify land titles and settle private rights. Because Reserved Forests (RFs) already went through rigorous rights settlement and boundary demarcation when notified under the Indian Forest Act, 1927, the State can notify them directly as sanctuaries under Section 26A(1)(b). Distractors (A), (B), and (C) all use false absolutes ('no', 'all', 'only')."
+    },
+    {
+      "id": "W10_Q09",
+      "week": 10,
+      "lecture": "Lec 47",
+      "source": "official_quiz",
+      "question": "What is the main function of studbooks in conservation breeding?",
+      "options": [
+        "They record ancestry, births, deaths, transfers, and breeding history to guide management",
+        "They replace veterinary care",
+        "They identify tourist routes inside zoos",
+        "They eliminate the need for genetic diversity"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "In captive conservation breeding, a studbook serves as the official genealogical register recording the ancestry, parentage, births, deaths, transfers, and breeding history of every individual to prevent inbreeding and guide pairing decisions.",
+      "mini_lesson": "Without careful pedigree tracking, small zoo populations quickly mate among siblings or cousins and suffer severe inbreeding depression. A studbook assigns a unique ID to every captive individual and tracks its complete family tree, birth, transfers across zoos, and offspring so coordinators can pair unrelated mates and maximize genetic diversity. The distractors make absurd claims about replacing vets or eliminating genetic diversity."
+    },
+    {
+      "id": "W10_Q10",
+      "week": 10,
+      "lecture": "Lec 47",
+      "source": "official_quiz",
+      "question": "Why is ex-situ conservation described as an insurance strategy?",
+      "options": [
+        "It guarantees automatic reintroduction success",
+        "It prevents immediate extinction in high-risk cases and preserves individuals or genetic material outside threatened habitats",
+        "It removes the need for genetic management",
+        "It works best when habitat loss continues unchecked"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Ex-situ conservation acts as an insurance strategy because it prevents immediate, irreversible extinction in high-risk cases and preserves living individuals or genetic material safely outside threatened wild habitats.",
+      "mini_lesson": "When a sudden catastrophe—such as an epidemic, war, invasive predator, or climate shock—threatens to wipe out the last wild population of a species (like the Arabian Oryx, California Condor, or Golden Toad), an ex-situ population or seed bank acts as a biological 'insurance policy' that keeps the lineage alive until its native habitat can be restored. Distractor (A) uses the false absolute 'guarantees automatic', while (C) and (D) contradict core conservation principles."
+    }
+  ]
+}

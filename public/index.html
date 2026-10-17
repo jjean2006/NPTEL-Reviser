@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NPTEL Biodiversity for Sustainability | High-Velocity Drill Engine</title>
+  <meta name="description" content="Precision technical active-recall drill engine and textbook reviser for NPTEL Biodiversity for Sustainability.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <!-- Precision HUD Header (Height: 52px) -->
+  <header class="hud-header" id="hud-header">
+    <div class="hud-left">
+      <div class="hud-brand">
+        <span class="hud-brand-code">NPTEL</span>
+        <span class="hud-brand-sep">//</span>
+        <span class="hud-brand-title">BIODIVERSITY</span>
+      </div>
+      <div class="hud-status-chip" id="hud-lecture-chip" title="Current Active Context">
+        <span class="chip-dot"></span>
+        <span class="chip-text" id="hud-lecture-text">W01 · LEC 01</span>
+      </div>
+    </div>
+
+    <nav class="hud-center-nav" aria-label="Mode Navigation">
+      <button class="nav-tab active" data-view="learn" type="button" title="Zero-to-Hero Lecture Drill [Alt+1]">
+        <span class="nav-keycap">[1]</span>
+        <span class="nav-label">Learn</span>
+      </button>
+      <button class="nav-tab" data-view="speedrun" type="button" title="Official Assignment Pool [Alt+2]">
+        <span class="nav-keycap">[2]</span>
+        <span class="nav-label">Official Drill</span>
+        <span class="nav-badge amber">30%</span>
+      </button>
+      <button class="nav-tab" data-view="exam" type="button" title="50-MCQ Final Exam Simulator [Alt+3]">
+        <span class="nav-keycap">[3]</span>
+        <span class="nav-label">Final Simulator</span>
+      </button>
+      <button class="nav-tab" data-view="mistakes" type="button" title="Spaced Repetition Mistakes Bank [Alt+4]">
+        <span class="nav-keycap">[4]</span>
+        <span class="nav-label">Mistakes</span>
+        <span class="nav-badge" id="hud-mistakes-badge">0</span>
+      </button>
+      <button class="nav-tab" data-view="reviser" type="button" title="Textbook & Cheatsheet Reviser [Alt+5]">
+        <span class="nav-keycap">[5]</span>
+        <span class="nav-label">Reviser</span>
+      </button>
+    </nav>
+
+    <div class="hud-right">
+      <button class="hud-action-btn search-trigger" id="cmd-k-btn" type="button" title="Command Palette (Cmd+K or Ctrl+K)">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <span class="hud-btn-label">Search</span>
+        <kbd class="keycap">Ctrl+K</kbd>
+      </button>
+
+      <button class="hud-action-btn drawer-trigger" id="toggle-drawer-btn" type="button" title="Toggle Split-Screen Reviser Drawer [R]">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+          <line x1="15" y1="3" x2="15" y2="21"></line>
+        </svg>
+        <span class="hud-btn-label">Reviser</span>
+        <kbd class="keycap">R</kbd>
+      </button>
+
+      <a class="hud-action-btn pdf-btn" id="download-pdf-btn" href="/Biodiversity_Master_Study_Guide.pdf" download title="Download Master Study Guide PDF">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="7 10 12 15 17 10"></polyline>
+          <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        <span class="hud-btn-label">PDF</span>
+      </a>
+
+      <button class="hud-action-btn theme-toggle" id="theme-toggle-btn" type="button" title="Toggle Dark/Light Mode">
+        <svg class="icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg class="icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Application Workspace Container -->
+  <main class="app-container" id="app-container">
+
+    <!-- ===================================================================== -->
+    <!-- VIEW 1: ZERO-TO-HERO LEARN MODE                                       -->
+    <!-- ===================================================================== -->
+    <section class="view-panel active" id="view-learn" aria-label="Learn Mode">
+      <div class="driller-layout">
+        <!-- Sub-Bar: Week & Lecture Selector + Progress -->
+        <div class="driller-subbar">
+          <div class="subbar-selectors">
+            <div class="select-group">
+              <label for="learn-week-select">WEEK</label>
+              <select id="learn-week-select" class="select-input"></select>
+            </div>
+            <div class="select-group">
+              <label for="learn-lecture-select">LECTURE</label>
+              <select id="learn-lecture-select" class="select-input"></select>
+            </div>
+            <div class="btn-group-nav">
+              <button class="btn btn-outline btn-sm" id="learn-prev-lec-btn" type="button" title="Previous Lecture">Prev Lec</button>
+              <button class="btn btn-outline btn-sm" id="learn-next-lec-btn" type="button" title="Next Lecture">Next Lec</button>
+            </div>
+          </div>
+
+          <div class="subbar-metrics">
+            <span class="metric-pill tabular-nums" id="learn-progress-counter">Q 01 / 08</span>
+          </div>
+        </div>
+
+        <!-- Collapsible Lecture Crash Course Card -->
+        <div class="briefing-card" id="learn-briefing-card">
+          <div class="briefing-header" id="learn-briefing-header" title="Toggle Briefing Card">
+            <div class="briefing-meta">
+              <span class="briefing-tag">4-SENTENCE MENTAL MODEL & CORE TERMS</span>
+              <span class="briefing-lec-pill" id="learn-briefing-lec-tag">Lec 01</span>
+            </div>
+            <button class="briefing-toggle-btn" id="learn-briefing-toggle-btn" type="button" aria-expanded="true">COLLAPSE</button>
+          </div>
+          <div class="briefing-content" id="learn-briefing-body">
+            Loading lecture briefing...
+          </div>
+        </div>
+
+        <!-- Active MCQ Card -->
+        <div class="mcq-card" id="learn-mcq-card">
+          <div class="mcq-meta-row">
+            <div class="meta-badges">
+              <span class="badge badge-mono" id="learn-meta-lec">LEC 01</span>
+              <span class="badge badge-source" id="learn-meta-source">OFFICIAL QUIZ (30%)</span>
+              <span class="badge badge-id" id="learn-meta-id">W01_OFF_01</span>
+            </div>
+            <button class="flag-action-btn" id="learn-flag-btn" type="button" title="Flag for Review [M]">
+              <svg class="icon flag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path>
+                <line x1="4" y1="22" x2="4" y2="15"></line>
+              </svg>
+              <span>Flag</span>
+              <kbd class="keycap-sub">M</kbd>
+            </button>
+          </div>
+
+          <div class="mcq-stem" id="learn-question-stem">
+            Loading question stem...
+          </div>
+
+          <div class="options-stack" id="learn-options-stack">
+            <!-- 4 Options populated via JS -->
+          </div>
+
+          <!-- Instant Diagnostic Reveal Drawer -->
+          <div class="diagnostic-drawer" id="learn-diagnostic-drawer" style="display: none;">
+            <div class="diagnostic-status-bar" id="learn-diag-status-bar">
+              <div class="status-indicator" id="learn-diag-indicator">
+                <span class="status-code" id="learn-diag-code">[CORRECT]</span>
+                <span class="status-message" id="learn-diag-msg">Correct. Concept Mastered.</span>
+              </div>
+              <button class="btn btn-primary btn-advance" id="learn-next-q-btn" type="button">
+                <span>Next Question</span>
+                <kbd class="keycap-btn">Space</kbd>
+              </button>
+            </div>
+
+            <div class="diagnostic-body">
+              <div class="mini-lesson-panel">
+                <div class="panel-eyebrow">ZERO-BASE MINI-LESSON & DISTRACTOR LOGIC</div>
+                <div class="panel-content" id="learn-mini-lesson-text"></div>
+              </div>
+
+              <div class="transcript-panel" id="learn-transcript-panel">
+                <div class="panel-eyebrow">VERBATIM TRANSCRIPT EVIDENCE</div>
+                <blockquote class="transcript-quote" id="learn-transcript-quote"></blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lecture Mastered Completion Screen (Hidden by default) -->
+        <div class="completion-card" id="learn-completion-card" style="display: none;">
+          <div class="completion-eyebrow">LECTURE MILESTONE COMPLETED</div>
+          <h2 class="completion-title" id="learn-complete-title">Lecture Mastered</h2>
+          <p class="completion-summary" id="learn-complete-summary">You answered all questions for this lecture.</p>
+          <div class="completion-actions">
+            <button class="btn btn-primary" id="learn-complete-next-btn" type="button">Proceed to Next Lecture</button>
+            <button class="btn btn-outline" id="learn-complete-restart-btn" type="button">Review Again</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- VIEW 2: OFFICIAL QUIZ SPEEDRUN (30% POOL)                             -->
+    <!-- ===================================================================== -->
+    <section class="view-panel" id="view-speedrun" aria-label="Official Quiz Drill">
+      <div class="driller-layout">
+        <div class="driller-subbar">
+          <div class="subbar-selectors">
+            <div class="select-group">
+              <label for="speedrun-week-select">FILTER BY WEEK</label>
+              <select id="speedrun-week-select" class="select-input">
+                <option value="all">All 12 Weeks (120 Questions Pool)</option>
+              </select>
+            </div>
+            <button class="btn btn-outline btn-sm" id="speedrun-shuffle-btn" type="button">Shuffle Pool</button>
+          </div>
+
+          <div class="subbar-metrics">
+            <span class="metric-pill amber tabular-nums" id="speedrun-progress-counter">Q 001 / 120</span>
+            <span class="metric-pill tabular-nums" id="speedrun-accuracy-counter">Acc: 100%</span>
+          </div>
+        </div>
+
+        <div class="mcq-card" id="speedrun-mcq-card">
+          <div class="mcq-meta-row">
+            <div class="meta-badges">
+              <span class="badge badge-amber">[OFFICIAL 30% REPEAT POOL]</span>
+              <span class="badge badge-mono" id="speedrun-meta-lec">WEEK 01</span>
+              <span class="badge badge-id" id="speedrun-meta-id">W01_OFF_01</span>
+            </div>
+            <button class="flag-action-btn" id="speedrun-flag-btn" type="button" title="Flag for Review [M]">
+              <svg class="icon flag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path>
+                <line x1="4" y1="22" x2="4" y2="15"></line>
+              </svg>
+              <span>Flag</span>
+              <kbd class="keycap-sub">M</kbd>
+            </button>
+          </div>
+
+          <div class="mcq-stem" id="speedrun-question-stem"></div>
+          <div class="options-stack" id="speedrun-options-stack"></div>
+
+          <div class="diagnostic-drawer" id="speedrun-diagnostic-drawer" style="display: none;">
+            <div class="diagnostic-status-bar" id="speedrun-diag-status-bar">
+              <div class="status-indicator" id="speedrun-diag-indicator">
+                <span class="status-code" id="speedrun-diag-code">[CORRECT]</span>
+                <span class="status-message" id="speedrun-diag-msg">Correct. Official Pool Verified.</span>
+              </div>
+              <button class="btn btn-primary btn-advance" id="speedrun-next-q-btn" type="button">
+                <span>Next Question</span>
+                <kbd class="keycap-btn">Space</kbd>
+              </button>
+            </div>
+
+            <div class="diagnostic-body">
+              <div class="mini-lesson-panel">
+                <div class="panel-eyebrow">OFFICIAL EXAM LOGIC & MINI-LESSON</div>
+                <div class="panel-content" id="speedrun-mini-lesson-text"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="completion-card" id="speedrun-completion-card" style="display: none;">
+          <div class="completion-eyebrow">OFFICIAL RUN COMPLETED</div>
+          <h2 class="completion-title">Official Drill Complete</h2>
+          <p class="completion-summary" id="speedrun-complete-summary"></p>
+          <div class="completion-actions">
+            <button class="btn btn-primary" id="speedrun-restart-btn" type="button">Run Again</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- VIEW 3: 50-MCQ FINAL EXAM SIMULATOR                                   -->
+    <!-- ===================================================================== -->
+    <section class="view-panel" id="view-exam" aria-label="Final Exam Simulator">
+      <div class="exam-workspace" id="exam-workspace">
+        <!-- Main Exam Center Column -->
+        <div class="exam-center-stage">
+          <!-- Exam Header Control Bar -->
+          <div class="driller-subbar">
+            <div class="exam-config-status">
+              <span class="exam-blueprint-badge">NPTEL FINAL BLUEPRINT: 50 MCQs (13 Official + 37 Unseen)</span>
+            </div>
+
+            <div class="exam-controls-right">
+              <div class="feedback-toggle-group">
+                <label class="switch-label" for="exam-instant-toggle">
+                  <input type="checkbox" id="exam-instant-toggle">
+                  <span class="switch-text">Instant Diagnostic</span>
+                </label>
+              </div>
+
+              <div class="exam-timer-box" id="exam-timer-box">
+                <svg class="icon clock-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <span class="timer-digits tabular-nums" id="exam-timer-display">90:00</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Active Question Card -->
+          <div class="mcq-card" id="exam-mcq-card">
+            <div class="mcq-meta-row">
+              <div class="meta-badges">
+                <span class="badge badge-mono tabular-nums" id="exam-q-number-badge">QUESTION 01 / 50</span>
+                <span class="badge badge-source" id="exam-q-source-badge">UNSEEN (70%)</span>
+                <span class="badge badge-mono" id="exam-q-lec-badge">W01 · LEC 02</span>
+              </div>
+              <button class="flag-action-btn" id="exam-flag-btn" type="button" title="Flag Question [M]">
+                <svg class="icon flag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path>
+                  <line x1="4" y1="22" x2="4" y2="15"></line>
+                </svg>
+                <span>Flag</span>
+                <kbd class="keycap-sub">M</kbd>
+              </button>
+            </div>
+
+            <div class="mcq-stem" id="exam-question-stem"></div>
+            <div class="options-stack" id="exam-options-stack"></div>
+
+            <!-- Instant Feedback Panel (When Instant Feedback is toggled ON) -->
+            <div class="diagnostic-drawer" id="exam-diagnostic-drawer" style="display: none;">
+              <div class="diagnostic-status-bar" id="exam-diag-status-bar">
+                <div class="status-indicator" id="exam-diag-indicator">
+                  <span class="status-code" id="exam-diag-code">[CORRECT]</span>
+                  <span class="status-message" id="exam-diag-msg">Correct.</span>
+                </div>
+              </div>
+              <div class="diagnostic-body">
+                <div class="mini-lesson-panel">
+                  <div class="panel-eyebrow">DIAGNOSTIC EXPLANATION</div>
+                  <div class="panel-content" id="exam-mini-lesson-text"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bottom Navigation Bar -->
+            <div class="exam-nav-bar">
+              <button class="btn btn-outline" id="exam-prev-btn" type="button">
+                <kbd class="keycap-btn">&larr;</kbd>
+                <span>Previous</span>
+              </button>
+
+              <div class="exam-status-counter tabular-nums" id="exam-status-summary">
+                Answered: 0 / 50 · Flagged: 0
+              </div>
+
+              <button class="btn btn-primary" id="exam-next-btn" type="button">
+                <span>Next</span>
+                <kbd class="keycap-btn">&rarr;</kbd>
+              </button>
+
+              <button class="btn btn-danger" id="exam-submit-btn" type="button">
+                Submit Exam
+              </button>
+            </div>
+          </div>
+
+          <!-- Post-Exam Analytics Breakdown (Hidden until submission) -->
+          <div class="exam-analytics-card" id="exam-analytics-card" style="display: none;">
+            <div class="analytics-header">
+              <div class="analytics-headline">FINAL EXAM PERFORMANCE ANALYTICS</div>
+              <div class="score-display">
+                <div class="score-big tabular-nums" id="exam-final-score">0 / 50</div>
+                <div class="score-pct tabular-nums" id="exam-final-percentage">0.0%</div>
+              </div>
+            </div>
+
+            <div class="analytics-grid">
+              <div class="analytics-tile">
+                <div class="tile-label">OFFICIAL REPEAT POOL (13 MCQs)</div>
+                <div class="tile-val tabular-nums" id="exam-official-score">0 / 13 (0%)</div>
+              </div>
+              <div class="analytics-tile">
+                <div class="tile-label">UNSEEN HIGH-YIELD POOL (37 MCQs)</div>
+                <div class="tile-val tabular-nums" id="exam-mock-score">0 / 37 (0%)</div>
+              </div>
+              <div class="analytics-tile">
+                <div class="tile-label">FLAGGED FOR REVIEW</div>
+                <div class="tile-val tabular-nums" id="exam-flagged-count">0</div>
+              </div>
+            </div>
+
+            <div class="analytics-section">
+              <div class="section-title">WEEK-BY-WEEK ACCURACY BREAKDOWN</div>
+              <div class="week-accuracy-table" id="exam-week-breakdown"></div>
+            </div>
+
+            <div class="analytics-actions">
+              <button class="btn btn-primary" id="exam-restart-btn" type="button">New 50-MCQ Simulator</button>
+              <button class="btn btn-outline" id="exam-review-btn" type="button">Review Answers</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Rail: 5x10 Question Matrix Grid -->
+        <aside class="exam-matrix-rail" aria-label="Exam Question Matrix">
+          <div class="matrix-card">
+            <div class="matrix-header">
+              <span class="matrix-title">QUESTION MATRIX</span>
+              <span class="matrix-stats tabular-nums" id="matrix-progress-text">0 / 50</span>
+            </div>
+
+            <div class="matrix-legend">
+              <span class="legend-item"><span class="legend-swatch current"></span> Current</span>
+              <span class="legend-item"><span class="legend-swatch answered"></span> Done</span>
+              <span class="legend-item"><span class="legend-swatch flagged"></span> Flagged</span>
+            </div>
+
+            <div class="matrix-grid-50" id="matrix-grid-50">
+              <!-- 50 buttons (01-50) injected via JS -->
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- VIEW 4: MISTAKES QUEUE (SPACED REPETITION)                            -->
+    <!-- ===================================================================== -->
+    <section class="view-panel" id="view-mistakes" aria-label="Mistakes Bank">
+      <div class="driller-layout">
+        <div class="driller-subbar">
+          <div class="subbar-selectors">
+            <div class="mistakes-meta">
+              <span class="panel-eyebrow">ACTIVE MISTAKES QUEUE</span>
+              <span class="mistakes-counter-pill tabular-nums" id="mistakes-count-pill">0 ACTIVE TO RETIRE</span>
+            </div>
+          </div>
+
+          <div class="subbar-metrics">
+            <button class="btn btn-outline btn-sm" id="mistakes-export-btn" type="button">Export Progress JSON</button>
+            <button class="btn btn-outline btn-sm" id="mistakes-import-btn" type="button">Import Progress JSON</button>
+            <input type="file" id="mistakes-import-file" style="display: none;" accept=".json">
+          </div>
+        </div>
+
+        <!-- Active Mistakes Drill Sub-Card -->
+        <div class="mcq-card" id="mistakes-mcq-card">
+          <div class="mcq-meta-row">
+            <div class="meta-badges">
+              <span class="badge badge-crimson">MISTAKE DRILL</span>
+              <span class="badge badge-mono tabular-nums" id="mistakes-q-streak">CONSECUTIVE CORRECT: 0 / 2</span>
+              <span class="badge badge-mono tabular-nums" id="mistakes-q-total-missed">MISSED: 1 TIME</span>
+            </div>
+          </div>
+
+          <div class="mcq-stem" id="mistakes-question-stem"></div>
+          <div class="options-stack" id="mistakes-options-stack"></div>
+
+          <div class="diagnostic-drawer" id="mistakes-diagnostic-drawer" style="display: none;">
+            <div class="diagnostic-status-bar" id="mistakes-diag-status-bar">
+              <div class="status-indicator" id="mistakes-diag-indicator">
+                <span class="status-code" id="mistakes-diag-code">[CORRECT]</span>
+                <span class="status-message" id="mistakes-diag-msg">Correct.</span>
+              </div>
+              <button class="btn btn-primary btn-advance" id="mistakes-next-q-btn" type="button">
+                <span>Next Mistake</span>
+                <kbd class="keycap-btn">Space</kbd>
+              </button>
+            </div>
+
+            <div class="diagnostic-body">
+              <div class="mini-lesson-panel">
+                <div class="panel-eyebrow">TARGETED DISTRACTOR DIAGNOSIS</div>
+                <div class="panel-content" id="mistakes-mini-lesson-text"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Empty State When Zero Mistakes Active -->
+        <div class="completion-card" id="mistakes-empty-card" style="display: none;">
+          <div class="completion-eyebrow">ZERO PENDING MISTAKES</div>
+          <h2 class="completion-title">Queue Clear</h2>
+          <p class="completion-summary">You have mastered all recorded mistakes. Any missed questions in Learn, Speedrun, or Exam modes will automatically appear here until answered correctly twice in a row.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- VIEW 5: TEXTBOOK & CHEATSHEET REVISER (FULL VIEW)                     -->
+    <!-- ===================================================================== -->
+    <section class="view-panel" id="view-reviser" aria-label="Textbook and Cheatsheet Reviser">
+      <div class="reviser-workspace">
+        <aside class="reviser-sidebar">
+          <div class="sidebar-section-title">EXAM BLUEPRINT</div>
+          <div class="sidebar-nav-item active" data-reviser-type="blueprint">
+            <span class="sidebar-label">Exam Blueprint</span>
+            <span class="sidebar-sub">Pattern & Strategy</span>
+          </div>
+
+          <div class="sidebar-section-title">TEXTBOOK (PARTS 1 - 4)</div>
+          <div class="sidebar-nav-item" data-reviser-type="textbook" data-part="1">
+            <span class="sidebar-label">Part 1 (Weeks 01-03)</span>
+            <span class="sidebar-sub">Biodiversity Basics & Levels</span>
+          </div>
+          <div class="sidebar-nav-item" data-reviser-type="textbook" data-part="2">
+            <span class="sidebar-label">Part 2 (Weeks 04-06)</span>
+            <span class="sidebar-sub">Extinction, Valuation & Threats</span>
+          </div>
+          <div class="sidebar-nav-item" data-reviser-type="textbook" data-part="3">
+            <span class="sidebar-label">Part 3 (Weeks 07-09)</span>
+            <span class="sidebar-sub">Monitoring, Sampling & Remote Sensing</span>
+          </div>
+          <div class="sidebar-nav-item" data-reviser-type="textbook" data-part="4">
+            <span class="sidebar-label">Part 4 (Weeks 10-12)</span>
+            <span class="sidebar-sub">In-Situ/Ex-Situ & Policy Laws</span>
+          </div>
+
+          <div class="sidebar-section-title">WEEKLY CHEATSHEETS</div>
+          <div class="cheatsheet-pills-grid" id="reviser-weeks-grid">
+            <!-- Weeks 1-12 Pills injected via JS -->
+          </div>
+
+          <div class="sidebar-section-title">ORIGINAL DOCUMENT</div>
+          <div class="sidebar-nav-item" data-reviser-type="pdf">
+            <span class="sidebar-label">Master PDF Viewer</span>
+            <span class="sidebar-sub">Full Study Guide</span>
+          </div>
+        </aside>
+
+        <!-- Reviser Main Reading Stage -->
+        <div class="reviser-stage">
+          <div class="reviser-stage-header">
+            <div class="reviser-stage-meta">
+              <h1 class="reviser-doc-title" id="reviser-doc-title">Exam Blueprint</h1>
+              <span class="reviser-doc-stats tabular-nums" id="reviser-doc-stats"></span>
+            </div>
+            <div class="reviser-stage-filter">
+              <input type="text" id="reviser-table-filter" class="search-filter-input" placeholder="Filter terms or concepts in view..." autocomplete="off">
+            </div>
+          </div>
+
+          <div class="reviser-stage-scroll" id="reviser-content-body">
+            <!-- Rendered Markdown goes here -->
+          </div>
+
+          <!-- Embedded PDF Viewer Pane (Hidden unless PDF selected) -->
+          <div class="reviser-pdf-container" id="reviser-pdf-container" style="display: none;">
+            <iframe id="reviser-pdf-frame" src="/Biodiversity_Master_Study_Guide.pdf" title="Master Study Guide PDF"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================================================================= -->
+  <!-- SPLIT-SCREEN REVISER SLIDE-OVER DRAWER (ACCESSIBLE IN ANY MODE VIA 'R') -->
+  <!-- ======================================================================= -->
+  <aside class="slideover-drawer" id="slideover-reviser-drawer" aria-label="Reviser Drawer" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="drawer-title-group">
+        <span class="drawer-eyebrow">SPLIT-SCREEN REFERENCE</span>
+        <h3 class="drawer-heading" id="drawer-heading-text">Week 01 Cheatsheet</h3>
+      </div>
+      <div class="drawer-actions">
+        <select id="drawer-context-select" class="select-input select-sm"></select>
+        <button class="drawer-close-btn" id="drawer-close-btn" type="button" title="Close Drawer [Esc or R]">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="drawer-search-bar">
+      <input type="text" id="drawer-table-filter" class="search-filter-input" placeholder="Filter reference concepts..." autocomplete="off">
+    </div>
+    <div class="drawer-scroll-body" id="drawer-markdown-body">
+      Loading reference content...
+    </div>
+  </aside>
+
+  <!-- ======================================================================= -->
+  <!-- COMMAND PALETTE / INSTANT SEARCH MODAL (CMD+K / CTRL+K)                -->
+  <!-- ======================================================================= -->
+  <div class="modal-backdrop" id="search-modal-backdrop" aria-hidden="true" style="display: none;">
+    <div class="palette-container" id="palette-container" role="dialog" aria-modal="true" aria-label="Command Palette">
+      <div class="palette-input-row">
+        <svg class="icon palette-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" class="palette-input" id="palette-search-input" placeholder="Search concepts, treaties, species, parameters, questions..." autocomplete="off" spellcheck="false">
+        <kbd class="keycap">Esc</kbd>
+      </div>
+
+      <div class="palette-results-list" id="palette-results-list">
+        <!-- Results injected dynamically -->
+      </div>
+
+      <div class="palette-footer">
+        <div class="palette-hint"><kbd class="keycap-sub">&uarr;</kbd> <kbd class="keycap-sub">&darr;</kbd> Navigate</div>
+        <div class="palette-hint"><kbd class="keycap-sub">Enter</kbd> Jump to Reference</div>
+        <div class="palette-hint"><kbd class="keycap-sub">Esc</kbd> Close</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

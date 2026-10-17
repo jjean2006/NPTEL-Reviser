@@ -1,0 +1,172 @@
+{
+  "week": 6,
+  "lecture_briefings": {
+    "Lec 26": "Because nature is an evolving continuum rather than a set of static boxes, biologists treat 'species' as a flexible scientific tool comprising multiple complementary frameworks: the Biological Species Concept (interbreeding and gene flow), Morphological (anatomical traits, though vulnerable to cryptic species and shark/dolphin/ichthyosaur convergent evolution), Phylogenetic (smallest diagnosable branch, though prone to oversplitting), Ecological (niche and resource use), and Evolutionary (independent lineage fate). Speciation occurs when gene flow between populations is interrupted—either geographically via allopatric speciation or within the same area via sympatric host shifts and plant polyploidy—allowing independent mutations, natural selection, and drift to accumulate. Once diverging, lineages are kept separate by pre-zygotic barriers acting before fertilization (habitat, temporal, behavioural, mechanical, and gametic isolation) and post-zygotic barriers acting after fertilization (embryo inviability, hybrid sterility like the 63-chromosome mule, and F2 hybrid breakdown), while ring species and subspecies (like Sundarbans vs. Central Indian tigers, unlike artificial dog breeds) reveal speciation in action. Watch out for these 3 key terms: Species Concepts Toolkit (Biological, Morphological, Phylogenetic, Ecological, and Evolutionary concepts and their specific trade-offs), Allopatric vs. Sympatric Speciation (divergence across a physical geographic barrier vs. divergence within the same geographic area via niche/host shifts or polyploidy), and Pre-zygotic vs. Post-zygotic Barriers (checkpoints preventing fertilization like temporal/behavioural isolation vs. post-fertilization failures like hybrid sterility in mules).",
+    "Lec 27": "Built on Herbert Simon's 1962 parable of the two watchmakers (Hora's resilient modular subassemblies vs. Tempus's fragile continuous assembly), living nature is organized as a nested hierarchy—from subcellular organelles, cells, tissues, organs, and organisms up to populations, communities, ecosystems, biomes, and the biosphere—where higher levels display 'emergent properties' (like a termite mound's self-regulating ventilation or the langur-chital alarm-and-foraging partnership) that no single part possesses alone. Within this hierarchy, biodiversity spans three core dimensions: genetic diversity (measured via polymorphism—where the most common allele is <95%—and heterozygosity), species diversity (measured via species richness, species evenness, species accumulation curves, and the Shannon vs. Simpson indices), and ecosystem diversity. Across spatial scales, ecologists partition richness into Alpha diversity (within one local site), Beta diversity (species turnover between sites), and Gamma diversity (total regional diversity)—a distinction proven critical by the island lizard thought experiment (where draining a swamp raises local site richness from 1 to 2 woodland lizards but permanently drops island-wide Gamma diversity from 3 to 2) and by Norman Myers's Biodiversity Hotspots ($\\ge 1,500$ endemic vascular plants and $\\ge 70\\%$ primary vegetation loss). Watch out for these 3 key terms: Modularity & Emergence (Hora's stable nested subunits vs. higher-level properties like termite mound climate control that arise from component interactions), Polymorphism & Heterozygosity (genetic variation metrics tracking whether multiple alleles exist below the 95% threshold and the fraction of individuals carrying two different alleles), and Alpha, Beta, and Gamma Diversity (within-site local diversity, between-site compositional turnover, and total regional landscape diversity).",
+    "Lec 28": "Biogeography investigates 'which place has what and how many' by distinguishing distribution (the geographic range where a species occurs) from abundance (how many individuals occupy that range across four risk combinations: widespread/abundant, widespread/sparse, restricted/dense, and restricted/rare). Ranges are bounded first by abiotic factors—such as mountain altitudinal zonation, alpine treeline limits, Liebig's Law of the Minimum (the shortest barrel stave governing growth), Shelford's Law of Tolerance, and warming-driven upslope shifts of *Anopheles* mosquitoes and *Plasmodium* malaria into highlands—and second by biotic interactions including allelopathy (chemical inhibition under teak trees or fungal antibiosis tested via leaf-extract controls), sea urchin (*Paracentrotus*) grazing on rocky-shore algae, specialist food dependence (*Drosophila pachea* needing senita cactus sterols), and interspecific competition. Because active habitat selection (which can create deadly 'ecological traps'), seasonal migration (like Demoiselle cranes flying from Central Asia to Rajasthan), and three modes of one-way dispersal (diffusion by Gir lions, jump dispersal by zebra mussels in ship ballast, and evolutionary secular dispersal) also shape occupancy, ecologists use transplant experiments and a dichotomous decision key to diagnose why a species is absent from a site. Watch out for these 3 key terms: Distribution vs. Abundance & Liebig's Law of the Minimum (spatial range extent vs. local population size, constrained by whichever essential resource is scarcest), Biotic Range Controls: Allelopathy & Specialist Dependence (chemical suppression verified by controlled extract assays vs. consumer range locked to a host like *Drosophila pachea* on senita cactus), and Dispersal Modes & Transplant Experiments (diffusion, jump, and secular dispersal, and moving organisms beyond their range to test dispersal limitation vs. abiotic/biotic lethality).",
+    "Lec 29": "India's extraordinary biogeography spans alpine meadows (Dachigam NP and pilgrimage-pressured Kedarnath WLS), moist deciduous forests requiring elephant corridors (Mudumalai), dry deciduous water-limited forests (Harda and the Ken River mosaic in Panna Tiger Reserve), natural vs. degraded scrub (Ranthambore), Thar sand dunes where spiny-tailed lizards rely on undisturbed burrows, Jamnagar estuaries, the seasonal salt flats of the Rann and Little Rann of Kutch (supporting the Indian wild ass and salinity-sensitive flamingos), Chilika brackish lagoon (home to the Irrawaddy dolphin), Western Ghats Shola-grassland water sponges, Andaman evergreen island forests, intertidal mangroves with prop roots and pneumatophores, and marine coral reefs. Across all these biomes, a crucial conservation gulf separates *de jure* protection (legal status on paper and maps) from *de facto* habitat quality on the ground (actual availability of food, water, shelter, breeding sites, and low disturbance). The National Chambal Gharial Sanctuary demonstrates this vividly: despite legal sanctuary status, rampant sand mining in Morena (documented by field photos and satellite imagery), riverside agriculture, noisy water pumps, chemical runoff, cattle trampling, and barrages have destroyed gharial and turtle nesting sandbars, forcing managers to rely on *ex-situ* egg collection and hatchery head-starting just to prevent local extinction. Watch out for these 3 key terms: De Jure Protection vs. De Facto Habitat Quality (legal designation on a map vs. real on-the-ground food, water, shelter, breeding substrate, and low disturbance), Indian Habitat Archetypes (Shola-grassland montane water mosaics, mangroves with pneumatophores, Chilika lagoon Irrawaddy dolphins, and Rann of Kutch wild ass/flamingos), and Chambal Gharial Head-Starting (collecting wild gharial eggs for captive hatching and rearing because cumulative sand mining and disturbance have broken natural *in-situ* recruitment).",
+    "Lec 30": "Animal behaviour is any observable response to internal or external cues—studied descriptively in natural settings by ethology and evolutionarily through cost-benefit trade-offs by behavioural ecology, where natural selection favours behaviours whose fitness benefits exceed their costs. Group living (such as male lion coalitions sharing paternity to defend prides and cubs, vs. female lions sharing territory defense against within-group food competition), interspecies alarm signaling (langurs warning chital deer), and self-sacrificing help are explained by W. D. Hamilton's rule of kin selection ($r \\cdot b > c$, famously illustrated by J. B. S. Haldane's quip about saving 2 siblings at $r = 0.5$, 4 nephews at $r = 0.25$, or 8 cousins at $r = 0.125$), while territorial defence (auditory, visual, olfactory, and physical contests in chital, blackbuck, rhinos, and penguins) obeys an inverse resource-density law where richer food patches (like dense flowers for hummingbirds) shrink territory size. To turn behaviour into rigorous conservation data, field biologists use camera-trap 24-hour activity curves (revealing low temporal overlap of 0.24 between tigers and chital vs. 0.67 between tigers and scavenging jackals in Sariska), standardized ethograms (precisely defining sitting, standing, walking, vigilance, feeding, running, auto-grooming, and allo-grooming), and scan vs. focal animal sampling to build time budgets that detect environmental stress or predator pressure before populations crash. Watch out for these 3 key terms: Ethology vs. Behavioural Ecology (systematic natural observation and cataloging of behaviour vs. evolutionary cost-benefit analysis of how behaviour maximizes fitness), Hamilton's Rule & Inclusive Fitness ($r \\cdot b > c$, where genetic relatedness times recipient benefit outweighs actor cost), and Ethograms, Scan/Focal Sampling & Time Budgets (standardized behaviour catalogs and sampling protocols used to quantify how animals allocate time across feeding, vigilance, and movement)."
+  },
+  "questions": [
+    {
+      "id": "W06_Q01",
+      "week": 6,
+      "lecture": "Lec 26",
+      "source": "official_quiz",
+      "question": "Which species concept defines species mainly by niche, resources, and environmental conditions used?",
+      "options": [
+        "Evolutionary species concept",
+        "Ecological species concept",
+        "Biological species concept",
+        "Morphological species concept"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The ecological species concept defines species by niche, the resources and conditions that the species use.",
+      "mini_lesson": "The Ecological Species Concept defines a species by its functional role (ecological niche) in the environment—the specific food resources, microhabitat, and environmental conditions it exploits (such as canopy feeder vs. ground detritivore). Option (A) focuses on independent ancestor-descendant lineage fate, Option (C) focuses on interbreeding and reproductive isolation, and Option (D) focuses on visible anatomical traits."
+    },
+    {
+      "id": "W06_Q02",
+      "week": 6,
+      "lecture": "Lec 29",
+      "source": "official_quiz",
+      "question": "Habitat quality depends mainly on:",
+      "options": [
+        "Legal status alone",
+        "Whether the habitat appears on a map",
+        "Food, water, shelter, breeding sites, and low disturbance",
+        "Whether only one species is present"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Habitat quality depends on the real on the ground availability of food, water, shelter, breeding sites and freedom from disturbance. These are what we call de facto conditions.",
+      "mini_lesson": "Wild animals respond to *de facto* (on-the-ground) ecological conditions—whether they can find sufficient food, clean water, protective cover, intact breeding/nesting substrates, and low human disturbance—rather than *de jure* legal notifications on paper. Options (A) and (B) represent the 'paper park' fallacy exposed by the National Chambal Sanctuary gharial case study."
+    },
+    {
+      "id": "W06_Q03",
+      "week": 6,
+      "lecture": "Lec 27",
+      "source": "official_quiz",
+      "question": "Genetic diversity refers to:",
+      "options": [
+        "Variation in hereditary information among individuals and populations",
+        "Difference in species composition between two ecosystems",
+        "Number of habitats across a landscape",
+        "Number of visible traits in a field guide"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Genetic diversity is the variation in the hereditary information carried by individuals within a species. It occurs at the level of genes, alleles, and chromosomes. And it varies both among individuals within a population and between populations of the same species.",
+      "mini_lesson": "Genetic diversity is the foundational level of the biodiversity pyramid, measuring heritable variation in DNA sequences, alleles, and chromosomes both among individuals within a population and between different populations of the same species. Option (B) defines beta diversity (species turnover), and Option (C) defines ecosystem diversity."
+    },
+    {
+      "id": "W06_Q04",
+      "week": 6,
+      "lecture": "Lec 27",
+      "source": "official_quiz",
+      "question": "A biodiversity hotspot combines which three features?",
+      "options": [
+        "High rainfall, high elevation, and high productivity",
+        "High abundance, low disturbance, and uniform habitat",
+        "High genetic similarity, low endemism, and low threat",
+        "High species richness, high endemism, and significant threat"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "A biodiversity hotspot is a region that combines three criteria: exceptionally high species richness, high levels of endemism, meaning many different species that are found nowhere else, and significant threat from human activity.",
+      "mini_lesson": "To qualify as a biodiversity hotspot (such as the Western Ghats or Eastern Himalayas), a region must combine high overall species richness with high endemism ($\\ge 1,500$ endemic vascular plant species found nowhere else) and severe habitat threat ($\\ge 70\\%$ loss of original primary vegetation). Option (A) lists physical geographic features, while Options (B) and (C) invert threat and endemism into 'low disturbance' and 'low endemism'."
+    },
+    {
+      "id": "W06_Q05",
+      "week": 6,
+      "lecture": "Lec 26",
+      "source": "official_quiz",
+      "question": "Which barrier acts before fertilization?",
+      "options": [
+        "Hybrid sterility",
+        "Hybrid breakdown",
+        "Embryo inviability",
+        "Temporal isolation"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Prezygotic barriers act before fertilization preventing mating or preventing gametes from joining... Temporal isolation means breeding seasons do not overlap.",
+      "mini_lesson": "Reproductive isolating barriers are split at the moment of fertilization (zygote formation): pre-zygotic barriers—habitat, temporal, behavioural, mechanical, and gametic isolation—act *before* fertilization to prevent mating or gamete fusion, whereas Options (A), (B), and (C) are all post-zygotic barriers that act *after* a hybrid zygote has already formed."
+    },
+    {
+      "id": "W06_Q06",
+      "week": 6,
+      "lecture": "Lec 28",
+      "source": "official_quiz",
+      "question": "Allelopathy occurs when:",
+      "options": [
+        "Animals form groups to avoid predators",
+        "One organism releases chemicals that inhibit another",
+        "Species shift upward in altitude because of warming",
+        "Adjacent populations interbreed around a barrier"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Allelopathy is the suppression of one organism by chemicals released by another.",
+      "mini_lesson": "Allelopathy is a biotic interaction where a plant, fungus, or microbe releases biochemical compounds (through leaves, roots, or decaying litter, as seen in sparse undergrowth beneath teak trees or fungal antibiosis in petri dishes) that suppress the germination or root growth of competing species. Option (A) describes anti-predator social grouping, Option (C) describes altitudinal range shift, and Option (D) describes a ring species."
+    },
+    {
+      "id": "W06_Q07",
+      "week": 6,
+      "lecture": "Lec 27",
+      "source": "official_quiz",
+      "question": "Gamma diversity refers to:",
+      "options": [
+        "Diversity within one wetland",
+        "Total diversity across a larger region",
+        "Evenness of individuals among species",
+        "Fitness differences between populations"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Gamma diversity is the total biodiversity across an entire region, encompassing all the sites within it.",
+      "mini_lesson": "In Whittaker's spatial scale framework, Alpha ($\\alpha$) diversity is local diversity within a single site (like one wetland in Option A), Beta ($\\beta$) diversity is compositional difference between sites, and Gamma ($\\gamma$) diversity is the total combined species diversity across an entire region or landscape. Option (C) defines species evenness."
+    },
+    {
+      "id": "W06_Q08",
+      "week": 6,
+      "lecture": "Lec 27",
+      "source": "official_quiz",
+      "question": "What does biodiversity mean?",
+      "options": [
+        "Only the number of large animals in a forest",
+        "Only the number of protected areas in a landscape",
+        "Only variation in climate and soil",
+        "The variety of life within species, among species, and among ecosystems"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Biodiversity means the variety of life... It includes diversity within species, meaning genetic variation among individuals. It includes diversity among species, meaning the range of distinct species in an area. And it includes diversity among ecosystems, meaning the variety of habitat types and the ecological processes that they support.",
+      "mini_lesson": "Biological diversity encompasses the full three-tiered hierarchy of living variation: genetic diversity (within species), species diversity (among all species including plants, fungi, and microbes, not just charismatic megafauna), and ecosystem diversity (among habitats and ecological processes). Options (A), (B), and (C) use restrictive 'Only' traps that reduce biodiversity to megafauna, administrative parks, or abiotic factors."
+    },
+    {
+      "id": "W06_Q09",
+      "week": 6,
+      "lecture": "Lec 26",
+      "source": "official_quiz",
+      "question": "What is speciation?",
+      "options": [
+        "The seasonal movement of individuals between habitats",
+        "The increase in population size within one area",
+        "The grouping of organisms according to body colour",
+        "The splitting of one lineage into two or more independently evolving species"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Speciation is the term used for the process by which one ancestral lineage splits into two or more independently evolving species.",
+      "mini_lesson": "Speciation is the evolutionary branching process where reduced gene flow between subpopulations allows independent genetic divergence (via mutation, natural selection, and drift) to build reproductive barriers, splitting one ancestral lineage into two or more distinct species. Option (A) defines seasonal migration, Option (B) defines population growth, and Option (C) describes superficial sorting."
+    },
+    {
+      "id": "W06_Q10",
+      "week": 6,
+      "lecture": "Lec 26",
+      "source": "official_quiz",
+      "question": "Which idea best describes a species as a scientific concept?",
+      "options": [
+        "A fixed sentence that applies equally to every organism",
+        "A category based only on visible form",
+        "A flexible tool that may emphasize interbreeding, form, ancestry, or niche",
+        "A group that must always be geographically isolated"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Because different frameworks emphasize different aspects—interbreeding, form, ancestry or niche—species is best understood as a flexible scientific tool rather than one fixed definition.",
+      "mini_lesson": "Because no single species definition works flawlessly across sexual animals, asexual bacteria, ancient fossils, cryptic lineages, and hybrid zones, scientists use 'species' as an integrative, flexible conceptual toolkit that draws on reproductive gene flow, morphology, phylogenetic ancestry, and ecological niche depending on the organism and conservation question. Options (A), (B), and (D) rely on rigid absolutes ('fixed', 'only', 'always')."
+    }
+  ]
+}

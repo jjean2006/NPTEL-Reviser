@@ -1,0 +1,172 @@
+{
+  "week": 12,
+  "lecture_briefings": {
+    "Lec 56": "Lecture 56 examines Oil Spills—the release of liquid petroleum hydrocarbons into marine, coastal, or terrestrial environments—and their devastating physical and chemical impacts on biodiversity. Physically, crude oil coats the feathers of seabirds and the fur of marine mammals like sea otters, destroying the microscopic trapped-air layer that provides waterproofing and thermal insulation and leading to rapid death from hypothermia. Chemically, the most dangerous components of petroleum are aromatic hydrocarbons—especially Polycyclic Aromatic Hydrocarbons (PAHs)—which persist in sediments, damage cell membranes, and cause cancer, mutations, and embryonic failure. Spill response teams deploy floating containment booms (to corral surface slicks), mechanical skimmers (to lift oil off calm water), in-situ burning, or chemical dispersants (surfactants that break slicks into tiny subsurface droplets, trading off reduced surface hazard to seabirds against heightened toxicity for water-column fish and coral larvae). Watch out for the 3 most important terms: Oil Spill & PAHs (release of liquid petroleum hydrocarbons whose toxicity is driven by Polycyclic Aromatic Hydrocarbons), Feather/Fur Maceration & Hypothermia (loss of insulating air layers causing fatal chilling), and Booms, Skimmers & Dispersants (mechanical containment/recovery vs. chemical droplet dispersion trade-offs).",
+    "Lec 57": "Lecture 57 explores the ecological impacts and engineering solutions for Linear Infrastructure—facilities that extend as long lines across landscapes, such as roads, railways, power transmission lines, pipelines, and canals. Beyond killing animals directly via vehicle collisions (often clustered at spatial 'roadkill hotspots') and opening forest edges to weeds and poachers, roads create a powerful 'barrier effect' where animals avoid crossing due to traffic noise, lights, and open pavement, slicing once-continuous populations into isolated fragments. Planning for linear infrastructure must follow the four-step Mitigation Hierarchy in strict sequence: Avoid (keeping routes away from critical habitats altogether—the most effective step), Minimise (reducing impacts via speed limits, noise barriers, and crossing structures), Restore (rehabilitating construction verges), and Offset (compensating for residual damage as a last resort). Engineering structures under the 'Minimise' step include vegetated wildlife overpasses (ecoducts), high-openness underpasses, suspended canopy bridges for arboreal mammals and reptiles, and guide fences (whose ends must flare away from the road) that funnel wildlife safely toward crossings. Watch out for the 3 most important terms: Linear Infrastructure & Barrier Effect (line-like facilities such as railways/roads that cause animals to avoid crossing and isolate populations), The Mitigation Hierarchy (Avoid $\\rightarrow$ Minimise $\\rightarrow$ Restore $\\rightarrow$ Offset), and Canopy Bridges & Guide Fences (aerial crossings for arboreal species and fencing that guides animals toward safe crossing structures).",
+    "Lec 58": "Lecture 58 introduces the Economic Valuation of Biodiversity and Ecosystem Services, explaining why invisible ecological benefits are routinely destroyed when decision-makers count only direct market prices. To prevent this blind spot, economists use the Total Economic Value (TEV) framework, which captures both Use Values—Direct Use (consumptive timber/fish and non-consumptive safari tourism), Indirect Use (regulating services like pollination, carbon storage, and flood buffering), and Option Value (preserving species for potential future discoveries like new medicines)—and Non-Use Values, including Existence Value (satisfaction from simply knowing wild species exist) and Bequest Value (preserving nature for future generations). To measure these values in monetary terms, economists apply specific tools: the Market Price Method (traded goods), Replacement Cost / Damage Cost Avoided (engineering substitutes for regulating services), Travel Cost Method (visitor trip expenses for recreational parks), Hedonic Pricing Method (property value premiums near green spaces), Contingent Valuation Method (survey questionnaires asking people's Willingness to Pay for non-use conservation), and Benefits Transfer (adapting values from prior study sites). Watch out for the 3 most important terms: Total Economic Value / TEV (capturing both use values and non-use values), Existence vs. Bequest vs. Option Value (knowing a species exists vs. passing it to future generations vs. potential future uses), and Contingent Valuation Method / CVM (using surveys to ask Willingness to Pay for conservation).",
+    "Lec 59": "Lecture 59 synthesizes the governance, ethical, and strategic decision-making frameworks required to manage biodiversity in an uncertain, resource-constrained world. Because ecosystems are complex and full scientific certainty often arrives only after a species or habitat has already collapsed, managers rely on the Precautionary Principle: when there is a plausible threat of serious or irreversible ecological harm, lack of complete scientific certainty must not be used as an excuse to postpone cost-effective protective action. At the same time, because conservation budgets, staff, and time are finite, agencies must practice Conservation Triage—systematically prioritizing interventions toward species, corridors, and habitats where management action will achieve the highest net gain in long-term survival and ecosystem resilience. Watch out for the 3 most important terms: The Precautionary Principle (acting proactively to prevent irreversible harm despite scientific uncertainty), Conservation Triage (allocating scarce conservation resources to maximize survival and ecological return), and Co-Management & Stakeholder Alignment (integrating scientific evidence with local community stewardship).",
+    "Lec 60": "Lecture 60 brings the entire 60-lecture course together into a unified synthesis of Biodiversity for Sustainability. Walking back across the 12-week arc—from ecological hierarchies, sustainability pillars, anthropogenic threats (habitat loss, fragmentation, invasives, climate change, pollution, overexploitation), and coexistence to species/site prioritization, population monitoring, conservation genetics, wildlife health, in-situ/ex-situ management, capture/restraint, fire ecology, linear infrastructure, and economic valuation—Dr. Awadhiya highlights the single unifying doctrine of the course. Variation at every biological scale (genetic diversity within populations, species richness and functional diversity within communities, and landscape complexity across ecosystems) is the irreplaceable insurance engine that gives living nature the resilience to absorb shocks and keep supplying the ecosystem services upon which human civilization depends. Watch out for the 3 most important terms: Biological Variation as the Foundation of Resilience (why diversity across genes, species, and ecosystems prevents collapse), The Biodiversity-Function-Services-Sustainability Chain (how living variety underpins human survival), and Integrated Coexistence (embedding conservation across both protected areas and human-dominated landscapes)."
+  },
+  "questions": [
+    {
+      "id": "W12_Q01",
+      "week": 12,
+      "lecture": "Lec 57",
+      "source": "official_quiz",
+      "question": "What should fences do in wildlife-road mitigation?",
+      "options": [
+        "Block all animal movement permanently",
+        "Guide animals toward safe crossing structures",
+        "Increase vehicle speed near hotspots",
+        "Replace monitoring after construction"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "In wildlife-road mitigation, fences should never be used as standalone barriers that sever landscapes; instead, guide fences should be integrated with overpasses or underpasses to keep animals off the asphalt and funnel them toward safe crossing structures.",
+      "mini_lesson": "If a highway fence simply blocks animals without providing a way across (Distractor A), it turns a roadkill problem into a severe genetic isolation (barrier effect) problem. Instead, road ecology uses guide fences (with flared ends) to prevent animals from wandering onto the traffic lanes while gently funnelling them toward engineered underpasses or overpasses. Distractors (C) and (D) violate road safety and adaptive management."
+    },
+    {
+      "id": "W12_Q02",
+      "week": 12,
+      "lecture": "Lec 57",
+      "source": "official_quiz",
+      "question": "Which of the following is an example of linear infrastructure?",
+      "options": [
+        "Wetland food web",
+        "Railway",
+        "Tiger population",
+        "Carbon stock"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Linear infrastructure includes human-built transport and utility corridors that extend as long lines across landscapes—such as roads, highways, railways, power transmission lines, pipelines, and canals.",
+      "mini_lesson": "Linear infrastructure refers to long, narrow human-engineered corridors—like railways, highways, canals, and power lines—that cut across vast stretches of landscape and slice through multiple habitats. Unlike a compact factory or building that occupies a single point, a railway line creates a continuous barrier and mortality zone across hundreds of kilometres. The three distractors are natural ecological components, not human infrastructure."
+    },
+    {
+      "id": "W12_Q03",
+      "week": 12,
+      "lecture": "Lec 57",
+      "source": "official_quiz",
+      "question": "What is the barrier effect of a road?",
+      "options": [
+        "A road becomes wider after repeated use",
+        "Animals are attracted to vegetation along road edges",
+        "Animals avoid crossing, reducing movement between habitat areas",
+        "Roadside soil becomes more fertile due to runoff"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "The barrier effect of a road occurs when animals actively avoid crossing the roadway due to traffic noise, vehicle movement, headlights, or open pavement, thereby reducing movement and gene flow between habitat areas on either side.",
+      "mini_lesson": "Even if zero animals are hit by cars on a busy highway, the road can still devastate wildlife through the barrier effect: shy forest species refuse to cross the noisy, brightly lit asphalt gap, effectively splitting one healthy population into two small, isolated subpopulations that face inbreeding. Distractor (B) describes roadside attraction (which leads to roadkill mortality), not the barrier effect."
+    },
+    {
+      "id": "W12_Q04",
+      "week": 12,
+      "lecture": "Lec 58",
+      "source": "official_quiz",
+      "question": "What is Total Economic Value designed to capture?",
+      "options": [
+        "Only direct market income from biodiversity",
+        "Only tourism earnings from protected areas",
+        "Both use and non-use values",
+        "Only the cost of artificial habitat restoration"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "The Total Economic Value (TEV) framework is designed to capture the complete spectrum of biodiversity benefits—encompassing both Use Values (direct, indirect, and option values) and Non-Use Values (existence and bequest values).",
+      "mini_lesson": "Conventional market accounting sees a forest only as timber or tourism cash, treating its flood protection, pollination, future medicines, and sheer existence as worth zero dollars. Total Economic Value (TEV) corrects this failure by summing both Use Values (Direct, Indirect, Option) and Non-Use Values (Existence, Bequest). Notice how Distractors (A), (B), and (D) all use the false absolute 'Only' to reduce TEV to a single narrow market slice!"
+    },
+    {
+      "id": "W12_Q05",
+      "week": 12,
+      "lecture": "Lec 58",
+      "source": "official_quiz",
+      "question": "Which valuation method uses surveys to ask willingness to pay for conservation?",
+      "options": [
+        "Market price method",
+        "Benefits transfer method",
+        "Contingent valuation method",
+        "Damage cost avoided method"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "The Contingent Valuation Method (CVM) is a stated-preference technique that uses structured questionnaires and surveys to ask respondents their Willingness to Pay (WTP) for conserving a species or ecosystem.",
+      "mini_lesson": "How do you put a value on the existence of snow leopards or blue whales when they are never bought or sold in a shop? Economists use the Contingent Valuation Method (CVM), which directly surveys people on how much they would be willing to pay (WTP) in hypothetical conservation scenarios, making it the primary tool capable of measuring Non-Use Values (existence and bequest). The three distractors are sibling valuation methods from the same lecture slide."
+    },
+    {
+      "id": "W12_Q06",
+      "week": 12,
+      "lecture": "Lec 57",
+      "source": "official_quiz",
+      "question": "What is linear infrastructure?",
+      "options": [
+        "Facilities that extend as lines across landscapes",
+        "A protected-area zoning system based on circles",
+        "A method for valuing non-use benefits",
+        "A seasonal migration pattern of animals"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Linear infrastructure refers to engineered human facilities—such as roads, railways, pipelines, power lines, and canals—that extend as long, continuous lines across landscapes.",
+      "mini_lesson": "Because linear infrastructure extends for hundreds of kilometres as a narrow ribbon across the land, its ecological footprint is vastly larger than its physical acreage alone: a single highway or railway can bisect dozens of watersheds, wildlife corridors, and forest interiors. The distractors mix up reserve zoning (B), economic valuation (C), and animal migration (D)."
+    },
+    {
+      "id": "W12_Q07",
+      "week": 12,
+      "lecture": "Lec 56",
+      "source": "official_quiz",
+      "question": "What is an oil spill?",
+      "options": [
+        "A gradual increase in salt concentration in coastal water",
+        "The release of liquid petroleum hydrocarbons into the environment",
+        "The natural movement of sediments along a shoreline",
+        "The biological decay of organic matter in wetlands"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "An oil spill is defined as the accidental or operational release of liquid petroleum hydrocarbons—including crude oil, refined fuels, or heavy bunker oil—into the marine, coastal, freshwater, or terrestrial environment.",
+      "mini_lesson": "Whether from a grounded supertanker, an offshore drilling blowout, or a ruptured pipeline, an oil spill releases liquid petroleum hydrocarbons into the environment, where they form surface slicks, coat shorelines, and poison aquatic food webs. The distractors describe salinization (A), littoral sediment drift (C), and natural wetland decomposition (D)."
+    },
+    {
+      "id": "W12_Q08",
+      "week": 12,
+      "lecture": "Lec 57",
+      "source": "official_quiz",
+      "question": "Which structure is designed for arboreal mammals and some reptiles?",
+      "options": [
+        "Canopy bridge",
+        "In-situ burn area",
+        "Skimmer channel",
+        "Benefits-transfer site"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "A canopy bridge is an elevated rope, mesh, or pole crossing structure suspended high above a road or railway, specifically designed to allow arboreal mammals (such as primates and squirrels) and climbing reptiles to cross without descending to the ground.",
+      "mini_lesson": "Strict canopy-dwelling animals (like gibbons, langurs, lorises, and gliding/climbing reptiles) are reluctant to come down to the ground to use underpasses or ground overpasses. Suspending a rope or ladder-like canopy bridge between tall trees on opposite sides of a road restores aerial connectivity. Notice the professor's cross-lecture chimera distractors: 'In-situ burn area' and 'Skimmer channel' are from Lecture 56 oil spill cleanup, and 'Benefits-transfer site' is from Lecture 58 economics!"
+    },
+    {
+      "id": "W12_Q09",
+      "week": 12,
+      "lecture": "Lec 57",
+      "source": "official_quiz",
+      "question": "Which mitigation hierarchy step means keeping infrastructure away from critical habitat where possible?",
+      "options": [
+        "Restore",
+        "Offset",
+        "Minimise",
+        "Avoid"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "In the four-step mitigation hierarchy (Avoid $\\rightarrow$ Minimise $\\rightarrow$ Restore $\\rightarrow$ Offset), the very first and most important step is 'Avoid'—routing or siting infrastructure completely away from critical habitats and protected areas before construction begins.",
+      "mini_lesson": "The Mitigation Hierarchy follows a strict priority order: (1) Avoid impacts by routing the highway or railway around sensitive habitats during the planning phase; (2) Minimise unavoidable impacts using underpasses, canopy bridges, and sound barriers; (3) Restore disturbed verges after construction; and (4) Offset any residual damage elsewhere as a last resort. The three distractors are the three later steps of the same hierarchy."
+    },
+    {
+      "id": "W12_Q10",
+      "week": 12,
+      "lecture": "Lec 56",
+      "source": "official_quiz",
+      "question": "Which compounds are especially associated with toxicity in petroleum oil?",
+      "options": [
+        "Biogenic sugars",
+        "Pyrogenic salts",
+        "Aromatic hydrocarbons, especially PAHs",
+        "Soil nutrients"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Among the chemical fractions of crude petroleum oil, aromatic hydrocarbons—and especially Polycyclic Aromatic Hydrocarbons (PAHs)—are most strongly associated with acute and chronic biological toxicity, carcinogenicity, and mutagenicity.",
+      "mini_lesson": "Crude oil is a complex mixture of alkanes, cycloalkanes, and aromatics, but its worst chemical toxicity comes from aromatic hydrocarbons—particularly Polycyclic Aromatic Hydrocarbons (PAHs), which consist of multiple fused benzene rings. PAHs are poorly water-soluble, persist for decades in coastal mud and mangroves, bioaccumulate in shellfish, and cause DNA mutations, cancer, and developmental heart defects in fish embryos. The distractors are harmless or fabricated terms."
+    }
+  ]
+}

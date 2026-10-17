@@ -1,0 +1,492 @@
+{
+  "week": 2,
+  "lecture_briefings": {
+    "Lec 06": "Lecture 6 traces the historical evolution of sustainable development from early agrarian societies to the modern industrial world. In pre-industrial societies, human survival was bound by immediate, local ecological feedback—if a community overused soil or water, harvests failed right in front of them—whereas industrialization transformed the speed, scale, and spatial distance of extraction, allowing cities to consume goods while hiding ecological damage far away. By the late twentieth century, warning signs like the 1962 DDT pesticide crisis documented in Rachel Carson's Silent Spring, the 1970s oil shocks, transboundary acid rain, and environmental injustice forced a global rethink that culminated in the 1987 Brundtland Report. Watch out for the 3 most important terms: Direct Ecological Feedback (immediate local consequences from land, water, and seasonal limits in early societies), Speed, Scale, and Distance (the three industrial shifts that decoupled consumption from resource extraction and masked damage), and Flagship Species (iconic animals like the giant panda used to rally public and international support for broader conservation).",
+    "Lec 07": "Lecture 7 puts the Three Pillars of Sustainability—Environmental, Social, and Economic—into operational practice for evaluating real-world projects like large dams, urban parks, wetland conversions, and tourism sites. While all three pillars interact continuously, the environmental pillar is foundational because human societies and economies rest on a biophysical base of water, fertile soil, materials, and ecosystem resilience that money cannot replace. When analyzing any development proposal, planners must look beyond short-term financial profit to diagnose unavoidable trade-offs (where real benefits and real harms occur together, as in a dam) and actively design for synergies (where an intervention like urban tree cover benefits all three pillars simultaneously). Watch out for the 3 most important terms: Trade-Off vs. Synergy (simultaneous benefits and harms across pillars vs. mutually reinforcing win-win outcomes), Natural Capital Accounting (recognizing that soils, forests, water systems, wetlands, and biodiversity hold real productive value rather than being a 'free lunch'), and Foundational Environmental Pillar (the principle that social and economic stability collapse if underlying ecological life-support systems fail).",
+    "Lec 08": "Lecture 8 explores how nature supports human well-being through the four Millennium Ecosystem Assessment (MEA) categories of ecosystem services: Provisioning, Regulating, Supporting, and Cultural. Because regulating, supporting, and cultural services are rarely bought or sold in markets, society suffers from 'hidden dependence' and 'market failure,' often recognizing critical services only after they collapse—such as shifting sandbars burying railway tracks after coastal vegetation is cleared, or severe floods following wetland loss. Biodiversity underpins the long-term reliability of all these services through functional diversity (different species performing distinct roles or providing redundancy), though Dr. Awadhiya cautions that nature also holds intrinsic ethical value beyond human utility. Watch out for the 3 most important terms: The Four Service Categories (Provisioning for material goods, Regulating for risk reduction and stabilization, Supporting for foundational processes like soil formation and nutrient cycling, and Cultural for non-material enrichment), Functional Diversity (the variety of ecological roles and traits performed by species within a system), and Market Failure (when free-market prices underestimate unpriced ecosystem services, causing net loss of social welfare).",
+    "Lec 09": "Lecture 9 addresses how we measure sustainability using metrics, indicators, composite indices, and ecological boundaries so that sustainability does not degenerate into an empty political slogan. A good indicator must represent an important reality, be understandable, and support action—avoiding the trap of counting only what is easy to measure (such as treating a monoculture tree plantation and a biodiverse native forest as equal under 'forest cover'). Crucially, while indicators show the direction of trends, ecological boundaries and thresholds mark nonlinear tipping points beyond which systems abruptly lose resilience, and analysts must guard against poorly chosen short-term baselines that disguise massive historical collapses as stability. Watch out for the 3 most important terms: Metric vs. Indicator vs. Composite Indicator (a raw measurable quantity vs. a sign of a broader complex condition vs. an aggregated index that can hide internal trade-offs), Ecological Boundary / Threshold (a nonlinear safe limit beyond which ecological change becomes rapid, unsafe, or irreversible), and Shifting / Poorly Chosen Baselines (comparing a population of 1,001 only to last year's 1,000 to claim stability while ignoring a 100-year collapse from 10 million).",
+    "Lec 10": "Lecture 10 applies the entire Week 2 toolkit to five concrete case studies: (1) Forests and Livelihoods, (2) Wetlands and Urban Expansion, (3) Agriculture and Biodiversity, (4) Mangroves, Coasts, and Development, and (5) Urban Green Spaces and Livability. Across all five cases, Dr. Awadhiya applies a 4-question diagnostic framework—What development goal is pursued? What ecological system is affected? Who benefits and who pays? What happens in the long term?—to expose how short-term gains hide delayed costs and how powerful actors capture immediate profits while vulnerable communities bear the ecological fallout. Striking examples include recognizing wetlands as free municipal 'natural infrastructure' and exposing the perverse contractor incentives behind replacing self-repairing mangrove belts with expensive, corroding gabion rock check dams. Watch out for the 3 most important terms: Natural Infrastructure (living ecosystems like wetlands and mangroves that store floodwater, filter pollutants, and buffer coastlines for free), Eutrophication & Agricultural Externalities (fertilizer runoff triggering oxygen-depleting algal blooms and pesticides harming neighboring pollinators), and Weak vs. Strong Sustainability Analysis (focusing narrowly on one short-term economic output while assuming damage is easily repairable vs. minimizing irreversible ecological loss across all pillars)."
+  },
+  "questions": [
+    {
+      "id": "W02_M01",
+      "week": 2,
+      "lecture": "Lec 06",
+      "source": "mock_unseen",
+      "question": "Why did early human rock paintings so frequently depict animals, plants, hunting, and elements of nature?",
+      "options": [
+        "Early humans lived completely separately from nature and viewed wildlife only as abstract art",
+        "Daily life, survival, food, shelter, and cultural meaning were directly tied to local ecological systems, showing that development began inside the environment",
+        "Pre-industrial societies relied on global fossil-fuel transport rather than local ecosystems",
+        "Rock paintings were created as modern composite indicators for international treaties"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "And this is also one reason why early humans so often depicted animals, plants, hunting, and other elements of nature in rock paintings. Those images reflect a world in which daily life, survival, and meaning were closely tied to the natural environment. This means development never began outside the environment. Development began inside the environment.",
+      "mini_lesson": "Pre-industrial human communities obtained their food, water, shelter materials, and cultural identity directly from surrounding forests, rivers, and grasslands. Early rock art reflects this intimate, immediate dependence and proves that human development originated inside ecological systems rather than in a separate economic sphere. Distractor (A) uses the 'completely / only' trap to invert this historical connection."
+    },
+    {
+      "id": "W02_M02",
+      "week": 2,
+      "lecture": "Lec 06",
+      "source": "mock_unseen",
+      "question": "What major ecological lesson was highlighted by the population decline of the bald eagle in the United States and Rachel Carson’s 1962 book Silent Spring?",
+      "options": [
+        "Chemical pesticides vanish harmlessly as soon as they are washed out of sight",
+        "Industrial pollution affects only plant roots and never reaches predatory birds",
+        "Persistent chemicals like DDT move through air, water, soil, and food chains to harm reproduction far from the original point of application",
+        "Eggshell thinning in raptors is caused exclusively by natural seasonal temperature cycles"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "In the United States, the national bird suffered a major population decline linked to DDT, a pesticide whose effects moved through ecosystems and harmed reproduction. This became widely recognized through the broader public discussion shaped by Silent Spring. The lesson was clear. Damage could continue long after chemicals were used and harm could appear far from the original point of application.",
+      "mini_lesson": "Rachel Carson's 1962 landmark book 'Silent Spring' showed that synthetic pesticides like DDT do not disappear when sprayed on crops; instead, they persist in the environment and biomagnify up food webs into apex birds like the bald eagle, causing severe eggshell thinning and reproductive collapse. 'Out of sight' never means harmless in ecological systems. Distractors (A), (B), and (D) rely on false absolutes ('harmlessly', 'only', 'never', 'exclusively')."
+    },
+    {
+      "id": "W02_M03",
+      "week": 2,
+      "lecture": "Lec 06",
+      "source": "mock_unseen",
+      "question": "How did the oil crisis of the 1970s shape the historical emergence of sustainable development thinking?",
+      "options": [
+        "It exposed how vulnerable modern economies are to resource shortages and forced open recognition of material and ecological limits",
+        "It proved that modern industrial economies are completely independent of physical resource supplies",
+        "It demonstrated that fossil fuels regenerate faster than human extraction rates",
+        "It eliminated all need for energy conservation or long-term resource planning"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "We can also connect this idea to the oil crisis of the 1970s, which made it clear to the world that resource supplies could be disrupted and that modern economies were highly vulnerable to shortage. Development then began to face clear ecological and material limits more openly.",
+      "mini_lesson": "Alongside chemical pollution and forest loss, the 1970s fuel shortages shattered the illusion of limitless industrial expansion by showing how fragile modern economies become when they rely on heavy extraction of finite resources without long-term planning. Distractors (B), (C), and (D) invert the historical reality of finite resource limits."
+    },
+    {
+      "id": "W02_M04",
+      "week": 2,
+      "lecture": "Lec 06",
+      "source": "mock_unseen",
+      "question": "Which four essential points were brought together by the landmark Brundtland report framing of sustainable development?",
+      "options": [
+        "Maximizing short-term output, expanding fossil fuel extraction, ignoring ecological accounting, and delaying repair",
+        "Pricing all wildlife in markets, replacing wetlands with concrete drains, using single metrics, and removing regulations",
+        "Stopping all infrastructure progress, rejecting human needs, eliminating trade, and relying only on local charity",
+        "Meeting present needs, not compromising future generations’ ability to meet their needs, recognizing that needs are real, and respecting ecological limits"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "A landmark framing of sustainable development came from the Brundtland report, which gave the idea its most widely cited expression. It brought together four essential points. We must meet present needs. We must not compromise the ability of future generations to meet their own needs. We must recognize that needs are real and important. And we must also recognize limits.",
+      "mini_lesson": "Published in 1987 ('Our Common Future'), the Brundtland Report defined sustainable development by uniting four pillars: satisfying present needs, safeguarding future generations, prioritizing basic human needs where deprivation exists (intra-generational equity), and operating within nature's carrying capacities (limits). Option (D) matches the exact 4-point slide breakdown in Lecture 6. Distractor (C) is the anti-development misconception trap."
+    },
+    {
+      "id": "W02_M05",
+      "week": 2,
+      "lecture": "Lec 06",
+      "source": "mock_unseen",
+      "question": "In the context of global conservation awareness, what is a “flagship species,” as illustrated by the giant panda?",
+      "options": [
+        "An invasive alien species that aggressively crowds out native understory plants",
+        "A recognizable species used to draw public attention to wider conservation problems such as habitat loss and the need for international cooperation",
+        "The single most abundant microbial decomposer found in agricultural soil",
+        "A species that can survive only in laboratory experiments without natural habitat"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Certain well-known animals came to serve as flagship species, meaning species used to draw public attention to wider conservation problems. The giant panda became one of the best-known examples, especially through organizations such as WWF.",
+      "mini_lesson": "A flagship species—like the giant panda used as the symbol of the World Wide Fund for Nature (WWF)—is an iconic, charismatic organism chosen to rally public emotion and international policy support for conserving entire habitats and ecosystems. Distractor (A) swaps in the definition of an invasive alien species (like Lantana camara)."
+    },
+    {
+      "id": "W02_M06",
+      "week": 2,
+      "lecture": "Lec 06",
+      "source": "mock_unseen",
+      "question": "What does the modern commercial sale of novelty keychains containing embedded insects illustrate about contemporary pressures on biodiversity?",
+      "options": [
+        "Biodiversity decline is caused exclusively by ancient pre-industrial hunting practices",
+        "Embedding insects in plastic keychains is an effective method of in-situ biodiversity conservation",
+        "Pressures on biodiversity appear not only in large-scale industry, but also in everyday consumer markets, habits, and attitudes that reduce living beings to novelty commodities",
+        "Invertebrates have no ecological role in pollination, decomposition, or food webs"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "These are not ancient objects. They are modern keychains made with embedded insects, which shows that even today living beings can be reduced to novelty items, decoration, or amusement... So, the pressures on biodiversity are not only large-scale and industrial. They can also appear in everyday markets, habits, and attitudes.",
+      "mini_lesson": "While deforestation, climate change, and industrial pollution are massive drivers of biodiversity loss, Dr. Awadhiya uses insect keychains to show how modern consumer culture normalizes treating living organisms as disposable trinkets and commodities without regard for ecological consequences. Distractor (A) uses the false absolute 'exclusively', while (B) confuses commercial harvesting with conservation."
+    },
+    {
+      "id": "W02_M07",
+      "week": 2,
+      "lecture": "Lec 07",
+      "source": "mock_unseen",
+      "question": "Why should social sustainability not be reduced to financial welfare handouts or post-project cash compensation alone?",
+      "options": [
+        "Because social sustainability ignores human health and resource access completely",
+        "Because social sustainability is measured only by the total GDP of a nation",
+        "Because vulnerable communities never depend on local ecosystems for food, water, or livelihoods",
+        "Because genuine social sustainability requires fairness, environmental justice, participation, community resilience, dignity, and voice in decision-making"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "We should also avoid reducing social sustainability to welfare alone. It includes fairness, not only comfort. It includes participation, not only compensation. It includes resilience, not only immediate benefit. And it includes dignity. It includes voice.",
+      "mini_lesson": "Handing out small cash compensation after displacing a community or polluting their river does not make a project socially sustainable. True social sustainability demands environmental justice, public health protection, cultural dignity, and giving affected communities an active voice in shaping development decisions. Distractors (A), (C), and (B) use hard absolutes ('completely', 'never', 'only') that contradict the social pillar."
+    },
+    {
+      "id": "W02_M08",
+      "week": 2,
+      "lecture": "Lec 07",
+      "source": "mock_unseen",
+      "question": "Why is economic sustainability not equivalent to maximizing short-term financial profit?",
+      "options": [
+        "Because economic sustainability rejects all forms of productive activity and resource efficiency",
+        "Because profit today may hide ecological degradation that weakens future productivity, increases disaster risk, and requires costly restoration tomorrow",
+        "Because natural systems are a free lunch whose degradation never affects agriculture, fisheries, or forestry",
+        "Because market prices automatically include all long-term soil, water, and biodiversity losses"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "And this is why economic sustainability is not equal to short-term profit. Profit today may create loss tomorrow. Degradation can weaken future productivity. And hidden costs are still real costs, even when they do not appear immediately in a market price.",
+      "mini_lesson": "An economy that posts high short-term profits by exhausting soils, polluting watersheds, and stripping forests is liquidating its own natural capital. Economic sustainability tests long-term durability—whether production can continue over time without generating hidden ecological costs that cripple future livelihoods. Distractor (C) explicitly invokes the 'free lunch' fallacy that Lecture 7 refutes ('There is no such thing as a free lunch')."
+    },
+    {
+      "id": "W02_M09",
+      "week": 2,
+      "lecture": "Lec 07",
+      "source": "mock_unseen",
+      "question": "How do well-designed urban green spaces illustrate a “synergy” across all three pillars of sustainability?",
+      "options": [
+        "They generate unavoidable conflict where environmental gains cause severe social and economic harm",
+        "They benefit only wild insects while increasing heat stress and air conditioning costs for city residents",
+        "They support cooling, air quality, and biodiversity environmentally; provide recreation and health relief socially; and improve livability while reducing heat-related cooling costs economically",
+        "They replace all need for clean water and housing infrastructure across the entire country"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Now, consider urban green spaces. This is a useful case of possible synergy. Environmentally, they support cooling, biodiversity, and better air quality. Socially, they offer recreation, public space, mental relief, and health benefits. Economically, they can improve livability and reduce heat-related costs.",
+      "mini_lesson": "Unlike a trade-off (where one pillar wins at the expense of another), a sustainability synergy occurs when thoughtful ecological design creates mutually reinforcing benefits across all three pillars simultaneously. Restoring urban tree cover cools the microclimate and supports urban wildlife (+environmental), improves physical and mental health (+social), and cuts municipal energy bills for air conditioning (+economic). Distractor (A) swaps in the definition of a 'trade-off'."
+    },
+    {
+      "id": "W02_M10",
+      "week": 2,
+      "lecture": "Lec 07",
+      "source": "mock_unseen",
+      "question": "When evaluating a large dam project through the three-pillar framework, which set of multi-dimensional impacts must be assessed together?",
+      "options": [
+        "Economic gains in energy and irrigation alongside social displacement of communities and environmental alteration of river flow, sediment movement, and habitat",
+        "Only the megawatts of electricity generated and immediate construction profits",
+        "Only the aesthetic appearance of the concrete wall from a distance",
+        "Environmental benefits alone, assuming that dams never provide energy or irrigation"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Let us consider a dam project. Economically, it may provide energy, irrigation, and infrastructure. Socially, however, it may create displacement of local communities, unequal distribution of benefits, and conflicts over land and water. Environmentally, it may alter river flow, affect sediment movement, fragment habitats, and reduce biodiversity.",
+      "mini_lesson": "A large dam is the textbook example of a complex three-pillar trade-off: it delivers genuine economic benefits (hydropower, irrigation) while simultaneously imposing severe social burdens (displacement of riverine villages, inequitable benefit sharing) and ecological harms (blocked sediment transport, altered flow regimes, fragmented fish habitats). Single-objective planning that looks only at electricity output (Distractor B) fails sustainability analysis."
+    },
+    {
+      "id": "W02_M11",
+      "week": 2,
+      "lecture": "Lec 07",
+      "source": "mock_unseen",
+      "question": "In the three-pillar model of sustainability, why is the environmental pillar considered foundational?",
+      "options": [
+        "Because social justice and economic durability are completely irrelevant to human well-being",
+        "Because society depends on water, food, and healthy environments, and the economy depends on materials, energy, and ecosystem services, so both weaken if ecological systems collapse",
+        "Because environmental protection automatically guarantees fair wages and democratic participation",
+        "Because the environmental pillar is an optional extra that sits outside society and the economy"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Society depends on water, food, and healthy environments. Economy, at the same time, depends on materials, energy, and ecosystem services. And so, if ecological systems are severely damaged, both society and economy weaken with them. So, the environmental pillar is foundational, not because it replaces the other two, but because it supports them.",
+      "mini_lesson": "While all three pillars matter, they are nested rather than floating in a vacuum: human society and the economy rest on the biophysical foundation of the environment. Calling the environmental pillar 'foundational' does not mean ignoring social or economic needs (Distractor A); it means recognizing that neither society nor economy can survive if the underlying ecological life-support base collapses."
+    },
+    {
+      "id": "W02_M12",
+      "week": 2,
+      "lecture": "Lec 07",
+      "source": "mock_unseen",
+      "question": "Under what condition is tourism development considered genuinely sustainable across all three pillars?",
+      "options": [
+        "Whenever visitor numbers and hotel construction expand without any limits or governance",
+        "Tourism is automatically sustainable in every natural landscape because it does not involve logging",
+        "When all tourism income goes exclusively to outside developers while local communities bear the waste and water scarcity",
+        "When economic opportunities are accompanied by social inclusion and fairness, and growth remains within environmental capacity regarding waste, crowding, and habitat disturbance"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Tourism development is another useful example. Economic opportunities can certainly be real. But social benefits depend on inclusion and fairness. Who gets the jobs, income, and decision-making power matters greatly. At the same time, environmental pressure can rise quickly through waste, habitat disturbance, crowding, and overuse of local resources. Tourism is sustainable only when growth remains within social and environmental capacity.",
+      "mini_lesson": "Even seemingly benign sectors like nature tourism can become destructive if unregulated hotel construction, plastic waste, water overuse, and tourist crowding degrade sensitive habitats while local residents are excluded from jobs and decision-making. Sustainable tourism requires governing growth within both social fairness and ecological carrying capacity. Distractors (A), (C), and (B) ignore these essential limits."
+    },
+    {
+      "id": "W02_M13",
+      "week": 2,
+      "lecture": "Lec 08",
+      "source": "mock_unseen",
+      "question": "What does the concept of “hidden dependence” explain in the context of ecosystem services?",
+      "options": [
+        "Human cities no longer depend on any natural processes once roads and buildings are constructed",
+        "Only provisioning services like timber are hidden, whereas soil microbial processes are always priced in stock markets",
+        "Many ecosystem services work quietly in the background without market prices and often become visible to decision-makers only after they are lost",
+        "Ecosystem services are relevant only to wild animals and never affect human food or water security"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "One of the most important ideas in this lecture is hidden dependence. Many ecological services work quietly in the background. Because they are not always bought or sold directly, they may be ignored in planning and in economic accounting. Often, people become aware of a service only after it has been lost. Flooding after wetland destruction, crop decline after pollinator loss, and water stress after forest degradation are all real examples of services that became visible only through absence.",
+      "mini_lesson": "Because nature does not send a monthly invoice for absorbing storm runoff, pollinating orchards, or moderating summer heat, urban planners and economists routinely take these background services for granted—until the wetland is paved over and the city floods. This 'visibility through absence' is why upfront ecosystem service assessment is critical before land conversion occurs. Distractor (B) reverses market visibility: provisioning goods are priced in markets, whereas regulating/supporting services are hidden."
+    },
+    {
+      "id": "W02_M14",
+      "week": 2,
+      "lecture": "Lec 08",
+      "source": "mock_unseen",
+      "question": "Which set of benefits represents “provisioning services,” and what risk arises from focusing exclusively on them?",
+      "options": [
+        "Direct material products like food, fresh water, fuelwood, fiber, and raw materials; focusing only on them can mislead us into treating ecosystems merely as warehouses of extractable goods",
+        "Spiritual meaning, scenic walks, and aesthetic inspiration; focusing on them causes soil erosion",
+        "Soil formation, primary production, and nutrient cycling; focusing on them eliminates agricultural trade",
+        "Flood control and climate moderation; focusing on them increases industrial air pollution"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Provisioning services are usually the easiest to recognize because they are direct and material. They include food, fresh water, fuel wood, fiber, and raw materials... Focusing only on provisioning can cause us to treat ecosystems as warehouses of extractable products while missing their broader functions.",
+      "mini_lesson": "Provisioning services are the tangible commodities harvested directly from nature (food, timber, fresh water, fuelwood, fiber). Because they carry clear market prices, planners often maximize provisioning output (e.g., clear-cutting for timber) while destroying the unpriced regulating, supporting, and cultural services that keep the ecosystem alive—the 'warehouse fallacy'. Distractors (B), (C), and (D) swap in cultural, supporting, and regulating services respectively."
+    },
+    {
+      "id": "W02_M15",
+      "week": 2,
+      "lecture": "Lec 08",
+      "source": "mock_unseen",
+      "question": "In Lecture 8, what does the example of shifting sandbars encroaching onto a road and burying a railway track after vegetation disruption illustrate?",
+      "options": [
+        "How cultural services like scenic walks increase railway maintenance expenses",
+        "How the failure of a regulating service (vegetation holding sand in place) translates directly into physical infrastructure loss and economic cost",
+        "How engineered railway tracks can survive any ecological disruption without vegetation cover",
+        "How sand movement is a provisioning service that increases agricultural soil fertility"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The image on the slide illustrates what happens when one regulating service fails. When vegetation holding sand in place was disrupted, sand bars began to move. The result is visible here. Sand has encroached onto the road and completely buried the railway track to the point of making it unusable. This is a striking example of how ecological disruption can translate directly into infrastructure loss and economic cost.",
+      "mini_lesson": "Dune and coastal vegetation quietly perform a vital regulating service by binding loose sand against wind and water. When that vegetation is stripped away, mobile sandbars bury highways and railway lines, turning an 'invisible' ecological disruption into an immediate, costly infrastructure shutdown. Distractors (A) and (D) misclassify the service category, while (C) contradicts the slide evidence."
+    },
+    {
+      "id": "W02_M16",
+      "week": 2,
+      "lecture": "Lec 08",
+      "source": "mock_unseen",
+      "question": "Which group of ecological processes belongs to “supporting services” that make all other ecosystem services possible?",
+      "options": [
+        "Timber harvesting, commercial fishing, and fuelwood collection",
+        "Recreational trekking, scenic walks, and spiritual appreciation",
+        "Nutrient cycling, soil formation, primary production, and habitat provision",
+        "Composite indexing, market pricing, and infrastructure contracting"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Supporting services are foundational ecological processes that make all other services possible. These include nutrient cycling, soil formation, primary production, and habitat provision. Without soil formation and nutrient cycling, food production and water regulation would eventually weaken or collapse.",
+      "mini_lesson": "Among the four MEA service classes, supporting services—nutrient cycling, soil formation (pedogenesis), photosynthetic primary production, and habitat provision—form the deep biophysical engine underneath everything else. Although humans do not consume soil formation directly in a market, no provisioning crop or regulating watershed can exist without it. Distractor (A) lists provisioning services, and (B) lists cultural services."
+    },
+    {
+      "id": "W02_M17",
+      "week": 2,
+      "lecture": "Lec 08",
+      "source": "mock_unseen",
+      "question": "Why does relying solely on standard market prices when making land-use decisions about ecosystems frequently lead to “market failure”?",
+      "options": [
+        "Because market prices systematically overestimate the value of flood buffering and cultural meaning compared to fish or timber",
+        "Because market failure occurs only when governments protect too many wetlands and forests",
+        "Because fish, timber, and agricultural crops can never be bought or sold in markets",
+        "Because free markets capture extractive commodity prices easily but underestimate unpriced regulating, supporting, and cultural services, leading to inefficient resource allocation and a net loss of social welfare"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Market price is not the same as total value. Fish can be priced. The flood buffering effect of a wetland is far harder to price before it is lost. Cultural meaning may resist monetary language entirely. If decisions rely only on market signals, they will systematically underestimate the importance of ecosystems leading to a situation of market failure. Market failure occurs when the free market fails to allocate resources efficiently leading to a sub-optimal distribution of goods and services and a net loss of social welfare.",
+      "mini_lesson": "In economics, market failure happens when free-market price signals fail to reflect true societal value and cost. Because timber or real estate has an immediate price tag while a wetland's flood protection or a sacred grove's cultural value does not, pure market decisions systematically destroy high-value ecosystems for low-value short-term extraction, leaving society worse off overall. Distractor (A) inverts which services are underestimated."
+    },
+    {
+      "id": "W02_M18",
+      "week": 2,
+      "lecture": "Lec 08",
+      "source": "mock_unseen",
+      "question": "Why does Lecture 8 caution that the ecosystem services framework, while highly useful, is not a complete justification for conserving nature?",
+      "options": [
+        "Because ecosystems do not actually provide any material or regulating benefits to human societies",
+        "Because nature and biodiversity also possess ethical, intrinsic, and cultural significance beyond direct human utility or monetary valuation",
+        "Because conservation should protect only species that generate immediate cash revenue in urban markets",
+        "Because scientific education decreases public love and understanding of biodiversity"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The ecosystem services framework is useful, but not complete. Nature does not matter only because it is useful to humans. Biodiversity also has ethical, intrinsic, and cultural significance that cannot be reduced to service language or monetary value. Protecting ecosystems only when direct human utility can be demonstrated risks several serious errors.",
+      "mini_lesson": "While the ecosystem services lens is a powerful tool for showing planners how humans depend on nature, reducing all living beings to their utilitarian service or dollar value is dangerous: if a rare species has no obvious economic utility today, a purely utilitarian model might deem it expendable. Biodiversity also holds intrinsic ethical worth, echoed in Baba Dioum's famous quote closing the lecture ('We will conserve only what we love; we love only what we understand; we will understand only what we are taught')."
+    },
+    {
+      "id": "W02_M19",
+      "week": 2,
+      "lecture": "Lec 09",
+      "source": "mock_unseen",
+      "question": "In sustainability assessment, how is an “indicator” distinguished from a basic “metric”?",
+      "options": [
+        "A metric is a political slogan, whereas an indicator is an unmeasured personal opinion",
+        "A metric is a direct measurable quantity (such as forest cover or carbon emissions), whereas an indicator is a measurable sign used to infer the status of a broader, complex condition (such as dissolved oxygen indicating river ecosystem health)",
+        "Metrics can never be expressed as numbers, whereas indicators completely eliminate the need for human judgment",
+        "Indicators measure only economic profit, whereas metrics measure only social welfare"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "A metric is a measurable quantity. It may be numerical such as carbon emissions, forest cover or water quality values... An indicator is slightly different. It is a measurable sign of a broader condition... For example, dissolved oxygen in a river can indicate an ecosystem condition and infant mortality can indicate social well-being.",
+      "mini_lesson": "Metrics are the raw measurable building blocks (e.g., parts per million of dissolved oxygen, hectares of canopy, tons of CO2), whereas indicators use those measurements as diagnostic pointers ('measurable signs') to infer a larger, complex system reality that cannot be observed in a single glance (such as overall river health or societal well-being). Distractor (C) violates the lecture's core rule that indicators support judgment rather than replacing it."
+    },
+    {
+      "id": "W02_M20",
+      "week": 2,
+      "lecture": "Lec 09",
+      "source": "mock_unseen",
+      "question": "What is the main limitation of using a “composite indicator” that combines multiple environmental, social, and economic measures into a single index number?",
+      "options": [
+        "It is impossible to use a composite score for communication or ranking",
+        "Composite indicators track only soil microbes and ignore economic or social data completely",
+        "By combining many separate measures into one number, underlying complexity and serious trade-offs can be hidden behind a simple average",
+        "A composite indicator automatically prevents any ecological threshold from being crossed"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Composite indicators combine several separate measures into a broader index... However, there is also a danger. While many measures are combined into one number, complexity can be hidden. Important trade-offs may disappear behind a simple average.",
+      "mini_lesson": "While a single aggregated 0-to-100 composite score is convenient for political communication and quick rankings, averaging distinct dimensions together can mask dangerous collapses: for instance, a surge in short-term industrial income (+economic) can mathematically offset a severe crash in groundwater quality or biodiversity (-environmental), making the overall average look stable. Distractors (A), (B), and (D) use false absolutes."
+    },
+    {
+      "id": "W02_M21",
+      "week": 2,
+      "lecture": "Lec 09",
+      "source": "mock_unseen",
+      "question": "Why is total “forest cover” area an incomplete indicator of biodiversity and environmental sustainability when used on its own?",
+      "options": [
+        "Because satellite and field surveys can never measure whether tree cover is increasing or declining",
+        "Because forest cover is a purely social indicator that measures only urban literacy rates",
+        "Because trees have no connection to carbon storage, soil health, or water regulation",
+        "Because a biodiverse native forest and a simplified monoculture plantation may both appear as forest cover in a simple dataset despite having vastly different ecological value"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Forest cover is a useful indicator because it can show whether tree cover is increasing or declining over time. But forest cover alone does not reveal full biodiversity quality. A biodiverse forest and a monoculture plantation may both appear as forest cover in a simple data set. And yet their ecological value is extremely different. This example teaches an important lesson. Quantity alone is not enough.",
+      "mini_lesson": "Counting hectares of green canopy ('forest cover') is easy to measure, but quantity alone is blind to ecological quality: a uniform eucalyptus or pine plantation and a multi-layered native tropical forest both register as 'forest cover' on a map, even though the monoculture lacks understory biodiversity, functional guild diversity, and resilience. Good assessment must pair quantity metrics with indicators of structure, function, and species composition."
+    },
+    {
+      "id": "W02_M22",
+      "week": 2,
+      "lecture": "Lec 09",
+      "source": "mock_unseen",
+      "question": "How does the role of “indicators” differ from the role of “ecological boundaries” in sustainability assessment?",
+      "options": [
+        "Indicators tell us about system condition and the direction of change, whereas boundaries tell us about critical limits and thresholds that should not be crossed if system stability is to be maintained",
+        "Indicators define absolute planetary tipping points, whereas boundaries only count annual economic GDP",
+        "Boundaries are used only in laboratory tanks, whereas indicators are used only in international courts",
+        "Once an indicator is measured, ecological boundaries expand infinitely and can never be exceeded"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "At this point, we also need to distinguish between indicators and boundaries. Indicators tell us about system condition and the direction of change. Boundaries tell us about limits that should not be crossed if system stability is to be maintained. Sustainability is therefore not only about observing trends. It is also about threshold awareness.",
+      "mini_lesson": "Tracking whether a metric is rising or falling (an indicator) is not enough if you do not know how close the system is to a cliff edge (an ecological boundary or threshold). Because ecological collapse is often nonlinear—a wetland or population can absorb stress until it abruptly tips into an irreversible state—analysts must combine trend indicators with boundary/threshold awareness. Distractor (B) swaps the two definitions."
+    },
+    {
+      "id": "W02_M23",
+      "week": 2,
+      "lecture": "Lec 09",
+      "source": "mock_unseen",
+      "question": "Suppose a species population declined from 10 million individuals 100 years ago to 1,000 individuals last year, and this year the count is 1,001. What analytical mistake occurs if a report celebrates this change as a stable or improving population?",
+      "options": [
+        "Relying on qualitative field notes instead of counting exact numbers of organisms",
+        "Using a 100-year historical baseline that exaggerates minor seasonal fluctuations",
+        "Using a poorly chosen short-term baseline (comparing only to the previous year) that hides massive long-term degradation and mistakes partial damage reduction for sustainability",
+        "Combining social and economic indicators into a multi-dimensional dashboard"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "If the baseline is poorly chosen, decline can be hidden. For example, a system may seem stable if we compare it only to the previous year while ignoring much larger long-term degradation. So for instance, if a species count has reduced from 10 million to say 1,000, but last year the count was 1,000, this year the count is 1,001, we might even be celebrating that yes, the count has increased while we are not understanding that the count has gone down from millions to thousands.",
+      "mini_lesson": "An indicator is only as honest as the baseline reference point against which it is compared (a phenomenon known in ecology as 'shifting baseline syndrome'). Comparing 1,001 individuals only to last year's 1,000 shows a +0.1% gain and creates a false illusion of stability or recovery, whereas comparing against the historical baseline of 10 million reveals a catastrophic 99.99% collapse. Becoming slightly less harmful in one year is not the same as achieving sustainability."
+    },
+    {
+      "id": "W02_M24",
+      "week": 2,
+      "lecture": "Lec 09",
+      "source": "mock_unseen",
+      "question": "Because indicators do not operate in a neutral political vacuum and can be selected strategically to tell a favorable story, which four questions should a sustainability analyst repeatedly ask of any assessment?",
+      "options": [
+        "What is easiest to count, how can complexity be hidden, what maximizes short-term profit, and how can baselines be shortened?",
+        "What is being measured, what is missing, what limits might be near, and what does biodiversity tell us?",
+        "Which single number replaces judgment, how can local context be ignored, which species has the highest market price, and how fast can land be converted?",
+        "How many trees were planted, how many roads were built, what is the current GDP, and how can public participation be avoided?"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Now indicators do not operate in a neutral political vacuum. They can improve accountability but they can also be selected strategically to present a favorable story... So as good sustainability analysts, we should ask four basic questions again and again. What is being measured? What is missing? What limits might be near? And what does biodiversity tell us?",
+      "mini_lesson": "Project proponents often cherry-pick metrics—such as highlighting raw sapling counts while omitting native biodiversity loss, or showcasing GDP growth while hiding groundwater depletion. To read reports critically, Dr. Awadhiya provides a 4-question checklist: (1) What is measured? (2) What is omitted/missing? (3) What ecological thresholds/limits are near? (4) What does biodiversity indicate about underlying system integrity? Distractors (A), (C), and (D) list the exact analytical blunders warned against in Lecture 9."
+    },
+    {
+      "id": "W02_M25",
+      "week": 2,
+      "lecture": "Lec 10",
+      "source": "mock_unseen",
+      "question": "At the start of Lecture 10, which four-question shared framework is established for reading any real-world sustainable development case?",
+      "options": [
+        "What development goal is being pursued, what ecological system is affected, who benefits and who bears the costs, and what happens in the long term?",
+        "What is the current land price, who is the construction contractor, how fast can extraction begin, and how can environmental review be bypassed?",
+        "Which single species is present, what is its Latin name, how can it be kept in a zoo, and what is its market price?",
+        "How can all human activity be stopped, how can cities be dismantled, how can agriculture be abolished, and how can trade be ended?"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Before we enter the first case, let us establish a shared framework. It has four questions. First, what development goal is being pursued? Housing, food, transport, energy or income? Second, what ecological system is affected? Third, who benefits and who bears the costs? Fourth, what happens in the long term?",
+      "mini_lesson": "Every real-world sustainability case in Lecture 10 is diagnosed using four structured questions: (1) Identify the specific human development goal (housing, food, energy); (2) Identify the affected ecological system; (3) Analyze distributional justice (who captures the gains vs. who bears the burdens); and (4) Evaluate long-term consequences beyond immediate short-term outputs. Distractor (B) reflects narrow commercial opportunism, while (D) reflects the false anti-development caricature."
+    },
+    {
+      "id": "W02_M26",
+      "week": 2,
+      "lecture": "Lec 10",
+      "source": "mock_unseen",
+      "question": "In the “Forests and Livelihoods” case study, what elements combine to form a genuinely sustainable pathway for forest management?",
+      "options": [
+        "Clear-felling timber as rapidly as possible while excluding local forest-dependent communities from governance",
+        "Limit-based harvesting set at rates the forest can regenerate, protection of high-biodiversity areas, meaningful inclusion of local communities in governance, and valuation of ecosystem services alongside products",
+        "Banning all human entry and all non-timber forest product collection across every landscape on Earth",
+        "Valuing forests exclusively by the commercial market price of cut timber in urban account statements"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "A more sustainable pathway in forest management typically involves several connected elements. Limits-based harvesting set at rates that the forest can regenerate, protection of high biodiversity and ecologically sensitive areas, meaningful inclusion of local communities in governance and decision making, and valuation that includes ecosystem services alongside products.",
+      "mini_lesson": "A forest is simultaneously a source of extractable products (timber, fuelwood, medicinal plants), a livelihood base for local communities, and ecological infrastructure regulating watershed hydrology and carbon. Sustainable forest management integrates all three roles by pegging harvest limits strictly to biological regeneration, protecting sensitive biodiversity zones, sharing governance with local communities, and accounting for unpriced watershed services. Distractors (A), (C), and (D) isolate only one extreme."
+    },
+    {
+      "id": "W02_M27",
+      "week": 2,
+      "lecture": "Lec 10",
+      "source": "mock_unseen",
+      "question": "In the “Agriculture and Biodiversity” case study, how can excessive fertilizer and pesticide use in intensive farming undermine sustainability beyond the farm boundary?",
+      "options": [
+        "Chemical inputs remain strictly locked inside crop seeds and never interact with soil pH, groundwater, or food webs",
+        "Synthetic fertilizers and pesticides permanently increase native pollinator diversity and purify downstream drinking water",
+        "Excess fertilizer runoff can trigger eutrophication and oxygen-depleting algal blooms in nearby water bodies, while heavy pesticide use can harm pollinators that neighboring orchards rely on and enter the human food chain",
+        "Maintaining habitat strips and field margins around farms always reduces long-term crop stability"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Repeated chemical inputs can alter soil pH or salt levels, gradually degrading the very medium crops depend on. Excess fertilizer washing off the fields can trigger eutrophication in nearby water bodies where nutrient overload causes algal blooms that deplete oxygen, damaging aquatic life and the water supply that neighboring communities themselves rely on. Pesticide use at high intensities can harm pollinators that nearby fruit groves or honey farms depend on... and a portion of these chemicals inevitably enters the food chain itself.",
+      "mini_lesson": "Treating farms as isolated factory floors ignores landscape-scale ecological feedbacks: chemical fertilizers wash into lakes and rivers to cause eutrophication (nutrient overload -> algal bloom -> oxygen depletion -> fish die-offs), while broad-spectrum pesticides wipe out beneficial insect pollinators needed by nearby fruit orchards and contaminate human food. Conversely, keeping field margins and hedgerows creates a synergy that sustains natural pest control and pollination. Distractors (B), (A), and (D) invert these biological mechanisms."
+    },
+    {
+      "id": "W02_M28",
+      "week": 2,
+      "lecture": "Lec 10",
+      "source": "mock_unseen",
+      "question": "In the “Mangroves, Coasts, and Development” case study, what structural incentive problem is illustrated by replacing coastal mangrove forests with engineered gabion rock check dams?",
+      "options": [
+        "Engineered rock walls provide superior fish nursery habitat, carbon storage, and ecotourism revenue compared to living mangroves",
+        "Mangrove roots accelerate coastal erosion and must be removed to protect shorelines",
+        "Construction contractors always bear the full financial and social cost whenever a seawall fails during a cyclone",
+        "Living mangroves buffer waves and support fisheries for free without an invoice, whereas engineered structures generate repeated construction, repair, and replacement contracts funded by taxpayers while coastal and fishing communities bear the ecological losses"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "The wave buffering that the mangrove forest provided quietly, continuously, and without an invoice must now be purchased from a contractor and purchased again when the structure corrodes, shifts under storm load and needs repair, reinforcement and eventual replacement. This is where the structural incentive problem becomes visible. Every cycle of construction and repair is a contract to be awarded and a budget to be spent... The taxpayer pays first and most quietly... The fishing community pays next in disappearing catches... The broader coastal community then pays further still in flood risk.",
+      "mini_lesson": "Intact mangrove belts are self-repairing living infrastructure: they dissipate cyclone wave energy, hold coastal soil with their roots, store carbon, attract ecotourists, and serve as breeding nurseries for coastal fisheries—all at zero municipal cost. Yet when land-use advisors profit from engineering contracts, perverse incentives favor clearing mangroves and billing taxpayers repeatedly for corroding gabion rock walls that provide zero fish habitat or tourism value, leaving local fishers and coastal residents exposed when storms strike."
+    },
+    {
+      "id": "W02_M29",
+      "week": 2,
+      "lecture": "Lec 10",
+      "source": "mock_unseen",
+      "question": "Why are urban planning decisions about converting parks, ponds, and green corridors into buildings simultaneously environmental, social, and economic sustainability issues?",
+      "options": [
+        "Because cities exist completely outside ecological constraints and green spaces serve only as visual decoration",
+        "Because reducing urban green cover increases heat stress and stormwater flooding (environmental), disproportionately deprives lower-income neighborhoods of cooling, recreation, and health relief (social), and raises long-term livability and maintenance costs (economic)",
+        "Because lower-income urban neighborhoods always have the highest access to private green space and cooling",
+        "Because urban trees and wetlands never support any biodiversity or air quality improvement"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Urban green spaces regulate temperature, support mental well-being, improve air quality, help manage storm water, and provide habitat for many species... More construction can reduce green cover. Less green cover can increase urban heat stress. What appears land efficient in the short term may reduce long-term livability. There is also an equity dimension. Access to urban green space is often unevenly distributed with lower income areas having less.",
+      "mini_lesson": "Urban green spaces are essential municipal infrastructure, not mere decoration: they mitigate the urban heat island effect, absorb monsoon stormwater, filter air pollutants, and provide habitat. When parks or urban ponds are converted into commercial real estate, developers capture immediate profits while residents—especially children, the elderly, and low-income neighborhoods lacking private cooling—suffer higher heat stress, flooding, and loss of recreational and mental well-being. Distractors (A), (C), and (D) use false absolutes."
+    },
+    {
+      "id": "W02_M30",
+      "week": 2,
+      "lecture": "Lec 10",
+      "source": "mock_unseen",
+      "question": "According to the synthesis of the five case studies in Lecture 10, what characterizes a “weak” sustainability analysis?",
+      "options": [
+        "Focusing on only one visible economic benefit, ignoring ecosystem services, forgetting to ask who bears the losses, and assuming that any ecological damage can be easily repaired later",
+        "Comparing short-term and long-term outcomes deliberately while looking for redesign options that minimize irreversible ecological loss",
+        "Integrating biodiversity, livelihood equity, and ecological threshold indicators across all three pillars",
+        "Directing urban expansion away from high-functioning wetlands toward lower-functioning land"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "It is useful to recognize what weak sustainability analysis also looks like. A weak analysis focuses on one benefit only, usually the most visible economic gain. It ignores ecosystem services. It forgets to ask who bears the losses and it assumes that any ecological damage can be repaired easily later. That last assumption is especially dangerous because the restoration is often expensive, slow, and incomplete.",
+      "mini_lesson": "Dr. Awadhiya contrasts weak vs. strong sustainability analysis: a weak analysis fixates on a single immediate economic output (like land conversion value or seasonal crop yield), ignores unpriced regulating services, overlooks which vulnerable group pays the cost, and naively assumes degraded soils, filled wetlands, or extinct local populations can be fixed with money later. Strong sustainability analysis widens the frame upfront to prevent irreversible ecological losses before they happen."
+    }
+  ]
+}

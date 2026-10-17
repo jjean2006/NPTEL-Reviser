@@ -1,0 +1,172 @@
+{
+  "week": 7,
+  "lecture_briefings": {
+    "Lec 31": "Lecture 31 introduces the science of measuring wildlife populations, defining a biological population as individuals of the same species occupying a defined geographical area that are capable of naturally interbreeding. It establishes the fundamental population balancing equation, $N_{t+1} = N_t + (B + I) - (D + E)$, which tracks how populations grow through demographic gains (Births and Immigration) and shrink through demographic losses (Deaths and Emigration). Because counting every single animal in a vast forest (a complete census) is rarely possible, wildlife managers distinguish between absolute abundance (total animal count) and relative abundance indices (such as dung piles per kilometre or encounter rates) to track population trends over time. Watch out for the 3 most important terms: Population in Wildlife Studies (conspecifics in a defined area capable of interbreeding), Population Gains vs. Losses ($B + I$ vs. $D + E$), and Absolute vs. Relative Abundance (exact headcount vs. indirect proxy indices).",
+    "Lec 32": "Lecture 32 focuses on measurement quality, error types, and sampling effort in ecological monitoring. It contrasts accuracy (how close an estimate is to the true population value) with precision (how closely repeated measurements cluster together), explaining why a faulty instrument can yield highly precise yet completely inaccurate estimates. The lecture categorizes systematic deviations from the true value (bias) into equipment bias (such as a miscalibrated GPS or rangefinder) and observer bias (differences in human visual acuity, skill, or fatigue), while defining sampling intensity as the ratio of surveyed sample units to total population units ($n / N$). Watch out for the 3 most important terms: Accuracy vs. Precision (closeness to true value vs. repeatability among measurements), Systematic Bias (directional deviation from the true value, including equipment and observer bias), and Sampling Intensity (sample units divided by total population units).",
+    "Lec 33": "Lecture 33 explores applied field survey technologies across diverse wildlife taxa, moving from indirect sign surveys to advanced remote sensors. It explains how the National Tiger Conservation Authority (NTCA) transitioned from the error-prone historical Pugmark Census Method to paired motion-triggered camera traps that identify individual Bengal tigers and leopards by their unique, asymmetrical flank stripe or rosette patterns. For elusive species where visual sightings fail, the lecture covers dung/pellet group counts (using daily defecation and decay rates) for elephants and deer, Passive Acoustic Monitoring (PAM) with hydrophones for deep-diving whales and ultrasonic bats, and satellite remote sensing (NDVI) for mangrove canopy health. Watch out for the 3 most important terms: Camera-Trap Individual Identification (using unique flank stripe patterns for mark-recapture), Passive Acoustic Monitoring (automated soundscape recording for cetaceans and bats), and Convenience/Access Bias (the error of surveying only along accessible roadsides).",
+    "Lec 34": "Lecture 34 details the four core probability sampling designs used to select survey units across landscapes, alongside capture-recapture mathematics and pollinator trapping. It contrasts Simple Random Sampling (where every unit has an equal $1/N$ chance of selection) with Stratified Random Sampling (dividing heterogeneous landscapes into homogeneous habitat strata when animal density varies across habitats), Systematic Sampling (selecting every $k$-th unit at fixed intervals), and Probability Proportional to Size or PPS sampling (where larger units receive a higher probability of selection). Finally, it introduces the classical Lincoln-Petersen two-sample capture-recapture estimator ($N = M \\cdot n / m$) and UV-reflective coloured pan traps filled with soapy water for wild pollinators. Watch out for the 3 most important terms: Simple Random vs. Stratified Sampling (equal probability across uniform landscapes vs. habitat-based strata for variable densities), PPS Sampling (larger sampling units receive a higher chance of selection), and Lincoln-Petersen Estimator ($N = M \\cdot n / m$, assuming a closed population and equal catchability).",
+    "Lec 35": "Lecture 35 explains Line Transect Distance Sampling, the gold-standard methodology for estimating herbivore prey density in forests where visibility drops off with distance from the observer. Observers walk straight cut-lines recording radial sighting distance ($r$) and sighting angle ($\\theta$) to compute perpendicular distance $y = r \\cdot \\sin(\\theta)$, fitting a detection probability curve $g(y)$ that accounts for animals missed in dense vegetation. The entire mathematical framework relies on the critical assumption that detection directly on the transect centerline is $100\\%$ certain ($g(0) = 1$), using the Effective Strip Half-Width ($\\mu$) to calculate density as $\\hat{D} = n / (2 \\cdot L \\cdot \\mu)$ and the Akaike Information Criterion (AIC) to select the best-fitting model. Watch out for the 3 most important terms: Distance Sampling Detection Function $g(y)$ (modelling declining visibility with perpendicular distance), Zero-Distance Assumption $g(0) = 1$ (animals directly on the transect line are detected with $100\\%$ certainty), and Effective Strip Half-Width ($\\mu$, the distance where missed animals inside equal detected animals outside)."
+  },
+  "questions": [
+    {
+      "id": "W07_Q01",
+      "week": 7,
+      "lecture": "Lec 34",
+      "source": "official_quiz",
+      "question": "Simple random sampling gives:",
+      "options": [
+        "Larger units a higher chance of selection",
+        "Every sampling unit an equal chance of selection",
+        "Only remote areas a chance of selection",
+        "Every kth unit after a fixed start without randomness"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "In simple random sampling, every sampling unit in the target population has an equal, non-zero, and independent chance of being selected ($P = 1/N$).",
+      "mini_lesson": "Simple Random Sampling (SRS) is the foundational probability sampling design in which every unit in the sampling frame has an identical mathematical chance of being chosen. It works best in uniform landscapes, whereas distractor (A) defines Probability Proportional to Size (PPS) sampling and distractor (D) defines Systematic Sampling."
+    },
+    {
+      "id": "W07_Q02",
+      "week": 7,
+      "lecture": "Lec 34",
+      "source": "official_quiz",
+      "question": "Stratified sampling is especially useful when:",
+      "options": [
+        "The whole landscape is uniform",
+        "Animal density varies across habitat types",
+        "Complete census is always possible",
+        "Sampling units cannot be mapped"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Stratified random sampling partitions a heterogeneous landscape into non-overlapping homogeneous strata (such as riparian forest, grassland, and dry scrub) and is applied when animal density varies sharply across habitat types.",
+      "mini_lesson": "When wildlife density differs dramatically between habitats (for example, high deer density in grasslands versus low density in rocky scrub), Simple Random Sampling produces high variance and may miss rare habitats. Stratified sampling solves this by grouping the landscape into distinct habitat strata first and sampling randomly within each stratum. Distractor (A) describes the ideal condition for Simple Random Sampling, not stratified sampling."
+    },
+    {
+      "id": "W07_Q03",
+      "week": 7,
+      "lecture": "Lec 32",
+      "source": "official_quiz",
+      "question": "Which is an example of equipment bias?",
+      "options": [
+        "Missed detections due to low observer skill",
+        "Faulty calibration of a measuring device",
+        "Dense vegetation hiding animals",
+        "Unrealistic movement assumptions in a model"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Equipment bias is a systematic distortion in data collection resulting directly from the physical failure, drift, or faulty calibration of a measuring instrument, such as a miscalibrated laser rangefinder or faulty camera-trap sensor.",
+      "mini_lesson": "In wildlife monitoring, systematic bias is categorized by its source: equipment bias stems from defective or poorly calibrated instruments that consistently skew measurements in one direction. Distractor (A) is a classic sibling-term swap describing observer bias, (C) describes environmental visibility bias, and (D) describes mathematical model bias."
+    },
+    {
+      "id": "W07_Q04",
+      "week": 7,
+      "lecture": "Lec 32",
+      "source": "official_quiz",
+      "question": "Bias in wildlife monitoring means:",
+      "options": [
+        "Random scatter around a true value",
+        "Systematic deviation from the true value",
+        "Higher cost of data collection",
+        "Larger sample size than required"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Systematic bias is the consistent, directional deviation of a sample estimate from the true underlying population parameter, whereas imprecision is random scatter around the mean.",
+      "mini_lesson": "Bias (inaccuracy) means your survey method consistently overestimates or underestimates the true population size due to a structural flaw in design, equipment, or observer technique. Distractor (A) is the primary statistical trap: 'random scatter around a true value' defines imprecision (random error or variance), which cancels out with larger sample sizes, whereas systematic bias does not."
+    },
+    {
+      "id": "W07_Q05",
+      "week": 7,
+      "lecture": "Lec 33",
+      "source": "official_quiz",
+      "question": "In camera-trap based tiger estimation, individual tigers can be identified by:",
+      "options": [
+        "Herd size",
+        "Nesting banks",
+        "Unique stripe patterns",
+        "Flowering season"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Motion-triggered paired camera traps deployed along forest trails photograph passing tigers on both flanks, allowing researchers to identify individual Bengal tigers based on their unique, lifelong, asymmetrical stripe patterns.",
+      "mini_lesson": "Just like human fingerprints, the flank stripe patterns of Bengal tigers (and rosette patterns of leopards) are unique to each individual and remain unchanged throughout life. Paired camera traps capture both left and right flanks so software can match recaptures across space and time for mark-recapture density estimation. The distractors refer to ungulate social groups, crocodile/bird nesting, or plant phenology."
+    },
+    {
+      "id": "W07_Q06",
+      "week": 7,
+      "lecture": "Lec 31",
+      "source": "official_quiz",
+      "question": "Which pair represents losses from a population?",
+      "options": [
+        "Natality and immigration",
+        "Births and recruitment",
+        "Mortality and emigration",
+        "Density and dispersal"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "In the basic population balancing equation $N_{t+1} = N_t + (B + I) - (D + E)$, the two demographic mechanisms that decrease population size (losses) are Deaths/Mortality ($D$) and Emigration ($E$).",
+      "mini_lesson": "A wildlife population loses individuals in only two ways: individuals die within the area (mortality/deaths) or individuals permanently leave the area to settle elsewhere (emigration). Distractor (A) 'Natality and immigration' is the exact opposite pole—the pair of demographic gains that add individuals to a population."
+    },
+    {
+      "id": "W07_Q07",
+      "week": 7,
+      "lecture": "Lec 31",
+      "source": "official_quiz",
+      "question": "A population in wildlife studies is best understood as which of the following?",
+      "options": [
+        "All species living in a habitat during one season",
+        "Individuals of the same species in a defined area that are capable of interbreeding",
+        "All animals counted during a field survey",
+        "Individuals of different species using the same corridor"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "A population in wildlife studies is defined as a group of individuals of the same biological species occupying a defined geographical area at a given time that are capable of naturally interbreeding.",
+      "mini_lesson": "Three criteria define an ecological population: same species (conspecifics), shared spatial boundary (defined area), and reproductive connectivity (capable of interbreeding). Distractors (A) and (D) are sibling-level traps that describe multi-species 'communities' rather than a single-species population."
+    },
+    {
+      "id": "W07_Q08",
+      "week": 7,
+      "lecture": "Lec 31",
+      "source": "official_quiz",
+      "question": "Which pair represents gains to a population?",
+      "options": [
+        "Births and immigration",
+        "Deaths and emigration",
+        "Births and deaths",
+        "Immigration and emigration"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "In the population balancing equation $N_{t+1} = N_t + (B + I) - (D + E)$, the two demographic mechanisms that increase population size (gains) are Births/Natality ($B$) and Immigration ($I$).",
+      "mini_lesson": "A population increases in size through two additive pathways: internal reproduction (births/natality) and external arrival of new individuals from outside patches (immigration). Distractor (B) lists the two population losses, while distractors (C) and (D) mix one gain with one loss to trap hurried readers."
+    },
+    {
+      "id": "W07_Q09",
+      "week": 7,
+      "lecture": "Lec 34",
+      "source": "official_quiz",
+      "question": "PPS sampling means:",
+      "options": [
+        "Larger sampling units receive a higher chance of selection",
+        "Every unit has the same chance regardless of size",
+        "Only point transects are used",
+        "Animals are removed after each capture"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Probability Proportional to Size (PPS) is a sampling design where larger sampling units—by geographical area, biomass, or volume—have a proportionally higher mathematical probability of being selected ($P_i \\propto \\text{Size}_i$).",
+      "mini_lesson": "When forest compartments, lakes, or watersheds vary hugely in area, giving tiny patches the same selection chance as massive blocks skews landscape estimates. Probability Proportional to Size (PPS) weights selection probability by unit size so larger units have a higher chance of being sampled. Distractor (B) defines Simple Random Sampling."
+    },
+    {
+      "id": "W07_Q10",
+      "week": 7,
+      "lecture": "Lec 32",
+      "source": "official_quiz",
+      "question": "Sampling intensity is calculated as:",
+      "options": [
+        "Total animals divided by total area",
+        "Sample units divided by total population units",
+        "Marked animals divided by recaptured animals",
+        "Detection distance divided by transect length"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Sampling intensity is the ratio of the number of sample units surveyed ($n$) to the total population units existing in the defined study universe ($N$): $\\text{Sampling Intensity} = n / N$.",
+      "mini_lesson": "Sampling intensity measures what fraction of the total study area or total available compartments was actually surveyed by field teams ($n / N$, often expressed as a percentage). Distractor (A) is a formula swap that defines 'crude animal density', while (C) is a component of the Lincoln-Petersen capture-recapture ratio."
+    }
+  ]
+}

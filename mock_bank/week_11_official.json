@@ -1,0 +1,172 @@
+{
+  "week": 11,
+  "lecture_briefings": {
+    "Lec 51": "Lecture 51 introduces the principles of wildlife capture, animal marking, and the four modes of wildlife restraint. For long-term research and monitoring, animals can be marked non-invasively or fitted with subcutaneous PIT tags (Passive Integrated Transponders—tiny unpowered microchips that emit a unique ID code when scanned, providing permanent individual identification). When animals must be handled, managers choose among four modes of restraint: Behavioural restraint (using training, conditioning, or desensitisation in captive settings), Physical restraint (direct manual handling, such as supporting a small reptile's full body weight and avoiding squeezing or grabbing its tail, which triggers caudal autotomy), Mechanical restraint (using cages, box traps, nets, chutes, or a Ketch-All pole that provides short-distance loop control while keeping handlers safely away), and Chemical restraint (immobilizing drugs). Watch out for the 3 most important terms: PIT Tags (microchips for long-term individual identification), The 4 Modes of Restraint (Behavioural, Physical, Mechanical, and Chemical), and Ketch-All Pole vs. Reptile Handling (short-distance standoff control pole vs. supporting the body and never holding a lizard by its tail alone).",
+    "Lec 52": "Lecture 52 covers Chemical Restraint—the remote delivery of immobilizing pharmaceuticals and the life-threatening emergency of Capture Myopathy. It maps the spectrum of drug delivery equipment by working distance: hand syringes ($0\\text{ m}$), jab sticks ($1\\text{--}2\\text{ m}$, ideal when an animal is approachable, confined, or partially restrained in a crate or trap), quiet lung-powered blowpipes ($<5\\text{ m}$), adjustable-pressure compressed gas/CO2 projectors like Dan-Inject ($10\\text{--}30\\text{ m}$), and high-force gunpowder projector rifles ($30\\text{--}60+\\text{ m}$, which shatter lightweight plastic darts). Pharmacologically, it contrasts Neuromuscular Blockers (which paralyze voluntary skeletal muscles without providing any sedation, analgesia, or unconsciousness, leaving the animal terrified and risking suffocation) with CNS Depressants (dissociatives like ketamine, alpha-2 agonists like xylazine, and potent opioids like etorphine that depress the central nervous system). Finally, it warns against Capture Myopathy—where intense chase stress and fear cause extreme lactic acidosis, hyperthermia, muscle necrosis (rhabdomyolysis), dark brown urine (myoglobinuria), and fatal kidney failure—which is prevented by limiting chase times and using funnel-shaped Boma capture corrals. Watch out for the 3 most important terms: Jab Stick vs. Remote Projectors (jab stick for confined/approachable animals vs. blowpipe, air gun, and powder gun), Neuromuscular Blockers vs. CNS Depressants (muscle paralysis with zero sedation/analgesia vs. central brain sedation/analgesia), and Capture Myopathy (stress-induced lactic acidosis, hyperthermia, and muscle breakdown causing myoglobinuria and delayed death).",
+    "Lec 53": "Lecture 53 examines active In-Situ Habitat Management—the field interventions managers use to manipulate food, water, cover, and disturbance regimes inside protected areas. While tools such as prescribed burning, controlled grazing, weed eradication, canopy opening, artificial waterhole creation, and tree planting are widely used, the lecture emphasizes one overarching rule of caution: no habitat intervention is universally 'good' or 'bad'; management tools can help or harm depending on timing, intensity, location, and monitoring. For example, adding artificial waterholes in an arid reserve can inadvertently favour water-dependent generalists, spread waterborne disease, degrade surrounding vegetation via trampling, and disadvantage desert-adapted specialists, just as dense tree plantations inside natural grasslands destroy open-savanna biodiversity rather than restoring it. Watch out for the 3 most important terms: Central Caution of Habitat Management (tools can help or harm depending on timing, intensity, location, and monitoring), Artificial Water Provisioning Trade-offs (concentrating herbivory, trampling, and disease around waterholes), and Grassland vs. Plantation Mismanagement (why planting trees in natural grasslands or savannas destroys native habitat).",
+    "Lec 54": "Lecture 54 dives into Wildfire Science, Fire Ecology, and Suppression Tactics, drawing on the instructor's specialized expertise in forest fire management. Based on the Fire Triangle (Fuel, Heat, and Oxygen), wildfires are classified by the vertical forest layer they burn: Ground fires (slow, flameless smoldering deep in subsurface peat and humus), Surface fires (burning dry leaf litter and grass on the forest floor), and Crown fires (high-intensity fires that climb vertical 'ladder fuels' into the upper treetops and spread rapidly across canopies). Beyond killing animals directly, severe wildfires alter soil physics by vaporizing waxy organic compounds from litter that condense onto cooler mineral grains below, creating a water-repellent 'hydrophobic soil' layer that blocks rainwater infiltration and triggers severe surface runoff, erosion, and flash floods. Watch out for the 3 most important terms: Ground vs. Surface vs. Crown Fires (subsurface peat smoldering vs. forest floor litter vs. rapid treetop canopy fires bridged by ladder fuels), Hydrophobic Soil (wildfire-induced water-repellent soil that reduces infiltration and increases runoff), and Fire Lines & Counter Burning/Backfiring (removing fuel strips and burning inward toward the main fire front).",
+    "Lec 55": "Lecture 55 investigates Plastic Pollution as a pervasive chemical and physical threat to terrestrial and aquatic biodiversity. Plastics are classified by size into macroplastics ($>25\\text{ mm}$), mesoplastics ($5\\text{--}25\\text{ mm}$), microplastics ($<5\\text{ mm}$), and nanoplastics ($<1\\text{ }\\mu\\text{m}$), with large debris fragmenting into microplastics through solar UV photolysis and mechanical abrasion. Physically, plastics cause entanglement, ghost fishing (abandoned nets that perpetually trap marine life), and gastrointestinal blockage/false satiation (seen even in mountain ungulates like the Nilgiri Tahr ingesting tourist litter in Mukurthi National Park). Chemically, microplastics act as toxic 'chemical sponges' that adsorb hydrophobic persistent organic pollutants (POPs, DDT, PAHs) from water while leaching internal Endocrine Disrupting Chemicals (EDCs) like Bisphenol A (BPA) and phthalates that derail hormone signalling and reproduction. Watch out for the 3 most important terms: Microplastics & Photolysis (plastic particles $<5\\text{ mm}$ formed via UV light polymer cleavage), Ghost Fishing & Gut Impaction (perpetual trapping by lost nets and starvation from plastic-filled stomachs), and Endocrine Disrupting Chemicals / Chemical Sponge Effect (leaching BPA/phthalates and concentrating ambient hydrophobic toxins)."
+  },
+  "questions": [
+    {
+      "id": "W11_Q01",
+      "week": 11,
+      "lecture": "Lec 51",
+      "source": "official_quiz",
+      "question": "What is the main purpose of PIT tags?",
+      "options": [
+        "To sedate animals during transport",
+        "To create artificial movement routes",
+        "To prevent conflict with livestock",
+        "To allow long-term individual identification"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Passive Integrated Transponder (PIT) tags are tiny, unpowered radiofrequency microchips injected under the skin that provide reliable, long-term individual identification whenever scanned with a handheld or automated reader.",
+      "mini_lesson": "External ear tags or collars can fall off or wear out over time, whereas a Passive Integrated Transponder (PIT) tag is a rice-sized glass-encapsulated microchip implanted subcutaneously that requires no battery and lasts for the animal's entire life. When a scanner passes near the animal, the tag transmits a unique alphanumeric code for permanent individual identification. The distractors confuse identification microchips with sedatives, corridors, or conflict fencing."
+    },
+    {
+      "id": "W11_Q02",
+      "week": 11,
+      "lecture": "Lec 51",
+      "source": "official_quiz",
+      "question": "Which practice is appropriate while physically handling small reptiles?",
+      "options": [
+        "Holding only the tail to restrict movement",
+        "Supporting the body and avoiding squeezing",
+        "Keeping the animal exposed to heat for long periods",
+        "Applying pressure to the abdomen for control"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "When physically handling small reptiles such as lizards, handlers must gently support the animal's body weight and avoid squeezing the chest or abdomen, and must never grasp the animal by the tail alone.",
+      "mini_lesson": "Small reptiles lack a muscular diaphragm like mammals, so squeezing their trunk or abdomen suffocates them and crushes fragile internal organs; instead, handlers must support their body gently without squeezing. Distractor (A) 'Holding only the tail' is a classic field-safety blunder: many lizards and geckos possess fracture planes in their tail vertebrae and will reflexively shed their tail (caudal autotomy) to escape if grabbed by the tail!"
+    },
+    {
+      "id": "W11_Q03",
+      "week": 11,
+      "lecture": "Lec 53",
+      "source": "official_quiz",
+      "question": "Which statement reflects the central caution in habitat management?",
+      "options": [
+        "Fire and grazing always damage habitats",
+        "Water provisioning is always beneficial",
+        "Management tools can help or harm depending on timing, intensity, location, and monitoring",
+        "Plantation is automatically equal to restoration"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "The central caution in habitat management is that no intervention is universally beneficial or harmful; management tools such as fire, grazing, water provisioning, or planting can help or harm depending on timing, intensity, location, and continuous monitoring.",
+      "mini_lesson": "In ecological management, context determines outcome: cool early-season prescribed burning maintains grassland diversity, whereas intense late-summer fires destroy nests; similarly, adding artificial waterholes or planting trees in natural savannas can wreck native specialist communities. Notice how Distractors (A), (B), and (D) all fail the exam blueprint's Rule 1 by using hard absolutes ('always damage', 'always beneficial', 'automatically equal')."
+    },
+    {
+      "id": "W11_Q04",
+      "week": 11,
+      "lecture": "Lec 52",
+      "source": "official_quiz",
+      "question": "When is a jab stick most suitable?",
+      "options": [
+        "When the animal is distant and hidden in dense vegetation",
+        "When the animal is approachable, confined, or partially restrained",
+        "When no trained personnel are available",
+        "When the animal must be monitored from the air"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "A jab stick (pole syringe) is a syringe mounted on the end of an extension pole, making it most suitable when an animal is approachable at close range, confined in a crate or trap, or partially restrained.",
+      "mini_lesson": "Remote chemical delivery tools are matched to standoff distance: a jab stick has a reach of only 1 to 2 metres, so it is used to inject animals safely through the bars of a squeeze cage, box trap, or culvert without putting the handler's hand inside. Distractor (A) requires a medium- or long-range dart rifle (compressed air or gunpowder projector), while (C) violates veterinary safety protocols."
+    },
+    {
+      "id": "W11_Q05",
+      "week": 11,
+      "lecture": "Lec 54",
+      "source": "official_quiz",
+      "question": "Which type of wildfire burns treetops and can spread rapidly?",
+      "options": [
+        "Ground fire",
+        "Surface fire",
+        "Crown fire",
+        "Prescribed fire"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "A crown fire is the most intense and dangerous class of wildfire, burning through the upper treetops and forest canopy and spreading rapidly across the landscape driven by wind.",
+      "mini_lesson": "Wildfires are classified into three vertical strata: ground fires smolder slowly underground in deep peat and humus (`A`), surface fires burn fallen leaf litter and dry grass along the forest floor (`B`), and crown fires climb vertical ladder fuels into the upper tree canopy (`C`), where strong winds drive rapid treetop-to-treetop firestorms. Distractor (D) 'Prescribed fire' is a deliberate management burn (usually a low-intensity surface fire)."
+    },
+    {
+      "id": "W11_Q06",
+      "week": 11,
+      "lecture": "Lec 51",
+      "source": "official_quiz",
+      "question": "Which form of restraint is based on training, conditioning, or desensitisation?",
+      "options": [
+        "Behavioural restraint",
+        "Physical restraint",
+        "Chemical restraint",
+        "Mechanical restraint"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Behavioural restraint relies on prior training, positive reinforcement conditioning, and gradual desensitisation so that captive or semi-captive animals voluntarily cooperate during veterinary inspection or handling.",
+      "mini_lesson": "In zoos and conservation breeding centres, repeatedly darting or physically pinning an elephant, primate, or big cat causes dangerous stress; instead, keepers use behavioural restraint (operant conditioning and food rewards) to train animals to present a foot, ear, or shoulder voluntarily at the enclosure mesh. The three distractors are the three sibling restraint categories from the same lecture slide (manual hands, immobilizing drugs, and physical traps/cages)."
+    },
+    {
+      "id": "W11_Q07",
+      "week": 11,
+      "lecture": "Lec 51",
+      "source": "official_quiz",
+      "question": "Which form of restraint uses cages, traps, poles, nets, or chutes?",
+      "options": [
+        "Chemical restraint",
+        "Behavioural restraint",
+        "Physical restraint",
+        "Mechanical restraint"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Mechanical restraint uses engineered tools, barriers, and devices—such as squeeze cages, box traps, Ketch-All poles, mist nets, drop nets, and handling chutes—to hold or restrict an animal's movement.",
+      "mini_lesson": "When handlers use physical equipment or structural enclosures (cages, traps, poles, nets, or chutes) rather than bare hands or sedative drugs to hold an animal, the method is classified as mechanical restraint. Distractor (C) 'Physical restraint' is the primary trap here: in Lecture 51's terminology, physical restraint refers specifically to direct manual handling with hands/towels, whereas tools and structures constitute mechanical restraint."
+    },
+    {
+      "id": "W11_Q08",
+      "week": 11,
+      "lecture": "Lec 51",
+      "source": "official_quiz",
+      "question": "Which statement best describes a Ketch-All pole?",
+      "options": [
+        "It is used to create long-term animal enclosures",
+        "It is a device for measuring animal temperature",
+        "It provides short-distance control while keeping handlers away",
+        "It is used to guide animals into pitfall traps"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "A Ketch-All pole (catch pole or snare pole) consists of a rigid shaft with an adjustable cable loop at the tip, providing short-distance head/neck control of medium-sized animals while keeping handlers at a safe distance from bites and claws.",
+      "mini_lesson": "A Ketch-All pole is a classic mechanical restraint tool featuring a strong metal pole and a padded, quick-release sliding cable noose at the end. It allows wildlife rescuers to control an aggressive medium-sized carnivore, reptile, or canid at arm's length so the animal cannot bite the handler. Distractor (D) confuses a catch pole with drift fences used for pitfall traps."
+    },
+    {
+      "id": "W11_Q09",
+      "week": 11,
+      "lecture": "Lec 52",
+      "source": "official_quiz",
+      "question": "Which drug group immobilises animals through paralysis of voluntary muscles without providing sedation or analgesia?",
+      "options": [
+        "CNS depressants",
+        "Tranquillisers",
+        "Dissociatives",
+        "Neuromuscular blockers"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Neuromuscular blockers paralyze voluntary skeletal muscles by blocking transmission at the neuromuscular junction, but they provide zero sedation and zero analgesia (pain relief), leaving the animal fully conscious and fearful.",
+      "mini_lesson": "Chemical immobilization drugs split into two fundamental pharmacological branches: CNS depressants (which act on the brain to dull consciousness, fear, and pain) and Neuromuscular Blockers (such as succinylcholine, which act only on peripheral muscle receptors). Because neuromuscular blockers paralyze movement while leaving the animal completely awake, terrified, and able to feel full pain—and easily paralyze the breathing muscles—they have a very narrow safety margin. Distractors (A), (B), and (C) all act on the central nervous system."
+    },
+    {
+      "id": "W11_Q10",
+      "week": 11,
+      "lecture": "Lec 54",
+      "source": "official_quiz",
+      "question": "Which is a physical effect of wildfire?",
+      "options": [
+        "Endocrine disruption",
+        "Hydrophobic soil reducing infiltration and increasing runoff",
+        "Dart leakage during immobilisation",
+        "Formation of ghost nets"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "A major physical effect of intense wildfire on forest soils is the formation of a water-repellent (hydrophobic) soil layer, which sharply reduces rainwater infiltration and increases surface runoff and erosion.",
+      "mini_lesson": "During a hot wildfire, waxy organic compounds in burning leaf litter vaporize and move downward into cooler soil layers, where they condense as a waterproof coating around mineral soil grains. This hydrophobic (water-repellent) barrier prevents post-fire rain from soaking into the ground, causing sheets of water to race across the surface and triggering flash floods and mudslides. Notice the professor's cross-module chimera distractors: (A) is from plastic/chemical pollution, (C) is from chemical darting, and (D) is from marine fishing gear!"
+    }
+  ]
+}

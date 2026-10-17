@@ -1,0 +1,492 @@
+{
+  "week": 9,
+  "lecture_briefings": {
+    "Lec 41": "Lecture 41 introduces Wildlife Health and Disease Ecology, redefining wildlife health not merely as the absence of visible wounds in a single animal, but as a dynamic state involving normal physiological, behavioural, and demographic functioning across individual, population, and ecosystem levels. Conversely, disease is any condition that disrupts normal function and impairs behaviour, physiology, reproduction, or survival. The lecture contrasts acute diseases (rapid onset, short duration, and potential sudden mass mortality) with chronic diseases (slow, insidious onset and prolonged wasting over months or years), and separates underlying predisposing factors (such as old age, inbreeding, or poor nutrition that lower resistance) from acute precipitating factors (such as migration stress or extreme weather shocks that trigger active disease in already susceptible animals). Watch out for the 3 most important terms: Wildlife Health (dynamic normal functioning at individual, population, and ecosystem levels), Acute vs. Chronic Disease (rapid onset/short duration vs. slow onset/protracted course), and Precipitating vs. Predisposing Factors (immediate trigger like migration stress vs. long-term background vulnerability like old age).",
+    "Lec 42": "Lecture 42 builds the quantitative and conceptual toolkit of veterinary epidemiology, carefully distinguishing four cascading pathogen metrics: infectivity (ability to establish infection after exposure), pathogenicity (proportion of infected hosts that develop clinical symptoms), virulence (severity of disease caused once symptoms appear), and case fatality rate (probability that a diseased animal dies). It maps host roles—contrasting reservoir hosts (which maintain a pathogen long-term), bridge hosts (such as feral dogs linking wildlife reservoirs to humans/livestock), and dead-end hosts (which become infected but fail to sustain further forward transmission)—and compares horizontal transmission (between individuals of the same generation) with vertical transmission (parent to offspring). Finally, it classifies temporal and spatial outbreak patterns into sporadic (irregular, isolated cases without a predictable pattern), endemic/enzootic (regular baseline presence), and epidemic/epizootic (sudden surge above baseline, driven by Basic Reproduction Number $R_0 > 1$). Watch out for the 3 most important terms: Infectivity vs. Virulence (ability to establish infection vs. severity of disease caused), Dead-End Host (infected host that does not sustain further transmission), and Sporadic vs. Horizontal Transmission (irregular isolated occurrence vs. same-generation spread).",
+    "Lec 43": "Lecture 43 examines the Epidemiological Triad (Host, Pathogen/Agent, and Environment) and the critical field bio-safety protocols for investigating wildlife mortality, using Anthrax (*Bacillus anthracis*) as the premier case study. When a wild herbivore dies suddenly of suspected anthrax (often showing dark, unclotted blood oozing from orifices and incomplete rigor mortis), field staff must NEVER open the carcass for a visual necropsy. Slicing open an anthrax carcass exposes the vegetative bacteria to atmospheric oxygen, which immediately triggers the formation of tough endospores that contaminate soil and grazing pastures for decades; instead, careful carcass handling (deep burial with quicklime or high-temperature incineration and preventing scavenger access) is central to anthrax management. Watch out for the 3 most important terms: The Epidemiological Triad (Host, Agent/Pathogen, and Environment), Anthrax Carcass Management (never opening carcasses so oxygen cannot trigger bacterial sporulation, and burning/burying to prevent environmental contamination), and Scavenger/Soil Amplification (how vultures, crows, or open necropsy spread spores across landscapes).",
+    "Lec 44": "Lecture 44 surveys major bacterial and viral diseases threatening global and Indian wildlife, highlighting transmission pathways and barrier management. Alongside bacterial diseases like Anthrax, Bovine Tuberculosis (*Mycobacterium bovis*, a chronic pulmonary wasting disease shared between cattle and wild bovids), Avian Botulism (*Clostridium botulinum* neurotoxin causing 'limberneck' paralysis in warm, anaerobic wetlands), and Leptospirosis (urine-borne spirochete causing renal failure in sea lions), the lecture spotlights two devastating viral threats: Rabies and Canine Distemper Virus (CDV). Both Rabies and CDV use domestic and feral dogs at forest fringes as bridge hosts to spill over into endangered carnivores—such as the 1994 Serengeti lion plague and the 2018 Gir Asiatic lion CDV outbreak—making ring vaccination of domestic dogs around protected areas a vital conservation tool. Watch out for the 3 most important terms: Canine Distemper Virus & Rabies (viral spillovers driven by feral dog bridge hosts), Avian Botulism (paralyzing neurotoxin in warm, shallow, anaerobic wetlands), and Barrier/Ring Vaccination (vaccinating domestic livestock and dogs around reserves to block spillover).",
+    "Lec 45": "Lecture 45 completes the wildlife disease survey by examining fungal, protozoal, and parasitic diseases that have driven species-level declines and extinctions. It highlights two catastrophic fungal panzootics: Chytridiomycosis (*Batrachochytrium dendrobatidis*, which thickens amphibian skin, disrupts electrolyte balance, causes cardiac arrest, and drove the Golden Toad extinct) and White-Nose Syndrome (*Pseudogymnoascus destructans*, a cold-loving fungus that erodes bat wing membranes during winter hibernation, causing premature arousal and starvation). It also traces land-to-sea protozoal pollution through *Toxoplasma gondii* (where oocysts from domestic cat faeces wash into coastal waters, concentrate in filter-feeding shellfish, and cause fatal brain infections in Southern sea otters) and ectoparasitic Sarcoptic Mange (*Sarcoptes scabiei* mites causing severe hair loss and hypothermia in canids and ungulates). Watch out for the 3 most important terms: Chytridiomycosis (skin-keratinizing fungal disease causing global amphibian declines), White-Nose Syndrome (hibernating cave-bat fungal disease causing winter fat depletion), and Toxoplasmosis Land-to-Sea Pathway (cat faeces oocysts bioaccumulating in marine bivalves and killing sea otters)."
+  },
+  "questions": [
+    {
+      "id": "W09_M01",
+      "week": 9,
+      "lecture": "Lec 41",
+      "source": "mock_unseen",
+      "question": "Which clinical description best characterizes a “chronic disease” in wildlife?",
+      "options": [
+        "Rapid onset within hours, brief duration, and immediate mass mortality without weight loss",
+        "Slow, insidious onset with subtle early signs, prolonged duration over months or years, and progressive wasting or debilitation",
+        "An injury caused exclusively by lightning strikes during monsoon storms",
+        "A condition that improves reproductive output and accelerates population growth"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "A chronic disease is characterized by a slow, insidious onset, subtle early clinical signs, a protracted course lasting months or years, and progressive debilitation or tissue wasting (such as bovine tuberculosis).",
+      "mini_lesson": "While acute diseases (like anthrax) strike suddenly and kill within hours or days (Distractor A), chronic diseases (like bovine tuberculosis or Johne's disease) develop slowly over months or years. Animals with chronic disease often appear normal in early stages while silently shedding pathogens, gradually losing body condition, fertility, and stamina until they succumb or are taken by predators."
+    },
+    {
+      "id": "W09_M02",
+      "week": 9,
+      "lecture": "Lec 41",
+      "source": "mock_unseen",
+      "question": "In wildlife disease causation, how does a “predisposing factor” differ from a “precipitating factor”?",
+      "options": [
+        "A predisposing factor is always a virus, whereas a precipitating factor is always a fungus",
+        "A predisposing factor kills the animal instantly, whereas a precipitating factor provides lifelong immunity",
+        "A predisposing factor is an underlying, long-term condition (such as advanced age, chronic malnutrition, or genetic inbreeding) that lowers host resistance, whereas a precipitating factor is an acute stressor that triggers active disease expression",
+        "Predisposing factors occur only in marine mammals, whereas precipitating factors occur only in birds"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Predisposing factors are underlying background attributes—such as old age, extreme youth, poor baseline nutrition, or low genetic diversity—that create long-term susceptibility, whereas precipitating factors are immediate acute shocks (like migration stress or a sudden cold snap) that trigger clinical disease.",
+      "mini_lesson": "Think of a predisposing factor as loading the gun over time (an aging, malnourished, or inbred animal with weakened baseline immunity), and a precipitating factor as pulling the trigger right now (an acute winter storm or exhausting migration that pushes that vulnerable animal into overt clinical pneumonia). Distractors (A) and (D) use false absolutes ('always', 'only')."
+    },
+    {
+      "id": "W09_M03",
+      "week": 9,
+      "lecture": "Lec 41",
+      "source": "mock_unseen",
+      "question": "What is a “subclinical” (or asymptomatic) infection in a wild animal population, and why is it challenging for field conservation managers?",
+      "options": [
+        "An infection in which the host carries and potentially sheds a pathogen without showing visible outward symptoms of illness, allowing the disease to spread undetected during routine visual patrols",
+        "An infection that causes immediate, bright-red skin lesions visible from 500 metres away",
+        "A disease that occurs only inside veterinary hospital buildings",
+        "A condition where the pathogen dies before entering the host's body"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "In a subclinical or asymptomatic infection, the pathogen successfully infects and replicates within the host without producing overt, visible clinical signs—making visual field detection extremely difficult while still allowing silent transmission.",
+      "mini_lesson": "Moreover, wild prey animals have evolved to hide signs of weakness for as long as possible so predators do not target them ('masking behaviour'). Consequently, animals with subclinical infections look healthy to field rangers on patrol while silently acting as carriers that spread the pathogen across waterholes and herds."
+    },
+    {
+      "id": "W09_M04",
+      "week": 9,
+      "lecture": "Lec 41",
+      "source": "mock_unseen",
+      "question": "Why can even a non-lethal, chronic parasite burden drive a small wildlife population toward decline without causing direct disease mortality?",
+      "options": [
+        "By converting all host individuals into dead-end hosts for photosynthesis",
+        "By draining host energy reserves, lowering pregnancy and birth rates (fecundity), slowing juvenile growth, and making weakened individuals much easier for predators to catch",
+        "By increasing the population's genetic heterozygosity above 100%",
+        "By eliminating all predators from the surrounding ecosystem"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Disease impacts on wildlife populations are not limited to dramatic mass die-offs; sublethal and chronic infections drain metabolic energy, suppress reproductive fecundity, reduce maternal milk production, and increase vulnerability to predation.",
+      "mini_lesson": "You do not need piles of carcasses in the forest for a disease to devastate a population: if a chronic parasite or virus reduces female pregnancy rates by $40\\%$ and slows down infected fawns so leopards catch them first, the population's death-plus-emigration losses will exceed birth-plus-immigration gains, causing a steady demographic decline."
+    },
+    {
+      "id": "W09_M05",
+      "week": 9,
+      "lecture": "Lec 41",
+      "source": "mock_unseen",
+      "question": "Which of the following is an example of a non-infectious disease condition in wildlife health assessment?",
+      "options": [
+        "Rabies virus encephalomyelitis transmitted by a feral dog bite",
+        "Sarcoptic mange caused by burrowing Sarcoptes scabiei mites",
+        "Anthrax septicaemia caused by Bacillus anthracis spores",
+        "Nutritional mineral deficiency, chemical pesticide toxicosis, or capture myopathy"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Wildlife diseases encompass both infectious diseases (caused by transmissible viruses, bacteria, fungi, protozoa, and parasites) and non-infectious diseases (such as nutritional deficiencies, environmental toxicosis, congenital defects, and capture myopathy).",
+      "mini_lesson": "Because 'disease' is defined as any condition that disrupts normal physiological function, not all diseases are contagious! Lead or pesticide poisoning (toxicosis), starvation/mineral deficiency, genetic heart defects, and stress-induced capture myopathy are all serious non-infectious wildlife diseases that cannot be transmitted from one animal to another. Distractors (A), (C), and (B) are infectious viral, bacterial, and parasitic diseases."
+    },
+    {
+      "id": "W09_M06",
+      "week": 9,
+      "lecture": "Lec 41",
+      "source": "mock_unseen",
+      "question": "How can a disease outbreak in a single herbivore species cascade to alter the entire ecosystem?",
+      "options": [
+        "Wildlife diseases always cause trees to stop photosynthesizing within 24 hours",
+        "Pathogens affect only the internal organs of one individual and never influence food webs or vegetation",
+        "Sudden loss of a dominant grazer or browser alters vegetation structure, wildfire fuel loads, prey availability for apex carnivores, and nutrient cycling across the landscape",
+        "Ecosystems are completely unaffected by the extinction of keystone species"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Because wildlife health operates across individual, population, and ecosystem levels, an epidemic that decimates a keystone herbivore or predator reshapes plant community composition, fire regimes, predator-prey dynamics, and scavenger food webs.",
+      "mini_lesson": "When rinderpest or anthrax wipes out dominant grazing ungulates, tall dry grass accumulates unchecked—fuelling intense wildfires, changing tree regeneration, and starving large carnivores while creating a temporary boom-and-bust for scavengers. Thus, wildlife disease is a major ecological driver of landscape structure. Distractors (B), (A), and (D) use false absolutes ('only', 'never', 'always', 'completely')."
+    },
+    {
+      "id": "W09_M07",
+      "week": 9,
+      "lecture": "Lec 42",
+      "source": "mock_unseen",
+      "question": "In veterinary epidemiology, how is “pathogenicity” defined along the cascade from exposure to mortality?",
+      "options": [
+        "The proportion of infected animals that go on to develop overt clinical symptoms of disease ($\\text{Clinically Diseased} / \\text{Infected}$)",
+        "The proportion of exposed animals that become infected ($\\text{Infected} / \\text{Exposed}$)",
+        "The total number of uninfected animals living in a neighbouring country",
+        "The speed at which an animal runs away from a mechanical trap"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "While infectivity measures the ability of an agent to establish infection after exposure, pathogenicity measures the ability of that agent to cause overt clinical illness among those infected ($\\text{Clinically Diseased} / \\text{Infected}$).",
+      "mini_lesson": "Walk through the four-step epidemiological chain from Lecture 42: (1) Exposure $\\rightarrow$ Infection is **Infectivity** (`B`); (2) Infection $\\rightarrow$ Clinical Sickness is **Pathogenicity** (`A`); (3) Clinical Sickness $\\rightarrow$ Severe Damage is **Virulence**; and (4) Clinical Sickness $\\rightarrow$ Death is **Case Fatality Rate**. A herpesvirus that infects $90\\%$ of monkeys (high infectivity) but makes only $5\\%$ of them visibly sick has low pathogenicity."
+    },
+    {
+      "id": "W09_M08",
+      "week": 9,
+      "lecture": "Lec 42",
+      "source": "mock_unseen",
+      "question": "What does the “Case Fatality Rate” (CFR) measure during a wildlife disease outbreak?",
+      "options": [
+        "The ability of a pathogen to enter a host without causing any symptoms",
+        "The proportion of clinically diseased animals that die from that specific infection ($\\text{Deaths from disease} / \\text{Confirmed clinical cases}$)",
+        "The birth rate of healthy juveniles in the year following an outbreak",
+        "The ratio of sampled forest compartments to total forest compartments"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The Case Fatality Rate (CFR) is the probability or statistical proportion of clinically diseased individuals that die as a direct result of that infection ($\\text{Cause-Specific Deaths} / \\text{Total Clinical Cases}$).",
+      "mini_lesson": "Case Fatality Rate (CFR) specifically measures how lethal a disease is *once an animal becomes clinically ill*: for example, clinical rabies in mammals has a CFR approaching $100\\%$, whereas foot-and-mouth disease in adult ungulates has high infectivity and morbidity but a relatively low CFR. Distractor (A) describes infectivity with low pathogenicity, and (D) is the sampling intensity formula from Week 7."
+    },
+    {
+      "id": "W09_M09",
+      "week": 9,
+      "lecture": "Lec 42",
+      "source": "mock_unseen",
+      "question": "In epidemiological modelling, what does the Basic Reproduction Number ($R_0$) represent, and what condition is required for an infectious outbreak to expand into an epidemic/epizootic?",
+      "options": [
+        "$R_0$ is the number of vaccines administered per year, and an outbreak expands when $R_0 < 0$",
+        "$R_0$ is the body temperature of an infected animal, and an outbreak expands when $R_0 = 0$",
+        "$R_0$ is the average number of secondary infections generated by one infected individual in a completely susceptible population, and an outbreak expands when $R_0 > 1$",
+        "$R_0$ is the proportion of dominant alleles in Hardy-Weinberg equilibrium"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "The Basic Reproduction Number ($R_0$) is the average number of secondary infectious cases produced by a single infected individual introduced into a completely susceptible population; if $R_0 > 1$, the infection spreads exponentially as an epizootic, whereas if $R_0 < 1$, the transmission chain dies out.",
+      "mini_lesson": "$R_0$ is the master threshold number of epidemiology: if each sick animal infects, on average, more than one new animal ($R_0 > 1$), case numbers multiply exponentially into an outbreak. Vaccination and quarantine programs work by driving the effective reproduction number below $1.0$ ($R < 1$), starving the pathogen of new hosts until the outbreak extinguishes itself."
+    },
+    {
+      "id": "W09_M10",
+      "week": 9,
+      "lecture": "Lec 42",
+      "source": "mock_unseen",
+      "question": "What is the distinct ecological role of a “reservoir host” compared to a “bridge host”?",
+      "options": [
+        "Both reservoir hosts and bridge hosts are dead-end hosts that never transmit infection",
+        "A reservoir host immediately dies before transmitting the pathogen, whereas a bridge host lives only in deep ocean trenches",
+        "A reservoir host is always a plant, whereas a bridge host is always an insect",
+        "A reservoir host maintains and circulates a pathogen long-term in nature (often with low mortality), whereas a bridge host (such as free-ranging domestic dogs at forest edges) transmits the pathogen across the interface between reservoir hosts and endangered target wildlife or humans"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "A reservoir host is a species or population that sustains a pathogen indefinitely over time as a permanent source of infection, whereas a bridge host—such as feral domestic dogs roaming between villages and tiger reserves—transfers the pathogen across ecological boundaries to vulnerable wildlife or humans.",
+      "mini_lesson": "Understanding host roles tells managers where to intervene: fruit bats or wild rodents may act as natural *reservoir hosts* that carry a virus indefinitely without dying out, while unvaccinated village dogs act as *bridge hosts* that pick up rabies or canine distemper in villages and carry it into the forest to infect endangered tigers, lions, or dholes. Distractor (A) confuses both with a dead-end host."
+    },
+    {
+      "id": "W09_M11",
+      "week": 9,
+      "lecture": "Lec 42",
+      "source": "mock_unseen",
+      "question": "How is “vertical transmission” of a wildlife pathogen defined?",
+      "options": [
+        "Transmission of a pathogen from one adult herd member to another through coughing or shared waterholes",
+        "Direct transmission of a pathogen from a parent organism to its offspring across generations—such as across the placenta in-utero, inside the egg (transovarial), or via maternal milk",
+        "Transmission of a parasite from a valley floor up to a mountain peak by wind",
+        "Transmission of bacteria exclusively on the feet of houseflies"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Vertical transmission is the direct transfer of an infectious agent from parent to offspring from one generation to the next—occurring transplacentally before birth, transovarially in eggs, during birth, or through colostrum and milk.",
+      "mini_lesson": "While horizontal transmission spreads sideways among peers of the same generation (Distractor A, tested in the official quiz), vertical transmission drops straight down the family tree from mother to developing embryo, egg, or nursing neonate. Distractor (C) is a literal geographical pun on the word 'vertical', and (D) describes mechanical vector transmission."
+    },
+    {
+      "id": "W09_M12",
+      "week": 9,
+      "lecture": "Lec 42",
+      "source": "mock_unseen",
+      "question": "In wildlife epidemiology, what is the difference between an “endemic” (enzootic) disease and an “epidemic” (epizootic) disease?",
+      "options": [
+        "An endemic disease kills 100% of the global biosphere, whereas an epidemic disease affects only one animal",
+        "An endemic disease affects only plants, whereas an epidemic disease affects only carnivores",
+        "An endemic/enzootic disease is constantly present at a steady, predictable baseline level within a region or population, whereas an epidemic/epizootic is a sudden spike in disease incidence clearly exceeding normal baseline expectations",
+        "Endemic diseases are always non-infectious, whereas epidemic diseases are always genetic"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "An endemic (or enzootic in animals) disease persists continuously in a local population at a stable, expected baseline frequency, whereas an epidemic (or epizootic) occurs when case numbers surge sharply above normal historical levels.",
+      "mini_lesson": "Alongside 'sporadic' (isolated, irregular cases, tested in the official quiz), epidemiologists track whether a disease is simmering at its usual local background level—*endemic / enzootic*—or erupting into an abnormal, rapid outbreak wave—*epidemic / epizootic* (or *panzootic* when it sweeps across continents, like amphibian chytridiomycosis)."
+    },
+    {
+      "id": "W09_M13",
+      "week": 9,
+      "lecture": "Lec 43",
+      "source": "mock_unseen",
+      "question": "In disease ecology, the “Epidemiological Triad” explains disease outbreaks as the interaction of which three core components?",
+      "options": [
+        "Births, deaths, and migration",
+        "Avoid, Minimise, and Offset",
+        "Host, Pathogen (Agent), and Environment",
+        "Alpha, Beta, and Gamma diversity"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "The Epidemiological Triad is the foundational conceptual model of disease ecology, demonstrating that clinical disease emerges from the dynamic interaction of three pillars: a susceptible Host, a virulent Pathogen (Agent), and a conducive Environment.",
+      "mini_lesson": "A pathogen being present in a forest does not automatically cause an epidemic: disease breaks out only when all three corners of the Epidemiological Triad align—a susceptible **Host** (e.g., stressed or immunologically naive wildlife), a capable **Pathogen/Agent** (virus, bacterium, fungus), and a favourable **Environment** (e.g., drought crowding animals around muddy waterholes or warming temperatures favouring vectors). The distractors are triads from demography (A), mitigation (B), and community diversity (D)."
+    },
+    {
+      "id": "W09_M14",
+      "week": 9,
+      "lecture": "Lec 43",
+      "source": "mock_unseen",
+      "question": "Why is it a catastrophic field error to cut open the carcass of a wild herbivore that died suddenly with suspected anthrax (*Bacillus anthracis*)?",
+      "options": [
+        "Opening the carcass causes the bacteria to evaporate into harmless nitrogen gas",
+        "Opening the carcass exposes vegetative anthrax bacteria in the blood to atmospheric oxygen ($O_2$), which immediately triggers them to form virtually indestructible endospores that contaminate soil and grazing pastures for decades",
+        "Anthrax can only be diagnosed by counting growth rings on the animal's teeth",
+        "Opening the carcass attracts earthworms that digest and destroy all bacteria"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Inside an intact, unopened anthrax carcass, *Bacillus anthracis* remains in its fragile vegetative form and is soon destroyed by putrefactive bacteria; however, cutting open the carcass exposes the blood to atmospheric oxygen, triggering rapid sporulation into tough endospores that persist in soil for over 50 years.",
+      "mini_lesson": "This is the single most important microbiological mechanism in Lecture 43: inside an anaerobic (oxygen-free) intact carcass, vegetative *Bacillus anthracis* cells cannot form spores and actually get killed off within a few days by normal gut putrefaction. The moment a well-meaning ranger or vet slices the belly open—or vultures/jackals rip it open—oxygen rushes in and signals the bacteria to armour themselves into dormant endospores that resist heat, drought, and disinfectants for half a century!"
+    },
+    {
+      "id": "W09_M15",
+      "week": 9,
+      "lecture": "Lec 43",
+      "source": "mock_unseen",
+      "question": "Which combination of external field signs in a suddenly dead wild ungulate or elephant should immediately alert rangers to suspect anthrax and halt any necropsy?",
+      "options": [
+        "Shedding of the tail vertebra without any internal infection",
+        "Gradual weight loss over three years, overgrown hooves, and dry scaly skin with zero bleeding",
+        "Bright green luminescence on the fur and completely frozen joints",
+        "Sudden death in good body condition, rapid bloating, incomplete or absent rigor mortis, and dark, tarry, unclotted blood oozing from natural orifices (mouth, nostrils, anus)"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Classic external hallmarks of peracute anthrax in herbivores include sudden death without prior wasting, rapid gaseous bloating, incomplete or absent rigor mortis, and dark, tarry, unclotted blood exuding from the nostrils, mouth, vulva, or anus.",
+      "mini_lesson": "Anthrax toxin destroys blood clotting factors and capillary walls while killing the animal so rapidly (peracute course) that the animal dies in full body condition before losing weight. Rangers trained to spot dark, unclotted tarry blood oozing from the nose/mouth/anus and absent rigor mortis know to immediately cordon off the site and never open the body. Distractor (B) describes a chronic wasting disease."
+    },
+    {
+      "id": "W09_M16",
+      "week": 9,
+      "lecture": "Lec 43",
+      "source": "mock_unseen",
+      "question": "What is the recommended field bio-safety protocol for disposing of a confirmed or suspected anthrax carcass in a wildlife reserve?",
+      "options": [
+        "Drag the carcass to the nearest river so fish can consume the tissues",
+        "Cordon off the site, cover the carcass to prevent scavenger access, and either incinerate it completely at high temperature on-site or bury it deeply ($>6\\text{ feet}$) covered in quicklime ($CaO$)",
+        "Leave the carcass uncovered in an open meadow so vultures and feral dogs can scatter the bones",
+        "Skin the carcass and sell the hide to fund anti-poaching patrols"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "To prevent environmental spore seeding during an anthrax outbreak, field teams must cordon off the site, cover the intact carcass with tarpaulins to keep scavengers away, and dispose of it on-site via complete high-temperature incineration or deep burial ($>6\\text{ ft}$) encased in quicklime ($CaO$).",
+      "mini_lesson": "Dragging an anthrax carcass across the ground (Distractor A) creates a kilometres-long trail of blood and spores, and letting vultures, crows, or dogs feed on it (Distractor B) opens the body to oxygen and spreads spores across waterholes. Instead, the carcass must be burned completely to ash right where it fell or buried deep underground with corrosive quicklime ($CaO$) to sterilize the site."
+    },
+    {
+      "id": "W09_M17",
+      "week": 9,
+      "lecture": "Lec 43",
+      "source": "mock_unseen",
+      "question": "In vector-borne disease transmission, what distinguishes a “biological vector” (such as a mosquito transmitting malaria or a tick transmitting Kyasanur Forest Disease) from a “mechanical vector” (such as a housefly walking on faeces and landing on food)?",
+      "options": [
+        "In a biological vector, the pathogen must replicate, multiply, or complete a mandatory developmental stage inside the vector's body before it can be transmitted, whereas a mechanical vector merely carries the pathogen passively on its exterior body parts",
+        "A biological vector is made of metal or plastic, whereas a mechanical vector is a living insect",
+        "A biological vector transmits only non-infectious nutritional deficiencies",
+        "Mechanical vectors inject pathogens across the placenta during pregnancy"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "A mechanical vector passively transports pathogens on its feet or mouthparts without any replication inside the vector, whereas a biological vector is an essential host in which the pathogen multiplies or undergoes cyclic developmental maturation before becoming infectious.",
+      "mini_lesson": "Don't let the words 'biological' and 'mechanical' fool you—both are living arthropods (insects/ticks)! The difference is what happens to the pathogen: a housefly carrying bacteria on its sticky feet is a *mechanical vector* (acting like a dirty paintbrush), whereas an *Anopheles* mosquito or *Haemaphysalis* tick in which the parasite or virus must invade the gut, multiply, and migrate to the salivary glands is a *biological vector*."
+    },
+    {
+      "id": "W09_M18",
+      "week": 9,
+      "lecture": "Lec 43",
+      "source": "mock_unseen",
+      "question": "How can severe seasonal drought act through the “Environment” corner of the Epidemiological Triad to trigger disease outbreaks among wild herbivores?",
+      "options": [
+        "Drought causes herbivores to stop drinking water for several years",
+        "Drought sterilizes all soil spores and permanently eliminates all bacteria from the landscape",
+        "Shrinking water supplies force high densities of multiple species to crowd around the few remaining muddy waterholes, simultaneously elevating nutritional stress and accelerating contact and faecal-oral/waterborne pathogen transmission",
+        "Drought converts all viral pathogens into harmless plant nutrients"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "During severe droughts, the environmental pillar of the epidemiological triad shifts dramatically: scarce forage weakens host immunity (predisposing stress) while hundreds of animals congregate densely around shrinking, muddied waterholes—multiplying contact rates and exposure to soil- and water-borne pathogens like anthrax and pasteurellosis.",
+      "mini_lesson": "Drought delivers a double blow in the Epidemiological Triad: first, scarce dry forage weakens the **Host's** immune defences; second, the drying **Environment** crowds herds onto the last remaining muddy waterholes, where animals stir up bottom sediment, contaminate the water with urine/faeces, and graze close to the dry soil where anthrax spores lurk."
+    },
+    {
+      "id": "W09_M19",
+      "week": 9,
+      "lecture": "Lec 44",
+      "source": "mock_unseen",
+      "question": "Which viral disease—transmitted primarily from domestic and feral dog populations acting as bridge hosts—caused the catastrophic 1994 epidemic that killed roughly one-third ($>1,000$) of the lions in the Serengeti and threatened Asiatic lions in Gir in 2018?",
+      "options": [
+        "White-Nose Syndrome (WNS)",
+        "Canine Distemper Virus (CDV)",
+        "Avian Botulism",
+        "Chytridiomycosis"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Canine Distemper Virus (CDV), a Morbillivirus maintained in high-density domestic and feral dog populations around reserve borders, spilled over to kill $>1,000$ Serengeti lions in 1994 and caused fatal neurological and respiratory outbreaks in Gir Forest Asiatic lions in 2018.",
+      "mini_lesson": "Despite its name, Canine Distemper Virus (CDV) does not infect only canids (dogs, wolves, dholes)—it also causes lethal respiratory, gastrointestinal, and neurological seizures in large felids (lions, tigers, leopards)! Because huge populations of unvaccinated domestic and feral dogs around protected areas act as the reservoir and bridge host, mass ring-vaccination of village dogs is the primary conservation defence. Distractors (A), (C), and (D) are bat fungal, waterfowl bacterial, and amphibian fungal diseases."
+    },
+    {
+      "id": "W09_M20",
+      "week": 9,
+      "lecture": "Lec 44",
+      "source": "mock_unseen",
+      "question": "What causes “Avian Botulism” outbreaks in wetland waterfowl, and what is its signature clinical sign?",
+      "options": [
+        "Genetic trisomy inherited from homozygous parents",
+        "Inhalation of cold fungal spores in limestone caves during winter hibernation",
+        "Bites from rabid foxes along dry mountain ridges",
+        "Ingestion of a potent neurotoxin produced by the anaerobic bacterium Clostridium botulinum in warm, shallow, stagnant wetlands with decaying organic matter, causing flaccid paralysis of the neck and wings ('limberneck') and drowning"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Avian botulism is a paralytic intoxication caused by ingesting the neurotoxin of *Clostridium botulinum* (Types C and E), which proliferates in warm, shallow, low-oxygen (anaerobic) wetlands rich in rotting vegetation and invertebrate carcasses, causing flaccid motor paralysis ('limberneck') in ducks and shorebirds.",
+      "mini_lesson": "*Clostridium botulinum* is a strict anaerobe (thriving only where oxygen is absent). When summer heat warms shallow, stagnant marshes and kills aquatic invertebrates, decaying carcasses create oxygen-free micro-pockets where the bacterium produces lethal botulinum neurotoxin. Ducks and pelicans that ingest the toxin (often via toxin-laden maggots on floating carcasses) suffer progressive flaccid muscle paralysis, losing the ability to hold up their heads ('limberneck') and drowning."
+    },
+    {
+      "id": "W09_M21",
+      "week": 9,
+      "lecture": "Lec 44",
+      "source": "mock_unseen",
+      "question": "During an Avian Botulism outbreak in a wetland, why is prompt physical removal and disposal of dead bird carcasses the single most effective emergency management action?",
+      "options": [
+        "Because bird carcasses block satellite NDVI sensors from measuring water depth",
+        "Because dead ducks release atmospheric oxygen that turns botulinum into anthrax",
+        "Because blowfly maggots feeding on a single botulism carcass concentrate huge doses of botulinum toxin without dying, and healthy ducks that eat those toxic maggots are poisoned in a self-amplifying carcass-maggot cycle",
+        "Because scavengers never eat dead waterfowl in wetlands"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Avian botulism explodes via the carcass-maggot amplification cycle: decomposing bird carcasses provide an ideal anaerobic incubator for *Clostridium botulinum* toxin production, blowfly maggots bioaccumulate the toxin, and healthy waterfowl eagerly consume the toxic maggots—making rapid carcass pickup essential to break the cycle.",
+      "mini_lesson": "One dead duck in a warm marsh becomes a protein-rich anaerobic factory for *Clostridium botulinum*. Thousands of fly maggots feed on that carcass, accumulating lethal levels of neurotoxin (which doesn't harm insects); when 20 healthy ducks gobble up the maggots from that one carcass, 20 new ducks die and produce 20 more maggot factories! Promptly collecting and burning carcasses breaks this exponential carcass-maggot feedback loop."
+    },
+    {
+      "id": "W09_M22",
+      "week": 9,
+      "lecture": "Lec 44",
+      "source": "mock_unseen",
+      "question": "Which bacterial pathogen causes Bovine Tuberculosis (bTB)—a chronic, debilitating pulmonary wasting disease transmitted via aerosols and shared grazing/waterholes between domestic cattle and wild ungulates such as buffalo and deer?",
+      "options": [
+        "Mycobacterium bovis",
+        "Leptospira interrogans",
+        "Batrachochytrium dendrobatidis",
+        "Toxoplasma gondii"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Bovine tuberculosis (bTB), caused by the acid-fast bacterium *Mycobacterium bovis*, is a classic chronic disease at the livestock-wildlife interface, producing slow granulomatous lung lesions (tubercles) and progressive wasting in cattle, African buffalo, deer, and badgers.",
+      "mini_lesson": "*Mycobacterium bovis* (a close relative of human *M. tuberculosis*) crosses back and forth between domestic cattle herds grazing in forest buffer zones and wild bovids/cervids. Because it is a classic chronic disease that progresses slowly over years with coughing and gradual weight loss, infected herds can silently spread it across shared pastures and waterholes long before animals die. Distractor (B) causes leptospirosis, (C) is the amphibian chytrid fungus, and (D) is the toxoplasmosis protozoan."
+    },
+    {
+      "id": "W09_M23",
+      "week": 9,
+      "lecture": "Lec 44",
+      "source": "mock_unseen",
+      "question": "How is Leptospirosis (*Leptospira interrogans*) transmitted in nature, and which marine mammal population has suffered recurrent acute renal failure epidemics from it?",
+      "options": [
+        "It is transmitted exclusively by tsetse fly bites in arid deserts",
+        "The spirochete bacterium is shed in the urine of infected hosts into water or wet soil, and has caused recurrent kidney-failure epidemics in California sea lions (*Zalophus californianus*)",
+        "It is a genetic chromosome deletion found only in captive reptiles",
+        "It is transmitted only through dry airborne pollen grains"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Leptospirosis is a zoonotic bacterial disease caused by spirochetes of the genus *Leptospira*, which colonize the kidneys and are shed in urine into water and moist soil; in marine ecosystems, it has caused major cyclical epidemics of acute renal nephritis and stranding in California sea lions (*Zalophus californianus*).",
+      "mini_lesson": "*Leptospira* bacteria localize in the kidneys of rodents, livestock, and wildlife, and are excreted in urine into streams, wetlands, and coastal waters, entering new hosts through mucous membranes or water-softened skin. Its periodic outbreaks in California sea lions demonstrate how traditionally terrestrial bacterial pathogens can devastate marine mammal populations."
+    },
+    {
+      "id": "W09_M24",
+      "week": 9,
+      "lecture": "Lec 44",
+      "source": "mock_unseen",
+      "question": "What is the strategic rationale behind “ring vaccination” (barrier vaccination) of domestic dogs and cattle in villages surrounding a wildlife sanctuary?",
+      "options": [
+        "It is used to induce inbreeding depression in village livestock",
+        "It forces all domestic livestock to move permanently inside the core zone of the National Park",
+        "It replaces the need for any habitat protection or anti-poaching patrols",
+        "By immunizing high-density domestic populations (>70% coverage) in the buffer zone, managers create a herd-immunity firewall that blocks spillover of pathogens like Rabies, Canine Distemper, and Foot-and-Mouth Disease into endangered wild populations"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Capturing and vaccinating every free-ranging wild animal in a forest is rarely practical; instead, ring (or barrier) vaccination immunizes domestic dogs and livestock in fringe villages around the reserve, creating an epidemiological buffer that stops bridge-host spillover into wildlife.",
+      "mini_lesson": "Endangered wild carnivores (like tigers, lions, Ethiopian wolves, or dholes) live at densities too low to maintain epidemics of rabies or CDV on their own—the viruses are maintained in the huge, dense populations of village dogs surrounding the park. Vaccinating $>70\\%$ of domestic dogs and cattle in a ring around the reserve cuts off the supply of infection at its source without having to dart wild animals!"
+    },
+    {
+      "id": "W09_M25",
+      "week": 9,
+      "lecture": "Lec 45",
+      "source": "mock_unseen",
+      "question": "How does the aquatic fungal pathogen *Batrachochytrium dendrobatidis* (Bd)—the cause of Chytridiomycosis—physically kill amphibians, and what is its global conservation significance?",
+      "options": [
+        "It grows exclusively inside the hollow bones of vultures, causing wing fractures",
+        "It infects the keratinized outer layer of amphibian skin, causing abnormal skin thickening (hyperkeratosis) that blocks vital cutaneous water uptake and electrolyte (sodium/potassium) transport, leading to fatal cardiac arrest; it has driven declines in >200 amphibian species and extinctions such as the Golden Toad",
+        "It is a parasitic mite that causes hair loss in arctic wolves",
+        "It is a photosynthetic alga that increases oxygen levels in mountain streams"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Chytridiomycosis, caused by the chytrid fungus *Batrachochytrium dendrobatidis* (Bd), colonizes amphibian skin and causes severe hyperkeratosis (thickening of the keratin layer), which disrupts cutaneous respiration, osmoregulation, and electrolyte balance—triggering fatal heart arrest and driving global amphibian declines and extinctions like the Costa Rican Golden Toad.",
+      "mini_lesson": "Unlike mammals or reptiles, amphibians drink water, breathe, and regulate blood electrolytes (sodium, potassium, chloride) directly through their thin, permeable skin. When the *Bd* chytrid fungus thickens their skin with excess keratin (hyperkeratosis), the frog effectively suffocates osmotically—its blood potassium and sodium levels crash until its heart stops beating, making chytridiomycosis the most destructive wildlife panzootic in recorded history."
+    },
+    {
+      "id": "W09_M26",
+      "week": 9,
+      "lecture": "Lec 45",
+      "source": "mock_unseen",
+      "question": "How does White-Nose Syndrome—caused by the cold-loving fungus *Pseudogymnoascus destructans*—cause mass winter mortality ($>90\\%$ in many colonies) in cave-hibernating insectivorous bats?",
+      "options": [
+        "The fungus invades and erodes the skin of the bats' muzzles and delicate wing membranes during winter hibernation, causing irritation and dehydration that force bats to wake up repeatedly from torpor, burning through their finite winter fat reserves until they starve or freeze",
+        "The fungus grows only in tropical deserts at temperatures above $45^\\circ\\text{C}$",
+        "The fungus turns bats into diurnal fruit-eaters",
+        "The fungus is transmitted only through marine bivalve shellfish"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "White-Nose Syndrome (WNS), caused by the psychrophilic (cold-loving) fungus *Pseudogymnoascus destructans*, colonizes the muzzle, ears, and wing membranes of hibernating cave bats, disrupting water balance and causing frequent premature arousals from winter torpor that exhaust their fat stores and lead to starvation.",
+      "mini_lesson": "Cave-hibernating bats survive the insect-free winter only by dropping their body temperature and metabolic rate to near-freezing torpor so a few grams of body fat last for months. The cold-loving fungus *Pseudogymnoascus destructans* damages their wing membranes (which regulate water and gas balance during hibernation), waking the bats up again and again in mid-winter; each arousal burns weeks' worth of precious fat, so the bats starve to death before spring arrives."
+    },
+    {
+      "id": "W09_M27",
+      "week": 9,
+      "lecture": "Lec 45",
+      "source": "mock_unseen",
+      "question": "In the classic “land-to-sea” disease pathway documented in coastal California, how do Southern sea otters (*Enhydra lutris*) become fatally infected with the brain-damaging protozoan parasite *Toxoplasma gondii*?",
+      "options": [
+        "The parasite is synthesized spontaneously from offshore crude oil spills",
+        "Sea otters climb onto dry land to hunt domestic rodents in urban parks",
+        "Whales transmit the protozoan to sea otters through ultrasonic echolocation clicks",
+        "Domestic and feral cats (the definitive hosts) shed tough *Toxoplasma* oocysts in faeces on land; stormwater runoff washes the oocysts into coastal waters, where filter-feeding marine bivalves (clams and mussels) concentrate them and are eaten by sea otters"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Felids (domestic and wild cats) are the only definitive hosts capable of shedding environmentally resistant *Toxoplasma gondii* oocysts in their faeces; rainwater runoff flushes cat faeces from urban and coastal watersheds into the ocean, where filter-feeding bivalve molluscs bioaccumulate the oocysts and pass fatal protozoal meningoencephalitis to foraging sea otters.",
+      "mini_lesson": "This case study from Lecture 45 illustrates how terrestrial pet ownership and urban runoff directly impact marine biodiversity: cats are the sole definitive host where *Toxoplasma gondii* completes sexual reproduction and sheds hardy oocysts. Flushed down storm drains into kelp beds, the oocysts are filtered out of seawater and concentrated by clams and mussels—the favourite prey of Southern sea otters, which then die of protozoal brain inflammation."
+    },
+    {
+      "id": "W09_M28",
+      "week": 9,
+      "lecture": "Lec 45",
+      "source": "mock_unseen",
+      "question": "What is the causative agent of “Sarcoptic Mange” in wild canids (foxes, wolves, dholes), ungulates, and wombats, and how does it kill infected animals?",
+      "options": [
+        "A retrovirus transmitted exclusively through mosquito bites in wetlands",
+        "The microscopic burrowing mite Sarcoptes scabiei, which tunnels into the skin and causes intense itching, thick crusting, severe hair loss (alopecia), secondary bacterial infections, emaciation, and fatal hypothermia",
+        "A prion protein that affects only deep-sea fishes",
+        "A nutritional excess of vitamin C in forest fruits"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Sarcoptic mange is a highly contagious ectoparasitic skin disease caused by the burrowing astigmatid mite *Sarcoptes scabiei*, triggering relentless pruritus (itching), hyperkeratotic crusting, extensive alopecia (hair loss), emaciation, and death from secondary sepsis or winter hypothermia.",
+      "mini_lesson": "Female *Sarcoptes scabiei* mites tunnel into the epidermis to lay eggs, provoking a fierce allergic and inflammatory reaction. Infected foxes, dholes, or ibex scratch incessantly, lose their insulating fur coat (alopecia), develop thick cracked skin crusts, waste away because they spend all their energy scratching instead of hunting/foraging, and die of cold exposure (hypothermia) or secondary bacterial infection."
+    },
+    {
+      "id": "W09_M29",
+      "week": 9,
+      "lecture": "Lec 45",
+      "source": "mock_unseen",
+      "question": "Why must field researchers and wildlife managers strictly disinfect boots, nets, and wading gear when moving between different ponds or mountain streams?",
+      "options": [
+        "Because muddy boots reduce the accuracy of satellite NDVI images",
+        "To increase the weight of the nets for capture-recapture calculations",
+        "To prevent researchers from inadvertently acting as mechanical vectors that transport microscopic fungal spores (such as amphibian chytrid Bd) or invasive pathogens into pristine aquatic habitats",
+        "To convert simple random sampling into stratified random sampling"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Field biosecurity—cleaning and disinfecting boots, dip-nets, callipers, and vehicle tyres with bleach or Virkon between wetland sites—is essential so researchers do not inadvertently spread *Batrachochytrium dendrobatidis* zoospores or ranaviruses to naive amphibian populations.",
+      "mini_lesson": "Without strict field hygiene, conservationists studying endangered frogs or fish can accidentally become the primary spreaders of extinction! Damp mud on a pair of wading boots or a dip-net can harbour millions of motile chytrid zoospores, whirling disease spores, or invasive snails from an infected pond to a pristine mountain stream miles away."
+    },
+    {
+      "id": "W09_M30",
+      "week": 9,
+      "lecture": "Lec 45",
+      "source": "mock_unseen",
+      "question": "The “One Health” framework emphasized in wildlife health management recognizes that:",
+      "options": [
+        "The health of wild animals, domestic livestock/pets, human communities, and the shared environment are inextricably interconnected and must be managed together",
+        "Only human hospital medicine matters, and wildlife diseases have no relevance to society",
+        "All wild reservoirs should be eradicated to protect domestic cattle",
+        "Veterinarians, ecologists, and public health doctors should never share surveillance data"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "The One Health paradigm recognizes that wildlife health, domestic animal health, human public health, and ecosystem integrity are tightly linked across shared landscapes—as seen in zoonoses and spillovers like rabies, anthrax, leptospirosis, bovine tuberculosis, and toxoplasmosis.",
+      "mini_lesson": "Almost every disease covered in Week 9—anthrax in soil, rabies and distemper from village dogs, bovine TB from cattle, leptospirosis in water, and toxoplasmosis from domestic cats—crosses boundaries between humans, domestic animals, wildlife, and ecosystems. The One Health approach integrates ecological restoration, veterinary vaccination, and public health surveillance rather than treating them in isolated silos. Distractors (B), (C), and (D) use false absolutes ('only', 'all', 'never')."
+    }
+  ]
+}

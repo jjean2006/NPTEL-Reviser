@@ -1,0 +1,492 @@
+{
+  "week": 8,
+  "lecture_briefings": {
+    "Lec 36": "Lecture 36 introduces Conservation Genetics—the discipline that applies molecular genetic tools and population genetic theory to protect biodiversity and prevent extinction. It reviews the cellular architecture of heredity, explaining how long DNA molecules wrap around histone proteins to form chromosomes carrying hundreds of genes, and contrasts an organism's internal genetic code (genotype) with its observable physical, physiological, or behavioral traits (phenotype). Finally, it compares inheritance patterns beyond simple dominant-recessive masking, distinguishing incomplete dominance (where heterozygotes show an intermediate blended trait like pink flowers) from codominance (where both alleles are fully and simultaneously expressed, such as AB blood groups). Watch out for the 3 most important terms: Conservation Genetics (applying genetic tools to biodiversity protection), Chromosomes vs. Phenotype (DNA-protein structures carrying genes vs. observable expression of traits), and Codominance vs. Incomplete Dominance (both alleles fully expressed vs. intermediate blended phenotype).",
+    "Lec 37": "Lecture 37 scales up from individual inheritance to population genetics, defining a gene pool and explaining how to calculate allele frequency—the proportion of a specific allele among all copies of that gene in a population ($p + q = 1$). It defines evolutionary fitness ($w$) strictly as relative lifetime reproductive success across generations rather than physical strength or speed, and introduces the Hardy-Weinberg Equilibrium ($p^2 + 2pq + q^2 = 1$). Under the five Hardy-Weinberg conditions (infinitely large population, random mating, no mutation, no gene flow/migration, and no natural selection), allele frequencies remain constant over time, providing a baseline to detect when evolutionary pressures are acting on wild populations. Watch out for the 3 most important terms: Allele Frequency (proportion of a particular allele among all gene copies), Evolutionary Fitness (relative reproductive success across generations), and Hardy-Weinberg Equilibrium (the 5 conditions under which allele frequencies remain constant).",
+    "Lec 38": "Lecture 38 examines Graeme Caughley's famous Two-Paradigm Framework in conservation biology alongside Population Viability Analysis (PVA) and the Allee effect. The Declining Population Paradigm is diagnostic and ecological, asking what external pressures (habitat loss, poaching, pollution) drove a large population down to a small size, whereas the Small Population Paradigm is prognostic and stochastic, asking what internal genetic and demographic hazards threaten a population once it is already small. One of the deadliest small-population traps is the Allee effect—inverse density dependence where individual survival or per-capita reproduction crashes at very low density because animals cannot find mates, defend against predators, or forage socially. Watch out for the 3 most important terms: Declining Population Paradigm (asking what external pressures made a population small), Small Population Paradigm (studying internal stochastic/genetic risks of being small), and the Allee Effect (lower survival or reproduction in very small populations due to low density).",
+    "Lec 39": "Lecture 39 explores the genetic hazards that push small, isolated populations into an extinction vortex: founder effects, demographic bottlenecks, random genetic drift, chromosomal aneuploidies (monosomy, trisomy, tetrasomy), and inbreeding depression. A founder effect occurs when a new colony is established by just a few individuals carrying only a small, unrepresentative fraction of the original population's genetic diversity. As small populations breed among close relatives, genome-wide homozygosity rises and unmasks deleterious recessive alleles (inbreeding depression), illustrated by the Isle Royale wolves (which suffered severe spinal deformities and collapsed to 2 individuals) and Tasmanian devils (where near-zero MHC diversity allowed a contagious facial tumor cancer to spread unchecked). Watch out for the 3 most important terms: Founder Effect (new population starting from a few individuals with only part of original genetic diversity), Genetic Drift (random fluctuations in allele frequencies in small populations), and Inbreeding Depression (reduced fitness from mating among relatives unmasking deleterious recessives).",
+    "Lec 40": "Lecture 40 focuses on applied genetic management solutions: Genetic Rescue, Outbreeding Depression, and wildlife translocation protocols (soft vs. hard release). When an isolated population suffers severe inbreeding depression—like the Gir Forest Asiatic lions (which went through a ~20-lion bottleneck and exhibit kinked tails and low sperm motility) or the Florida panther (which dropped to ~30 individuals with heart defects and cryptorchidism)—managers can perform Genetic Rescue by introducing unrelated individuals from outside to restore heterozygosity and boost fitness (as when 8 female Texas pumas rescued the Florida panther population). However, managers must also guard against Outbreeding Depression, where crossing genetically distant, locally adapted lineages breaks up co-adapted gene complexes and lowers hybrid fitness. Watch out for the 3 most important terms: Genetic Rescue (introducing new genetic variation into small, isolated populations to reduce inbreeding depression and increase fitness), Outbreeding Depression (reduced fitness when crossing overly divergent locally adapted populations), and Soft vs. Hard Release (gradual acclimatization with support vs. immediate direct release)."
+  },
+  "questions": [
+    {
+      "id": "W08_M01",
+      "week": 8,
+      "lecture": "Lec 36",
+      "source": "mock_unseen",
+      "question": "In genetics, what does the term “genotype” refer to?",
+      "options": [
+        "The outward physical appearance of an organism shaped only by weather",
+        "The underlying, heritable genetic and allelic constitution of an individual organism",
+        "The total number of species living in a geographic biome",
+        "The seasonal migration route learned from parent animals"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Genotype is the underlying, internal genetic constitution—the specific set of alleles carried by an individual organism—whereas phenotype is the observable outward expression of traits.",
+      "mini_lesson": "While the phenotype is what you can observe or measure on the outside (coat colour, antler size, enzyme activity), the genotype is the hidden DNA blueprint—the specific pair of alleles (such as $RR$, $Rr$, or $rr$) an individual carries inside its cells. Distractor (A) confuses genotype with environmentally modified phenotype."
+    },
+    {
+      "id": "W08_M02",
+      "week": 8,
+      "lecture": "Lec 36",
+      "source": "mock_unseen",
+      "question": "When a homozygous red-flowered plant ($RR$) is crossed with a homozygous white-flowered plant ($rr$) and the resulting heterozygous offspring ($Rr$) produce uniformly pink flowers, which inheritance pattern is demonstrated?",
+      "options": [
+        "Complete dominance",
+        "Codominance",
+        "Incomplete dominance",
+        "Chromosomal monosomy"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Incomplete dominance occurs when the heterozygote displays an intermediate, blended phenotype halfway between the two homozygous parental traits—such as red and white parents producing pink offspring.",
+      "mini_lesson": "In incomplete dominance, neither allele is fully dominant over the other, so the heterozygote ($Rr$) produces an intermediate blended trait (pink) between the two homozygous extremes (red and white). Distractor (B) 'Codominance' is the primary trap: in codominance, both alleles are expressed separately at full strength (which would produce flowers with distinct red and white patches, not blended pink)."
+    },
+    {
+      "id": "W08_M03",
+      "week": 8,
+      "lecture": "Lec 36",
+      "source": "mock_unseen",
+      "question": "In chromosomes, long negatively charged DNA molecules are tightly coiled and packaged around spool-like structural proteins called:",
+      "options": [
+        "Histones",
+        "Myoglobins",
+        "Neurotransmitters",
+        "Phthalates"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Chromosomes are filamentous cellular structures formed by long DNA molecules tightly wrapped around structural histone proteins, allowing metres of genetic code to fit inside a microscopic cell nucleus.",
+      "mini_lesson": "To pack billions of DNA base pairs into a microscopic nucleus without tangling or breaking them during cell division, eukaryotic cells wind DNA around positively charged protein spools called histones to form chromatin and chromosomes. Distractor (B) is a muscle oxygen-binding protein (from Week 11 capture myopathy), and (D) is a plasticizer additive."
+    },
+    {
+      "id": "W08_M04",
+      "week": 8,
+      "lecture": "Lec 36",
+      "source": "mock_unseen",
+      "question": "An individual organism that carries two different alleles at a specific gene locus (such as $Rr$) is described as:",
+      "options": [
+        "Homozygous dominant",
+        "Heterozygous",
+        "Homozygous recessive",
+        "Haploid"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "In a diploid organism, an individual carrying two identical alleles at a locus ($RR$ or $rr$) is homozygous, whereas an individual carrying two different alleles ($Rr$) is heterozygous.",
+      "mini_lesson": "Diploid organisms inherit two copies of each gene—one from each parent. If both copies are the same version ($RR$ or $rr$), the individual is homozygous; if the two copies are different versions ($Rr$), the individual is heterozygous. Maintaining high heterozygosity across a wild population is a primary goal of conservation genetics."
+    },
+    {
+      "id": "W08_M05",
+      "week": 8,
+      "lecture": "Lec 36",
+      "source": "mock_unseen",
+      "question": "Why can two organisms with the exact same genotype occasionally exhibit noticeable differences in their observable phenotype (such as body weight or plant height)?",
+      "options": [
+        "Alleles are inherited only from the environment and never from parents",
+        "Genotype has zero influence on any biological trait",
+        "Chromosomes randomly dissolve whenever an animal changes habitats",
+        "Phenotype is shaped by the interaction between an organism's genotype and its environment (nutrition, temperature, stress)"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "An organism's observable phenotype is not determined by its genotype in isolation; rather, $\\text{Phenotype} = \\text{Genotype} + \\text{Environment}$ (plus genotype-by-environment interactions).",
+      "mini_lesson": "While genes set the developmental potential of an organism, environmental factors—such as diet quality, temperature, sunlight, disease, and stress—shape how those genes are expressed into physical traits. Two genetically identical twin fawns raised on lush forage versus drought-stricken scrub will develop very different adult body weights."
+    },
+    {
+      "id": "W08_M06",
+      "week": 8,
+      "lecture": "Lec 36",
+      "source": "mock_unseen",
+      "question": "How can non-invasive molecular genetic tools assist wildlife law enforcement and anti-poaching operations?",
+      "options": [
+        "By converting synthetic plastic into living animal tissue",
+        "By automatically arresting poachers using satellite lasers",
+        "By identifying the exact species, geographic population of origin, and individual identity from confiscated ivory, horn, skin, or bushmeat samples",
+        "By replacing all field forest guards with laboratory microscopes"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "In wildlife forensics, conservation genetics allows authorities to extract DNA from seized blood, smoked bushmeat, ivory, or skins to prove species identity, pinpoint the geographic reserve of origin, and link separated body parts to a single poached carcass.",
+      "mini_lesson": "Poachers frequently disguise illegal bushmeat by smoking or mincing it, removing external morphological features. Forensic DNA barcoding and microsatellite profiling allow wildlife crime labs to prove in court that a seized piece of meat or horn came from a protected Schedule I species and even trace which specific population or reserve it was poached from."
+    },
+    {
+      "id": "W08_M07",
+      "week": 8,
+      "lecture": "Lec 37",
+      "source": "mock_unseen",
+      "question": "In a diploid wildlife population of $1,000$ individuals ($2,000$ total gene copies at the $R$ locus), genetic testing reveals $640$ homozygous dominant ($RR$) individuals, $320$ heterozygous ($Rr$) individuals, and $40$ homozygous recessive ($rr$) individuals. What is the allele frequency ($p$) of the $R$ allele?",
+      "options": [
+        "0.80 (80%)",
+        "0.64 (64%)",
+        "0.20 (20%)",
+        "0.96 (96%)"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "In a population of $1,000$ diploid individuals ($2,000$ total alleles) with $640\\text{ }RR$, $320\\text{ }Rr$, and $40\\text{ }rr$, the total number of $R$ alleles is $(640 \\times 2) + 320 = 1,600$, giving an allele frequency $f(R) = p = 1,600 / 2,000 = 0.80$ ($80\\%$).",
+      "mini_lesson": "Each homozygous $RR$ animal carries $2$ copies of the $R$ allele ($640 \\times 2 = 1,280$), and each heterozygous $Rr$ animal carries $1$ copy of the $R$ allele ($320 \\times 1 = 320$), giving $1,280 + 320 = 1,600$ copies of $R$ out of $2,000$ total gene copies ($1,600 / 2,000 = 0.80$ or $80\\%$). Distractor (B) $64\\%$ is a classic trap that confuses the homozygous genotype frequency ($p^2 = 640/1000 = 0.64$) with the allele frequency ($p = 0.80$), while (C) $20\\%$ is the recessive allele frequency $q$."
+    },
+    {
+      "id": "W08_M08",
+      "week": 8,
+      "lecture": "Lec 37",
+      "source": "mock_unseen",
+      "question": "Which set correctly lists the five mandatory conditions required for a population to remain in Hardy-Weinberg Equilibrium (no evolution across generations)?",
+      "options": [
+        "Small population size, inbreeding, high mutation rate, rapid migration, and strong natural selection",
+        "Large population size, random mating, no mutation, no gene flow (migration), and no natural selection",
+        "Equal numbers of predators and prey, circular reserve shape, high rainfall, and zero disease",
+        "Complete dominance, codominance, incomplete dominance, trisomy, and monosomy"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Hardy-Weinberg equilibrium requires five strict conditions: (1) a very large population size (no genetic drift), (2) random mating, (3) no mutation, (4) no migration or gene flow, and (5) no natural selection.",
+      "mini_lesson": "The Hardy-Weinberg Principle acts as a null model in population genetics: if a population is infinitely large (preventing drift), mates randomly, experiences no mutations, has zero immigrants/emigrants, and all genotypes survive and reproduce equally well, then allele frequencies ($p$ and $q$) will never change. Whenever a wild population deviates from Hardy-Weinberg proportions, conservation geneticists know at least one of these five forces (such as inbreeding or selection) is operating! Distractor (A) lists the exact opposite conditions."
+    },
+    {
+      "id": "W08_M09",
+      "week": 8,
+      "lecture": "Lec 37",
+      "source": "mock_unseen",
+      "question": "In a population in Hardy-Weinberg Equilibrium where the dominant allele frequency is $p = 0.70$ and the recessive allele frequency is $q = 0.30$, what is the expected frequency of heterozygous ($2pq$) individuals?",
+      "options": [
+        "0.09 (9%)",
+        "0.21 (21%)",
+        "0.42 (42%)",
+        "0.49 (49%)"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Under Hardy-Weinberg equilibrium ($p^2 + 2pq + q^2 = 1$), the expected frequency of homozygous dominant genotypes is $p^2$, heterozygotes is $2pq$, and homozygous recessives is $q^2$.",
+      "mini_lesson": "In the Hardy-Weinberg genotype equation $p^2 + 2pq + q^2 = 1$, heterozygous frequency is represented by the middle term $2pq$. Substituting $p = 0.70$ and $q = 0.30$ gives $2 \\times 0.70 \\times 0.30 = 0.42$ ($42\\%$). Distractor (B) $0.21$ forgets to multiply $pq$ by $2$, while (A) $0.09$ is $q^2$ ($rr$) and (D) $0.49$ is $p^2$ ($RR$)."
+    },
+    {
+      "id": "W08_M10",
+      "week": 8,
+      "lecture": "Lec 37",
+      "source": "mock_unseen",
+      "question": "What does the “gene pool” of a wildlife population represent?",
+      "options": [
+        "A freshwater waterhole inside a wildlife sanctuary where amphibians breed",
+        "A cryogenic tank used to store frozen plant seeds at $-196^\\circ\\text{C}$",
+        "The number of chromosomes found inside a single red blood cell",
+        "The complete collection of all genes and their various alleles present in all interbreeding members of a population"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "The gene pool is the total sum of all genes and all their allelic variants present across all reproductively capable individuals within a population at a given time.",
+      "mini_lesson": "Rather than looking at one animal in isolation, population genetics pools together all the alleles carried by every interbreeding member of a population into a single collective reservoir called the 'gene pool'. A rich, diverse gene pool gives a species the raw genetic material needed to adapt to new diseases or climate shifts. Distractor (A) is a literal word-trap, and (B) defines a cryobank."
+    },
+    {
+      "id": "W08_M11",
+      "week": 8,
+      "lecture": "Lec 37",
+      "source": "mock_unseen",
+      "question": "Why does the Gir Forest Asiatic lion (*Panthera leo persica*) population exhibit unusually low genetic diversity, high sperm abnormalities, and high vulnerability to single-pathogen epidemics like Canine Distemper Virus?",
+      "options": [
+        "Because lions reproduce exclusively by asexual cloning",
+        "Because the entire modern population descended from a severe historical bottleneck of roughly 20 individuals around the year 1900",
+        "Because too many African lions were mixed into Gir Forest during the 1990s",
+        "Because large carnivores do not possess chromosomes or alleles"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The Gir Forest Asiatic lion population passed through an extreme historical bottleneck of roughly 20 individuals around 1900; consequently, all surviving lions share high genome-wide homozygosity, manifested in kinked tail tips, $>70\\%$ abnormal sperm morphology, and acute vulnerability to epidemics like Canine Distemper Virus.",
+      "mini_lesson": "Even though the Gir Asiatic lion population has rebounded numerically to several hundred animals today, every single lion descends from a tiny bottleneck of ~20 survivors a century ago. Because demographic recovery is much faster than genetic recovery (which requires millennia of new mutations), the population remains genetically uniform and vulnerable to a single disease outbreak—illustrating why establishing a second, geographically separate population is a top conservation priority."
+    },
+    {
+      "id": "W08_M12",
+      "week": 8,
+      "lecture": "Lec 37",
+      "source": "mock_unseen",
+      "question": "According to the Hardy-Weinberg Principle, what happens to a rare recessive allele ($q = 0.05$) across generations in a large, randomly mating population with no selection or mutation?",
+      "options": [
+        "It automatically disappears within two generations because it is recessive",
+        "It is gradually converted into a dominant allele until $p = 1.0$",
+        "It persists indefinitely at the exact same allele frequency ($q = 0.05$) generation after generation",
+        "It increases rapidly until 100% of the population is homozygous recessive"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "A key insight of the Hardy-Weinberg equilibrium is that recessive alleles do not automatically vanish simply because they are recessive; in the absence of evolutionary forces, both $p$ and $q$ remain constant indefinitely.",
+      "mini_lesson": "Before Hardy and Weinberg, many biologists mistakenly believed that dominant alleles would naturally crowd out and eliminate recessive alleles over time (Distractor A). Hardy-Weinberg proved mathematically that Mendelian segregation preserves allele frequencies unchanged ($q = 0.05$ stays $0.05$ forever) unless selection, drift, migration, or mutation acts on the population."
+    },
+    {
+      "id": "W08_M13",
+      "week": 8,
+      "lecture": "Lec 38",
+      "source": "mock_unseen",
+      "question": "In Graeme Caughley’s dual-paradigm conservation framework, what is the primary focus of the “Small Population Paradigm”?",
+      "options": [
+        "Diagnosing the external human threats (such as logging or poaching) that originally caused a large population to shrink",
+        "Calculating the market price of timber harvested from reserved forests",
+        "Studying the internal genetic and demographic stochastic hazards (such as inbreeding depression, genetic drift, and the Allee effect) that threaten a population once it is already small",
+        "Designing highway overpasses for abundant generalist species"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "The Small Population Paradigm focuses on the internal stochastic, demographic, and genetic risks inherent to being a small, isolated population—such as inbreeding depression, random genetic drift, and demographic fluctuations—whereas the Declining Population Paradigm focuses on external agents of decline.",
+      "mini_lesson": "While the Declining Population Paradigm (tested in the official quiz) asks what external agent drove a population down, the Small Population Paradigm asks what happens *after* a population becomes tiny and isolated. Even if you halt all poaching and habitat loss, a tiny population of 15 animals can still spiral to extinction due to internal chance events (all offspring born male, genetic drift, or inbreeding). Distractor (A) defines the Declining Population Paradigm."
+    },
+    {
+      "id": "W08_M14",
+      "week": 8,
+      "lecture": "Lec 38",
+      "source": "mock_unseen",
+      "question": "What is Population Viability Analysis (PVA) in conservation management?",
+      "options": [
+        "A post-mortem necropsy procedure used to diagnose anthrax in dead herbivores",
+        "A quantitative predictive modelling method that estimates the probability a population will persist over a specified future time horizon under various threats and management scenarios",
+        "A chemical test used to measure dissolved oxygen in eutrophic lakes",
+        "A field snare pole used to restrain medium-sized carnivores"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Population Viability Analysis (PVA) is a quantitative, computer-based modelling tool that integrates demographic, environmental, and genetic data to estimate the probability that a wildlife population will persist for a given time period (such as 100 years) and to compare alternative management actions.",
+      "mini_lesson": "Conservation managers use PVA simulations to play out thousands of future 'what-if' scenarios for an endangered population—incorporating birth/death rates, drought frequency, inbreeding, and habitat loss—to calculate its risk of extinction over 50 or 100 years and test whether corridor creation or translocation will best improve survival."
+    },
+    {
+      "id": "W08_M15",
+      "week": 8,
+      "lecture": "Lec 38",
+      "source": "mock_unseen",
+      "question": "In conservation biology, the smallest isolated population size that has a high specified probability (e.g., $95\\%$ to $99\\%$) of surviving genetic, demographic, and environmental stochasticity over a long time horizon (such as $100$ to $1,000$ years) is called the:",
+      "options": [
+        "Effective Strip Half-Width (ESHW)",
+        "Biodiversity Intactness Index (BII)",
+        "Basic Reproduction Number ($R_0$)",
+        "Minimum Viable Population (MVP)"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "The Minimum Viable Population (MVP) is defined as the smallest isolated population size capable of persisting over a specified long period (e.g., 100 or 1,000 years) with a high degree of statistical certainty (e.g., $\\ge 95\\%$) despite demographic, environmental, and genetic stochasticity.",
+      "mini_lesson": "Saving just two or ten individuals of a species is rarely enough for long-term survival because random fluctuations, disease outbreaks, and inbreeding will wipe them out. The Minimum Viable Population (MVP) defines the threshold population size needed to weather those storms over centuries. The distractors are cross-module terms from distance sampling (A), epidemiology (C), and GIS mapping (B)."
+    },
+    {
+      "id": "W08_M16",
+      "week": 8,
+      "lecture": "Lec 38",
+      "source": "mock_unseen",
+      "question": "Why does “demographic stochasticity” pose an acute extinction threat to a tiny population of $8$ individuals, but almost no threat to a large population of $8,000$ individuals?",
+      "options": [
+        "Large populations do not reproduce sexually",
+        "In a tiny population, random chance in individual births, deaths, or offspring sex ratios (such as all calves in a year being born male) can halt reproduction entirely, whereas in a large population these random individual events average out",
+        "Demographic stochasticity affects only marine fishes and never terrestrial mammals",
+        "Tiny populations are immune to genetic drift and inbreeding"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Demographic stochasticity arises from random, chance variations in individual birth rates, death rates, and offspring sex ratios; in a large population these fluctuations average out by the law of large numbers, but in a tiny population a run of male-only births or accidental deaths can cause immediate extinction.",
+      "mini_lesson": "Flipping a fair coin 8,000 times is guaranteed to give very close to 50% heads and 50% tails, but flipping a coin just 6 times can easily produce 6 heads in a row! Similarly, in a remnant population of 6 critically endangered birds, pure bad luck—such as all chicks hatching male for two seasons—can drive the species extinct even in a pristine habitat."
+    },
+    {
+      "id": "W08_M17",
+      "week": 8,
+      "lecture": "Lec 38",
+      "source": "mock_unseen",
+      "question": "What is the “extinction vortex” in conservation biology?",
+      "options": [
+        "A mutually reinforcing downward spiral in which small population size, inbreeding depression, genetic drift, and demographic stochasticity compound one another and accelerate a population toward extinction",
+        "A deep ocean current that collects floating marine plastic debris",
+        "A legal procedure used to denotify a National Park",
+        "A prescribed burning technique used to extinguish crown fires"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "When a population becomes small and isolated, genetic drift, inbreeding depression, demographic stochasticity, and the Allee effect feed back upon one another in a reinforcing downward spiral known as the extinction vortex, progressively shrinking effective population size until extinction.",
+      "mini_lesson": "In an extinction vortex, one problem makes the next problem worse: a small population suffers inbreeding and genetic drift $\\rightarrow$ lower genetic diversity reduces fertility and juvenile survival $\\rightarrow$ fewer surviving offspring make the population even smaller next generation $\\rightarrow$ which intensifies inbreeding and drift even further, pulling the population down like a whirlpool."
+    },
+    {
+      "id": "W08_M18",
+      "week": 8,
+      "lecture": "Lec 38",
+      "source": "mock_unseen",
+      "question": "Which biological mechanism can trigger an Allee effect in a sparse, low-density wildlife population?",
+      "options": [
+        "Increased heterozygosity from mixing with neighbouring populations",
+        "Excessive competition for abundant food among thousands of crowded individuals",
+        "Difficulty finding mates, breakdown of cooperative anti-predator vigilance, or failure of social hunting/pollination below a critical threshold density",
+        "Complete absence of any predators or parasites in the ecosystem"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "The Allee effect occurs in very small or sparse populations when low density impairs vital social or reproductive processes—such as broadcast spawners failing to fertilize eggs, wide-ranging solitary animals failing to locate mates, or social species losing group defence against predators.",
+      "mini_lesson": "The Allee effect is positive density dependence at the low end of population size: below a critical density threshold, per-capita growth rate drops (and can turn negative) because individuals are too sparse to find mates, pollinate cross-pollinating plants, hunt in packs (like African wild dogs), or spot predators in herds. Distractor (B) describes standard negative density dependence (crowding at carrying capacity)."
+    },
+    {
+      "id": "W08_M19",
+      "week": 8,
+      "lecture": "Lec 39",
+      "source": "mock_unseen",
+      "question": "What is “genetic drift” in population genetics?",
+      "options": [
+        "The purposeful migration of animals across a wildlife corridor during drought",
+        "Random fluctuations in allele frequencies from generation to generation due to chance sampling in small populations, leading to the random loss or fixation of alleles",
+        "The directional increase of beneficial alleles driven by natural selection",
+        "The physical movement of continents across geological time"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Genetic drift is the random change in allele frequencies across generations caused by chance sampling error in finite (especially small) populations, which progressively erodes heterozygosity and fixes or eliminates alleles regardless of their adaptive value.",
+      "mini_lesson": "Unlike natural selection—which is directional and favours adaptive traits—genetic drift is completely random: in a small population, an animal carrying a rare, beneficial allele might accidentally die in a rockslide or fail to mate by chance, permanently erasing that allele from the gene pool. Distractor (A) confuses genetic drift with physical animal dispersal/gene flow, while (C) describes natural selection."
+    },
+    {
+      "id": "W08_M20",
+      "week": 8,
+      "lecture": "Lec 39",
+      "source": "mock_unseen",
+      "question": "Why does inbreeding (mating between close relatives) frequently lead to “inbreeding depression”—a sharp decline in offspring survival, fertility, and disease resistance?",
+      "options": [
+        "It replaces all recessive alleles with beneficial dominant mutations",
+        "It causes chromosomes to double in number every generation",
+        "It prevents parents from passing any DNA to their offspring",
+        "It increases genome-wide homozygosity, which unmasks and expresses harmful (deleterious) recessive alleles that were previously hidden in heterozygotes"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Inbreeding depression occurs because mating between genetically related individuals increases homozygosity across the genome, unmasking deleterious recessive alleles ($rr$) and reducing heterozygote advantage, which manifests as congenital defects, high infant mortality, and lower fertility.",
+      "mini_lesson": "Every organism carries a few harmful recessive mutations, but in a large outbred population these rare alleles are almost always paired with a healthy dominant allele ($Rr$), so they stay masked and harmless. When close relatives mate, they are much more likely to inherit the exact same deleterious recessive allele from a shared ancestor, producing homozygous recessive ($rr$) offspring that suffer skeletal deformities, heart defects, or sterility."
+    },
+    {
+      "id": "W08_M21",
+      "week": 8,
+      "lecture": "Lec 39",
+      "source": "mock_unseen",
+      "question": "How does a demographic “bottleneck effect” differ from a “founder effect”?",
+      "options": [
+        "A bottleneck effect affects only plants, whereas a founder effect affects only birds",
+        "A bottleneck effect increases genetic diversity, whereas a founder effect reduces it",
+        "A bottleneck effect occurs when an established large population is drastically reduced in size by a catastrophe (such as disease or overhunting), whereas a founder effect occurs when a few individuals depart to colonize a new, isolated area",
+        "A bottleneck effect requires infinite population size under Hardy-Weinberg equilibrium"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Both bottleneck and founder effects reduce genetic diversity through small sample size, but a bottleneck occurs when an existing population crashes sharply in place due to hunting, famine, or epidemic, whereas a founder effect occurs when a small subset of individuals colonizes a new habitat.",
+      "mini_lesson": "Both mechanisms squeeze a gene pool through a narrow numerical opening, losing rare alleles via genetic drift. The distinction lies in how the small group formed: in a bottleneck effect, a catastrophe kills off most of an existing population in situ (like the Gir lions or northern elephant seals), whereas in a founder effect, a handful of colonists establish a brand-new population (like wolves crossing an ice bridge to Isle Royale)."
+    },
+    {
+      "id": "W08_M22",
+      "week": 8,
+      "lecture": "Lec 39",
+      "source": "mock_unseen",
+      "question": "In chromosomal disorders (aneuploidy), how are monosomy, trisomy, and tetrasomy defined relative to a normal diploid chromosome number ($2n$)?",
+      "options": [
+        "Monosomy is $2n - 1$ (loss of one chromosome), trisomy is $2n + 1$ (gain of one extra chromosome), and tetrasomy is $2n + 2$ (gain of two extra homologous chromosomes)",
+        "Monosomy is $1n$, trisomy is $3n$, and tetrasomy is $4n$ across the entire genome",
+        "Monosomy means having one gene, trisomy means having three genes, and tetrasomy means having four genes",
+        "All three terms refer to normal Mendelian codominance in healthy heterozygotes"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Chromosomal aneuploidies involve abnormal numbers of individual chromosomes: monosomy ($2n - 1$) is the loss of a single chromosome, trisomy ($2n + 1$) is the presence of one extra chromosome, and tetrasomy ($2n + 2$) is the presence of an extra pair of homologous chromosomes.",
+      "mini_lesson": "During meiosis, if a pair of chromosomes fails to separate properly (non-disjunction), the resulting embryo may inherit one too few or one too many copies of a specific chromosome. Losing one chromosome from a diploid set is monosomy ($2n - 1$), gaining one extra copy is trisomy ($2n + 1$), and gaining two extra copies of that chromosome is tetrasomy ($2n + 2$). Distractor (B) confuses single-chromosome aneuploidy with whole-genome polyploidy ($3n$ triploid, $4n$ tetraploid)."
+    },
+    {
+      "id": "W08_M23",
+      "week": 8,
+      "lecture": "Lec 39",
+      "source": "mock_unseen",
+      "question": "In the classic Isle Royale National Park case study, what caused the isolated island wolf (*Canis lupus*) population to suffer severe congenital spinal deformities (lumbosacral vertebral malformations) and collapse to just two individuals?",
+      "options": [
+        "Exposure to crude oil Polycyclic Aromatic Hydrocarbons (PAHs) from marine tankers",
+        "Severe inbreeding depression and genetic drift in a tiny, closed island population founded by only a couple of wolves",
+        "Overhunting of wolves by commercial fur trappers inside the National Park",
+        "Outbreeding depression from crossing with domestic poodles"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "On Isle Royale in Lake Superior, an isolated wolf population founded by just two or three individuals bred among close relatives for decades, suffering severe inbreeding depression—including painful lumbosacral spinal deformities—that drove the pack down to two wolves and allowed moose numbers to explode.",
+      "mini_lesson": "Isle Royale is one of conservation biology's textbook demonstrations of inbreeding depression in the wild: isolated on an island in Lake Superior, the small wolf pack mated among siblings and parent-offspring pairs until nearly every wolf developed severe congenital vertebral malformations, fused toes, and low reproductive output, collapsing the predator population and triggering a trophic cascade as moose overbrowsed the island's balsam fir trees."
+    },
+    {
+      "id": "W08_M24",
+      "week": 8,
+      "lecture": "Lec 39",
+      "source": "mock_unseen",
+      "question": "Why has Devil Facial Tumor Disease (DFTD)—a rare contagious cancer spread by biting during social interactions—been able to spread across Tasmanian devils (*Sarcophilus harrisii*) without being rejected by the host’s immune system?",
+      "options": [
+        "High heterozygosity in Tasmanian devils accelerates tumor growth",
+        "Tasmanian devils lack white blood cells or an immune system of any kind",
+        "The tumor is caused by microplastics blocking the digestive tract",
+        "Historical founder and bottleneck effects left Tasmanian devils with extremely low genetic diversity at their Major Histocompatibility Complex (MHC) immune genes, so the host immune system fails to recognize another devil's tumor cells as foreign"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Because historical founder effects eroded genetic diversity across Tasmanian devils—particularly at the Major Histocompatibility Complex (MHC) loci responsible for self/non-self immune recognition—when one devil bites another and transfers living cancer cells, the victim's immune system fails to recognize the tumour cells as foreign tissue.",
+      "mini_lesson": "Normally, if cells from one mammal are transplanted onto another individual, the recipient's immune system immediately destroys them because their Major Histocompatibility Complex (MHC) cell-surface markers look foreign. However, island Tasmanian devils are so genetically similar at their MHC immune loci due to past bottlenecks that contagious cancer cells transferred during face-biting pass undetected as 'self' tissue and grow into lethal facial tumours."
+    },
+    {
+      "id": "W08_M25",
+      "week": 8,
+      "lecture": "Lec 40",
+      "source": "mock_unseen",
+      "question": "What is “outbreeding depression” in conservation genetics?",
+      "options": [
+        "An increase in offspring vigour and survival following the introduction of unrelated mates",
+        "A reduction in reproductive fitness that occurs when two genetically distant or differently locally adapted populations are crossed, disrupting co-adapted gene complexes or local environmental adaptations",
+        "The loss of alleles caused by mating between brother and sister in a small zoo population",
+        "The psychological stress experienced by animals held in barren concrete cages"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Outbreeding depression is a decline in fitness in hybrid offspring when individuals from two genetically divergent, locally adapted populations are crossed, resulting from chromosomal incompatibility, disruption of co-adapted gene complexes, or loss of local ecological adaptation.",
+      "mini_lesson": "While crossing inbred animals with outsiders from a nearby, ecologically similar population produces beneficial 'genetic rescue' (Distractor B), crossing two populations that have evolved far apart in very different environments (for instance, crossing a desert-adapted ecotype with a high-altitude alpine ecotype, or mixing populations with different chromosome arrangements) can produce hybrids that fit neither environment—a hazard known as outbreeding depression."
+    },
+    {
+      "id": "W08_M26",
+      "week": 8,
+      "lecture": "Lec 40",
+      "source": "mock_unseen",
+      "question": "In wildlife reintroduction and translocation programs, how does a “soft release” differ from a “hard release”?",
+      "options": [
+        "Soft release involves holding animals in a pre-release enclosure (boma) at the release site for gradual acclimatization, supplemental feeding, and predator protection before opening the gates, whereas hard release releases animals directly into the wild without on-site conditioning",
+        "Soft release is used only for aquatic fishes, whereas hard release is used only for birds",
+        "Soft release permanently keeps animals inside a city zoo, whereas hard release euthanizes them",
+        "Soft release uses neuromuscular blocking drugs without sedation, whereas hard release uses behavioural conditioning"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "In wildlife translocation, a hard release turns animals loose immediately into the new habitat upon arrival, whereas a soft release holds them temporarily in an on-site acclimatization enclosure (boma) with transitional food, water, and veterinary monitoring so they adjust to local sights, sounds, and microclimate before release.",
+      "mini_lesson": "Animals just transported in crates are stressed and disoriented; if dumped straight into unfamiliar wilderness (hard release), they often bolt in panic, wander out of the reserve, or fall prey to predators. A soft release keeps them in a temporary fenced boma right inside the new habitat for days or weeks with food and shelter, allowing them to calm down, orient to landmarks, and form social bonds before the enclosure gates are quietly opened."
+    },
+    {
+      "id": "W08_M27",
+      "week": 8,
+      "lecture": "Lec 40",
+      "source": "mock_unseen",
+      "question": "In the landmark 1995 genetic rescue of the Florida panther (*Puma concolor coryi*), which specific inbreeding defects afflicted the remnant population of ~30 panthers, and how was the population rescued?",
+      "options": [
+        "They suffered polycyclic aromatic hydrocarbon poisoning and were rescued by captive cloning",
+        "They suffered Devil Facial Tumor Disease and were rescued by antibiotic baiting",
+        "They suffered wing-membrane fungal erosion and were rescued by heating caves",
+        "They suffered kinked tails, cowlicks, atrial septal heart defects, and cryptorchidism (undescended testes), and were rescued by introducing 8 female pumas from a closely related Texas subspecies (*Puma concolor stanleyana*)"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "By the mid-1990s, the isolated Florida panther population had shrunk to ~30 individuals exhibiting classic inbreeding depression—kinked tail tips, back cowlick whorls, atrial septal heart defects, poor sperm quality, and cryptorchidism—until the introduction of 8 female Texas pumas restored heterozygosity and tripled the population.",
+      "mini_lesson": "The Florida panther is the textbook success story of genetic rescue: isolated in South Florida swamps, intense inbreeding unmasked deleterious recessives causing holes in the heart (atrial septal defects), single/undescended testicles (cryptorchidism), and kinked tails. Introducing just 8 females from the historically connected Texas puma population masked those recessive defects, boosted kitten survival, and allowed the population to rebound to over 200 panthers."
+    },
+    {
+      "id": "W08_M28",
+      "week": 8,
+      "lecture": "Lec 40",
+      "source": "mock_unseen",
+      "question": "Which Indian conservation translocation successfully re-established a locally extirpated megaherbivore population by moving founder herds from Kanha Tiger Reserve to Bandhavgarh Tiger Reserve?",
+      "options": [
+        "Translocation of the Snow Leopard (*Panthera uncia*)",
+        "Translocation of the Indian Gaur (*Bos gaurus*)",
+        "Translocation of the Dugong (*Dugong dugon*)",
+        "Translocation of the Great Indian Bustard (*Ardeotis nigriceps*)"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "In India, planned conservation translocations include moving herds of Indian Gaur (*Bos gaurus*) from Kanha Tiger Reserve to re-establish a viable breeding population in Bandhavgarh Tiger Reserve, alongside soft-releasing captive-reared Gharial (*Gavialis gangeticus*) into the Chambal River.",
+      "mini_lesson": "After the local Indian Gaur (*Bos gaurus*) population in Bandhavgarh Tiger Reserve went locally extinct in the late 1990s, wildlife managers executed a carefully planned mass capture and translocation of gaur herds from Kanha Tiger Reserve, successfully restoring a thriving, genetically healthy breeding population in Bandhavgarh."
+    },
+    {
+      "id": "W08_M29",
+      "week": 8,
+      "lecture": "Lec 40",
+      "source": "mock_unseen",
+      "question": "When planning a Genetic Rescue intervention for an inbred, isolated population, how should managers select the donor (source) population to maximize fitness gains while minimizing the risk of outbreeding depression?",
+      "options": [
+        "Select a donor population that is as genetically and ecologically distant as possible, ideally from a different continent and climate zone",
+        "Select only the most inbred individuals from a single zoo litter",
+        "Select a closely related donor population from a similar ecological habitat that experienced gene flow with the recipient population in the recent evolutionary past",
+        "Introduce a completely different biological genus so hybrid sterility occurs"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "To achieve genetic rescue without triggering outbreeding depression, conservationists select donor individuals from a closely related lineage occupying a similar ecological environment—ideally a population that was historically connected before human habitat fragmentation.",
+      "mini_lesson": "Genetic rescue walks a Goldilocks tightrope between inbreeding depression and outbreeding depression: you want donors carrying different alleles to mask deleterious recessives, but you want those donors to share the same chromosome karyotype and local ecological adaptations. Choosing a historically connected, ecologically matched neighbouring population (like Texas pumas for Florida panthers) achieves high heterozygosity without breaking co-adapted gene complexes."
+    },
+    {
+      "id": "W08_M30",
+      "week": 8,
+      "lecture": "Lec 40",
+      "source": "mock_unseen",
+      "question": "Why can genetic recovery take hundreds or thousands of generations after a severe population bottleneck, even when the population’s headcount (census size) rebounds rapidly within a few decades?",
+      "options": [
+        "Because numerical population growth merely multiplies copies of the few surviving alleles, whereas restoring lost allelic diversity in a closed population requires the extremely slow accumulation of new mutations or gene flow from outside",
+        "Because animals stop passing DNA to their offspring once a population exceeds 100 individuals",
+        "Because Hardy-Weinberg equilibrium destroys 50% of all alleles every summer",
+        "Because natural selection immediately eliminates all heterozygotes in growing populations"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "After a severe bottleneck, demographic numbers can rebound within a few decades of protection, but the lost alleles do not magically reappear; without outside gene flow, restoring original genetic diversity requires waiting thousands of generations for new mutations to arise.",
+      "mini_lesson": "If a bottleneck shrinks a population down to 10 survivors, 90% of the species' rare alleles may be permanently lost. Even if those 10 survivors breed rapidly into 10,000 animals over 50 years, all 10,000 descendants are still shuffling the exact same narrow deck of alleles inherited from those 10 founders! Only outside gene flow (genetic rescue) or millennia of new mutations can replenish lost allelic richness."
+    }
+  ]
+}

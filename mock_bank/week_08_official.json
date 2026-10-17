@@ -1,0 +1,172 @@
+{
+  "week": 8,
+  "lecture_briefings": {
+    "Lec 36": "Lecture 36 introduces Conservation Genetics—the discipline that applies molecular genetic tools and population genetic theory to protect biodiversity and prevent extinction. It reviews the cellular architecture of heredity, explaining how long DNA molecules wrap around histone proteins to form chromosomes carrying hundreds of genes, and contrasts an organism's internal genetic code (genotype) with its observable physical, physiological, or behavioral traits (phenotype). Finally, it compares inheritance patterns beyond simple dominant-recessive masking, distinguishing incomplete dominance (where heterozygotes show an intermediate blended trait like pink flowers) from codominance (where both alleles are fully and simultaneously expressed, such as AB blood groups). Watch out for the 3 most important terms: Conservation Genetics (applying genetic tools to biodiversity protection), Chromosomes vs. Phenotype (DNA-protein structures carrying genes vs. observable expression of traits), and Codominance vs. Incomplete Dominance (both alleles fully expressed vs. intermediate blended phenotype).",
+    "Lec 37": "Lecture 37 scales up from individual inheritance to population genetics, defining a gene pool and explaining how to calculate allele frequency—the proportion of a specific allele among all copies of that gene in a population ($p + q = 1$). It defines evolutionary fitness ($w$) strictly as relative lifetime reproductive success across generations rather than physical strength or speed, and introduces the Hardy-Weinberg Equilibrium ($p^2 + 2pq + q^2 = 1$). Under the five Hardy-Weinberg conditions (infinitely large population, random mating, no mutation, no gene flow/migration, and no natural selection), allele frequencies remain constant over time, providing a baseline to detect when evolutionary pressures are acting on wild populations. Watch out for the 3 most important terms: Allele Frequency (proportion of a particular allele among all gene copies), Evolutionary Fitness (relative reproductive success across generations), and Hardy-Weinberg Equilibrium (the 5 conditions under which allele frequencies remain constant).",
+    "Lec 38": "Lecture 38 examines Graeme Caughley's famous Two-Paradigm Framework in conservation biology alongside Population Viability Analysis (PVA) and the Allee effect. The Declining Population Paradigm is diagnostic and ecological, asking what external pressures (habitat loss, poaching, pollution) drove a large population down to a small size, whereas the Small Population Paradigm is prognostic and stochastic, asking what internal genetic and demographic hazards threaten a population once it is already small. One of the deadliest small-population traps is the Allee effect—inverse density dependence where individual survival or per-capita reproduction crashes at very low density because animals cannot find mates, defend against predators, or forage socially. Watch out for the 3 most important terms: Declining Population Paradigm (asking what external pressures made a population small), Small Population Paradigm (studying internal stochastic/genetic risks of being small), and the Allee Effect (lower survival or reproduction in very small populations due to low density).",
+    "Lec 39": "Lecture 39 explores the genetic hazards that push small, isolated populations into an extinction vortex: founder effects, demographic bottlenecks, random genetic drift, chromosomal aneuploidies (monosomy, trisomy, tetrasomy), and inbreeding depression. A founder effect occurs when a new colony is established by just a few individuals carrying only a small, unrepresentative fraction of the original population's genetic diversity. As small populations breed among close relatives, genome-wide homozygosity rises and unmasks deleterious recessive alleles (inbreeding depression), illustrated by the Isle Royale wolves (which suffered severe spinal deformities and collapsed to 2 individuals) and Tasmanian devils (where near-zero MHC diversity allowed a contagious facial tumor cancer to spread unchecked). Watch out for the 3 most important terms: Founder Effect (new population starting from a few individuals with only part of original genetic diversity), Genetic Drift (random fluctuations in allele frequencies in small populations), and Inbreeding Depression (reduced fitness from mating among relatives unmasking deleterious recessives).",
+    "Lec 40": "Lecture 40 focuses on applied genetic management solutions: Genetic Rescue, Outbreeding Depression, and wildlife translocation protocols (soft vs. hard release). When an isolated population suffers severe inbreeding depression—like the Gir Forest Asiatic lions (which went through a ~20-lion bottleneck and exhibit kinked tails and low sperm motility) or the Florida panther (which dropped to ~30 individuals with heart defects and cryptorchidism)—managers can perform Genetic Rescue by introducing unrelated individuals from outside to restore heterozygosity and boost fitness (as when 8 female Texas pumas rescued the Florida panther population). However, managers must also guard against Outbreeding Depression, where crossing genetically distant, locally adapted lineages breaks up co-adapted gene complexes and lowers hybrid fitness. Watch out for the 3 most important terms: Genetic Rescue (introducing new genetic variation into small, isolated populations to reduce inbreeding depression and increase fitness), Outbreeding Depression (reduced fitness when crossing overly divergent locally adapted populations), and Soft vs. Hard Release (gradual acclimatization with support vs. immediate direct release)."
+  },
+  "questions": [
+    {
+      "id": "W08_Q01",
+      "week": 8,
+      "lecture": "Lec 36",
+      "source": "official_quiz",
+      "question": "Which statement best describes conservation genetics?",
+      "options": [
+        "It studies only visible animal behaviour in protected areas",
+        "It replaces habitat management with captive breeding",
+        "It applies genetic tools to biodiversity protection",
+        "It measures only the age structure of populations"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Conservation genetics is an applied discipline that employs molecular genetic tools and population genetic theory to preserve biodiversity, minimize extinction risk, and guide wildlife management.",
+      "mini_lesson": "Conservation genetics bridges molecular biology and field conservation, using DNA markers, pedigree analysis, and allele frequencies to diagnose inbreeding, identify cryptic species, track poaching, and maintain evolutionary potential. Distractors (A) and (D) use the false absolute 'only' to restrict the field to non-genetic traits, while (B) falsely claims genetics replaces habitat protection."
+    },
+    {
+      "id": "W08_Q02",
+      "week": 8,
+      "lecture": "Lec 37",
+      "source": "official_quiz",
+      "question": "What is allele frequency?",
+      "options": [
+        "A fixed number of individuals in a population",
+        "A measure of animal movement across habitats",
+        "A record of all chromosomes in one cell",
+        "The proportion of a particular allele among all copies of that gene"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "Allele frequency is defined as the relative mathematical proportion or percentage of a specific allele among all copies of that gene locus within a defined population gene pool.",
+      "mini_lesson": "In a diploid population of $N$ individuals, there are $2N$ total copies of each autosomal gene; the allele frequency is simply the count of a specific allele (say, $R$) divided by the total $2N$ copies ($p + q = 1$). Distractor (C) defines a 'karyotype' (a record of chromosomes in a cell), while (A) and (B) refer to census size and dispersal."
+    },
+    {
+      "id": "W08_Q03",
+      "week": 8,
+      "lecture": "Lec 36",
+      "source": "official_quiz",
+      "question": "What are chromosomes?",
+      "options": [
+        "Short-term environmental pressures on wildlife",
+        "Long DNA-protein structures carrying many genes",
+        "Behavioural adaptations learned during life",
+        "Statistical outputs of viability models"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Chromosomes are cellular filamentous structures composed of long condensed DNA molecules wrapped around histone proteins, carrying hundreds to thousands of genes arranged in a linear sequence.",
+      "mini_lesson": "Inside the cell nucleus, vast strands of DNA are tightly coiled around spool-like histone proteins to form chromosomes, which safely package and segregate hundreds of genes during cell division. The distractors confuse physical cellular structures with environmental stressors, learned behaviours, or computer models."
+    },
+    {
+      "id": "W08_Q04",
+      "week": 8,
+      "lecture": "Lec 37",
+      "source": "official_quiz",
+      "question": "What does fitness mean in evolutionary terms?",
+      "options": [
+        "Physical strength or speed alone",
+        "Relative reproductive success across generations",
+        "Ability to occupy the largest territory",
+        "Ability to avoid all competition"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "In evolutionary biology, fitness ($w$) does not mean physical muscle strength or speed alone; it means relative lifetime reproductive success—the genetic contribution of an individual to future generations.",
+      "mini_lesson": "In everyday language, 'fitness' means athletic strength or stamina, which makes Distractor (A) the classic layperson trap. In evolutionary biology, however, an strong, fast animal that leaves zero surviving offspring has an evolutionary fitness of zero; fitness measures strictly how successfully an organism passes its genes on to fertile offspring across generations."
+    },
+    {
+      "id": "W08_Q05",
+      "week": 8,
+      "lecture": "Lec 39",
+      "source": "official_quiz",
+      "question": "What is the founder effect?",
+      "options": [
+        "A selection process where predators remove weak individuals",
+        "A condition where all individuals have identical chromosomes",
+        "A disease caused by increased heterozygosity",
+        "A new population starting from a few individuals and carrying only part of the original genetic diversity"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "The founder effect is a severe loss of genetic variation that occurs when a new population is established by a very small number of colonizing individuals carrying only a small, unrepresentative fraction of the original population's genetic diversity.",
+      "mini_lesson": "When a handful of individuals colonize an island or are translocated to start a new sanctuary population, they carry only a tiny sample of the source population's alleles, leaving rare alleles behind and shifting allele frequencies by chance. Distractor (A) describes natural selection by predation, while (C) inverts the genetics (increased heterozygosity actually protects against recessive diseases)."
+    },
+    {
+      "id": "W08_Q06",
+      "week": 8,
+      "lecture": "Lec 38",
+      "source": "official_quiz",
+      "question": "Which perspective asks what external pressures made a population small?",
+      "options": [
+        "Small population paradigm",
+        "Genetic rescue model",
+        "Declining population paradigm",
+        "Outbreeding enhancement model"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Graeme Caughley distinguished two paradigms: the declining population paradigm asks what external ecological or human pressures drove a population down to become small, whereas the small population paradigm asks what internal genetic and demographic risks affect a population once it is already small.",
+      "mini_lesson": "This is one of the most famous conceptual contrasts in conservation biology: the Declining Population Paradigm focuses on diagnosing and halting external threats (poaching, habitat loss, toxics) that cause a population to shrink. Distractor (A) 'Small population paradigm' is a deliberate word-matching trap for students who see the word 'small' in the question stem—that paradigm studies internal stochastic hazards (inbreeding, genetic drift) of already-small populations."
+    },
+    {
+      "id": "W08_Q07",
+      "week": 8,
+      "lecture": "Lec 36",
+      "source": "official_quiz",
+      "question": "Which inheritance pattern occurs when both alleles are fully expressed?",
+      "options": [
+        "Complete dominance",
+        "Incomplete dominance",
+        "Codominance",
+        "Segregation"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Codominance is a pattern of inheritance in which both distinct alleles at a gene locus are fully, simultaneously, and independently expressed in the heterozygote without blending.",
+      "mini_lesson": "In codominance, neither allele masks the other and they do not blend into an intermediate average; instead, both traits appear side-by-side at full strength (such as human AB blood group antigens or roan coat colour in cattle). Distractor (B) 'Incomplete dominance' is the main sibling-term trap, where the heterozygote shows an intermediate blended phenotype (like red and white flowers producing pink)."
+    },
+    {
+      "id": "W08_Q08",
+      "week": 8,
+      "lecture": "Lec 36",
+      "source": "official_quiz",
+      "question": "Which statement correctly describes phenotype?",
+      "options": [
+        "It is the hidden genetic constitution of an organism",
+        "It is the observable expression of traits",
+        "It is the total genetic variation of a population",
+        "It is the location of a gene on a chromosome"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "The phenotype is the observable physical, anatomical, physiological, or behavioral expression of an organism's traits, shaped by the interaction of its genotype with the environment.",
+      "mini_lesson": "Organisms have both an internal genetic blueprint (genotype) and an outward, measurable manifestation of traits such as body size, coat pattern, enzyme activity, or behaviour (phenotype). Distractor (A) defines 'genotype', (C) defines the 'gene pool', and (D) defines a genetic 'locus'."
+    },
+    {
+      "id": "W08_Q09",
+      "week": 8,
+      "lecture": "Lec 38",
+      "source": "official_quiz",
+      "question": "What is the Allee effect?",
+      "options": [
+        "A condition where large populations always decline",
+        "A process where all mutations improve fitness",
+        "A method for calculating allele frequency",
+        "Lower survival or reproduction in very small populations because density is too low"
+      ],
+      "correct_index": 3,
+      "transcript_quote": "The Allee effect describes positive density dependence in small populations, where individual survival or per-capita reproduction drops sharply when population density falls too low—for instance, because animals cannot find mates or maintain group defense.",
+      "mini_lesson": "Normally, smaller populations enjoy less competition for food, which should boost per-capita growth; however, below a critical density threshold, the Allee effect kicks in and per-capita birth or survival rates plummet because individuals struggle to locate mates, pollinate, hunt cooperatively, or watch for predators. Distractors (A) and (B) use false absolutes ('always', 'all') and invert ecological reality."
+    },
+    {
+      "id": "W08_Q10",
+      "week": 8,
+      "lecture": "Lec 40",
+      "source": "official_quiz",
+      "question": "What is genetic rescue?",
+      "options": [
+        "A method of counting chromosomes under a microscope",
+        "Introduction of new genetic variation into small, isolated populations to reduce inbreeding depression and increase fitness",
+        "Removal of all predators from a protected area",
+        "Use of only visually rare animals for captive breeding"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Genetic rescue is the deliberate introduction of new genetic variation (via translocated individuals or gene flow) into a small, isolated, inbred population to reduce inbreeding depression, restore heterozygosity, and increase population fitness.",
+      "mini_lesson": "When an isolated population is trapped in inbreeding depression—like the Florida panther in the 1990s, which suffered heart defects and kinked tails—introducing a small number of unrelated individuals from another population masks deleterious recessive alleles and restores demographic vitality. This restoration of fitness through gene flow is called genetic rescue. Distractors (C) and (D) rely on false absolutes ('all', 'only') unrelated to population genetics."
+    }
+  ]
+}

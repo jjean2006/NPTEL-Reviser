@@ -1,0 +1,172 @@
+{
+  "week": 9,
+  "lecture_briefings": {
+    "Lec 41": "Lecture 41 introduces Wildlife Health and Disease Ecology, redefining wildlife health not merely as the absence of visible wounds in a single animal, but as a dynamic state involving normal physiological, behavioural, and demographic functioning across individual, population, and ecosystem levels. Conversely, disease is any condition that disrupts normal function and impairs behaviour, physiology, reproduction, or survival. The lecture contrasts acute diseases (rapid onset, short duration, and potential sudden mass mortality) with chronic diseases (slow, insidious onset and prolonged wasting over months or years), and separates underlying predisposing factors (such as old age, inbreeding, or poor nutrition that lower resistance) from acute precipitating factors (such as migration stress or extreme weather shocks that trigger active disease in already susceptible animals). Watch out for the 3 most important terms: Wildlife Health (dynamic normal functioning at individual, population, and ecosystem levels), Acute vs. Chronic Disease (rapid onset/short duration vs. slow onset/protracted course), and Precipitating vs. Predisposing Factors (immediate trigger like migration stress vs. long-term background vulnerability like old age).",
+    "Lec 42": "Lecture 42 builds the quantitative and conceptual toolkit of veterinary epidemiology, carefully distinguishing four cascading pathogen metrics: infectivity (ability to establish infection after exposure), pathogenicity (proportion of infected hosts that develop clinical symptoms), virulence (severity of disease caused once symptoms appear), and case fatality rate (probability that a diseased animal dies). It maps host roles—contrasting reservoir hosts (which maintain a pathogen long-term), bridge hosts (such as feral dogs linking wildlife reservoirs to humans/livestock), and dead-end hosts (which become infected but fail to sustain further forward transmission)—and compares horizontal transmission (between individuals of the same generation) with vertical transmission (parent to offspring). Finally, it classifies temporal and spatial outbreak patterns into sporadic (irregular, isolated cases without a predictable pattern), endemic/enzootic (regular baseline presence), and epidemic/epizootic (sudden surge above baseline, driven by Basic Reproduction Number $R_0 > 1$). Watch out for the 3 most important terms: Infectivity vs. Virulence (ability to establish infection vs. severity of disease caused), Dead-End Host (infected host that does not sustain further transmission), and Sporadic vs. Horizontal Transmission (irregular isolated occurrence vs. same-generation spread).",
+    "Lec 43": "Lecture 43 examines the Epidemiological Triad (Host, Pathogen/Agent, and Environment) and the critical field bio-safety protocols for investigating wildlife mortality, using Anthrax (*Bacillus anthracis*) as the premier case study. When a wild herbivore dies suddenly of suspected anthrax (often showing dark, unclotted blood oozing from orifices and incomplete rigor mortis), field staff must NEVER open the carcass for a visual necropsy. Slicing open an anthrax carcass exposes the vegetative bacteria to atmospheric oxygen, which immediately triggers the formation of tough endospores that contaminate soil and grazing pastures for decades; instead, careful carcass handling (deep burial with quicklime or high-temperature incineration and preventing scavenger access) is central to anthrax management. Watch out for the 3 most important terms: The Epidemiological Triad (Host, Agent/Pathogen, and Environment), Anthrax Carcass Management (never opening carcasses so oxygen cannot trigger bacterial sporulation, and burning/burying to prevent environmental contamination), and Scavenger/Soil Amplification (how vultures, crows, or open necropsy spread spores across landscapes).",
+    "Lec 44": "Lecture 44 surveys major bacterial and viral diseases threatening global and Indian wildlife, highlighting transmission pathways and barrier management. Alongside bacterial diseases like Anthrax, Bovine Tuberculosis (*Mycobacterium bovis*, a chronic pulmonary wasting disease shared between cattle and wild bovids), Avian Botulism (*Clostridium botulinum* neurotoxin causing 'limberneck' paralysis in warm, anaerobic wetlands), and Leptospirosis (urine-borne spirochete causing renal failure in sea lions), the lecture spotlights two devastating viral threats: Rabies and Canine Distemper Virus (CDV). Both Rabies and CDV use domestic and feral dogs at forest fringes as bridge hosts to spill over into endangered carnivores—such as the 1994 Serengeti lion plague and the 2018 Gir Asiatic lion CDV outbreak—making ring vaccination of domestic dogs around protected areas a vital conservation tool. Watch out for the 3 most important terms: Canine Distemper Virus & Rabies (viral spillovers driven by feral dog bridge hosts), Avian Botulism (paralyzing neurotoxin in warm, shallow, anaerobic wetlands), and Barrier/Ring Vaccination (vaccinating domestic livestock and dogs around reserves to block spillover).",
+    "Lec 45": "Lecture 45 completes the wildlife disease survey by examining fungal, protozoal, and parasitic diseases that have driven species-level declines and extinctions. It highlights two catastrophic fungal panzootics: Chytridiomycosis (*Batrachochytrium dendrobatidis*, which thickens amphibian skin, disrupts electrolyte balance, causes cardiac arrest, and drove the Golden Toad extinct) and White-Nose Syndrome (*Pseudogymnoascus destructans*, a cold-loving fungus that erodes bat wing membranes during winter hibernation, causing premature arousal and starvation). It also traces land-to-sea protozoal pollution through *Toxoplasma gondii* (where oocysts from domestic cat faeces wash into coastal waters, concentrate in filter-feeding shellfish, and cause fatal brain infections in Southern sea otters) and ectoparasitic Sarcoptic Mange (*Sarcoptes scabiei* mites causing severe hair loss and hypothermia in canids and ungulates). Watch out for the 3 most important terms: Chytridiomycosis (skin-keratinizing fungal disease causing global amphibian declines), White-Nose Syndrome (hibernating cave-bat fungal disease causing winter fat depletion), and Toxoplasmosis Land-to-Sea Pathway (cat faeces oocysts bioaccumulating in marine bivalves and killing sea otters)."
+  },
+  "questions": [
+    {
+      "id": "W09_Q01",
+      "week": 9,
+      "lecture": "Lec 42",
+      "source": "official_quiz",
+      "question": "What does infectivity mean?",
+      "options": [
+        "Ability of a pathogen to establish infection after exposure",
+        "Severity of disease caused after symptoms appear",
+        "Probability that a diseased animal dies",
+        "Number of carcasses found in an outbreak zone"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Infectivity is defined as the biological ability of a pathogen to breach host barriers, enter tissues, and establish an infection after exposure ($\\text{Infected} / \\text{Exposed}$).",
+      "mini_lesson": "Epidemiologists separate the steps of infection into distinct metrics: infectivity measures how easily a pathogen invades a host and establishes itself after contact. Notice the classic sibling-metric trap in the distractors: option (B) is the exact definition of 'virulence' (tested in Q10!), and option (C) is the definition of 'case fatality rate'."
+    },
+    {
+      "id": "W09_Q02",
+      "week": 9,
+      "lecture": "Lec 41",
+      "source": "official_quiz",
+      "question": "Which statement best describes wildlife health in conservation management?",
+      "options": [
+        "A fixed condition measured only by absence of visible injury",
+        "A veterinary issue unrelated to population survival",
+        "A dynamic state involving normal function at individual, population, and ecosystem levels",
+        "A measure based only on body size and population count"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "In conservation management, wildlife health is not merely the absence of visible injury; it is a dynamic state involving normal physiological, behavioural, and ecological function at individual, population, and ecosystem levels.",
+      "mini_lesson": "Modern conservation medicine views wildlife health holistically across three nested scales—individual animals, reproducing populations, and functioning ecosystems—rather than treating it as a static checklist of visible wounds. Distractors (A) and (D) use the false absolute 'only' to reduce health to superficial traits, while (B) falsely divorces disease from population survival."
+    },
+    {
+      "id": "W09_Q03",
+      "week": 9,
+      "lecture": "Lec 42",
+      "source": "official_quiz",
+      "question": "What is a dead-end host?",
+      "options": [
+        "A host that increases pathogen abundance",
+        "A host that becomes infected but does not sustain further transmission",
+        "A host that always acts as a biological vector",
+        "A host that supports the complete adult parasite cycle"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "A dead-end host (or accidental host) is a host that becomes infected by a pathogen—and may even suffer severe clinical disease—but does not sustain further transmission to other hosts.",
+      "mini_lesson": "In a dead-end host (such as a horse or human infected with West Nile Virus), the transmission chain hits a wall because the pathogen does not reach high enough blood levels or shedding rates to infect new vectors or hosts. Distractor (A) describes an amplifying/reservoir host, while (D) describes a definitive host."
+    },
+    {
+      "id": "W09_Q04",
+      "week": 9,
+      "lecture": "Lec 41",
+      "source": "official_quiz",
+      "question": "What is disease in wildlife health assessment?",
+      "options": [
+        "A condition that disrupts normal function and may affect behavior, physiology, reproduction, or survival",
+        "A temporary injury that always results from external trauma",
+        "A normal ecological process that never affects conservation outcomes",
+        "A population increase caused by improved habitat quality"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "In wildlife health assessment, disease is defined broadly as any condition that disrupts normal biological function and may impair behaviour, physiology, reproduction, or survival.",
+      "mini_lesson": "Wildlife disease includes infectious pathogens, toxicosis, nutritional deficiencies, and genetic disorders—anything that impairs an organism's normal physiological performance, reproductive output, or survival. Distractors (B) and (C) rely on hard absolutes ('always', 'never') that ignore infectious panzootics and conservation-threatening outbreaks."
+    },
+    {
+      "id": "W09_Q05",
+      "week": 9,
+      "lecture": "Lec 43",
+      "source": "official_quiz",
+      "question": "Which action is central to anthrax management in wildlife areas?",
+      "options": [
+        "Opening carcasses immediately for visual diagnosis",
+        "Careful carcass handling to reduce environmental contamination",
+        "Increasing scavenger access to remove infected remains",
+        "Moving infected carcasses to shared grazing areas"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Central to anthrax management in wildlife areas is careful, intact carcass handling and disposal (burning or deep burial with lime) to prevent bacterial sporulation and reduce long-term environmental contamination.",
+      "mini_lesson": "When an animal dies of anthrax (*Bacillus anthracis*), the bacteria inside the unopened body are in a fragile vegetative form; however, if the carcass is cut open or torn apart by scavengers, exposure to atmospheric oxygen triggers the bacteria to form virtually indestructible spores that poison soil for decades. Therefore, Distractor (A) 'Opening carcasses immediately' and Distractor (C) 'Increasing scavenger access' are the exact fatal field blunders that wildlife staff must strictly avoid!"
+    },
+    {
+      "id": "W09_Q06",
+      "week": 9,
+      "lecture": "Lec 41",
+      "source": "official_quiz",
+      "question": "Which description best fits an acute disease?",
+      "options": [
+        "Slow onset with subtle signs over many years",
+        "Rapid onset, short duration, and possible sudden mortality events",
+        "Low disease burden with no visible population impact",
+        "Permanent genetic condition passed through inheritance only"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "An acute disease is characterized by a rapid onset of clinical signs, a short duration, and often severe illness or sudden mortality events (such as anthrax), in contrast to chronic diseases which progress slowly over months or years.",
+      "mini_lesson": "Diseases are classified by their temporal clinical course into acute versus chronic: acute diseases strike rapidly, run a brief course, and frequently cause sudden die-offs before animals even look wasted. Distractor (A) 'Slow onset with subtle signs over many years' is the exact sibling definition of a chronic disease (such as bovine tuberculosis)."
+    },
+    {
+      "id": "W09_Q07",
+      "week": 9,
+      "lecture": "Lec 42",
+      "source": "official_quiz",
+      "question": "What does sporadic disease occurrence mean?",
+      "options": [
+        "Disease that persists regularly in a local reservoir",
+        "Irregular and isolated disease occurrence without a predictable pattern",
+        "Sudden mass mortality across multiple countries",
+        "Continuous spread through every susceptible host"
+      ],
+      "correct_index": 1,
+      "transcript_quote": "Sporadic disease occurrence refers to irregular, infrequent, and isolated cases of a disease appearing without a consistent geographical concentration or predictable seasonal pattern.",
+      "mini_lesson": "Epidemiologists classify disease frequency into four spatial-temporal patterns: sporadic (scattered, unpredictable isolated cases), endemic/enzootic (steady local baseline), epidemic/epizootic (sudden regional spike), and pandemic/panzootic (cross-continental wave). Distractor (A) defines an endemic/enzootic disease, while (C) defines a panzootic."
+    },
+    {
+      "id": "W09_Q08",
+      "week": 9,
+      "lecture": "Lec 42",
+      "source": "official_quiz",
+      "question": "What is horizontal transmission?",
+      "options": [
+        "Transmission between individuals of the same generation",
+        "Transmission only through inherited genetic traits",
+        "Transmission only through contaminated soil",
+        "Transmission only from domestic animals to wildlife"
+      ],
+      "correct_index": 0,
+      "transcript_quote": "Horizontal transmission is the spread of a pathogen between individuals of the same generation (via direct contact, aerosols, food, water, or vectors), whereas vertical transmission passes from parent to offspring.",
+      "mini_lesson": "Pathogens spread across a population through two generational axes: horizontal transmission transfers infection laterally among contemporaries (peers of the same generation, whether via bites, coughing, water, or ticks), whereas vertical transmission passes directly from mother to embryo, egg, or nursing neonate. Distractors (B), (C), and (D) all use the false 'only' trap."
+    },
+    {
+      "id": "W09_Q09",
+      "week": 9,
+      "lecture": "Lec 41",
+      "source": "official_quiz",
+      "question": "Which is an example of a precipitating factor?",
+      "options": [
+        "Old age lowering resistance over time",
+        "Strong immunity reducing spread",
+        "Migration stress triggering disease expression in already susceptible animals",
+        "Genetic diversity improving population resilience"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "A precipitating factor is an immediate, acute stressor—such as migration exhaustion, sudden cold snaps, or capture stress—that triggers active clinical disease expression in an already susceptible animal.",
+      "mini_lesson": "In disease causation, predisposing factors set the stage over the long term by gradually weakening host defences, whereas precipitating factors pull the trigger to start the acute illness right now (such as exhausting seasonal migration triggering pasteurellosis or latent viral outbreaks). Distractor (A) 'Old age lowering resistance over time' is the classic sibling trap defining a predisposing factor."
+    },
+    {
+      "id": "W09_Q10",
+      "week": 9,
+      "lecture": "Lec 42",
+      "source": "official_quiz",
+      "question": "What does virulence describe?",
+      "options": [
+        "Number of species living in the disease area",
+        "Proportion of animals with background immunity",
+        "Severity of disease caused by a pathogen",
+        "Amount of rainfall before an outbreak"
+      ],
+      "correct_index": 2,
+      "transcript_quote": "Virulence describes the quantitative severity of clinical disease, tissue damage, or pathological harm caused by a pathogen once infection and symptoms are established.",
+      "mini_lesson": "While infectivity measures how easily a pathogen gets inside a host (tested in Q1), virulence measures how badly that pathogen damages the host once clinical illness begins. A highly virulent strain causes severe organ failure or rapid death, whereas a low-virulence strain causes mild symptoms. The distractors refer to species richness, herd immunity, or weather variables."
+    }
+  ]
+}
